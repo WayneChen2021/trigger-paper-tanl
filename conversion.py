@@ -2,7 +2,8 @@ import argparse
 import json
 import ast
 from nltk.tokenize import TreebankWordTokenizer as tbwt
-from itertools import product, reduce
+from itertools import product
+from functools import reduce
 from copy import deepcopy
 
 def build_entity(name, spans, head, tail):
@@ -53,17 +54,16 @@ def enumerate_examples(message_id, container, triggers_per_temp):
     for trigger_set in trigger_sets:
         add_trig_example, add_arg_example = len(trig_examples) < num_examples, len(arg_examples) < num_examples
         if add_trig_example or add_arg_example:
+            new_example = deepcopy(base_example)
             for template_ind, ind in enumerate(trigger_set):
-                new_example = deepcopy(base_example)
-                
                 trigger_tup = container['triggers'][template_ind][ind]
                 new_example['triggers'].append(build_entity(
                     f"trigger for {container['incident_types'][template_ind]}",
                     container['token_spans'],
                     trigger_tup[1],
-                    trigger_sets[1] + len(trigger_tup[0])
+                    trigger_tup[1] + len(trigger_tup[0])
                 ))
-            
+
             if len(new_example['triggers']) == len(set([str(e) for e in new_example['triggers']])):
                 if add_trig_example:
                     trig_examples.append(deepcopy(new_example))
@@ -78,7 +78,7 @@ def enumerate_examples(message_id, container, triggers_per_temp):
 
     return trig_examples, arg_examples, base_example
 
-def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_event, num_trigs, span_selection):
+def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_event, num_trigs, span_selection, trigger_selection):
     with open(in_file, "r") as f:
         info = json.loads(f.read())
     
@@ -90,20 +90,23 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
                 'text': text,
                 'token_spans': list(tbwt().span_tokenize(text)),
                 'entities': [],
-                'triggers': [template['triggers'] for template in example['templates']],
+                'triggers': [template['Triggers'] for template in example['templates']],
                 'incident_types': [template['incident_type'] for template in example['templates']],
                 'relations': []
             }
 
+            for template in example['templates']:
+                if trigger_selection == "position":
+                    template['Triggers'] = sorted(template['Triggers'], key = lambda tup : tup[1])
+
             for i, template in enumerate(example['templates']):
                 for role, entity_lst in template.items():
-                    if isinstance(entity_lst, list):
+                    if role not in ['Triggers', 'incident_type']:
                         for coref_list in entity_lst:
                             if span_selection == "longest":
                                 span_tup = sorted(coref_list, key = lambda tup : len(tup[0]))
                             else:
                                 span_tup = coref_list[0]
-
                             span_tup = (span_tup[1], span_tup[1] + len(span_tup[0]))
                             try:
                                 entity_index = container['entities'].index(span_tup)
@@ -114,6 +117,8 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
                             container['relations'].append(
                                 (entity_index, i, role)
                             )
+            
+            containers[example['id']] = container
     
     out_train_trigs, out_train_args, out_train_event = [], [], []
     out_test_trigs, out_test_args, out_test_event = [], [], []
@@ -122,11 +127,11 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
         if 'TST' in message_id:
             out_test_trigs += trig_examples
             out_test_args += arg_examples
-            out_test_event += event_example
+            out_test_event.append(event_example)
         else:
             out_train_trigs += trig_examples
             out_train_args += arg_examples
-            out_train_event += event_example
+            out_train_event.append(event_example)
     
     if train_trig:
         with open(train_trig, "w") as f:
@@ -137,7 +142,7 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
             f.write(json.dumps(out_train_args))
 
     if train_event:
-        with open(train_event, "w ") as f:
+        with open(train_event, "w") as f:
             f.write(json.dumps(out_train_event))
     
     if test_trig:
@@ -149,20 +154,21 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
             f.write(json.dumps(out_test_args))
 
     if test_event:
-        with open(test_event, "w ") as f:
+        with open(test_event, "w") as f:
             f.write(json.dumps(out_test_event))
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--in_file", type=str, required=True)
     parser.add_argument("--out_train_trig", type=str, required=False)
-    parser.add_argument("--out_train_args", type=str, required=False)
+    parser.add_argument("--out_train_arg", type=str, required=False)
     parser.add_argument("--out_train_event", type=str, required=False)
     parser.add_argument("--out_test_trig", type=str, required=False)
-    parser.add_argument("--out_test_args", type=str, required=False)
+    parser.add_argument("--out_test_arg", type=str, required=False)
     parser.add_argument("--out_test_event", type=str, required=False)
     parser.add_argument("--num_trigs", type=int, required=False, default=1)
     parser.add_argument("--span_selection", type=str, required=False, default="earliest") # "earliest" or "longest"
+    parser.add_argument("--trigger_selection", type=str, required=False, default="position") # "position" or "popularity"
     args = parser.parse_args()
 
-    main(args.in_file, args.out_train_trig, args.out_train_args, args.out_train_event, args.out_test_trig, args.out_test_args, args.out_test_event, args.num_trigs, args.span_selection)
+    main(args.in_file, args.out_train_trig, args.out_train_arg, args.out_train_event, args.out_test_trig, args.out_test_arg, args.out_test_event, args.num_trigs, args.span_selection, args.trigger_selection)
