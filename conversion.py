@@ -58,7 +58,7 @@ def enumerate_examples(message_id, container, triggers_per_temp):
             for template_ind, ind in enumerate(trigger_set):
                 trigger_tup = container['triggers'][template_ind][ind]
                 new_example['triggers'].append(build_entity(
-                    f"trigger for {container['incident_types'][template_ind]}",
+                    f"trigger for {container['incident_types'][template_ind]} event",
                     container['token_spans'],
                     trigger_tup[1],
                     trigger_tup[1] + len(trigger_tup[0])
@@ -67,37 +67,88 @@ def enumerate_examples(message_id, container, triggers_per_temp):
             if len(new_example['triggers']) == len(set([str(e) for e in new_example['triggers']])):
                 if add_trig_example:
                     trig_examples.append(deepcopy(new_example))
-                if add_arg_example:
-                    new_example['relations'] = [{
-                        "head": entity_index,
-                        "tail": trig_index,
-                        "type": f"{relation_name_map[rel_type]} for {container['incident_types'][trig_index]} event"
-                    } for (entity_index, trig_index, rel_type) in container['relations']]
+                if add_arg_example and len(arg_examples) < num_examples:
+                    for ref_trig_index in range(len(new_example['triggers'])):
+                        new_example_copy = deepcopy(new_example)
+                        new_example_copy['relations'] = [{
+                            "head": entity_index,
+                            "tail": 0,
+                            "type": f"{relation_name_map[rel_type]} for {container['incident_types'][trig_index]} event"
+                        } for (entity_index, trig_index, rel_type) in filter(lambda triple : triple[1] == ref_trig_index, container['relations'])]
                     
-                    arg_examples.append(new_example)   
+                        arg_examples.append(new_example_copy)
+    
+    trigger_set = trigger_sets[0]
+    for template_ind, ind in enumerate(trigger_set):
+        trigger_tup = container['triggers'][template_ind][ind]
+        base_example['triggers'].append(build_entity(
+            f"trigger for {container['incident_types'][template_ind]}",
+            container['token_spans'],
+            trigger_tup[1],
+            trigger_tup[1] + len(trigger_tup[0])
+        ))
+    
+    base_example['relations'] = [{
+        "head": entity_index,
+        "tail": trig_index,
+        "type": f"{relation_name_map[rel_type]} for {container['incident_types'][trig_index]} event"
+    } for (entity_index, trig_index, rel_type) in container['relations']]
 
     return trig_examples, arg_examples, base_example
 
-def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_event, num_trigs, span_selection, trigger_selection):
+def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_event, num_trigs, span_selection, trigger_selection, event_header):
     with open(in_file, "r") as f:
         info = json.loads(f.read())
     
+    event_header_len = len(event_header)
+    if event_header_len:
+        num_trigs = 1
     containers = {}
     for example in info.values():      
         if all(len(template['Triggers']) for template in example['templates']):
-            text = example['text'].lower().replace('[', '(').replace(']', ')')
-            container = {
-                'text': text,
-                'token_spans': list(tbwt().span_tokenize(text)),
-                'entities': [],
-                'triggers': [template['Triggers'] for template in example['templates']],
-                'incident_types': [template['incident_type'] for template in example['templates']],
-                'relations': []
-            }
+            text = event_header + example['text'].lower().replace('[', '(').replace(']', ')')
+            if span_selection == "longest":
+                for template in example['templates']:
+                    for role, entity_lst in template.items():
+                        if role not in ['Triggers', 'incident_type']:
+                            new_entity_lst = [sorted(coref_list, key = lambda tup : -1 * len(tup[0])) for coref_list in entity_lst]
+                            template[role] = new_entity_lst
 
-            for template in example['templates']:
-                if trigger_selection == "position":
-                    template['Triggers'] = sorted(template['Triggers'], key = lambda tup : tup[1])
+            if event_header_len:
+                earliest_entity = []
+                for template in example['templates']:
+                    earliest_start = len(text)
+                    for role, entities_list in template.items():
+                        if not role in ["incident_type", "Triggers"]:
+                            for coref_spans in entities_list:
+                                earliest_start = min(coref_spans[0][1], earliest_start)
+                    earliest_entity.append(earliest_start)
+                example['templates'] = sorted(list(enumerate(example['templates'])), key = lambda tup : earliest_entity[tup[0]])
+                example['templates'] = list(map(lambda tup : tup[1], example['templates']))
+
+                container = {
+                    'text': text,
+                    'token_spans': list(tbwt().span_tokenize(text)),
+                    'entities': [],
+                    'triggers': [
+                        [[f"event {i}", text.index(f"event {i}")]]
+                        for i in range(len(example['templates']))],
+                    'incident_types': [template['incident_type'] for template in example['templates']],
+                    'relations': []
+                }
+            else:
+                for template in example['templates']:
+                    if trigger_selection == "position":
+                        template['Triggers'] = sorted(template['Triggers'], key = lambda tup : tup[1])
+                
+                container = {
+                    'text': text,
+                    'token_spans': list(tbwt().span_tokenize(text)),
+                    'entities': [],
+                    'triggers': [template['Triggers'] for template in example['templates']],
+                    'incident_types': [template['incident_type'] for template in example['templates']],
+                    'relations': []
+                }
 
             for i, template in enumerate(example['templates']):
                 for role, entity_lst in template.items():
@@ -107,7 +158,7 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
                                 span_tup = sorted(coref_list, key = lambda tup : len(tup[0]))
                             else:
                                 span_tup = coref_list[0]
-                            span_tup = (span_tup[1], span_tup[1] + len(span_tup[0]))
+                            span_tup = (span_tup[1] + event_header_len, span_tup[1] + len(span_tup[0]) + event_header_len)
                             try:
                                 entity_index = container['entities'].index(span_tup)
                             except ValueError:
@@ -169,6 +220,14 @@ if __name__ == "__main__":
     parser.add_argument("--num_trigs", type=int, required=False, default=1)
     parser.add_argument("--span_selection", type=str, required=False, default="earliest") # "earliest" or "longest"
     parser.add_argument("--trigger_selection", type=str, required=False, default="position") # "position" or "popularity"
+    parser.add_argument("--dummy_trigs", action='store_true')
+    parser.add_argument("--num_dummy_events", type=int, required=False, default=10)
     args = parser.parse_args()
 
-    main(args.in_file, args.out_train_trig, args.out_train_arg, args.out_train_event, args.out_test_trig, args.out_test_arg, args.out_test_event, args.num_trigs, args.span_selection, args.trigger_selection)
+    event_header = ""
+    if args.dummy_trigs:
+        for i in range(args.num_dummy_events):
+            event_header += f"event {i} "
+        event_header += "(SEP) "
+
+    main(args.in_file, args.out_train_trig, args.out_train_arg, args.out_train_event, args.out_test_trig, args.out_test_arg, args.out_test_event, args.num_trigs, args.span_selection, args.trigger_selection, event_header)

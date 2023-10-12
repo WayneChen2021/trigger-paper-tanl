@@ -2137,9 +2137,7 @@ class MUCEventArgumentDataset(MUCEventTriggerDataset):
         Load data for a single split (train, dev, or test).
         """
         examples = []
-        name = self.name if self.data_name is None else self.data_name
-        name = 'mucevent_argument'
-        file_path = os.path.join(self.data_dir(), f'{name}_{split}.json')
+        file_path = os.path.join(self.data_dir(), f'{self.name}_{split}.json')
 
         with open(file_path, 'r') as f:
             data = json.load(f)
@@ -2248,6 +2246,59 @@ class MUCEventArgumentDataset(MUCEventTriggerDataset):
 
         return res
         """
+
+@register_dataset
+class MUCEventNoTrig(MUCEventArgumentDataset):
+    name = 'mucevent_no_trig'
+    data_name = 'mucevent_no_trig'
+
+    def load_data_single_split(self, split: str, seed: int = None) -> List[InputExample]:
+        """
+        Load data for a single split (train, dev, or test).
+        """
+        examples = []
+        file_path = os.path.join(self.data_dir(), f'{self.name}_{split}.json')
+
+        with open(file_path, 'r') as f:
+            data = json.load(f)
+            logging.info(
+                f"Loaded {len(data)} sentences for split {split} of {self.name}")
+
+            for i, x in enumerate(data):
+                entities = [
+                    Entity(
+                        id=j, type=self.entity_types[y['type']], start=y['start'], end=y['end'])
+                    for j, y in enumerate(x['entities'] if 'entities' in x else x['first_phase']['entities'])
+                ]
+
+                triggers = [
+                    Entity(
+                        id=j, type=self.entity_types[y['type']], start=y['start'], end=y['end'])
+                    for j, y in enumerate(x['triggers'] if 'triggers' in x else x['first_phase']['triggers'])
+                ]
+
+                relations = [
+                    # the trigger is the tail, and the entity is the head
+                    Relation(
+                        type=self.relation_types[y['type']
+                                                 ], head=entities[y['head']], tail=triggers[y['tail']]
+                    )
+                    for y in (x['relations'] if 'relations' in x else (x['first_phase']['relations'] if 'relations' in x['first_phase'] else []))
+                ]
+
+                tokens = x['tokens']
+
+                example = InputExample(
+                    id=x['id'],
+                    tokens=tokens,
+                    entities=entities,
+                    triggers=triggers,
+                    relations=relations
+                )
+
+                examples.append(example)
+        
+        return examples
 
 @register_dataset
 class MUCNERMultiPhaseArgument(MUCEventArgumentDataset):

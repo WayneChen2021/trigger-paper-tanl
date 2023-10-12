@@ -516,33 +516,40 @@ class EventOutputFormat(JointEROutputFormat):
 
         triggers = example.output_triggers
         # assert len(triggers) <= 1
-        if len(triggers) == 0:
-            if log_file:
-                with open(log_file, "a") as f:
-                    f.write("id {}\ntriggers []\narguments []\n".format(example.id))
-            # we do not have triggers
-            return set(), set(), False
+        # if len(triggers) == 0:
+        #     if log_file:
+        #         with open(log_file, "a") as f:
+        #             f.write("id {}\ntriggers []\narguments []\n".format(example.id))
+        #     # we do not have triggers
+        #     return set(), set(), False
 
         trigger = triggers[0]
 
         # parse output sentence
-        raw_predicted_entities, wrong_reconstruction = self.parse_output_sentence(
+        if self.trim_sep:
+            raw_predicted_entities, wrong_reconstruction = self.parse_output_sentence(
+                example, self.sep_sequence + output_sentence)
+        else:
+            raw_predicted_entities, wrong_reconstruction = self.parse_output_sentence(
             example, output_sentence)
+
         if log_file:
-            args = []
-            trigs = [[trig.type.short, trig.start, trig.end] for trig in example.output_triggers]
-            for ent in raw_predicted_entities:
-                if len(ent[1]) > 1:
-                    args.append((ent[1][1][0], (ent[-2], ent[-1]), tuple(trigs[0])))
+            print(raw_predicted_entities)
+            print(1/0)
+            # args = []
+            # trigs = [[trig.type.short, trig.start, trig.end] for trig in example.output_triggers]
+            # for ent in raw_predicted_entities:
+            #     if len(ent[1]) > 1:
+            #         args.append((ent[1][1][0], (ent[-2], ent[-1]), tuple(trigs[0])))
 
-            with open(log_file, "a") as f:
-                f.write("id {}\ntriggers {}\narguments {}\n".format(
-                    example.id,
-                    [tuple(trig) for trig in trigs],
-                    args
-                    ))
+            # with open(log_file, "a") as f:
+            #     f.write("id {}\ntriggers {}\narguments {}\n".format(
+            #         example.id,
+            #         [tuple(trig) for trig in trigs],
+            #         args
+            #         ))
 
-            return 0, 0, 0
+            # return 0, 0, 0
 
         # update predicted entities with the positions in the original sentence
         predicted_entities = set()
