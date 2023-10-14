@@ -1,0 +1,34 @@
+#!/bin/bash
+#SBATCH -J no_trig                         # Job name
+#SBATCH -o ../g2_logs/no_trig.out                  # output file (%j expands to jobID)
+#SBATCH -e ../g2_logs/no_trig.err                  # error log file (%j expands to jobID)
+#SBATCH --mail-type=ALL                      # Request status by email 
+#SBATCH --mail-user=zc272@cornell.edu        # Email address to send results to.
+#SBATCH -N 1                                 # Total number of nodes requested
+#SBATCH -n 1                                 # Total number of cores requested
+#SBATCH --get-user-env                       # retrieve the users login environment
+#SBATCH --mem=50000                           # server memory requested (per node)
+#SBATCH -t 100:00:00                           # Time limit (hh:mm:ss)
+#SBATCH --partition=claire       # Request partition
+#SBATCH --gres=gpu:titanxp:2                  # Type/number of GPUs needed
+
+CONDA_ENV=TANL2
+ENV_NAME="no_trig"
+NUM_EPOCHS=100
+
+TRAIN="../../../data/MUC/no_trig/no_trig.json"
+RUN="../run/no_trig.py"
+
+mkdir "../g2_environments/$ENV_NAME"
+cp -r "../../../original_scripts/." "../g2_environments/$ENV_NAME"
+cp $TRAIN "../g2_environments/$ENV_NAME/data/mucevent_no_trig/mucevent_no_trig_train.json"
+cp $RUN "../g2_environments/$ENV_NAME/run.py"
+
+source /share/apps/anaconda3/2022.10/bin/activate
+conda activate $CONDA_ENV
+cd "../g2_environments/$ENV_NAME"
+pip3 install transformers
+pip3 install scipy
+pip3 install accelerate --upgrade
+
+python3 run.py mucevent_no_trig --num_train_epochs $NUM_EPOCHS

@@ -1,44 +1,44 @@
 {
     "trigger for kidnapping event": [
-        "perpetrating individual argument for kidnapping event",
-        "perpetrating organization argument for kidnapping event",
-        "target argument for kidnapping event",
-        "victim argument for kidnapping event",
-        "weapon argument for kidnapping event"
+        "perpetrating individual for kidnapping event",
+        "perpetrating organization for kidnapping event",
+        "target for kidnapping event",
+        "victim for kidnapping event",
+        "weapon for kidnapping event"
     ],
     "trigger for attack event": [
-        "perpetrating individual argument for attack event",
-        "perpetrating organization argument for attack event",
-        "target argument for attack event",
-        "victim argument for attack event",
-        "weapon argument for attack event"
+        "perpetrating individual for attack event",
+        "perpetrating organization for attack event",
+        "target for attack event",
+        "victim for attack event",
+        "weapon for attack event"
     ],
     "trigger for bombing event": [
-        "perpetrating individual argument for bombing event",
-        "perpetrating organization argument for bombing event",
-        "target argument for bombing event",
-        "victim argument for bombing event",
-        "weapon argument for bombing event"
+        "perpetrating individual for bombing event",
+        "perpetrating organization for bombing event",
+        "target for bombing event",
+        "victim for bombing event",
+        "weapon for bombing event"
     ],
     "trigger for robbery event": [
-        "perpetrating individual argument for robbery event",
-        "perpetrating organization argument for robbery event",
-        "target argument for robbery event",
-        "victim argument for robbery event",
-        "weapon argument for robbery event"
+        "perpetrating individual for robbery event",
+        "perpetrating organization for robbery event",
+        "target for robbery event",
+        "victim for robbery event",
+        "weapon for robbery event"
     ],
     "trigger for arson event": [
-        "perpetrating individual argument for arson event",
-        "perpetrating organization argument for arson event",
-        "target argument for arson event",
-        "victim argument for arson event",
-        "weapon argument for arson event"
+        "perpetrating individual for arson event",
+        "perpetrating organization for arson event",
+        "target for arson event",
+        "victim for arson event",
+        "weapon for arson event"
     ],
     "trigger for forced work stoppage event": [
-        "perpetrating individual argument for forced work stoppage event",
-        "perpetrating organization argument for forced work stoppage event",
-        "target argument for forced work stoppage event",
-        "victim argument for forced work stoppage event",
-        "weapon argument for forced work stoppage event"
+        "perpetrating individual for forced work stoppage event",
+        "perpetrating organization for forced work stoppage event",
+        "target for forced work stoppage event",
+        "victim for forced work stoppage event",
+        "weapon for forced work stoppage event"
     ]
 }

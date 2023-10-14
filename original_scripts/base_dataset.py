@@ -195,10 +195,14 @@ class BaseDataset(Dataset, ABC):
         output_sentences = [self.output_format.format_output(
             example) for example in self.examples]
         if self.trim_sep:
-            sep_ind = input_sentences[0].index("(SEP)")
-            self.sep_sequence = input_sentences[0][:sep_ind]
-            input_sentences = list(map(lambda s : s[sep_ind + 5 :]), input_sentences)
-            output_sentences = list(map(lambda s : s[sep_ind + 5 :]), output_sentences)
+            try:
+                sep_sequence = "( SEP ) "
+                sep_ind = input_sentences[0].index(sep_sequence)
+                self.sep_sequence = input_sentences[0][:sep_ind]
+                input_sentences = list(map(lambda s : s[sep_ind + len(sep_sequence) :], input_sentences))
+                output_sentences = list(map(lambda s : s[sep_ind + len(sep_sequence) :], output_sentences))
+            except ValueError:
+                self.sep_sequence = ""
         
         print(self.input_format_str)
         print(self.output_format_str)
@@ -246,22 +250,11 @@ class BaseDataset(Dataset, ABC):
         for sentence_input_ids, att_mask, label_input_ids in zip(input_tok.input_ids, input_tok.attention_mask,
                                                                  output_tok.input_ids):
             label_input_ids_list = label_input_ids.tolist()
-            left, right = 0, 0
-            left_bracket_id, right_bracket_id = 784, 908
-            argument_mask = [-100] * len(label_input_ids_list)
-            
-            for i, tok_id in enumerate(label_input_ids_list):
-                left += int(tok_id == left_bracket_id)
-                if left > right:
-                    argument_mask[i] = tok_id
-                right += int(tok_id == right_bracket_id)
 
             features.append(InputFeatures(
                 input_ids=sentence_input_ids.tolist(),
                 attention_mask=att_mask.tolist(),
-                label_ids=label_input_ids_list,
-                use_non_args_masked=self.mask_args_weight,
-                non_args_masked=argument_mask
+                label_ids=label_input_ids_list
             ))
 
         return features

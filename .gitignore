@@ -1,0 +1,9 @@
+experiments/MUC/g2_environments/keyword/*
+!experiments/MUC/g2_environments/keyword/train_predictions.txt
+!experiments/MUC/g2_environments/keyword/dev_predictions.txt
+!experiments/MUC/g2_environments/keyword/logs.json
+
+experiments/MUC/g2_environments/no_trig/*
+!experiments/MUC/g2_environments/no_trig/train_predictions.txt
+!experiments/MUC/g2_environments/no_trig/dev_predictions.txt
+!experiments/MUC/g2_environments/no_trig/logs.json

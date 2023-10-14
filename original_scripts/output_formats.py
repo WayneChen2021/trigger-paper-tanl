@@ -4,6 +4,7 @@
 
 import itertools
 import re
+import json
 from abc import ABC, abstractmethod
 from collections import defaultdict
 from typing import Tuple, List, Dict
@@ -504,7 +505,7 @@ class EventOutputFormat(JointEROutputFormat):
 
     def run_inference(self, example: InputExample, output_sentence: str,
                       entity_types: Dict[str, EntityType] = None, relation_types: Dict[str, RelationType] = None,
-                      log_file = None) \
+                      log_file = None, trim_sep=False) \
             -> Tuple[set, set, bool]:
         """
         Process an output sentence to extract arguments, given as entities and relations.
@@ -514,7 +515,7 @@ class EventOutputFormat(JointEROutputFormat):
         relation_types = set(relation_type.natural for relation_type in relation_types.values()) \
             if relation_types is not None else {}
 
-        triggers = example.output_triggers
+        # triggers = example.output_triggers
         # assert len(triggers) <= 1
         # if len(triggers) == 0:
         #     if log_file:
@@ -523,19 +524,56 @@ class EventOutputFormat(JointEROutputFormat):
         #     # we do not have triggers
         #     return set(), set(), False
 
-        trigger = triggers[0]
+        # trigger = triggers[0]
 
         # parse output sentence
-        if self.trim_sep:
+        if trim_sep:
             raw_predicted_entities, wrong_reconstruction = self.parse_output_sentence(
                 example, self.sep_sequence + output_sentence)
         else:
             raw_predicted_entities, wrong_reconstruction = self.parse_output_sentence(
             example, output_sentence)
 
+        types_map = {
+            "perpetrating individual": "PerpInd",
+            "perpetrating organization": "PerpOrg",
+            "target": "Target",
+            "weapon": "Weapon",
+            "victim": "Victim"
+        }
         if log_file:
-            print(raw_predicted_entities)
-            print(1/0)
+            trigs_to_args = {}
+            for annotation in raw_predicted_entities:
+                if len(annotation[1]) == 2 and len(annotation[1][1]) == 2:
+                    try:
+                        relation_type = annotation[1][1][0]
+                        for_ind = relation_type.index(" for")
+                        event_ind = relation_type.index(" event")
+                        trig_type = relation_type[for_ind + len(" for ") : event_ind]
+                        role_type = relation_type[ : for_ind]
+
+                        trig_enumerated = annotation[1][1][1]
+                        if not trig_enumerated in trigs_to_args:
+                            trigs_to_args[trig_enumerated] = {v: [] for v in types_map.values()}
+                            trigs_to_args[trig_enumerated]["incident_type"] = [trig_type]
+                        else:
+                            trigs_to_args[trig_enumerated]["incident_type"].append(trig_type)
+                        
+                        if role_type in types_map:
+                            trigs_to_args[trig_enumerated][types_map[role_type]].append(
+                                [[annotation[0]]]
+                            )
+                    except:
+                        pass
+            
+            with open(log_file, "a") as f:
+                info = json.dumps({
+                    "id": example.id,
+                    "templates": list(v for v in trigs_to_args.values())
+                })
+                f.write(info + "\n")
+            
+            return 0, 0, 0
             # args = []
             # trigs = [[trig.type.short, trig.start, trig.end] for trig in example.output_triggers]
             # for ent in raw_predicted_entities:

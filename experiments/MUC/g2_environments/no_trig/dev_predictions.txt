@@ -1,0 +1,400 @@
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["grenade rocket"]]], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [[["the extraditables"]]], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+{"id": "TST1-MUC3-0011", "templates": []}
+{"id": "TST1-MUC3-0012", "templates": []}
+{"id": "TST1-MUC3-0013", "templates": []}
+{"id": "TST1-MUC3-0014", "templates": []}
+{"id": "TST1-MUC3-0015", "templates": []}
+{"id": "TST1-MUC3-0016", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["houses"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST1-MUC3-0017", "templates": []}
+{"id": "TST1-MUC3-0018", "templates": [{"PerpInd": [[["unidentified individuals"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["hector oqueli colindres."]], [["hilda flores"]]], "incident_type": ["kidnapping", "kidnapping", "kidnapping"]}]}
+{"id": "TST1-MUC3-0019", "templates": []}
+{"id": "TST1-MUC3-0020", "templates": []}
+{"id": "TST1-MUC3-0021", "templates": []}
+{"id": "TST1-MUC3-0022", "templates": []}
+{"id": "TST1-MUC3-0023", "templates": []}
+{"id": "TST1-MUC3-0024", "templates": [{"PerpInd": [[["terrorists abroad"]]], "PerpOrg": [], "Target": [[["building that houses the administrative department of security"]], [["bus"]], [["headquarters of the country 's principal security organization."]]], "Weapon": [[["car bomb"]], [["dynamite gel"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing", "bombing", "bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["car bomb"]]], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST1-MUC3-0025", "templates": []}
+{"id": "TST1-MUC3-0026", "templates": []}
+{"id": "TST1-MUC3-0027", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["bomb"]]], "Victim": [[["jaime paz zamora"]]], "incident_type": ["bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0028", "templates": []}
+{"id": "TST1-MUC3-0029", "templates": []}
+{"id": "TST1-MUC3-0030", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos galan"]]], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0031", "templates": []}
+{"id": "TST1-MUC3-0032", "templates": []}
+{"id": "TST1-MUC3-0033", "templates": []}
+{"id": "TST1-MUC3-0034", "templates": []}
+{"id": "TST1-MUC3-0035", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["electrical system."]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0036", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["homemade bomb"]]], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST1-MUC3-0037", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["grenade"]]], "Victim": [[["erika sullivan"]], [["christopher anderson"]]], "incident_type": ["attack", "attack", "bombing"]}]}
+{"id": "TST1-MUC3-0038", "templates": []}
+{"id": "TST1-MUC3-0039", "templates": [{"PerpInd": [[["two individuals"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0040", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["luis carlos galan"]]], "incident_type": ["bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [[["installations of \" el espectador \" newspaper"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["car bomb"]]], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST1-MUC3-0041", "templates": [{"PerpInd": [], "PerpOrg": [[["( fmln"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0042", "templates": []}
+{"id": "TST1-MUC3-0043", "templates": []}
+{"id": "TST1-MUC3-0044", "templates": []}
+{"id": "TST1-MUC3-0045", "templates": [{"PerpInd": [], "PerpOrg": [[["armed forces"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0046", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [[["( fmln"]]], "Target": [], "Weapon": [], "Victim": [[["mauricio gutierrez castro."]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0047", "templates": []}
+{"id": "TST1-MUC3-0048", "templates": []}
+{"id": "TST1-MUC3-0049", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["a power substation"]], [["power pylon"]]], "Weapon": [], "Victim": [[["bernardo jaramillo ossa"]]], "incident_type": ["attack", "bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0050", "templates": [{"PerpInd": [[["men wearing military uniforms."]]], "PerpOrg": [[["military"]]], "Target": [], "Weapon": [], "Victim": [[["ignacio ellacuria"]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0051", "templates": []}
+{"id": "TST1-MUC3-0052", "templates": []}
+{"id": "TST1-MUC3-0053", "templates": []}
+{"id": "TST1-MUC3-0054", "templates": []}
+{"id": "TST1-MUC3-0055", "templates": []}
+{"id": "TST1-MUC3-0056", "templates": [{"PerpInd": [[["guerrilla"]]], "PerpOrg": [], "Target": [[["president 's residence"]], [["central electoral council"]]], "Weapon": [], "Victim": [[["jose alfonso chavez"]]], "incident_type": ["attack", "attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0057", "templates": []}
+{"id": "TST1-MUC3-0058", "templates": []}
+{"id": "TST1-MUC3-0059", "templates": [{"PerpInd": [], "PerpOrg": [[["( fmln"]]], "Target": [], "Weapon": [], "Victim": [[["jose antonio rodriguez porth"]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0060", "templates": []}
+{"id": "TST1-MUC3-0061", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["jaime pardo leal"]]], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0062", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["luis mesa puerta"]]], "incident_type": ["kidnapping"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["dynamite"]]], "Victim": [], "incident_type": ["kidnapping"]}]}
+{"id": "TST1-MUC3-0063", "templates": []}
+{"id": "TST1-MUC3-0064", "templates": []}
+{"id": "TST1-MUC3-0065", "templates": []}
+{"id": "TST1-MUC3-0066", "templates": []}
+{"id": "TST1-MUC3-0067", "templates": []}
+{"id": "TST1-MUC3-0068", "templates": [{"PerpInd": [[["uniformed individuals"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0069", "templates": [{"PerpInd": [], "PerpOrg": [[["armed forces"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0070", "templates": []}
+{"id": "TST1-MUC3-0071", "templates": [{"PerpInd": [[["group of terrorists"]]], "PerpOrg": [[["( fal"]]], "Target": [[["lines providing power to la paz"]]], "Weapon": [[["dynamite"]], [["machinegun"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing", "attack"]}]}
+{"id": "TST1-MUC3-0072", "templates": []}
+{"id": "TST1-MUC3-0073", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [[["\" citicorp \" financial company offices"]], [["chilean-u.s. cultural institutes"]]], "Weapon": [[["bomb"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0074", "templates": []}
+{"id": "TST1-MUC3-0075", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["dagoberto rodriguez"]], [["alfonso de lima"]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0076", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["stela torrado de otalora"]], [["jairo otalora"]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0077", "templates": []}
+{"id": "TST1-MUC3-0078", "templates": []}
+{"id": "TST1-MUC3-0079", "templates": []}
+{"id": "TST1-MUC3-0080", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["federico estrada velez"]]], "incident_type": ["kidnapping"]}]}
+{"id": "TST1-MUC3-0081", "templates": []}
+{"id": "TST1-MUC3-0082", "templates": []}
+{"id": "TST1-MUC3-0083", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["oscar arnulfo romero."]]], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0084", "templates": []}
+{"id": "TST1-MUC3-0085", "templates": []}
+{"id": "TST1-MUC3-0086", "templates": []}
+{"id": "TST1-MUC3-0087", "templates": [{"PerpInd": [[["men wearing military uniforms"]]], "PerpOrg": [[["military"]]], "Target": [], "Weapon": [], "Victim": [[["guillermo ungo"]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0088", "templates": []}
+{"id": "TST1-MUC3-0089", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [[["route 302 bus"]]], "Weapon": [], "Victim": [], "incident_type": ["arson", "arson"]}, {"PerpInd": [[["criminal terrorists"]]], "PerpOrg": [], "Target": [[["vehicles."]]], "Weapon": [], "Victim": [], "incident_type": ["arson", "arson"]}]}
+{"id": "TST1-MUC3-0090", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["power tower"]]], "Weapon": [[["bomb"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0091", "templates": []}
+{"id": "TST1-MUC3-0092", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["pylons"]], [["transformers"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0093", "templates": []}
+{"id": "TST1-MUC3-0094", "templates": []}
+{"id": "TST1-MUC3-0095", "templates": []}
+{"id": "TST1-MUC3-0096", "templates": []}
+{"id": "TST1-MUC3-0097", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["nicaraguan embassy"]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0098", "templates": []}
+{"id": "TST1-MUC3-0099", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [[["embassies of the prc"]], [["soviet union."]], [["prc embassy"]]], "Weapon": [[["car-bomb"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing", "bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [[["ussr embassy vehicle"]]], "Weapon": [[["bombs"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0100", "templates": []}
+{"id": "TST2-MUC4-0001", "templates": []}
+{"id": "TST2-MUC4-0002", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["salvadoran consulate"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST2-MUC4-0003", "templates": [{"PerpInd": [[["ruth esperanza aguilar marroquin"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping"]}]}
+{"id": "TST2-MUC4-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["american embassy"]]], "Weapon": [[["dynamite charge"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
+{"id": "TST2-MUC4-0005", "templates": []}
+{"id": "TST2-MUC4-0006", "templates": []}
+{"id": "TST2-MUC4-0007", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [[["drug cartel"]]], "Target": [[["public buses"]], [["houses"]], [["businesses."]]], "Weapon": [[["car bomb"]], [["300 kg of dynamite"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "TST2-MUC4-0008", "templates": []}
+{"id": "TST2-MUC4-0009", "templates": []}
+{"id": "TST2-MUC4-0010", "templates": []}
+{"id": "TST2-MUC4-0011", "templates": [{"PerpInd": [], "PerpOrg": [[["army"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST2-MUC4-0012", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["jecar neghme"]]], "incident_type": ["attack"]}]}
+{"id": "TST2-MUC4-0013", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["automatic weapons."]]], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST2-MUC4-0014", "templates": []}
+{"id": "TST2-MUC4-0015", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["bank branch offices"]], [["banco cafetero branches"]]], "Weapon": [[["explosives"]], [["dynamite"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "TST2-MUC4-0016", "templates": []}
+{"id": "TST2-MUC4-0017", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["federal police building"]]], "Weapon": [[["truck-bomb"]], [["dynamite"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
+{"id": "TST2-MUC4-0018", "templates": []}
+{"id": "TST2-MUC4-0019", "templates": [{"PerpInd": [], "PerpOrg": [[["( fmln"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST2-MUC4-0020", "templates": []}
+{"id": "TST2-MUC4-0021", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["electricity poles"]]], "Weapon": [[["dynamite"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
+{"id": "TST2-MUC4-0022", "templates": []}
+{"id": "TST2-MUC4-0023", "templates": []}
+{"id": "TST2-MUC4-0024", "templates": []}
+{"id": "TST2-MUC4-0025", "templates": [{"PerpInd": [[["uniformed men"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ignacio ellacuria"]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST2-MUC4-0026", "templates": [{"PerpInd": [[["john jairo arias tascon."]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos pizarro"]], [["bernardo jaramillo"]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST2-MUC4-0027", "templates": []}
+{"id": "TST2-MUC4-0028", "templates": []}
+{"id": "TST2-MUC4-0029", "templates": []}
+{"id": "TST2-MUC4-0030", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["san carlos service station"]]], "Weapon": [[["bullet"]]], "Victim": [[["jose felix aguirre"]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST2-MUC4-0031", "templates": []}
+{"id": "TST2-MUC4-0032", "templates": [{"PerpInd": [[["medellin cartel boss"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["bernardo jaramillo ossa"]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST2-MUC4-0033", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["francisco jose guerrero."]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST2-MUC4-0034", "templates": []}
+{"id": "TST2-MUC4-0035", "templates": []}
+{"id": "TST2-MUC4-0036", "templates": []}
+{"id": "TST2-MUC4-0037", "templates": []}
+{"id": "TST2-MUC4-0038", "templates": []}
+{"id": "TST2-MUC4-0039", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [[["eln"]]], "Target": [], "Weapon": [], "Victim": [[["david lecky"]], [["james arthur donnelly."]]], "incident_type": ["kidnapping", "kidnapping", "kidnapping", "kidnapping"]}, {"PerpInd": [[["nelson mandela cell"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping"]}]}
+{"id": "TST2-MUC4-0040", "templates": []}
+{"id": "TST2-MUC4-0041", "templates": []}
+{"id": "TST2-MUC4-0042", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["gonzalo rodriguez gacha."]]], "incident_type": ["attack"]}]}
+{"id": "TST2-MUC4-0043", "templates": []}
+{"id": "TST2-MUC4-0044", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [[["drug trafficking gangs"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
+{"id": "TST2-MUC4-0045", "templates": []}
+{"id": "TST2-MUC4-0046", "templates": []}
+{"id": "TST2-MUC4-0047", "templates": []}
+{"id": "TST2-MUC4-0048", "templates": [{"PerpInd": [[["guerrillas"]], [["urban guerrillas"]], [["\" alfredo cristiani"]]], "PerpOrg": [[["farabundo marti national liberation front"]], [["( fmln"]]], "Target": [[["vehicle"]]], "Weapon": [], "Victim": [[["roberto garcia alvarado"]], [["ricardo valdivieso"]], [["jose napoleon duarte"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing", "bombing", "bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "TST2-MUC4-0049", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["car bomb"]]], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST2-MUC4-0050", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["jorge adolfo vargas gonzalez"]]], "incident_type": ["attack"]}]}
+{"id": "TST2-MUC4-0051", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["luis carlos galan sarmiento"]]], "incident_type": ["attack"]}]}
+{"id": "TST2-MUC4-0052", "templates": []}
+{"id": "TST2-MUC4-0053", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos andres perez"]], [["norberto rodriguez"]]], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "TST2-MUC4-0054", "templates": [{"PerpInd": [], "PerpOrg": [[["armed forces"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST2-MUC4-0055", "templates": [{"PerpInd": [[["commando"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["hector delgado parker"]]], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "TST2-MUC4-0056", "templates": []}
+{"id": "TST2-MUC4-0057", "templates": []}
+{"id": "TST2-MUC4-0058", "templates": []}
+{"id": "TST2-MUC4-0059", "templates": [{"PerpInd": [[["drug traffickers"]]], "PerpOrg": [], "Target": [[["bank"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing", "bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [[["branch of the city 's electric energy enterprise"]], [["residences"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
+{"id": "TST2-MUC4-0060", "templates": []}
+{"id": "TST2-MUC4-0061", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["home"]], [["newspaper el siglo 's facilities."]]], "Weapon": [], "Victim": [[["sergeant carlos julio bonilla"]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST2-MUC4-0062", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["roberto santana rojas"]]], "incident_type": ["attack"]}]}
+{"id": "TST2-MUC4-0063", "templates": [{"PerpInd": [[["urban guerrillas"]]], "PerpOrg": [], "Target": [[["power substation"]], [["( cel"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack", "attack"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["rockets."]]], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST2-MUC4-0064", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["monica de greiff"]]], "incident_type": ["attack"]}]}
+{"id": "TST2-MUC4-0065", "templates": []}
+{"id": "TST2-MUC4-0066", "templates": []}
+{"id": "TST2-MUC4-0067", "templates": []}
+{"id": "TST2-MUC4-0068", "templates": []}
+{"id": "TST2-MUC4-0069", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["bank"]], [["fast-food restaurant."]]], "Weapon": [[["load of dynamite"]], [["bomb"]], [["medium-sized bomb"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "TST2-MUC4-0070", "templates": []}
+{"id": "TST2-MUC4-0071", "templates": []}
+{"id": "TST2-MUC4-0072", "templates": []}
+{"id": "TST2-MUC4-0073", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["oscar arnulfo romero"]]], "incident_type": ["attack"]}]}
+{"id": "TST2-MUC4-0074", "templates": []}
+{"id": "TST2-MUC4-0075", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["offices of the salvadoran workers national union federation"]]], "Weapon": [[["car bomb"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
+{"id": "TST2-MUC4-0076", "templates": [{"PerpInd": [[["unidentified persons"]]], "PerpOrg": [], "Target": [], "Weapon": [[["incendiary bomb"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
+{"id": "TST2-MUC4-0077", "templates": [{"PerpInd": [], "PerpOrg": [[["( mrta"]]], "Target": [], "Weapon": [], "Victim": [[["carlos enrique ferreyros"]]], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "TST2-MUC4-0078", "templates": []}
+{"id": "TST2-MUC4-0079", "templates": []}
+{"id": "TST2-MUC4-0080", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["vehicles"]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST2-MUC4-0081", "templates": [{"PerpInd": [[["unidentified persons"]]], "PerpOrg": [], "Target": [], "Weapon": [[["11 bombs"]]], "Victim": [[["monica de greiff"]], [["monica de greiff"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "TST2-MUC4-0082", "templates": []}
+{"id": "TST2-MUC4-0083", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST2-MUC4-0084", "templates": []}
+{"id": "TST2-MUC4-0085", "templates": []}
+{"id": "TST2-MUC4-0086", "templates": []}
+{"id": "TST2-MUC4-0087", "templates": []}
+{"id": "TST2-MUC4-0088", "templates": []}
+{"id": "TST2-MUC4-0089", "templates": []}
+{"id": "TST2-MUC4-0090", "templates": []}
+{"id": "TST2-MUC4-0091", "templates": []}
+{"id": "TST2-MUC4-0092", "templates": []}
+{"id": "TST2-MUC4-0093", "templates": []}
+{"id": "TST2-MUC4-0094", "templates": []}
+{"id": "TST2-MUC4-0095", "templates": []}
+{"id": "TST2-MUC4-0096", "templates": [{"PerpInd": [], "PerpOrg": [[["mrta hit squad"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST2-MUC4-0097", "templates": []}
+{"id": "TST2-MUC4-0098", "templates": []}
+{"id": "TST2-MUC4-0099", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [[["army of national liberation"]]], "Target": [[["cano limon-covenas oil pipeline"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
+{"id": "TST2-MUC4-0100", "templates": [{"PerpInd": [[["colombian army of national liberation guerrillas."]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos marcelo"]]], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "TST3-MUC4-0001", "templates": []}
+{"id": "TST3-MUC4-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["military"]], [["armed forces"]]], "Target": [], "Weapon": [], "Victim": [[["oscar alfredo santamaria"]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST3-MUC4-0003", "templates": [{"PerpInd": [[["gerardo olivos silva"]]], "PerpOrg": [[["shining path."]]], "Target": [], "Weapon": [], "Victim": [[["enrique lopez albujar trint"]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST3-MUC4-0004", "templates": []}
+{"id": "TST3-MUC4-0005", "templates": [{"PerpInd": [[["heavily armed men"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["hector oqueli colindres"]], [["gilda flores"]]], "incident_type": ["kidnapping", "kidnapping", "kidnapping"]}]}
+{"id": "TST3-MUC4-0006", "templates": [{"PerpInd": [[["heavily armed men in civilian clothes"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["hector oqueli"]], [["gilda flores"]]], "incident_type": ["kidnapping", "kidnapping", "kidnapping"]}]}
+{"id": "TST3-MUC4-0007", "templates": []}
+{"id": "TST3-MUC4-0008", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["sentry post"]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST3-MUC4-0009", "templates": []}
+{"id": "TST3-MUC4-0010", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["committee of mothers of political prisoners"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST3-MUC4-0011", "templates": [{"PerpInd": [[["members of the manuel gustavo chacon sovereignty operation"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping"]}]}
+{"id": "TST3-MUC4-0012", "templates": []}
+{"id": "TST3-MUC4-0013", "templates": []}
+{"id": "TST3-MUC4-0014", "templates": [{"PerpInd": [], "PerpOrg": [[["shining path"]]], "Target": [], "Weapon": [[["bomb"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
+{"id": "TST3-MUC4-0015", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["mauricio pineda"]], [["roberto navas"]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST3-MUC4-0016", "templates": []}
+{"id": "TST3-MUC4-0017", "templates": [{"PerpInd": [[["unidentified individuals"]]], "PerpOrg": [[["( fmln"]]], "Target": [], "Weapon": [[["three explosive devices"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
+{"id": "TST3-MUC4-0018", "templates": [{"PerpInd": [[["guerrillas"]], [["at least six fmln guerrillas"]]], "PerpOrg": [], "Target": [[["1st infantry brigade garrison"]], [["national police station"]], [["power poles"]], [["transformers."]]], "Weapon": [[["rpg-18 rocket"]]], "Victim": [], "incident_type": ["attack", "attack", "attack", "attack", "attack", "attack", "attack"]}]}
+{"id": "TST3-MUC4-0019", "templates": []}
+{"id": "TST3-MUC4-0020", "templates": []}
+{"id": "TST3-MUC4-0021", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["jose antonio rodriguez porth"]]], "incident_type": ["attack"]}]}
+{"id": "TST3-MUC4-0022", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["dolores hinostroza"]]], "incident_type": ["attack"]}]}
+{"id": "TST3-MUC4-0023", "templates": []}
+{"id": "TST3-MUC4-0024", "templates": [{"PerpInd": [[["unidentified terrorists"]]], "PerpOrg": [], "Target": [[["oil pipeline"]], [["vina-puerto salgar oil pipeline"]]], "Weapon": [[["dynamite"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "TST3-MUC4-0025", "templates": []}
+{"id": "TST3-MUC4-0026", "templates": []}
+{"id": "TST3-MUC4-0027", "templates": [{"PerpInd": [[["unidentified individuals"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["danilo barillas"]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST3-MUC4-0028", "templates": []}
+{"id": "TST3-MUC4-0029", "templates": []}
+{"id": "TST3-MUC4-0030", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos valencia"]], [["maria elena diaz."]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST3-MUC4-0031", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos valencia"]]], "incident_type": ["attack"]}]}
+{"id": "TST3-MUC4-0032", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["luis carlos galan"]]], "incident_type": ["attack"]}]}
+{"id": "TST3-MUC4-0033", "templates": []}
+{"id": "TST3-MUC4-0034", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["luis carlos galan"]]], "incident_type": ["attack"]}]}
+{"id": "TST3-MUC4-0035", "templates": []}
+{"id": "TST3-MUC4-0036", "templates": []}
+{"id": "TST3-MUC4-0037", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["bank branches"]], [["state-owned agrarian board"]], [["agrarian board branch"]], [["stores"]]], "Weapon": [[["bomb"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "TST3-MUC4-0038", "templates": []}
+{"id": "TST3-MUC4-0039", "templates": []}
+{"id": "TST3-MUC4-0040", "templates": [{"PerpInd": [], "PerpOrg": [[["drug trafficking cartels"]]], "Target": [[["bank offices"]], [["banco de occidente branch"]], [["banco popular branch"]], [["political offices of the liberal and social conservative parties"]], [["bank office"]]], "Weapon": [[["bombs"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "TST3-MUC4-0041", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["old station wagon."]]], "Weapon": [[["car bomb"]], [["dynamite."]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
+{"id": "TST3-MUC4-0042", "templates": []}
+{"id": "TST3-MUC4-0043", "templates": []}
+{"id": "TST3-MUC4-0044", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["ricardo rojas cultural center"]]], "Weapon": [[["bomb"]]], "Victim": [[["raul alfonsin"]]], "incident_type": ["bombing", "bombing", "bombing"]}]}
+{"id": "TST3-MUC4-0045", "templates": []}
+{"id": "TST3-MUC4-0046", "templates": [{"PerpInd": [[["gunmen"]], [["two men"]]], "PerpOrg": [[["\" the extraditables"]], [["medellin cartel"]]], "Target": [], "Weapon": [], "Victim": [[["miguel soler rodriguez"]], [["martha luz lopez"]], [["martha lopez orozco de lopez"]]], "incident_type": ["attack", "attack", "attack", "attack", "attack", "attack", "attack"]}]}
+{"id": "TST3-MUC4-0047", "templates": []}
+{"id": "TST3-MUC4-0048", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["diana mack ortiz"]], [["patricia denny"]]], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "TST3-MUC4-0049", "templates": []}
+{"id": "TST3-MUC4-0050", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [[["bomb"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
+{"id": "TST3-MUC4-0051", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["monica de greiff."]]], "incident_type": ["attack"]}]}
+{"id": "TST3-MUC4-0052", "templates": []}
+{"id": "TST3-MUC4-0053", "templates": []}
+{"id": "TST3-MUC4-0054", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["residence of the legislative assembly president"]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}, {"PerpInd": [], "PerpOrg": [], "Target": [[["central elections council"]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}, {"PerpInd": [], "PerpOrg": [], "Target": [[["private residence."]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST3-MUC4-0055", "templates": []}
+{"id": "TST3-MUC4-0056", "templates": []}
+{"id": "TST3-MUC4-0057", "templates": []}
+{"id": "TST3-MUC4-0058", "templates": []}
+{"id": "TST3-MUC4-0059", "templates": []}
+{"id": "TST3-MUC4-0060", "templates": [{"PerpInd": [], "PerpOrg": [[["salvadoran armed forces"]]], "Target": [[["residence of the priests"]]], "Weapon": [], "Victim": [[["julia ramos"]], [["elva ramos."]]], "incident_type": ["attack", "attack", "attack", "attack"]}]}
+{"id": "TST3-MUC4-0061", "templates": []}
+{"id": "TST3-MUC4-0062", "templates": []}
+{"id": "TST3-MUC4-0063", "templates": []}
+{"id": "TST3-MUC4-0064", "templates": []}
+{"id": "TST3-MUC4-0065", "templates": []}
+{"id": "TST3-MUC4-0066", "templates": [{"PerpInd": [], "PerpOrg": [[["( fmln"]], [["extreme right death squads"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST3-MUC4-0067", "templates": []}
+{"id": "TST3-MUC4-0068", "templates": []}
+{"id": "TST3-MUC4-0069", "templates": []}
+{"id": "TST3-MUC4-0070", "templates": []}
+{"id": "TST3-MUC4-0071", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["electricity posts"]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST3-MUC4-0072", "templates": []}
+{"id": "TST3-MUC4-0073", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["headquarters of colombia 's secret police wednesday"]]], "Weapon": [[["bomb"]]], "Victim": [[["andres pastrana"]]], "incident_type": ["bombing", "bombing", "bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [[["nearby offices of the bogota transportation department"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST3-MUC4-0074", "templates": [{"PerpInd": [], "PerpOrg": [[["fmln"]]], "Target": [], "Weapon": [[["dynamite"]]], "Victim": [[["fenastras ( salvadoran workers national union federation ) had ignited the people 's spirits."]]], "incident_type": ["bombing", "bombing", "bombing"]}]}
+{"id": "TST3-MUC4-0075", "templates": []}
+{"id": "TST3-MUC4-0076", "templates": []}
+{"id": "TST3-MUC4-0077", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["gonzalo rodriguez gacha"]], [["freddy"]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST3-MUC4-0078", "templates": [{"PerpInd": [[["chileans"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["abilio diniz"]]], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "TST3-MUC4-0079", "templates": []}
+{"id": "TST3-MUC4-0080", "templates": []}
+{"id": "TST3-MUC4-0081", "templates": []}
+{"id": "TST3-MUC4-0082", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["bernardo jaramillo ossa"]]], "incident_type": ["bombing"]}]}
+{"id": "TST3-MUC4-0083", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["hector oqueli"]]], "incident_type": ["attack"]}]}
+{"id": "TST3-MUC4-0084", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["store"]], [["public bus."]]], "Weapon": [], "Victim": [], "incident_type": ["bombing", "arson", "bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [[["electrical appliance store"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST3-MUC4-0085", "templates": []}
+{"id": "TST3-MUC4-0086", "templates": []}
+{"id": "TST3-MUC4-0087", "templates": []}
+{"id": "TST3-MUC4-0088", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["power system"]], [["electricity."]]], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "TST3-MUC4-0089", "templates": []}
+{"id": "TST3-MUC4-0090", "templates": []}
+{"id": "TST3-MUC4-0091", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["9 mm semiautomatic pistols."]]], "Victim": [[["gustavo leigh guzman"]], [["enrique ruiz"]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST3-MUC4-0092", "templates": []}
+{"id": "TST3-MUC4-0093", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["bernardo jaramillo."]]], "incident_type": ["attack"]}]}
+{"id": "TST3-MUC4-0094", "templates": [{"PerpInd": [[["terrorists"]], [["fmln-fdr members"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["mauricio campos"]], [["concepcion herrera"]], [["manuel alvaro mendoza"]]], "incident_type": ["attack", "attack", "attack", "attack", "kidnapping"]}]}
+{"id": "TST3-MUC4-0095", "templates": []}
+{"id": "TST3-MUC4-0096", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos pizarro leongomez."]]], "incident_type": ["attack"]}]}
+{"id": "TST3-MUC4-0097", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["houses"]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST3-MUC4-0098", "templates": []}
+{"id": "TST3-MUC4-0099", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [[["electric poles"]], [["power pylons"]], [["cel sub-station"]]], "Weapon": [[["mortars"]], [["rifles"]]], "Victim": [], "incident_type": ["attack", "attack", "attack", "attack", "attack", "attack"]}, {"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["transformer."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST3-MUC4-0100", "templates": []}
+{"id": "TST4-MUC4-0001", "templates": [{"PerpInd": [[["unidentified individuals"]]], "PerpOrg": [], "Target": [[["mormon church"]], [["chapel of the church of jesus christ of latter-day saints"]]], "Weapon": [[["bomb"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "TST4-MUC4-0002", "templates": []}
+{"id": "TST4-MUC4-0003", "templates": []}
+{"id": "TST4-MUC4-0004", "templates": [{"PerpInd": [[["felipe sandoval"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping"]}]}
+{"id": "TST4-MUC4-0005", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["aminta platero"]]], "incident_type": ["attack"]}]}
+{"id": "TST4-MUC4-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["electric tower"]]], "Weapon": [], "Victim": [[["alexander molina granados"]]], "incident_type": ["attack", "bombing"]}]}
+{"id": "TST4-MUC4-0007", "templates": []}
+{"id": "TST4-MUC4-0008", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["private property"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST4-MUC4-0009", "templates": []}
+{"id": "TST4-MUC4-0010", "templates": [{"PerpInd": [[["unidentified individuals"]]], "PerpOrg": [], "Target": [[["national vanguard offices"]]], "Weapon": [[["bomb"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
+{"id": "TST4-MUC4-0011", "templates": []}
+{"id": "TST4-MUC4-0012", "templates": []}
+{"id": "TST4-MUC4-0013", "templates": [{"PerpInd": [[["amado antonio garay reyes"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["oscar arnulfo romero"]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST4-MUC4-0014", "templates": []}
+{"id": "TST4-MUC4-0015", "templates": []}
+{"id": "TST4-MUC4-0016", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["bombs"]]], "Victim": [], "incident_type": ["bombing"]}, {"PerpInd": [[["urban guerrillas."]]], "PerpOrg": [[["fmln"]]], "Target": [[["car hoods"]]], "Weapon": [[["bombs"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "TST4-MUC4-0017", "templates": []}
+{"id": "TST4-MUC4-0018", "templates": []}
+{"id": "TST4-MUC4-0019", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [[["vehicle"]]], "Weapon": [[["bomb"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
+{"id": "TST4-MUC4-0020", "templates": []}
+{"id": "TST4-MUC4-0021", "templates": [{"PerpInd": [[["unidentified individuals"]]], "PerpOrg": [], "Target": [[["airport"]], [["cerro azul military installations"]]], "Weapon": [[["machineguns"]]], "Victim": [], "incident_type": ["bombing", "attack", "bombing", "bombing"]}]}
+{"id": "TST4-MUC4-0022", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["submachineguns"]], [["molotov cocktails"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
+{"id": "TST4-MUC4-0023", "templates": []}
+{"id": "TST4-MUC4-0024", "templates": [{"PerpInd": [], "PerpOrg": [[["( pdc"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST4-MUC4-0025", "templates": [{"PerpInd": [[["rebels"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["david diaz cortez"]]], "incident_type": ["attack", "attack"]}, {"PerpInd": [], "PerpOrg": [], "Target": [[["antel ( national administration for telecommunications ) installations"]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST4-MUC4-0026", "templates": []}
+{"id": "TST4-MUC4-0027", "templates": []}
+{"id": "TST4-MUC4-0028", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["high tension towers"]]], "Weapon": [[["czechoslovak bombs"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
+{"id": "TST4-MUC4-0029", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["car bomb"]]], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST4-MUC4-0030", "templates": []}
+{"id": "TST4-MUC4-0031", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["multipurpose pipeline"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST4-MUC4-0032", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["headquarters of the shoe industry workers union"]]], "Weapon": [[["home-made bomb"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
+{"id": "TST4-MUC4-0033", "templates": []}
+{"id": "TST4-MUC4-0034", "templates": [{"PerpInd": [[["unidentified individuals"]]], "PerpOrg": [], "Target": [[["home of a peruvian army general"]], [["home of general enrique franco"]], [["houses."]]], "Weapon": [[["bomb"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "TST4-MUC4-0035", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["guatemalan gunboat"]]], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST4-MUC4-0036", "templates": []}
+{"id": "TST4-MUC4-0037", "templates": [{"PerpInd": [[["urban guerrillas"]]], "PerpOrg": [[["fmln"]]], "Target": [[["la torre de cristal building"]], [["administrative offices of the ( name indistinct ) seaside resort"]], [["power pole"]]], "Weapon": [[["two bombs"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "TST4-MUC4-0038", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["rosalio mejia rodriguez"]], [["guillermo saul mejia herrera"]]], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "TST4-MUC4-0039", "templates": [{"PerpInd": [], "PerpOrg": [[["national liberation army"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping"]}]}
+{"id": "TST4-MUC4-0040", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["commercial building"]], [["businesses"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST4-MUC4-0041", "templates": []}
+{"id": "TST4-MUC4-0042", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["bridges"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST4-MUC4-0043", "templates": [{"PerpInd": [], "PerpOrg": [[["fmln"]]], "Target": [[["shopping mall"]]], "Weapon": [[["car bombs"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
+{"id": "TST4-MUC4-0044", "templates": []}
+{"id": "TST4-MUC4-0045", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [[["bridge"]], [["public bus"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
+{"id": "TST4-MUC4-0046", "templates": [{"PerpInd": [[["right-wing members"]]], "PerpOrg": [[["armed forces"]]], "Target": [], "Weapon": [], "Victim": [[["oscar arnulfo romero"]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST4-MUC4-0047", "templates": []}
+{"id": "TST4-MUC4-0048", "templates": []}
+{"id": "TST4-MUC4-0049", "templates": []}
+{"id": "TST4-MUC4-0050", "templates": []}
+{"id": "TST4-MUC4-0051", "templates": [{"PerpInd": [[["four masked individuals"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos soto sedice"]]], "incident_type": ["attack", "attack"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos medrano vazquez"]]], "incident_type": ["attack"]}]}
+{"id": "TST4-MUC4-0052", "templates": []}
+{"id": "TST4-MUC4-0053", "templates": []}
+{"id": "TST4-MUC4-0054", "templates": [{"PerpInd": [[["insurgents"]]], "PerpOrg": [[["national liberation army"]]], "Target": [], "Weapon": [[["bomb"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
+{"id": "TST4-MUC4-0055", "templates": []}
+{"id": "TST4-MUC4-0056", "templates": []}
+{"id": "TST4-MUC4-0057", "templates": [{"PerpInd": [], "PerpOrg": [[["armed forces"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST4-MUC4-0058", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [[["\" shining path"]]], "Target": [], "Weapon": [[["\" russian cheese."]], [["tacks"]], [["steel wire."]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing", "bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["explosives"]]], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST4-MUC4-0059", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["power towers"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST4-MUC4-0060", "templates": []}
+{"id": "TST4-MUC4-0061", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["el angel sugar mill"]], [["administrative offices of the sugar mill"]], [["nearby house."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack", "attack"]}, {"PerpInd": [], "PerpOrg": [], "Target": [[["las canas bridge"]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST4-MUC4-0062", "templates": []}
+{"id": "TST4-MUC4-0063", "templates": [{"PerpInd": [], "PerpOrg": [[["fmln"]]], "Target": [[["antel ( national administration for telecommunications ) office"]], [["court offices"]], [["community center of dulce nombre de maria"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "TST4-MUC4-0064", "templates": []}
+{"id": "TST4-MUC4-0065", "templates": []}
+{"id": "TST4-MUC4-0066", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["luz leon"]], [["parmenides cuenca"]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST4-MUC4-0067", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["electric tower no 657"]]], "Weapon": [[["explosives"]], [["2 kg of amonium gelignite"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
+{"id": "TST4-MUC4-0068", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [[["national liberation army"]]], "Target": [], "Weapon": [], "Victim": [[["guillermo rodriguez velasquez"]]], "incident_type": ["kidnapping", "kidnapping", "kidnapping"]}]}
+{"id": "TST4-MUC4-0069", "templates": []}
+{"id": "TST4-MUC4-0070", "templates": []}
+{"id": "TST4-MUC4-0071", "templates": []}
+{"id": "TST4-MUC4-0072", "templates": [{"PerpInd": [[["rebels"]]], "PerpOrg": [[["national liberation army"]]], "Target": [], "Weapon": [], "Victim": [[["ricardo diaz"]]], "incident_type": ["bombing", "bombing", "bombing"]}]}
+{"id": "TST4-MUC4-0073", "templates": []}
+{"id": "TST4-MUC4-0074", "templates": []}
+{"id": "TST4-MUC4-0075", "templates": []}
+{"id": "TST4-MUC4-0076", "templates": []}
+{"id": "TST4-MUC4-0077", "templates": []}
+{"id": "TST4-MUC4-0078", "templates": []}
+{"id": "TST4-MUC4-0079", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos perez lopez"]]], "incident_type": ["attack"]}]}
+{"id": "TST4-MUC4-0080", "templates": [{"PerpInd": [[["man"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["gustavo de jesus escobar fernandez"]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST4-MUC4-0081", "templates": []}
+{"id": "TST4-MUC4-0082", "templates": []}
+{"id": "TST4-MUC4-0083", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["school"]]], "Weapon": [[["bomb"]]], "Victim": [[["mauricio vera barrios"]]], "incident_type": ["bombing", "bombing", "bombing"]}]}
+{"id": "TST4-MUC4-0084", "templates": []}
+{"id": "TST4-MUC4-0085", "templates": [{"PerpInd": [[["members"]]], "PerpOrg": [[["shining path"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST4-MUC4-0086", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["hector arevalo"]]], "incident_type": ["attack"]}]}
+{"id": "TST4-MUC4-0087", "templates": [{"PerpInd": [], "PerpOrg": [[["national liberation army 's camilist unity"]]], "Target": [], "Weapon": [], "Victim": [[["alberto celis sanchez"]], [["manuel santos cruz arboleda"]]], "incident_type": ["kidnapping", "kidnapping", "attack"]}]}
+{"id": "TST4-MUC4-0088", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["alfredo chamorro"]]], "incident_type": ["attack"]}]}
+{"id": "TST4-MUC4-0089", "templates": []}
+{"id": "TST4-MUC4-0090", "templates": [{"PerpInd": [[["urban guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["rosa imelda gonzalez medrano"]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST4-MUC4-0091", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["bridge"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST4-MUC4-0092", "templates": [{"PerpInd": [[["rebels"]]], "PerpOrg": [[["fmln"]]], "Target": [[["antel ( national administration for telecommunications ) office"]]], "Weapon": [], "Victim": [], "incident_type": ["arson", "arson", "arson"]}]}
+{"id": "TST4-MUC4-0093", "templates": []}
+{"id": "TST4-MUC4-0094", "templates": []}
+{"id": "TST4-MUC4-0095", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["cel ( lempa river hydroelectric executive commission ) san luis substation"]]], "Weapon": [[["explosives."]]], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
+{"id": "TST4-MUC4-0096", "templates": []}
+{"id": "TST4-MUC4-0097", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["checkpoint"]]], "Weapon": [[["three bombs"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
+{"id": "TST4-MUC4-0098", "templates": []}
+{"id": "TST4-MUC4-0099", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["fernando torres silva."]]], "incident_type": ["attack"]}]}
+{"id": "TST4-MUC4-0100", "templates": []}

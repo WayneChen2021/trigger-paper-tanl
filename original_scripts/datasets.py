@@ -46,7 +46,8 @@ def load_dataset(
         shuffle: bool = True,
         is_eval: bool = False,
         same_input_output_trigs = False,
-        mask_args_weight = None
+        mask_args_weight = None,
+        trim_sep = False
 ):
     """
     Load a registered dataset.
@@ -63,7 +64,8 @@ def load_dataset(
         data_args=data_args,
         is_eval=is_eval,
         same_input_output_trigs=same_input_output_trigs,
-        mask_args_weight=mask_args_weight
+        mask_args_weight=mask_args_weight,
+        trim_sep=trim_sep
     )
 
 
@@ -2152,7 +2154,7 @@ class MUCEventArgumentDataset(MUCEventTriggerDataset):
 
         return examples
 
-    def evaluate_example(self, example: InputExample, output_sentence: str, model=None, tokenizer=None, log_file=None) -> Counter:
+    def evaluate_example(self, example: InputExample, output_sentence: str, model=None, tokenizer=None, log_file=None, trim_sep=False) -> Counter:
         """
         Evaluate an output sentence on a single example of this dataset.
         """
@@ -2163,7 +2165,8 @@ class MUCEventArgumentDataset(MUCEventTriggerDataset):
                 output_sentence,
                 entity_types=self.entity_types,
                 relation_types=self.relation_types,
-                log_file=log_file
+                log_file=log_file,
+                trim_sep=trim_sep
             )
 
         # filter relation tuples for argument classification
@@ -2202,7 +2205,7 @@ class MUCEventArgumentDataset(MUCEventTriggerDataset):
         #     'correct_relations_no_type': len(correct_relations_no_type),
         # })
 
-    def evaluate_dataset(self, data_args: DataTrainingArguments, model, device, batch_size: int, macro: bool = False, log_file: str = None) \
+    def evaluate_dataset(self, data_args: DataTrainingArguments, model, device, batch_size: int, macro: bool = False, log_file: str = None, trim_sep=False) \
             -> Dict[str, float]:
         """
         Evaluate model on this dataset.
@@ -2215,7 +2218,8 @@ class MUCEventArgumentDataset(MUCEventTriggerDataset):
                 example=example,
                 output_sentence=output_sentence,
                 tokenizer=self.tokenizer,
-                log_file=log_file
+                log_file=log_file,
+                trim_sep=trim_sep
             )
 
         """
@@ -2251,6 +2255,8 @@ class MUCEventArgumentDataset(MUCEventTriggerDataset):
 class MUCEventNoTrig(MUCEventArgumentDataset):
     name = 'mucevent_no_trig'
     data_name = 'mucevent_no_trig'
+
+    default_input_format = 'plain'
 
     def load_data_single_split(self, split: str, seed: int = None) -> List[InputExample]:
         """

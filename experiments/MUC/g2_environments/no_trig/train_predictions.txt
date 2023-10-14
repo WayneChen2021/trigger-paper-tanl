@@ -1,0 +1,1430 @@
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": []}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": []}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]]], "incident_type": ["bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": []}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": []}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": []}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": []}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": []}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [], "PerpOrg": [[["army of national liberation"]]], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]], [["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]], [["jairo ortega"]]], "incident_type": ["kidnapping", "kidnapping", "attack", "attack", "attack", "attack"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": []}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": []}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": []}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["kidnapping", "kidnapping", "attack"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": []}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]], [["guerilla column"]]], "PerpOrg": [[["army of national liberation"]]], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]], [["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["arson", "arson"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["rockets"]], [["dynamite"]], [["grenade rocket"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": []}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]], [["fmln"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [[["army of national liberation"]]], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]], [["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["( fmln"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["antioquia liqueur plant."]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [[["extraditables"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]], [["terrorists"]], [["terrorists"]]], "PerpOrg": [[["the farabundo marti national liberation front"]]], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["kidnapping", "kidnapping", "kidnapping", "kidnapping", "attack"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]], [["guerilla column"]]], "PerpOrg": [[["army of national liberation"]]], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]], [["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["kidnapping", "bombing", "kidnapping", "bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": []}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["rockets"]], [["dynamite"]], [["grenade rocket"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [[["extraditables"]]], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["kidnapping", "kidnapping", "attack"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [[["army of national liberation"]]], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["arson"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["rockets"]], [["castille crude"]], [["dynamite"]], [["grenade rocket"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [[["extraditables"]]], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]], [["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["kidnapping", "kidnapping", "kidnapping", "attack"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [[["rafael bustillo"]]], "incident_type": ["attack", "attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [[["army of national liberation"]]], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["arson", "arson"]}, {"PerpInd": [], "PerpOrg": [], "Target": [[["tank truck"]]], "Weapon": [], "Victim": [], "incident_type": ["arson"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["hector larios"]]], "incident_type": ["kidnapping"]}]}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["rockets"]], [["grenade rocket"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [[["the extraditables"]]], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]], [["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["kidnapping", "kidnapping", "kidnapping", "attack"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [[["rafael bustillo"]]], "incident_type": ["attack", "attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [[["army of national liberation"]]], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["bombing", "bombing", "bombing"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]], [["guerrilla column"]]], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]], [["guayabal residential area"]]], "Weapon": [[["rockets"]], [["dynamite"]], [["grenade rocket"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [[["extraditables"]]], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]], [["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["kidnapping", "kidnapping", "kidnapping", "attack"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [[["rafael bustillo"]]], "incident_type": ["attack", "attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["rockets"]], [["dynamite"]], [["grenade rocket"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [[["extraditables"]]], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [[["rafael bustillo"]]], "incident_type": ["attack", "attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [], "PerpOrg": [], "Target": [[["tank truck"]]], "Weapon": [], "Victim": [], "incident_type": ["arson"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["hector larios"]]], "incident_type": ["kidnapping"]}]}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["antioquia liqueur plant."]]], "Target": [], "Weapon": [[["rockets"]], [["dynamite"]], [["grenade rocket"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [[["extraditables"]]], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]], [["guerrilla column"]]], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["rockets"]], [["dynamite"]], [["grenade rocket"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]], [["guerrilla column"]]], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [[["members"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": []}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [[["the extraditables"]]], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [[["grenade rocket launchers."]]], "PerpOrg": [], "Target": [], "Weapon": [[["dynamite"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [[["rafael bustillo"]]], "incident_type": ["attack", "attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": []}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": []}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]], [["guerrilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [[["antioquia liqueur plant."]]], "Target": [], "Weapon": [[["rockets"]], [["dynamite"]], [["grenade rocket"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [[["the extraditables"]]], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front ( fmln )"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": []}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": []}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrilla column"]]], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": []}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [[["the extraditables"]]], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["rockets"]], [["grenade rocket"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["kidnapping", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrilla column"]]], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["rockets"]], [["grenade rocket"]], [["dynamite and grenade rocket launchers."]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [[["extraditables"]]], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["kidnapping", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrilla column"]]], "PerpOrg": [[["\" cerigua \" news agency"]]], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["rockets"]], [["grenade rocket"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [[["extraditables"]]], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrilla column"]]], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["rockets"]], [["grenade rocket"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]], [["guerrilla column"]]], "PerpOrg": [[["the guatemala army"]]], "Target": [[["\" santo tomas \" presidential farm"]], [["\" cerigua \" news agency"]]], "Weapon": [], "Victim": [], "incident_type": ["arson", "attack", "attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [[["members"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["an electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["dynamite"]], [["grenade rocket"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [[["the extraditables"]]], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrilla column"]]], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]], [["tanks"]]], "Weapon": [[["four powerful rockets"]], [["dynamite"]], [["grenade rocket"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [[["several individuals"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [[["members"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["grenade rocket"]]], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [[["several individuals"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]], [["guerrilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["dynamite"]], [["grenade rocket"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["rockets"]]], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [[["extraditables"]]], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["guerrilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["grenade rocket"]], [["dynamite and grenade rocket"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["rockets"]]], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [[["extraditables"]]], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]]], "incident_type": ["attack", "attack"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["antonio roldan betancur."]]], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [[["\" cerigua \" news agency"]]], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["rockets"]], [["grenade rocket"]], [["dynamite and grenade rocket"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["the farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["rockets"]], [["grenade rocket"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]], [["guerrilla column"]]], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack", "attack"]}, {"PerpInd": [], "PerpOrg": [], "Target": [[["tank truck"]]], "Weapon": [], "Victim": [], "incident_type": ["arson"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]], [["guerrilla column"]]], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["rockets"]], [["dynamite"]], [["grenade rocket"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [[["rafael bustillo"]]], "incident_type": ["attack", "attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]], [["guerrilla column"]]], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [[["members"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["rockets"]], [["grenade rocket"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [[["extraditables"]]], "Target": [[["white nissan patrol vehicle"]]], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]], [["waldemar franklin quintero"]]], "incident_type": ["attack", "attack", "attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["guerrilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [[["members"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["four powerful rockets"]], [["grenade rocket"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]]], "incident_type": ["attack"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["antonio roldan betancur."]]], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": [{"PerpInd": [[["unknown links"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["diego biafara"]]], "incident_type": ["bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [[["the guatemala army"]]], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack", "attack"]}, {"PerpInd": [[["guerrilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["four powerful rockets"]], [["dynamite"]], [["grenade rocket"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["waldemar franklin quintero"]]], "incident_type": ["attack", "attack"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["antonio roldan betancur."]]], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["hector larios"]]], "incident_type": ["kidnapping"]}]}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["rockets"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]]], "incident_type": ["attack"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["antonio roldan betancur."]]], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": []}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["hector larios"]]], "incident_type": ["kidnapping"]}]}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["rockets"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["grenade rocket"]]], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": [{"PerpInd": [[["ricardo mejia"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["hector larios"]], [["francisco jose guerrero"]]], "incident_type": ["kidnapping", "kidnapping", "kidnapping"]}]}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]], [["caribe soda factory"]], [["guayabal residential area"]]], "Weapon": [[["rockets"]], [["grenade rocket"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]]], "incident_type": ["attack"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["antonio roldan betancur."]]], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": [{"PerpInd": [[["ricardo mejia"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["hector larios"]], [["francisco jose guerrero"]]], "incident_type": ["kidnapping", "kidnapping", "kidnapping"]}]}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["powerful rockets"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["grenade rocket"]]], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [[["extraditables"]]], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["rockets"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["grenade rocket"]]], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]]], "incident_type": ["attack"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["antonio roldan betancur."]]], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["powerful rockets"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["grenade rocket"]]], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]]], "incident_type": ["attack"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["antonio roldan betancur."]]], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": [{"PerpInd": [[["ricardo mejia"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["hector larios"]], [["francisco jose guerrero"]]], "incident_type": ["kidnapping", "kidnapping", "kidnapping"]}]}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["powerful rockets"]], [["grenade rocket"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [[["the extraditables"]]], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["hector larios"]]], "incident_type": ["kidnapping"]}]}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["powerful rockets"]], [["grenade rocket"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": [{"PerpInd": [[["kidnappers."]], [["ricardo mejia"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["hector larios"]], [["francisco jose guerrero"]]], "incident_type": ["kidnapping", "kidnapping", "kidnapping", "kidnapping"]}]}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["powerful rockets"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["grenade rocket"]]], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["powerful rockets"]], [["dynamite"]], [["grenade rocket"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [[["members"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["hector larios"]], [["francisco jose guerrero"]]], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["rockets"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["grenade rocket"]]], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["hector larios"]], [["francisco jose guerrero"]]], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["powerful rockets"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["grenade rocket"]]], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": []}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["powerful rockets"]], [["grenade rocket"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["hector larios"]]], "incident_type": ["kidnapping"]}]}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["powerful rockets"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["grenade rocket"]]], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": []}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["powerful rockets"]], [["grenade rocket"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["rockets"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["grenade rocket"]]], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["four powerful rockets"]]], "Victim": [], "incident_type": ["bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["grenade rocket"]]], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["antonio roldan betancur."]]], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": []}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["powerful rockets"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["grenade rocket"]]], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["four powerful rockets"]]], "Victim": [], "incident_type": ["bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["grenade rocket"]]], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["antonio roldan betancur."]]], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": []}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["four powerful rockets"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["grenade rocket"]]], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["antonio roldan betancur."]]], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": []}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["dynamite"]], [["grenade rocket"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["antonio roldan betancur."]]], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": []}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["four powerful rockets"]]], "Victim": [], "incident_type": ["bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["grenade rocket"]]], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["antonio roldan betancur."]]], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["grenade rocket"]]], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["antonio roldan betancur."]]], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["grenade rocket"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["antonio roldan betancur."]]], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["grenade rocket"]]], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["antonio roldan betancur."]]], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["dynamite"]], [["grenade rocket"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [[["the extraditables"]]], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["grenade rocket"]]], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [[["the extraditables"]]], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["francisco jose guerrero"]]], "incident_type": ["kidnapping"]}]}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [[["grenade rocket"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [[["the extraditables"]]], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["francisco jose guerrero"]]], "incident_type": ["kidnapping"]}]}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["grenade rocket"]]], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [[["the extraditables"]]], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["grenade rocket"]]], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [[["the extraditables"]]], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": []}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["antonio roldan betancur."]]], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
+EVAL PART
+{"id": "DEV-MUC3-0001", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [[["rifle"]]], "Victim": [], "incident_type": ["attack", "attack"]}, {"PerpInd": [[["terrorists"]]], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
+{"id": "DEV-MUC3-0002", "templates": []}
+{"id": "DEV-MUC3-0003", "templates": []}
+{"id": "DEV-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [[["( air force"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "DEV-MUC3-0005", "templates": []}
+{"id": "DEV-MUC3-0006", "templates": []}
+{"id": "DEV-MUC3-0007", "templates": []}
+{"id": "DEV-MUC3-0008", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ricardo alfonso castellar"]]], "incident_type": ["kidnapping", "kidnapping"]}, {"PerpInd": [[["guerilla column"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos julio torrado"]], [["torrado 's son , william"]], [["gustavo jacome quintero"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
+{"id": "DEV-MUC3-0009", "templates": []}
+{"id": "DEV-MUC3-0010", "templates": []}
+TEST PART
+{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
+{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
+{"id": "TST1-MUC3-0003", "templates": []}
+{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["grenade rocket"]]], "Victim": [], "incident_type": ["bombing"]}]}
+{"id": "TST1-MUC3-0005", "templates": []}
+{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [[["the extraditables"]]], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack", "attack"]}]}
+{"id": "TST1-MUC3-0007", "templates": []}
+{"id": "TST1-MUC3-0008", "templates": []}
+{"id": "TST1-MUC3-0009", "templates": []}
+{"id": "TST1-MUC3-0010", "templates": []}
