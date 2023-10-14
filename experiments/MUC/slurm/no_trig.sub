@@ -20,7 +20,8 @@ TRAIN="../../../data/MUC/no_trig/no_trig.json"
 RUN="../run/no_trig.py"
 
 mkdir "../g2_environments/$ENV_NAME"
-cp -r "../../../original_scripts/." "../g2_environments/$ENV_NAME"
+cp -r "../../../original_scripts/MUC/." "../g2_environments/$ENV_NAME"
+cp "../../../original_scripts/*" "../g2_environments/$ENV_NAME"
 cp $TRAIN "../g2_environments/$ENV_NAME/data/mucevent_no_trig/mucevent_no_trig_train.json"
 cp $RUN "../g2_environments/$ENV_NAME/run.py"
 
