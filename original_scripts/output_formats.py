@@ -542,6 +542,10 @@ class EventOutputFormat(JointEROutputFormat):
             "victim": "Victim"
         }
         if log_file:
+            if len(raw_predicted_entities) > 2:
+                print(raw_predicted_entities)
+                print(1/0)
+
             trigs_to_args = {}
             for annotation in raw_predicted_entities:
                 if len(annotation[1]) == 2 and len(annotation[1][1]) == 2:

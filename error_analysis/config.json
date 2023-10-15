@@ -1,0 +1,50 @@
+{
+    "default": {
+        "test_time_logs": {
+            "run": true,
+            "raw_outs": {
+                "0": "../experiments/multi_task/g2_environments/heavy_weight/dev_predictions.txt"
+            },
+            "tanl_ref": "../../data/full_eval/tanl_eval.json",
+            "gtt_ref": "../../data/full_eval/gtt_eval.json",
+            "output_file": {
+                "0": "../experiments/multi_task/error_analysis_output/heavy_weight.out"
+            },
+            "error_analysis_script": "Error_Analysis.py"
+        },
+        "train_time_logs": {
+            "run": true,
+            "raw_outs": {
+                "0": "../experiments/multi_task/g2_environments/heavy_weight/train_predictions.txt"
+            },
+            "tanl_ref": [
+                "../../data/short_files/tanl_train.json",
+                "../../data/short_files/tanl_test.json"
+            ],
+            "gtt_ref": [
+                "../../data/short_files/gtt_train.json",
+                "../../data/short_files/gtt_test.json"
+            ],
+            "output_file": {
+                "0": [
+                    "../experiments/multi_task/training_errors/heavy_weight/train_template_errors.txt",
+                    "../experiments/multi_task/training_errors/heavy_weight/test_template_errors.txt"
+                ]
+            },
+            "error_analysis_script": "Error_Analysis_quick.py"
+        },
+        "training_errors": {
+            "run": true,
+            "log_file": {
+                "0": "../experiments/multi_task/g2_environments/heavy_weight/logs.json"
+            },
+            "output_file": {
+                "0": "../experiments/multi_task/training_errors/heavy_weight/graph.png"
+            },
+            "loss_collection_interval": 100,
+            "small_evaluation_interval": 500
+        },
+        "types_mapping": "types_mapping.json",
+        "mode": "default"
+    }
+}
