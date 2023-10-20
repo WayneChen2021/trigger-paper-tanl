@@ -7,3 +7,5 @@ experiments/MUC/g2_environments/no_trig/*
 !experiments/MUC/g2_environments/no_trig/train_predictions.txt
 !experiments/MUC/g2_environments/no_trig/dev_predictions.txt
 !experiments/MUC/g2_environments/no_trig/logs.json
+
+experiments/MUC/g2_environments/no_trig_

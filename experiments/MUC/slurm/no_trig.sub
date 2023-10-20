@@ -2,8 +2,6 @@
 #SBATCH -J no_trig                         # Job name
 #SBATCH -o ../g2_logs/no_trig.out                  # output file (%j expands to jobID)
 #SBATCH -e ../g2_logs/no_trig.err                  # error log file (%j expands to jobID)
-#SBATCH --mail-type=ALL                      # Request status by email 
-#SBATCH --mail-user=zc272@cornell.edu        # Email address to send results to.
 #SBATCH -N 1                                 # Total number of nodes requested
 #SBATCH -n 1                                 # Total number of cores requested
 #SBATCH --get-user-env                       # retrieve the users login environment
@@ -21,7 +19,7 @@ RUN="../run/no_trig.py"
 
 mkdir "../g2_environments/$ENV_NAME"
 cp -r "../../../original_scripts/MUC/." "../g2_environments/$ENV_NAME"
-cp "../../../original_scripts/*" "../g2_environments/$ENV_NAME"
+cp "../../../original_scripts/"* "../g2_environments/$ENV_NAME"
 cp $TRAIN "../g2_environments/$ENV_NAME/data/mucevent_no_trig/mucevent_no_trig_train.json"
 cp $RUN "../g2_environments/$ENV_NAME/run.py"
 

@@ -47,7 +47,8 @@ def load_dataset(
         is_eval: bool = False,
         same_input_output_trigs = False,
         mask_args_weight = None,
-        trim_sep = False
+        trim_sep = False,
+        meta_sent = False
 ):
     """
     Load a registered dataset.
@@ -65,7 +66,8 @@ def load_dataset(
         is_eval=is_eval,
         same_input_output_trigs=same_input_output_trigs,
         mask_args_weight=mask_args_weight,
-        trim_sep=trim_sep
+        trim_sep=trim_sep,
+        meta_sent = meta_sent
     )
 
 
@@ -2282,6 +2284,9 @@ class MUCEventNoTrig(MUCEventArgumentDataset):
                         id=j, type=self.entity_types[y['type']], start=y['start'], end=y['end'])
                     for j, y in enumerate(x['triggers'] if 'triggers' in x else x['first_phase']['triggers'])
                 ]
+                event_type_nums = [0] * 6
+                for i, trigger_type in enumerate(["attack", "bombing", "kidnapping", "robbery", "arson", "forced work stoppage"]):
+                    event_type_nums[i] = len([trig for trig in x['triggers'] if trigger_type in trig['type']])
 
                 relations = [
                     # the trigger is the tail, and the entity is the head
@@ -2299,7 +2304,8 @@ class MUCEventNoTrig(MUCEventArgumentDataset):
                     tokens=tokens,
                     entities=entities,
                     triggers=triggers,
-                    relations=relations
+                    relations=relations,
+                    event_type_numbers=event_type_nums
                 )
 
                 examples.append(example)

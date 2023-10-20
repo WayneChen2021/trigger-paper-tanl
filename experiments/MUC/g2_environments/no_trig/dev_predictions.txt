@@ -1,400 +1,1081 @@
-{"id": "TST1-MUC3-0001", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["\" santo tomas \" presidential farm"]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
-{"id": "TST1-MUC3-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["electric power substation."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
-{"id": "TST1-MUC3-0003", "templates": []}
-{"id": "TST1-MUC3-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["antioquia liqueur plant."]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["grenade rocket"]]], "Victim": [], "incident_type": ["bombing"]}]}
-{"id": "TST1-MUC3-0005", "templates": []}
-{"id": "TST1-MUC3-0006", "templates": [{"PerpInd": [], "PerpOrg": [[["the extraditables"]]], "Target": [], "Weapon": [], "Victim": [[["waldemar franklin quintero"]], [["antonio roldan betancur."]]], "incident_type": ["attack", "attack", "attack"]}]}
-{"id": "TST1-MUC3-0007", "templates": []}
-{"id": "TST1-MUC3-0008", "templates": []}
-{"id": "TST1-MUC3-0009", "templates": []}
-{"id": "TST1-MUC3-0010", "templates": []}
-{"id": "TST1-MUC3-0011", "templates": []}
-{"id": "TST1-MUC3-0012", "templates": []}
-{"id": "TST1-MUC3-0013", "templates": []}
-{"id": "TST1-MUC3-0014", "templates": []}
-{"id": "TST1-MUC3-0015", "templates": []}
-{"id": "TST1-MUC3-0016", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["houses"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}]}
-{"id": "TST1-MUC3-0017", "templates": []}
-{"id": "TST1-MUC3-0018", "templates": [{"PerpInd": [[["unidentified individuals"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["hector oqueli colindres."]], [["hilda flores"]]], "incident_type": ["kidnapping", "kidnapping", "kidnapping"]}]}
-{"id": "TST1-MUC3-0019", "templates": []}
-{"id": "TST1-MUC3-0020", "templates": []}
-{"id": "TST1-MUC3-0021", "templates": []}
-{"id": "TST1-MUC3-0022", "templates": []}
-{"id": "TST1-MUC3-0023", "templates": []}
-{"id": "TST1-MUC3-0024", "templates": [{"PerpInd": [[["terrorists abroad"]]], "PerpOrg": [], "Target": [[["building that houses the administrative department of security"]], [["bus"]], [["headquarters of the country 's principal security organization."]]], "Weapon": [[["car bomb"]], [["dynamite gel"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing", "bombing", "bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["car bomb"]]], "Victim": [], "incident_type": ["bombing"]}]}
-{"id": "TST1-MUC3-0025", "templates": []}
-{"id": "TST1-MUC3-0026", "templates": []}
-{"id": "TST1-MUC3-0027", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["bomb"]]], "Victim": [[["jaime paz zamora"]]], "incident_type": ["bombing", "bombing"]}]}
-{"id": "TST1-MUC3-0028", "templates": []}
-{"id": "TST1-MUC3-0029", "templates": []}
-{"id": "TST1-MUC3-0030", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos galan"]]], "incident_type": ["attack"]}]}
-{"id": "TST1-MUC3-0031", "templates": []}
-{"id": "TST1-MUC3-0032", "templates": []}
-{"id": "TST1-MUC3-0033", "templates": []}
-{"id": "TST1-MUC3-0034", "templates": []}
-{"id": "TST1-MUC3-0035", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["electrical system."]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
-{"id": "TST1-MUC3-0036", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["homemade bomb"]]], "Victim": [], "incident_type": ["bombing"]}]}
-{"id": "TST1-MUC3-0037", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["grenade"]]], "Victim": [[["erika sullivan"]], [["christopher anderson"]]], "incident_type": ["attack", "attack", "bombing"]}]}
-{"id": "TST1-MUC3-0038", "templates": []}
-{"id": "TST1-MUC3-0039", "templates": [{"PerpInd": [[["two individuals"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
-{"id": "TST1-MUC3-0040", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["luis carlos galan"]]], "incident_type": ["bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [[["installations of \" el espectador \" newspaper"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["car bomb"]]], "Victim": [], "incident_type": ["bombing"]}]}
-{"id": "TST1-MUC3-0041", "templates": [{"PerpInd": [], "PerpOrg": [[["( fmln"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
-{"id": "TST1-MUC3-0042", "templates": []}
-{"id": "TST1-MUC3-0043", "templates": []}
-{"id": "TST1-MUC3-0044", "templates": []}
-{"id": "TST1-MUC3-0045", "templates": [{"PerpInd": [], "PerpOrg": [[["armed forces"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
-{"id": "TST1-MUC3-0046", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [[["( fmln"]]], "Target": [], "Weapon": [], "Victim": [[["mauricio gutierrez castro."]]], "incident_type": ["attack", "attack", "attack"]}]}
-{"id": "TST1-MUC3-0047", "templates": []}
-{"id": "TST1-MUC3-0048", "templates": []}
-{"id": "TST1-MUC3-0049", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["a power substation"]], [["power pylon"]]], "Weapon": [], "Victim": [[["bernardo jaramillo ossa"]]], "incident_type": ["attack", "bombing", "bombing"]}]}
-{"id": "TST1-MUC3-0050", "templates": [{"PerpInd": [[["men wearing military uniforms."]]], "PerpOrg": [[["military"]]], "Target": [], "Weapon": [], "Victim": [[["ignacio ellacuria"]]], "incident_type": ["attack", "attack", "attack"]}]}
-{"id": "TST1-MUC3-0051", "templates": []}
-{"id": "TST1-MUC3-0052", "templates": []}
-{"id": "TST1-MUC3-0053", "templates": []}
-{"id": "TST1-MUC3-0054", "templates": []}
-{"id": "TST1-MUC3-0055", "templates": []}
-{"id": "TST1-MUC3-0056", "templates": [{"PerpInd": [[["guerrilla"]]], "PerpOrg": [], "Target": [[["president 's residence"]], [["central electoral council"]]], "Weapon": [], "Victim": [[["jose alfonso chavez"]]], "incident_type": ["attack", "attack", "attack", "attack"]}]}
-{"id": "TST1-MUC3-0057", "templates": []}
-{"id": "TST1-MUC3-0058", "templates": []}
-{"id": "TST1-MUC3-0059", "templates": [{"PerpInd": [], "PerpOrg": [[["( fmln"]]], "Target": [], "Weapon": [], "Victim": [[["jose antonio rodriguez porth"]]], "incident_type": ["attack", "attack"]}]}
-{"id": "TST1-MUC3-0060", "templates": []}
-{"id": "TST1-MUC3-0061", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["jaime pardo leal"]]], "incident_type": ["attack"]}]}
-{"id": "TST1-MUC3-0062", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["luis mesa puerta"]]], "incident_type": ["kidnapping"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["dynamite"]]], "Victim": [], "incident_type": ["kidnapping"]}]}
-{"id": "TST1-MUC3-0063", "templates": []}
-{"id": "TST1-MUC3-0064", "templates": []}
-{"id": "TST1-MUC3-0065", "templates": []}
-{"id": "TST1-MUC3-0066", "templates": []}
-{"id": "TST1-MUC3-0067", "templates": []}
-{"id": "TST1-MUC3-0068", "templates": [{"PerpInd": [[["uniformed individuals"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
-{"id": "TST1-MUC3-0069", "templates": [{"PerpInd": [], "PerpOrg": [[["armed forces"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
-{"id": "TST1-MUC3-0070", "templates": []}
-{"id": "TST1-MUC3-0071", "templates": [{"PerpInd": [[["group of terrorists"]]], "PerpOrg": [[["( fal"]]], "Target": [[["lines providing power to la paz"]]], "Weapon": [[["dynamite"]], [["machinegun"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing", "attack"]}]}
-{"id": "TST1-MUC3-0072", "templates": []}
-{"id": "TST1-MUC3-0073", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [[["\" citicorp \" financial company offices"]], [["chilean-u.s. cultural institutes"]]], "Weapon": [[["bomb"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
-{"id": "TST1-MUC3-0074", "templates": []}
-{"id": "TST1-MUC3-0075", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["dagoberto rodriguez"]], [["alfonso de lima"]]], "incident_type": ["attack", "attack"]}]}
-{"id": "TST1-MUC3-0076", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["stela torrado de otalora"]], [["jairo otalora"]]], "incident_type": ["attack", "attack"]}]}
-{"id": "TST1-MUC3-0077", "templates": []}
-{"id": "TST1-MUC3-0078", "templates": []}
-{"id": "TST1-MUC3-0079", "templates": []}
-{"id": "TST1-MUC3-0080", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["federico estrada velez"]]], "incident_type": ["kidnapping"]}]}
-{"id": "TST1-MUC3-0081", "templates": []}
-{"id": "TST1-MUC3-0082", "templates": []}
-{"id": "TST1-MUC3-0083", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["oscar arnulfo romero."]]], "incident_type": ["attack"]}]}
-{"id": "TST1-MUC3-0084", "templates": []}
-{"id": "TST1-MUC3-0085", "templates": []}
-{"id": "TST1-MUC3-0086", "templates": []}
-{"id": "TST1-MUC3-0087", "templates": [{"PerpInd": [[["men wearing military uniforms"]]], "PerpOrg": [[["military"]]], "Target": [], "Weapon": [], "Victim": [[["guillermo ungo"]]], "incident_type": ["attack", "attack", "attack"]}]}
-{"id": "TST1-MUC3-0088", "templates": []}
-{"id": "TST1-MUC3-0089", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [[["route 302 bus"]]], "Weapon": [], "Victim": [], "incident_type": ["arson", "arson"]}, {"PerpInd": [[["criminal terrorists"]]], "PerpOrg": [], "Target": [[["vehicles."]]], "Weapon": [], "Victim": [], "incident_type": ["arson", "arson"]}]}
-{"id": "TST1-MUC3-0090", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["power tower"]]], "Weapon": [[["bomb"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
-{"id": "TST1-MUC3-0091", "templates": []}
-{"id": "TST1-MUC3-0092", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["pylons"]], [["transformers"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
-{"id": "TST1-MUC3-0093", "templates": []}
-{"id": "TST1-MUC3-0094", "templates": []}
-{"id": "TST1-MUC3-0095", "templates": []}
-{"id": "TST1-MUC3-0096", "templates": []}
-{"id": "TST1-MUC3-0097", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["nicaraguan embassy"]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
-{"id": "TST1-MUC3-0098", "templates": []}
-{"id": "TST1-MUC3-0099", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [[["embassies of the prc"]], [["soviet union."]], [["prc embassy"]]], "Weapon": [[["car-bomb"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing", "bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [[["ussr embassy vehicle"]]], "Weapon": [[["bombs"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
-{"id": "TST1-MUC3-0100", "templates": []}
-{"id": "TST2-MUC4-0001", "templates": []}
-{"id": "TST2-MUC4-0002", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["salvadoran consulate"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}]}
-{"id": "TST2-MUC4-0003", "templates": [{"PerpInd": [[["ruth esperanza aguilar marroquin"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping"]}]}
-{"id": "TST2-MUC4-0004", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["american embassy"]]], "Weapon": [[["dynamite charge"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
-{"id": "TST2-MUC4-0005", "templates": []}
-{"id": "TST2-MUC4-0006", "templates": []}
-{"id": "TST2-MUC4-0007", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [[["drug cartel"]]], "Target": [[["public buses"]], [["houses"]], [["businesses."]]], "Weapon": [[["car bomb"]], [["300 kg of dynamite"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing", "bombing", "bombing", "bombing"]}]}
-{"id": "TST2-MUC4-0008", "templates": []}
-{"id": "TST2-MUC4-0009", "templates": []}
-{"id": "TST2-MUC4-0010", "templates": []}
-{"id": "TST2-MUC4-0011", "templates": [{"PerpInd": [], "PerpOrg": [[["army"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
-{"id": "TST2-MUC4-0012", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["jecar neghme"]]], "incident_type": ["attack"]}]}
-{"id": "TST2-MUC4-0013", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["automatic weapons."]]], "Victim": [], "incident_type": ["attack"]}]}
-{"id": "TST2-MUC4-0014", "templates": []}
-{"id": "TST2-MUC4-0015", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["bank branch offices"]], [["banco cafetero branches"]]], "Weapon": [[["explosives"]], [["dynamite"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
-{"id": "TST2-MUC4-0016", "templates": []}
-{"id": "TST2-MUC4-0017", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["federal police building"]]], "Weapon": [[["truck-bomb"]], [["dynamite"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
-{"id": "TST2-MUC4-0018", "templates": []}
-{"id": "TST2-MUC4-0019", "templates": [{"PerpInd": [], "PerpOrg": [[["( fmln"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
-{"id": "TST2-MUC4-0020", "templates": []}
-{"id": "TST2-MUC4-0021", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["electricity poles"]]], "Weapon": [[["dynamite"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
-{"id": "TST2-MUC4-0022", "templates": []}
-{"id": "TST2-MUC4-0023", "templates": []}
-{"id": "TST2-MUC4-0024", "templates": []}
-{"id": "TST2-MUC4-0025", "templates": [{"PerpInd": [[["uniformed men"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["ignacio ellacuria"]]], "incident_type": ["attack", "attack"]}]}
-{"id": "TST2-MUC4-0026", "templates": [{"PerpInd": [[["john jairo arias tascon."]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos pizarro"]], [["bernardo jaramillo"]]], "incident_type": ["attack", "attack", "attack"]}]}
-{"id": "TST2-MUC4-0027", "templates": []}
-{"id": "TST2-MUC4-0028", "templates": []}
-{"id": "TST2-MUC4-0029", "templates": []}
-{"id": "TST2-MUC4-0030", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["san carlos service station"]]], "Weapon": [[["bullet"]]], "Victim": [[["jose felix aguirre"]]], "incident_type": ["attack", "attack", "attack"]}]}
-{"id": "TST2-MUC4-0031", "templates": []}
-{"id": "TST2-MUC4-0032", "templates": [{"PerpInd": [[["medellin cartel boss"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["bernardo jaramillo ossa"]]], "incident_type": ["attack", "attack"]}]}
-{"id": "TST2-MUC4-0033", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["francisco jose guerrero."]]], "incident_type": ["attack", "attack"]}]}
-{"id": "TST2-MUC4-0034", "templates": []}
-{"id": "TST2-MUC4-0035", "templates": []}
-{"id": "TST2-MUC4-0036", "templates": []}
-{"id": "TST2-MUC4-0037", "templates": []}
-{"id": "TST2-MUC4-0038", "templates": []}
-{"id": "TST2-MUC4-0039", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [[["eln"]]], "Target": [], "Weapon": [], "Victim": [[["david lecky"]], [["james arthur donnelly."]]], "incident_type": ["kidnapping", "kidnapping", "kidnapping", "kidnapping"]}, {"PerpInd": [[["nelson mandela cell"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping"]}]}
-{"id": "TST2-MUC4-0040", "templates": []}
-{"id": "TST2-MUC4-0041", "templates": []}
-{"id": "TST2-MUC4-0042", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["gonzalo rodriguez gacha."]]], "incident_type": ["attack"]}]}
-{"id": "TST2-MUC4-0043", "templates": []}
-{"id": "TST2-MUC4-0044", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [[["drug trafficking gangs"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
-{"id": "TST2-MUC4-0045", "templates": []}
-{"id": "TST2-MUC4-0046", "templates": []}
-{"id": "TST2-MUC4-0047", "templates": []}
-{"id": "TST2-MUC4-0048", "templates": [{"PerpInd": [[["guerrillas"]], [["urban guerrillas"]], [["\" alfredo cristiani"]]], "PerpOrg": [[["farabundo marti national liberation front"]], [["( fmln"]]], "Target": [[["vehicle"]]], "Weapon": [], "Victim": [[["roberto garcia alvarado"]], [["ricardo valdivieso"]], [["jose napoleon duarte"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing", "bombing", "bombing", "bombing", "bombing", "bombing"]}]}
-{"id": "TST2-MUC4-0049", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["car bomb"]]], "Victim": [], "incident_type": ["bombing"]}]}
-{"id": "TST2-MUC4-0050", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["jorge adolfo vargas gonzalez"]]], "incident_type": ["attack"]}]}
-{"id": "TST2-MUC4-0051", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["luis carlos galan sarmiento"]]], "incident_type": ["attack"]}]}
-{"id": "TST2-MUC4-0052", "templates": []}
-{"id": "TST2-MUC4-0053", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos andres perez"]], [["norberto rodriguez"]]], "incident_type": ["kidnapping", "kidnapping"]}]}
-{"id": "TST2-MUC4-0054", "templates": [{"PerpInd": [], "PerpOrg": [[["armed forces"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
-{"id": "TST2-MUC4-0055", "templates": [{"PerpInd": [[["commando"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["hector delgado parker"]]], "incident_type": ["kidnapping", "kidnapping"]}]}
-{"id": "TST2-MUC4-0056", "templates": []}
-{"id": "TST2-MUC4-0057", "templates": []}
-{"id": "TST2-MUC4-0058", "templates": []}
-{"id": "TST2-MUC4-0059", "templates": [{"PerpInd": [[["drug traffickers"]]], "PerpOrg": [], "Target": [[["bank"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing", "bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [[["branch of the city 's electric energy enterprise"]], [["residences"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
-{"id": "TST2-MUC4-0060", "templates": []}
-{"id": "TST2-MUC4-0061", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["home"]], [["newspaper el siglo 's facilities."]]], "Weapon": [], "Victim": [[["sergeant carlos julio bonilla"]]], "incident_type": ["attack", "attack", "attack"]}]}
-{"id": "TST2-MUC4-0062", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["roberto santana rojas"]]], "incident_type": ["attack"]}]}
-{"id": "TST2-MUC4-0063", "templates": [{"PerpInd": [[["urban guerrillas"]]], "PerpOrg": [], "Target": [[["power substation"]], [["( cel"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack", "attack"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["rockets."]]], "Victim": [], "incident_type": ["attack"]}]}
-{"id": "TST2-MUC4-0064", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["monica de greiff"]]], "incident_type": ["attack"]}]}
-{"id": "TST2-MUC4-0065", "templates": []}
-{"id": "TST2-MUC4-0066", "templates": []}
-{"id": "TST2-MUC4-0067", "templates": []}
-{"id": "TST2-MUC4-0068", "templates": []}
-{"id": "TST2-MUC4-0069", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["bank"]], [["fast-food restaurant."]]], "Weapon": [[["load of dynamite"]], [["bomb"]], [["medium-sized bomb"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing", "bombing"]}]}
-{"id": "TST2-MUC4-0070", "templates": []}
-{"id": "TST2-MUC4-0071", "templates": []}
-{"id": "TST2-MUC4-0072", "templates": []}
-{"id": "TST2-MUC4-0073", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["oscar arnulfo romero"]]], "incident_type": ["attack"]}]}
-{"id": "TST2-MUC4-0074", "templates": []}
-{"id": "TST2-MUC4-0075", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["offices of the salvadoran workers national union federation"]]], "Weapon": [[["car bomb"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
-{"id": "TST2-MUC4-0076", "templates": [{"PerpInd": [[["unidentified persons"]]], "PerpOrg": [], "Target": [], "Weapon": [[["incendiary bomb"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
-{"id": "TST2-MUC4-0077", "templates": [{"PerpInd": [], "PerpOrg": [[["( mrta"]]], "Target": [], "Weapon": [], "Victim": [[["carlos enrique ferreyros"]]], "incident_type": ["kidnapping", "kidnapping"]}]}
-{"id": "TST2-MUC4-0078", "templates": []}
-{"id": "TST2-MUC4-0079", "templates": []}
-{"id": "TST2-MUC4-0080", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["vehicles"]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
-{"id": "TST2-MUC4-0081", "templates": [{"PerpInd": [[["unidentified persons"]]], "PerpOrg": [], "Target": [], "Weapon": [[["11 bombs"]]], "Victim": [[["monica de greiff"]], [["monica de greiff"]]], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
-{"id": "TST2-MUC4-0082", "templates": []}
-{"id": "TST2-MUC4-0083", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}]}
-{"id": "TST2-MUC4-0084", "templates": []}
-{"id": "TST2-MUC4-0085", "templates": []}
-{"id": "TST2-MUC4-0086", "templates": []}
-{"id": "TST2-MUC4-0087", "templates": []}
-{"id": "TST2-MUC4-0088", "templates": []}
-{"id": "TST2-MUC4-0089", "templates": []}
-{"id": "TST2-MUC4-0090", "templates": []}
-{"id": "TST2-MUC4-0091", "templates": []}
-{"id": "TST2-MUC4-0092", "templates": []}
-{"id": "TST2-MUC4-0093", "templates": []}
-{"id": "TST2-MUC4-0094", "templates": []}
-{"id": "TST2-MUC4-0095", "templates": []}
-{"id": "TST2-MUC4-0096", "templates": [{"PerpInd": [], "PerpOrg": [[["mrta hit squad"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
-{"id": "TST2-MUC4-0097", "templates": []}
-{"id": "TST2-MUC4-0098", "templates": []}
-{"id": "TST2-MUC4-0099", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [[["army of national liberation"]]], "Target": [[["cano limon-covenas oil pipeline"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
-{"id": "TST2-MUC4-0100", "templates": [{"PerpInd": [[["colombian army of national liberation guerrillas."]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos marcelo"]]], "incident_type": ["kidnapping", "kidnapping"]}]}
-{"id": "TST3-MUC4-0001", "templates": []}
-{"id": "TST3-MUC4-0002", "templates": [{"PerpInd": [], "PerpOrg": [[["military"]], [["armed forces"]]], "Target": [], "Weapon": [], "Victim": [[["oscar alfredo santamaria"]]], "incident_type": ["attack", "attack", "attack"]}]}
-{"id": "TST3-MUC4-0003", "templates": [{"PerpInd": [[["gerardo olivos silva"]]], "PerpOrg": [[["shining path."]]], "Target": [], "Weapon": [], "Victim": [[["enrique lopez albujar trint"]]], "incident_type": ["attack", "attack", "attack"]}]}
-{"id": "TST3-MUC4-0004", "templates": []}
-{"id": "TST3-MUC4-0005", "templates": [{"PerpInd": [[["heavily armed men"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["hector oqueli colindres"]], [["gilda flores"]]], "incident_type": ["kidnapping", "kidnapping", "kidnapping"]}]}
-{"id": "TST3-MUC4-0006", "templates": [{"PerpInd": [[["heavily armed men in civilian clothes"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["hector oqueli"]], [["gilda flores"]]], "incident_type": ["kidnapping", "kidnapping", "kidnapping"]}]}
-{"id": "TST3-MUC4-0007", "templates": []}
-{"id": "TST3-MUC4-0008", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["sentry post"]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
-{"id": "TST3-MUC4-0009", "templates": []}
-{"id": "TST3-MUC4-0010", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["committee of mothers of political prisoners"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}]}
-{"id": "TST3-MUC4-0011", "templates": [{"PerpInd": [[["members of the manuel gustavo chacon sovereignty operation"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping"]}]}
-{"id": "TST3-MUC4-0012", "templates": []}
-{"id": "TST3-MUC4-0013", "templates": []}
-{"id": "TST3-MUC4-0014", "templates": [{"PerpInd": [], "PerpOrg": [[["shining path"]]], "Target": [], "Weapon": [[["bomb"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
-{"id": "TST3-MUC4-0015", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["mauricio pineda"]], [["roberto navas"]]], "incident_type": ["attack", "attack"]}]}
-{"id": "TST3-MUC4-0016", "templates": []}
-{"id": "TST3-MUC4-0017", "templates": [{"PerpInd": [[["unidentified individuals"]]], "PerpOrg": [[["( fmln"]]], "Target": [], "Weapon": [[["three explosive devices"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
-{"id": "TST3-MUC4-0018", "templates": [{"PerpInd": [[["guerrillas"]], [["at least six fmln guerrillas"]]], "PerpOrg": [], "Target": [[["1st infantry brigade garrison"]], [["national police station"]], [["power poles"]], [["transformers."]]], "Weapon": [[["rpg-18 rocket"]]], "Victim": [], "incident_type": ["attack", "attack", "attack", "attack", "attack", "attack", "attack"]}]}
-{"id": "TST3-MUC4-0019", "templates": []}
-{"id": "TST3-MUC4-0020", "templates": []}
-{"id": "TST3-MUC4-0021", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["jose antonio rodriguez porth"]]], "incident_type": ["attack"]}]}
-{"id": "TST3-MUC4-0022", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["dolores hinostroza"]]], "incident_type": ["attack"]}]}
-{"id": "TST3-MUC4-0023", "templates": []}
-{"id": "TST3-MUC4-0024", "templates": [{"PerpInd": [[["unidentified terrorists"]]], "PerpOrg": [], "Target": [[["oil pipeline"]], [["vina-puerto salgar oil pipeline"]]], "Weapon": [[["dynamite"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
-{"id": "TST3-MUC4-0025", "templates": []}
-{"id": "TST3-MUC4-0026", "templates": []}
-{"id": "TST3-MUC4-0027", "templates": [{"PerpInd": [[["unidentified individuals"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["danilo barillas"]]], "incident_type": ["attack", "attack"]}]}
-{"id": "TST3-MUC4-0028", "templates": []}
-{"id": "TST3-MUC4-0029", "templates": []}
-{"id": "TST3-MUC4-0030", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos valencia"]], [["maria elena diaz."]]], "incident_type": ["attack", "attack"]}]}
-{"id": "TST3-MUC4-0031", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos valencia"]]], "incident_type": ["attack"]}]}
-{"id": "TST3-MUC4-0032", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["luis carlos galan"]]], "incident_type": ["attack"]}]}
-{"id": "TST3-MUC4-0033", "templates": []}
-{"id": "TST3-MUC4-0034", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["luis carlos galan"]]], "incident_type": ["attack"]}]}
-{"id": "TST3-MUC4-0035", "templates": []}
-{"id": "TST3-MUC4-0036", "templates": []}
-{"id": "TST3-MUC4-0037", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["bank branches"]], [["state-owned agrarian board"]], [["agrarian board branch"]], [["stores"]]], "Weapon": [[["bomb"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing", "bombing"]}]}
-{"id": "TST3-MUC4-0038", "templates": []}
-{"id": "TST3-MUC4-0039", "templates": []}
-{"id": "TST3-MUC4-0040", "templates": [{"PerpInd": [], "PerpOrg": [[["drug trafficking cartels"]]], "Target": [[["bank offices"]], [["banco de occidente branch"]], [["banco popular branch"]], [["political offices of the liberal and social conservative parties"]], [["bank office"]]], "Weapon": [[["bombs"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing", "bombing", "bombing", "bombing"]}]}
-{"id": "TST3-MUC4-0041", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["old station wagon."]]], "Weapon": [[["car bomb"]], [["dynamite."]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
-{"id": "TST3-MUC4-0042", "templates": []}
-{"id": "TST3-MUC4-0043", "templates": []}
-{"id": "TST3-MUC4-0044", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["ricardo rojas cultural center"]]], "Weapon": [[["bomb"]]], "Victim": [[["raul alfonsin"]]], "incident_type": ["bombing", "bombing", "bombing"]}]}
-{"id": "TST3-MUC4-0045", "templates": []}
-{"id": "TST3-MUC4-0046", "templates": [{"PerpInd": [[["gunmen"]], [["two men"]]], "PerpOrg": [[["\" the extraditables"]], [["medellin cartel"]]], "Target": [], "Weapon": [], "Victim": [[["miguel soler rodriguez"]], [["martha luz lopez"]], [["martha lopez orozco de lopez"]]], "incident_type": ["attack", "attack", "attack", "attack", "attack", "attack", "attack"]}]}
-{"id": "TST3-MUC4-0047", "templates": []}
-{"id": "TST3-MUC4-0048", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["diana mack ortiz"]], [["patricia denny"]]], "incident_type": ["kidnapping", "kidnapping"]}]}
-{"id": "TST3-MUC4-0049", "templates": []}
-{"id": "TST3-MUC4-0050", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [[["bomb"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
-{"id": "TST3-MUC4-0051", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["monica de greiff."]]], "incident_type": ["attack"]}]}
-{"id": "TST3-MUC4-0052", "templates": []}
-{"id": "TST3-MUC4-0053", "templates": []}
-{"id": "TST3-MUC4-0054", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["residence of the legislative assembly president"]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}, {"PerpInd": [], "PerpOrg": [], "Target": [[["central elections council"]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}, {"PerpInd": [], "PerpOrg": [], "Target": [[["private residence."]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
-{"id": "TST3-MUC4-0055", "templates": []}
-{"id": "TST3-MUC4-0056", "templates": []}
-{"id": "TST3-MUC4-0057", "templates": []}
-{"id": "TST3-MUC4-0058", "templates": []}
-{"id": "TST3-MUC4-0059", "templates": []}
-{"id": "TST3-MUC4-0060", "templates": [{"PerpInd": [], "PerpOrg": [[["salvadoran armed forces"]]], "Target": [[["residence of the priests"]]], "Weapon": [], "Victim": [[["julia ramos"]], [["elva ramos."]]], "incident_type": ["attack", "attack", "attack", "attack"]}]}
-{"id": "TST3-MUC4-0061", "templates": []}
-{"id": "TST3-MUC4-0062", "templates": []}
-{"id": "TST3-MUC4-0063", "templates": []}
-{"id": "TST3-MUC4-0064", "templates": []}
-{"id": "TST3-MUC4-0065", "templates": []}
-{"id": "TST3-MUC4-0066", "templates": [{"PerpInd": [], "PerpOrg": [[["( fmln"]], [["extreme right death squads"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
-{"id": "TST3-MUC4-0067", "templates": []}
-{"id": "TST3-MUC4-0068", "templates": []}
-{"id": "TST3-MUC4-0069", "templates": []}
-{"id": "TST3-MUC4-0070", "templates": []}
-{"id": "TST3-MUC4-0071", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["electricity posts"]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
-{"id": "TST3-MUC4-0072", "templates": []}
-{"id": "TST3-MUC4-0073", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["headquarters of colombia 's secret police wednesday"]]], "Weapon": [[["bomb"]]], "Victim": [[["andres pastrana"]]], "incident_type": ["bombing", "bombing", "bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [[["nearby offices of the bogota transportation department"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}]}
-{"id": "TST3-MUC4-0074", "templates": [{"PerpInd": [], "PerpOrg": [[["fmln"]]], "Target": [], "Weapon": [[["dynamite"]]], "Victim": [[["fenastras ( salvadoran workers national union federation ) had ignited the people 's spirits."]]], "incident_type": ["bombing", "bombing", "bombing"]}]}
-{"id": "TST3-MUC4-0075", "templates": []}
-{"id": "TST3-MUC4-0076", "templates": []}
-{"id": "TST3-MUC4-0077", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["gonzalo rodriguez gacha"]], [["freddy"]]], "incident_type": ["attack", "attack"]}]}
-{"id": "TST3-MUC4-0078", "templates": [{"PerpInd": [[["chileans"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["abilio diniz"]]], "incident_type": ["kidnapping", "kidnapping"]}]}
-{"id": "TST3-MUC4-0079", "templates": []}
-{"id": "TST3-MUC4-0080", "templates": []}
-{"id": "TST3-MUC4-0081", "templates": []}
-{"id": "TST3-MUC4-0082", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["bernardo jaramillo ossa"]]], "incident_type": ["bombing"]}]}
-{"id": "TST3-MUC4-0083", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["hector oqueli"]]], "incident_type": ["attack"]}]}
-{"id": "TST3-MUC4-0084", "templates": [{"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["store"]], [["public bus."]]], "Weapon": [], "Victim": [], "incident_type": ["bombing", "arson", "bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [[["electrical appliance store"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}]}
-{"id": "TST3-MUC4-0085", "templates": []}
-{"id": "TST3-MUC4-0086", "templates": []}
-{"id": "TST3-MUC4-0087", "templates": []}
-{"id": "TST3-MUC4-0088", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["power system"]], [["electricity."]]], "Weapon": [], "Victim": [], "incident_type": ["kidnapping", "kidnapping"]}]}
-{"id": "TST3-MUC4-0089", "templates": []}
-{"id": "TST3-MUC4-0090", "templates": []}
-{"id": "TST3-MUC4-0091", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["9 mm semiautomatic pistols."]]], "Victim": [[["gustavo leigh guzman"]], [["enrique ruiz"]]], "incident_type": ["attack", "attack", "attack"]}]}
-{"id": "TST3-MUC4-0092", "templates": []}
-{"id": "TST3-MUC4-0093", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["bernardo jaramillo."]]], "incident_type": ["attack"]}]}
-{"id": "TST3-MUC4-0094", "templates": [{"PerpInd": [[["terrorists"]], [["fmln-fdr members"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["mauricio campos"]], [["concepcion herrera"]], [["manuel alvaro mendoza"]]], "incident_type": ["attack", "attack", "attack", "attack", "kidnapping"]}]}
-{"id": "TST3-MUC4-0095", "templates": []}
-{"id": "TST3-MUC4-0096", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos pizarro leongomez."]]], "incident_type": ["attack"]}]}
-{"id": "TST3-MUC4-0097", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["houses"]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
-{"id": "TST3-MUC4-0098", "templates": []}
-{"id": "TST3-MUC4-0099", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [[["electric poles"]], [["power pylons"]], [["cel sub-station"]]], "Weapon": [[["mortars"]], [["rifles"]]], "Victim": [], "incident_type": ["attack", "attack", "attack", "attack", "attack", "attack"]}, {"PerpInd": [], "PerpOrg": [[["farabundo marti national liberation front"]]], "Target": [[["transformer."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
-{"id": "TST3-MUC4-0100", "templates": []}
-{"id": "TST4-MUC4-0001", "templates": [{"PerpInd": [[["unidentified individuals"]]], "PerpOrg": [], "Target": [[["mormon church"]], [["chapel of the church of jesus christ of latter-day saints"]]], "Weapon": [[["bomb"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
-{"id": "TST4-MUC4-0002", "templates": []}
-{"id": "TST4-MUC4-0003", "templates": []}
-{"id": "TST4-MUC4-0004", "templates": [{"PerpInd": [[["felipe sandoval"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping"]}]}
-{"id": "TST4-MUC4-0005", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["aminta platero"]]], "incident_type": ["attack"]}]}
-{"id": "TST4-MUC4-0006", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["electric tower"]]], "Weapon": [], "Victim": [[["alexander molina granados"]]], "incident_type": ["attack", "bombing"]}]}
-{"id": "TST4-MUC4-0007", "templates": []}
-{"id": "TST4-MUC4-0008", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["private property"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}]}
-{"id": "TST4-MUC4-0009", "templates": []}
-{"id": "TST4-MUC4-0010", "templates": [{"PerpInd": [[["unidentified individuals"]]], "PerpOrg": [], "Target": [[["national vanguard offices"]]], "Weapon": [[["bomb"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
-{"id": "TST4-MUC4-0011", "templates": []}
-{"id": "TST4-MUC4-0012", "templates": []}
-{"id": "TST4-MUC4-0013", "templates": [{"PerpInd": [[["amado antonio garay reyes"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["oscar arnulfo romero"]]], "incident_type": ["attack", "attack"]}]}
-{"id": "TST4-MUC4-0014", "templates": []}
-{"id": "TST4-MUC4-0015", "templates": []}
-{"id": "TST4-MUC4-0016", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["bombs"]]], "Victim": [], "incident_type": ["bombing"]}, {"PerpInd": [[["urban guerrillas."]]], "PerpOrg": [[["fmln"]]], "Target": [[["car hoods"]]], "Weapon": [[["bombs"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
-{"id": "TST4-MUC4-0017", "templates": []}
-{"id": "TST4-MUC4-0018", "templates": []}
-{"id": "TST4-MUC4-0019", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [], "Target": [[["vehicle"]]], "Weapon": [[["bomb"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
-{"id": "TST4-MUC4-0020", "templates": []}
-{"id": "TST4-MUC4-0021", "templates": [{"PerpInd": [[["unidentified individuals"]]], "PerpOrg": [], "Target": [[["airport"]], [["cerro azul military installations"]]], "Weapon": [[["machineguns"]]], "Victim": [], "incident_type": ["bombing", "attack", "bombing", "bombing"]}]}
-{"id": "TST4-MUC4-0022", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["submachineguns"]], [["molotov cocktails"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
-{"id": "TST4-MUC4-0023", "templates": []}
-{"id": "TST4-MUC4-0024", "templates": [{"PerpInd": [], "PerpOrg": [[["( pdc"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
-{"id": "TST4-MUC4-0025", "templates": [{"PerpInd": [[["rebels"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["david diaz cortez"]]], "incident_type": ["attack", "attack"]}, {"PerpInd": [], "PerpOrg": [], "Target": [[["antel ( national administration for telecommunications ) installations"]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
-{"id": "TST4-MUC4-0026", "templates": []}
-{"id": "TST4-MUC4-0027", "templates": []}
-{"id": "TST4-MUC4-0028", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["high tension towers"]]], "Weapon": [[["czechoslovak bombs"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
-{"id": "TST4-MUC4-0029", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["car bomb"]]], "Victim": [], "incident_type": ["bombing"]}]}
-{"id": "TST4-MUC4-0030", "templates": []}
-{"id": "TST4-MUC4-0031", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["multipurpose pipeline"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}]}
-{"id": "TST4-MUC4-0032", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["headquarters of the shoe industry workers union"]]], "Weapon": [[["home-made bomb"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
-{"id": "TST4-MUC4-0033", "templates": []}
-{"id": "TST4-MUC4-0034", "templates": [{"PerpInd": [[["unidentified individuals"]]], "PerpOrg": [], "Target": [[["home of a peruvian army general"]], [["home of general enrique franco"]], [["houses."]]], "Weapon": [[["bomb"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing", "bombing"]}]}
-{"id": "TST4-MUC4-0035", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["guatemalan gunboat"]]], "Victim": [], "incident_type": ["attack"]}]}
-{"id": "TST4-MUC4-0036", "templates": []}
-{"id": "TST4-MUC4-0037", "templates": [{"PerpInd": [[["urban guerrillas"]]], "PerpOrg": [[["fmln"]]], "Target": [[["la torre de cristal building"]], [["administrative offices of the ( name indistinct ) seaside resort"]], [["power pole"]]], "Weapon": [[["two bombs"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing", "bombing", "bombing"]}]}
-{"id": "TST4-MUC4-0038", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["rosalio mejia rodriguez"]], [["guillermo saul mejia herrera"]]], "incident_type": ["kidnapping", "kidnapping"]}]}
-{"id": "TST4-MUC4-0039", "templates": [{"PerpInd": [], "PerpOrg": [[["national liberation army"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["kidnapping"]}]}
-{"id": "TST4-MUC4-0040", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["commercial building"]], [["businesses"]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
-{"id": "TST4-MUC4-0041", "templates": []}
-{"id": "TST4-MUC4-0042", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["bridges"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}]}
-{"id": "TST4-MUC4-0043", "templates": [{"PerpInd": [], "PerpOrg": [[["fmln"]]], "Target": [[["shopping mall"]]], "Weapon": [[["car bombs"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
-{"id": "TST4-MUC4-0044", "templates": []}
-{"id": "TST4-MUC4-0045", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [], "Target": [[["bridge"]], [["public bus"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
-{"id": "TST4-MUC4-0046", "templates": [{"PerpInd": [[["right-wing members"]]], "PerpOrg": [[["armed forces"]]], "Target": [], "Weapon": [], "Victim": [[["oscar arnulfo romero"]]], "incident_type": ["attack", "attack", "attack"]}]}
-{"id": "TST4-MUC4-0047", "templates": []}
-{"id": "TST4-MUC4-0048", "templates": []}
-{"id": "TST4-MUC4-0049", "templates": []}
-{"id": "TST4-MUC4-0050", "templates": []}
-{"id": "TST4-MUC4-0051", "templates": [{"PerpInd": [[["four masked individuals"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos soto sedice"]]], "incident_type": ["attack", "attack"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos medrano vazquez"]]], "incident_type": ["attack"]}]}
-{"id": "TST4-MUC4-0052", "templates": []}
-{"id": "TST4-MUC4-0053", "templates": []}
-{"id": "TST4-MUC4-0054", "templates": [{"PerpInd": [[["insurgents"]]], "PerpOrg": [[["national liberation army"]]], "Target": [], "Weapon": [[["bomb"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
-{"id": "TST4-MUC4-0055", "templates": []}
-{"id": "TST4-MUC4-0056", "templates": []}
-{"id": "TST4-MUC4-0057", "templates": [{"PerpInd": [], "PerpOrg": [[["armed forces"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
-{"id": "TST4-MUC4-0058", "templates": [{"PerpInd": [[["terrorists"]]], "PerpOrg": [[["\" shining path"]]], "Target": [], "Weapon": [[["\" russian cheese."]], [["tacks"]], [["steel wire."]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing", "bombing"]}, {"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [[["explosives"]]], "Victim": [], "incident_type": ["bombing"]}]}
-{"id": "TST4-MUC4-0059", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["power towers"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}]}
-{"id": "TST4-MUC4-0060", "templates": []}
-{"id": "TST4-MUC4-0061", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["el angel sugar mill"]], [["administrative offices of the sugar mill"]], [["nearby house."]]], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack", "attack"]}, {"PerpInd": [], "PerpOrg": [], "Target": [[["las canas bridge"]]], "Weapon": [], "Victim": [], "incident_type": ["attack"]}]}
-{"id": "TST4-MUC4-0062", "templates": []}
-{"id": "TST4-MUC4-0063", "templates": [{"PerpInd": [], "PerpOrg": [[["fmln"]]], "Target": [[["antel ( national administration for telecommunications ) office"]], [["court offices"]], [["community center of dulce nombre de maria"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing", "bombing", "bombing", "bombing"]}]}
-{"id": "TST4-MUC4-0064", "templates": []}
-{"id": "TST4-MUC4-0065", "templates": []}
-{"id": "TST4-MUC4-0066", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["luz leon"]], [["parmenides cuenca"]]], "incident_type": ["attack", "attack"]}]}
-{"id": "TST4-MUC4-0067", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["electric tower no 657"]]], "Weapon": [[["explosives"]], [["2 kg of amonium gelignite"]]], "Victim": [], "incident_type": ["bombing", "bombing", "bombing"]}]}
-{"id": "TST4-MUC4-0068", "templates": [{"PerpInd": [[["guerrillas"]]], "PerpOrg": [[["national liberation army"]]], "Target": [], "Weapon": [], "Victim": [[["guillermo rodriguez velasquez"]]], "incident_type": ["kidnapping", "kidnapping", "kidnapping"]}]}
-{"id": "TST4-MUC4-0069", "templates": []}
-{"id": "TST4-MUC4-0070", "templates": []}
-{"id": "TST4-MUC4-0071", "templates": []}
-{"id": "TST4-MUC4-0072", "templates": [{"PerpInd": [[["rebels"]]], "PerpOrg": [[["national liberation army"]]], "Target": [], "Weapon": [], "Victim": [[["ricardo diaz"]]], "incident_type": ["bombing", "bombing", "bombing"]}]}
-{"id": "TST4-MUC4-0073", "templates": []}
-{"id": "TST4-MUC4-0074", "templates": []}
-{"id": "TST4-MUC4-0075", "templates": []}
-{"id": "TST4-MUC4-0076", "templates": []}
-{"id": "TST4-MUC4-0077", "templates": []}
-{"id": "TST4-MUC4-0078", "templates": []}
-{"id": "TST4-MUC4-0079", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["carlos perez lopez"]]], "incident_type": ["attack"]}]}
-{"id": "TST4-MUC4-0080", "templates": [{"PerpInd": [[["man"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["gustavo de jesus escobar fernandez"]]], "incident_type": ["attack", "attack"]}]}
-{"id": "TST4-MUC4-0081", "templates": []}
-{"id": "TST4-MUC4-0082", "templates": []}
-{"id": "TST4-MUC4-0083", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["school"]]], "Weapon": [[["bomb"]]], "Victim": [[["mauricio vera barrios"]]], "incident_type": ["bombing", "bombing", "bombing"]}]}
-{"id": "TST4-MUC4-0084", "templates": []}
-{"id": "TST4-MUC4-0085", "templates": [{"PerpInd": [[["members"]]], "PerpOrg": [[["shining path"]]], "Target": [], "Weapon": [], "Victim": [], "incident_type": ["attack", "attack"]}]}
-{"id": "TST4-MUC4-0086", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["hector arevalo"]]], "incident_type": ["attack"]}]}
-{"id": "TST4-MUC4-0087", "templates": [{"PerpInd": [], "PerpOrg": [[["national liberation army 's camilist unity"]]], "Target": [], "Weapon": [], "Victim": [[["alberto celis sanchez"]], [["manuel santos cruz arboleda"]]], "incident_type": ["kidnapping", "kidnapping", "attack"]}]}
-{"id": "TST4-MUC4-0088", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["alfredo chamorro"]]], "incident_type": ["attack"]}]}
-{"id": "TST4-MUC4-0089", "templates": []}
-{"id": "TST4-MUC4-0090", "templates": [{"PerpInd": [[["urban guerrillas"]]], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["rosa imelda gonzalez medrano"]]], "incident_type": ["attack", "attack"]}]}
-{"id": "TST4-MUC4-0091", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["bridge"]]], "Weapon": [], "Victim": [], "incident_type": ["bombing"]}]}
-{"id": "TST4-MUC4-0092", "templates": [{"PerpInd": [[["rebels"]]], "PerpOrg": [[["fmln"]]], "Target": [[["antel ( national administration for telecommunications ) office"]]], "Weapon": [], "Victim": [], "incident_type": ["arson", "arson", "arson"]}]}
-{"id": "TST4-MUC4-0093", "templates": []}
-{"id": "TST4-MUC4-0094", "templates": []}
-{"id": "TST4-MUC4-0095", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["cel ( lempa river hydroelectric executive commission ) san luis substation"]]], "Weapon": [[["explosives."]]], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
-{"id": "TST4-MUC4-0096", "templates": []}
-{"id": "TST4-MUC4-0097", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [[["checkpoint"]]], "Weapon": [[["three bombs"]]], "Victim": [], "incident_type": ["bombing", "bombing"]}]}
-{"id": "TST4-MUC4-0098", "templates": []}
-{"id": "TST4-MUC4-0099", "templates": [{"PerpInd": [], "PerpOrg": [], "Target": [], "Weapon": [], "Victim": [[["fernando torres silva."]]], "incident_type": ["attack"]}]}
-{"id": "TST4-MUC4-0100", "templates": []}
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating individual for attack event', (19, 20), ('trigger for attack event', 0, 1)), ('target for attack event', (22, 28), ('trigger for attack event', 0, 1)), ('target for arson event', (255, 257), ('trigger for attack event', 0, 1))]
+id TST1-MUC3-0002
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating organization for attack event', (29, 34), ('trigger for attack event', 0, 1)), ('target for attack event', (39, 42), ('trigger for attack event', 0, 1))]
+id TST1-MUC3-0003
+triggers []
+arguments []
+id TST1-MUC3-0004
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('perpetrating organization for bombing event', (22, 25), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (27, 28), ('trigger for bombing event', 0, 1)), ('target for bombing event', (36, 37), ('trigger for bombing event', 0, 1))]
+id TST1-MUC3-0005
+triggers []
+arguments []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating organization for attack event', (16, 17), ('trigger for attack event', 0, 1)), ('victim for attack event', (28, 31), ('trigger for attack event', 0, 1)), ('victim for attack event', (56, 59), ('trigger for attack event', 0, 1))]
+id TST1-MUC3-0007
+triggers []
+arguments []
+id TST1-MUC3-0008
+triggers []
+arguments []
+id TST1-MUC3-0009
+triggers []
+arguments []
+id TST1-MUC3-0010
+triggers []
+arguments []
+id TST1-MUC3-0011
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (170, 172), ('trigger for attack event', 0, 1))]
+id TST1-MUC3-0012
+triggers []
+arguments []
+id TST1-MUC3-0013
+triggers []
+arguments []
+id TST1-MUC3-0014
+triggers []
+arguments []
+id TST1-MUC3-0015
+triggers []
+arguments []
+id TST1-MUC3-0016
+triggers []
+arguments []
+id TST1-MUC3-0017
+triggers []
+arguments []
+id TST1-MUC3-0018
+triggers [('trigger for kidnapping event', 0, 1)]
+arguments [('victim for attack event', (54, 57), ('trigger for kidnapping event', 0, 1)), ('victim for kidnapping event', (69, 71), ('trigger for kidnapping event', 0, 1)), ('perpetrating individual for kidnapping event', (84, 86), ('trigger for kidnapping event', 0, 1))]
+id TST1-MUC3-0019
+triggers []
+arguments []
+id TST1-MUC3-0020
+triggers []
+arguments []
+id TST1-MUC3-0021
+triggers []
+arguments []
+id TST1-MUC3-0022
+triggers []
+arguments []
+id TST1-MUC3-0023
+triggers []
+arguments []
+id TST1-MUC3-0024
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('weapon for bombing event', (13, 15), ('trigger for bombing event', 0, 1)), ('target for bombing event', (22, 30), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (64, 65), ('trigger for bombing event', 0, 1)), ('perpetrating organization for bombing event', (99, 102), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (106, 108), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (113, 115), ('trigger for bombing event', 0, 1)), ('target for bombing event', (119, 127), ('trigger for bombing event', 0, 1))]
+id TST1-MUC3-0025
+triggers []
+arguments []
+id TST1-MUC3-0026
+triggers []
+arguments []
+id TST1-MUC3-0027
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('weapon for bombing event', (23, 24), ('trigger for bombing event', 0, 1))]
+id TST1-MUC3-0028
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (52, 53), ('trigger for attack event', 0, 1))]
+id TST1-MUC3-0029
+triggers []
+arguments []
+id TST1-MUC3-0030
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (192, 194), ('trigger for attack event', 0, 1))]
+id TST1-MUC3-0031
+triggers []
+arguments []
+id TST1-MUC3-0032
+triggers []
+arguments []
+id TST1-MUC3-0033
+triggers []
+arguments []
+id TST1-MUC3-0034
+triggers []
+arguments []
+id TST1-MUC3-0035
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating individual for attack event', (60, 63), ('trigger for attack event', 0, 1)), ('target for attack event', (103, 105), ('trigger for attack event', 0, 1))]
+id TST1-MUC3-0036
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('weapon for bombing event', (57, 59), ('trigger for bombing event', 0, 1))]
+id TST1-MUC3-0037
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (63, 65), ('trigger for attack event', 0, 1)), ('victim for attack event', (66, 68), ('trigger for attack event', 0, 1))]
+id TST1-MUC3-0038
+triggers []
+arguments []
+id TST1-MUC3-0039
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating individual for attack event', (16, 17), ('trigger for attack event', 0, 1))]
+id TST1-MUC3-0040
+triggers [('trigger for bombing event', 0, 1), ('trigger for bombing event', 2, 3)]
+arguments [('victim for attack event', (259, 262), ('trigger for bombing event', 0, 1)), ('target for bombing event', (301, 308), ('trigger for bombing event', 0, 1))]
+arguments [('weapon for bombing event', (315, 317), ('trigger for bombing event', 2, 3))]
+id TST1-MUC3-0041
+triggers []
+arguments []
+id TST1-MUC3-0042
+triggers []
+arguments []
+id TST1-MUC3-0043
+triggers []
+arguments []
+id TST1-MUC3-0044
+triggers []
+arguments []
+id TST1-MUC3-0045
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating organization for attack event', (38, 40), ('trigger for attack event', 0, 1)), ('perpetrating individual for attack event', (35, 40), ('trigger for attack event', 0, 1)), ('perpetrating individual for attack event', (226, 228), ('trigger for attack event', 0, 1))]
+id TST1-MUC3-0046
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (43, 46), ('trigger for attack event', 0, 1))]
+id TST1-MUC3-0047
+triggers []
+arguments []
+id TST1-MUC3-0048
+triggers []
+arguments []
+id TST1-MUC3-0049
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('victim for attack event', (49, 52), ('trigger for bombing event', 0, 1)), ('target for bombing event', (59, 62), ('trigger for bombing event', 0, 1)), ('target for bombing event', (64, 66), ('trigger for bombing event', 0, 1)), ('target for arson event', (77, 78), ('trigger for bombing event', 0, 1)), ('target for bombing event', (111, 112), ('trigger for bombing event', 0, 1))]
+id TST1-MUC3-0050
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating organization for attack event', (204, 205), ('trigger for attack event', 0, 1)), ('perpetrating individual for attack event', (202, 206), ('trigger for attack event', 0, 1)), ('weapon for attack event', (237, 238), ('trigger for attack event', 0, 1))]
+id TST1-MUC3-0051
+triggers []
+arguments []
+id TST1-MUC3-0052
+triggers []
+arguments []
+id TST1-MUC3-0053
+triggers []
+arguments []
+id TST1-MUC3-0054
+triggers []
+arguments []
+id TST1-MUC3-0055
+triggers []
+arguments []
+id TST1-MUC3-0056
+triggers [('trigger for attack event', 0, 1)]
+arguments [('target for attack event', (31, 34), ('trigger for attack event', 0, 1)), ('target for attack event', (36, 39), ('trigger for attack event', 0, 1))]
+id TST1-MUC3-0057
+triggers []
+arguments []
+id TST1-MUC3-0058
+triggers []
+arguments []
+id TST1-MUC3-0059
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating organization for attack event', (32, 34), ('trigger for attack event', 0, 1)), ('victim for attack event', (41, 45), ('trigger for attack event', 0, 1))]
+id TST1-MUC3-0060
+triggers []
+arguments []
+id TST1-MUC3-0061
+triggers []
+arguments []
+id TST1-MUC3-0062
+triggers [('trigger for kidnapping event', 0, 1), ('trigger for bombing event', 2, 3)]
+arguments [('victim for kidnapping event', (87, 90), ('trigger for kidnapping event', 0, 1))]
+arguments [('weapon for bombing event', (126, 127), ('trigger for bombing event', 2, 3)), ('target for bombing event', (129, 131), ('trigger for bombing event', 2, 3))]
+id TST1-MUC3-0063
+triggers []
+arguments []
+id TST1-MUC3-0064
+triggers []
+arguments []
+id TST1-MUC3-0065
+triggers [('trigger for kidnapping event', 0, 1)]
+arguments [('victim for kidnapping event', (51, 53), ('trigger for kidnapping event', 0, 1)), ('victim for kidnapping event', (56, 58), ('trigger for kidnapping event', 0, 1)), ('victim for kidnapping event', (64, 66), ('trigger for kidnapping event', 0, 1))]
+id TST1-MUC3-0066
+triggers []
+arguments []
+id TST1-MUC3-0067
+triggers []
+arguments []
+id TST1-MUC3-0068
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating individual for attack event', (30, 32), ('trigger for attack event', 0, 1))]
+id TST1-MUC3-0069
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating organization for attack event', (29, 32), ('trigger for attack event', 0, 1)), ('perpetrating individual for attack event', (55, 56), ('trigger for attack event', 0, 1)), ('perpetrating individual for attack event', (58, 59), ('trigger for attack event', 0, 1))]
+id TST1-MUC3-0070
+triggers []
+arguments []
+id TST1-MUC3-0071
+triggers [('trigger for attack event', 0, 1), ('trigger for attack event', 2, 3)]
+arguments [('perpetrating individual for attack event', (30, 34), ('trigger for attack event', 0, 1)), ('perpetrating organization for attack event', (42, 44), ('trigger for attack event', 0, 1)), ('weapon for attack event', (270, 271), ('trigger for attack event', 0, 1))]
+arguments [('weapon for attack event', (99, 100), ('trigger for attack event', 2, 3))]
+id TST1-MUC3-0072
+triggers []
+arguments []
+id TST1-MUC3-0073
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('perpetrating individual for bombing event', (21, 22), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (24, 25), ('trigger for bombing event', 0, 1)), ('target for bombing event', (42, 45), ('trigger for bombing event', 0, 1)), ('target for bombing event', (47, 49), ('trigger for bombing event', 0, 1)), ('target for bombing event', (55, 63), ('trigger for bombing event', 0, 1))]
+id TST1-MUC3-0074
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (104, 107), ('trigger for attack event', 0, 1))]
+id TST1-MUC3-0075
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (224, 226), ('trigger for attack event', 0, 1)), ('victim for attack event', (227, 230), ('trigger for attack event', 0, 1))]
+id TST1-MUC3-0076
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (28, 32), ('trigger for attack event', 0, 1)), ('victim for attack event', (46, 48), ('trigger for attack event', 0, 1))]
+id TST1-MUC3-0077
+triggers []
+arguments []
+id TST1-MUC3-0078
+triggers []
+arguments []
+id TST1-MUC3-0079
+triggers []
+arguments []
+id TST1-MUC3-0080
+triggers [('trigger for kidnapping event', 0, 1)]
+arguments [('victim for kidnapping event', (26, 29), ('trigger for kidnapping event', 0, 1))]
+id TST1-MUC3-0081
+triggers []
+arguments []
+id TST1-MUC3-0082
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('victim for bombing event', (39, 40), ('trigger for bombing event', 0, 1)), ('victim for bombing event', (41, 43), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (46, 48), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (67, 69), ('trigger for bombing event', 0, 1))]
+id TST1-MUC3-0083
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating individual for attack event', (32, 34), ('trigger for attack event', 0, 1)), ('victim for attack event', (41, 44), ('trigger for attack event', 0, 1))]
+id TST1-MUC3-0084
+triggers []
+arguments []
+id TST1-MUC3-0085
+triggers []
+arguments []
+id TST1-MUC3-0086
+triggers []
+arguments []
+id TST1-MUC3-0087
+triggers [('trigger for attack event', 0, 1), ('trigger for attack event', 2, 3)]
+arguments [('victim for attack event', (13, 15), ('trigger for attack event', 0, 1))]
+arguments [('perpetrating organization for attack event', (186, 187), ('trigger for attack event', 2, 3)), ('perpetrating individual for attack event', (184, 188), ('trigger for attack event', 2, 3))]
+id TST1-MUC3-0088
+triggers []
+arguments []
+id TST1-MUC3-0089
+triggers [('trigger for arson event', 0, 1)]
+arguments [('target for attack event', (26, 29), ('trigger for arson event', 0, 1)), ('target for arson event', (150, 151), ('trigger for arson event', 0, 1))]
+id TST1-MUC3-0090
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('weapon for bombing event', (14, 15), ('trigger for bombing event', 0, 1)), ('target for bombing event', (21, 23), ('trigger for bombing event', 0, 1))]
+id TST1-MUC3-0091
+triggers []
+arguments []
+id TST1-MUC3-0092
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating individual for attack event', (20, 22), ('trigger for attack event', 0, 1)), ('target for attack event', (184, 185), ('trigger for attack event', 0, 1)), ('target for attack event', (186, 187), ('trigger for attack event', 0, 1))]
+id TST1-MUC3-0093
+triggers []
+arguments []
+id TST1-MUC3-0094
+triggers []
+arguments []
+id TST1-MUC3-0095
+triggers []
+arguments []
+id TST1-MUC3-0096
+triggers []
+arguments []
+id TST1-MUC3-0097
+triggers []
+arguments []
+id TST1-MUC3-0098
+triggers []
+arguments []
+id TST1-MUC3-0099
+triggers [('trigger for bombing event', 0, 1), ('trigger for bombing event', 2, 3)]
+arguments [('perpetrating individual for bombing event', (16, 17), ('trigger for bombing event', 0, 1)), ('target for bombing event', (20, 24), ('trigger for bombing event', 0, 1)), ('target for bombing event', (26, 28), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (36, 37), ('trigger for bombing event', 0, 1)), ('target for bombing event', (42, 44), ('trigger for bombing event', 0, 1)), ('target for bombing event', (63, 66), ('trigger for bombing event', 0, 1))]
+arguments [('weapon for bombing event', (58, 59), ('trigger for bombing event', 2, 3)), ('target for arson event', (246, 247), ('trigger for bombing event', 2, 3))]
+id TST1-MUC3-0100
+triggers []
+arguments []
+id TST2-MUC4-0001
+triggers []
+arguments []
+id TST2-MUC4-0002
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('target for bombing event', (35, 37), ('trigger for bombing event', 0, 1)), ('target for bombing event', (98, 101), ('trigger for bombing event', 0, 1))]
+id TST2-MUC4-0003
+triggers [('trigger for kidnapping event', 0, 1)]
+arguments [('perpetrating individual for kidnapping event', (29, 33), ('trigger for kidnapping event', 0, 1))]
+id TST2-MUC4-0004
+triggers [('trigger for bombing event', 0, 1), ('trigger for bombing event', 2, 3)]
+arguments [('weapon for bombing event', (15, 17), ('trigger for bombing event', 0, 1)), ('target for bombing event', (21, 23), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (79, 81), ('trigger for bombing event', 0, 1))]
+arguments [('weapon for bombing event', (236, 237), ('trigger for bombing event', 2, 3)), ('target for bombing event', (240, 245), ('trigger for bombing event', 2, 3))]
+id TST2-MUC4-0005
+triggers []
+arguments []
+id TST2-MUC4-0006
+triggers []
+arguments []
+id TST2-MUC4-0007
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('perpetrating organization for bombing event', (78, 80), ('trigger for bombing event', 0, 1)), ('target for bombing event', (114, 116), ('trigger for bombing event', 0, 1)), ('target for bombing event', (117, 118), ('trigger for bombing event', 0, 1)), ('target for bombing event', (120, 121), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (127, 129), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (131, 135), ('trigger for bombing event', 0, 1))]
+id TST2-MUC4-0008
+triggers []
+arguments []
+id TST2-MUC4-0009
+triggers []
+arguments []
+id TST2-MUC4-0010
+triggers []
+arguments []
+id TST2-MUC4-0011
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating organization for attack event', (48, 49), ('trigger for attack event', 0, 1))]
+id TST2-MUC4-0012
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (29, 31), ('trigger for attack event', 0, 1))]
+id TST2-MUC4-0013
+triggers []
+arguments []
+id TST2-MUC4-0014
+triggers []
+arguments []
+id TST2-MUC4-0015
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('target for bombing event', (30, 33), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (36, 37), ('trigger for bombing event', 0, 1)), ('target for bombing event', (67, 70), ('trigger for bombing event', 0, 1))]
+id TST2-MUC4-0016
+triggers []
+arguments []
+id TST2-MUC4-0017
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('weapon for bombing event', (34, 35), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (76, 77), ('trigger for bombing event', 0, 1)), ('target for bombing event', (82, 85), ('trigger for bombing event', 0, 1))]
+id TST2-MUC4-0018
+triggers []
+arguments []
+id TST2-MUC4-0019
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (125, 129), ('trigger for attack event', 0, 1)), ('weapon for attack event', (135, 136), ('trigger for attack event', 0, 1))]
+id TST2-MUC4-0020
+triggers []
+arguments []
+id TST2-MUC4-0021
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('target for bombing event', (102, 104), ('trigger for bombing event', 0, 1))]
+id TST2-MUC4-0022
+triggers []
+arguments []
+id TST2-MUC4-0023
+triggers []
+arguments []
+id TST2-MUC4-0024
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('target for bombing event', (279, 283), ('trigger for bombing event', 0, 1)), ('target for attack event', (295, 299), ('trigger for bombing event', 0, 1))]
+id TST2-MUC4-0025
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (236, 238), ('trigger for attack event', 0, 1)), ('perpetrating individual for attack event', (245, 247), ('trigger for attack event', 0, 1))]
+id TST2-MUC4-0026
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (44, 46), ('trigger for attack event', 0, 1)), ('perpetrating individual for attack event', (58, 62), ('trigger for attack event', 0, 1)), ('victim for attack event', (229, 231), ('trigger for attack event', 0, 1))]
+id TST2-MUC4-0027
+triggers []
+arguments []
+id TST2-MUC4-0028
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('target for bombing event', (31, 36), ('trigger for bombing event', 0, 1))]
+id TST2-MUC4-0029
+triggers []
+arguments []
+id TST2-MUC4-0030
+triggers [('trigger for attack event', 0, 1)]
+arguments [('target for attack event', (27, 31), ('trigger for attack event', 0, 1)), ('victim for attack event', (52, 55), ('trigger for attack event', 0, 1)), ('weapon for attack event', (60, 61), ('trigger for attack event', 0, 1))]
+id TST2-MUC4-0031
+triggers []
+arguments []
+id TST2-MUC4-0032
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (34, 37), ('trigger for attack event', 0, 1))]
+id TST2-MUC4-0033
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (36, 39), ('trigger for attack event', 0, 1)), ('perpetrating individual for attack event', (100, 101), ('trigger for attack event', 0, 1))]
+id TST2-MUC4-0034
+triggers []
+arguments []
+id TST2-MUC4-0035
+triggers []
+arguments []
+id TST2-MUC4-0036
+triggers []
+arguments []
+id TST2-MUC4-0037
+triggers []
+arguments []
+id TST2-MUC4-0038
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (27, 28), ('trigger for attack event', 0, 1))]
+id TST2-MUC4-0039
+triggers [('trigger for kidnapping event', 0, 1)]
+arguments [('perpetrating individual for kidnapping event', (37, 38), ('trigger for kidnapping event', 0, 1)), ('perpetrating organization for kidnapping event', (39, 41), ('trigger for kidnapping event', 0, 1)), ('victim for kidnapping event', (56, 58), ('trigger for kidnapping event', 0, 1)), ('victim for kidnapping event', (66, 69), ('trigger for kidnapping event', 0, 1)), ('perpetrating individual for kidnapping event', (75, 78), ('trigger for kidnapping event', 0, 1))]
+id TST2-MUC4-0040
+triggers []
+arguments []
+id TST2-MUC4-0041
+triggers []
+arguments []
+id TST2-MUC4-0042
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (33, 36), ('trigger for attack event', 0, 1))]
+id TST2-MUC4-0043
+triggers []
+arguments []
+id TST2-MUC4-0044
+triggers []
+arguments []
+id TST2-MUC4-0045
+triggers []
+arguments []
+id TST2-MUC4-0046
+triggers []
+arguments []
+id TST2-MUC4-0047
+triggers []
+arguments []
+id TST2-MUC4-0048
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('victim for attack event', (24, 27), ('trigger for bombing event', 0, 1)), ('perpetrating organization for bombing event', (30, 35), ('trigger for bombing event', 0, 1)), ('victim for bombing event', (44, 46), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (67, 68), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (82, 83), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (85, 87), ('trigger for bombing event', 0, 1)), ('target for bombing event', (89, 90), ('trigger for bombing event', 0, 1))]
+id TST2-MUC4-0049
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('weapon for bombing event', (89, 91), ('trigger for bombing event', 0, 1))]
+id TST2-MUC4-0050
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (27, 31), ('trigger for attack event', 0, 1))]
+id TST2-MUC4-0051
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (54, 58), ('trigger for attack event', 0, 1))]
+id TST2-MUC4-0052
+triggers []
+arguments []
+id TST2-MUC4-0053
+triggers [('trigger for kidnapping event', 0, 1)]
+arguments [('victim for kidnapping event', (17, 20), ('trigger for kidnapping event', 0, 1)), ('perpetrating individual for kidnapping event', (43, 45), ('trigger for kidnapping event', 0, 1)), ('victim for kidnapping event', (46, 48), ('trigger for kidnapping event', 0, 1))]
+id TST2-MUC4-0054
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating organization for attack event', (33, 35), ('trigger for attack event', 0, 1))]
+id TST2-MUC4-0055
+triggers [('trigger for kidnapping event', 0, 1)]
+arguments [('victim for kidnapping event', (38, 41), ('trigger for kidnapping event', 0, 1)), ('perpetrating individual for kidnapping event', (92, 93), ('trigger for kidnapping event', 0, 1)), ('perpetrating organization for kidnapping event', (95, 102), ('trigger for kidnapping event', 0, 1))]
+id TST2-MUC4-0056
+triggers []
+arguments []
+id TST2-MUC4-0057
+triggers []
+arguments []
+id TST2-MUC4-0058
+triggers []
+arguments []
+id TST2-MUC4-0059
+triggers [('trigger for bombing event', 0, 1), ('trigger for bombing event', 2, 3)]
+arguments [('target for bombing event', (44, 47), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (49, 50), ('trigger for bombing event', 0, 1))]
+arguments [('target for bombing event', (75, 76), ('trigger for bombing event', 2, 3)), ('target for bombing event', (103, 111), ('trigger for bombing event', 2, 3)), ('target for bombing event', (127, 128), ('trigger for bombing event', 2, 3))]
+id TST2-MUC4-0060
+triggers []
+arguments []
+id TST2-MUC4-0061
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (68, 71), ('trigger for attack event', 0, 1)), ('victim for attack event', (79, 83), ('trigger for attack event', 0, 1)), ('target for attack event', (141, 146), ('trigger for attack event', 0, 1))]
+id TST2-MUC4-0062
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (17, 20), ('trigger for attack event', 0, 1)), ('perpetrating organization for attack event', (44, 49), ('trigger for attack event', 0, 1))]
+id TST2-MUC4-0063
+triggers [('trigger for attack event', 0, 1), ('trigger for attack event', 2, 3)]
+arguments [('perpetrating individual for attack event', (24, 26), ('trigger for attack event', 0, 1)), ('target for attack event', (31, 33), ('trigger for attack event', 0, 1))]
+arguments [('target for attack event', (150, 156), ('trigger for attack event', 2, 3)), ('weapon for attack event', (157, 158), ('trigger for attack event', 2, 3))]
+id TST2-MUC4-0064
+triggers []
+arguments []
+id TST2-MUC4-0065
+triggers []
+arguments []
+id TST2-MUC4-0066
+triggers []
+arguments []
+id TST2-MUC4-0067
+triggers []
+arguments []
+id TST2-MUC4-0068
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating individual for attack event', (31, 32), ('trigger for attack event', 0, 1))]
+id TST2-MUC4-0069
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('target for bombing event', (38, 39), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (50, 51), ('trigger for bombing event', 0, 1)), ('target for bombing event', (74, 75), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (76, 78), ('trigger for bombing event', 0, 1))]
+id TST2-MUC4-0070
+triggers []
+arguments []
+id TST2-MUC4-0071
+triggers [('trigger for trigger for attack event event', 0, 1)]
+arguments []
+id TST2-MUC4-0072
+triggers []
+arguments []
+id TST2-MUC4-0073
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (240, 243), ('trigger for attack event', 0, 1))]
+id TST2-MUC4-0074
+triggers []
+arguments []
+id TST2-MUC4-0075
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('weapon for bombing event', (24, 26), ('trigger for bombing event', 0, 1)), ('target for bombing event', (30, 38), ('trigger for bombing event', 0, 1))]
+id TST2-MUC4-0076
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('weapon for bombing event', (32, 34), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (87, 89), ('trigger for bombing event', 0, 1))]
+id TST2-MUC4-0077
+triggers [('trigger for kidnapping event', 0, 1)]
+arguments [('perpetrating organization for kidnapping event', (29, 31), ('trigger for kidnapping event', 0, 1)), ('victim for kidnapping event', (56, 59), ('trigger for kidnapping event', 0, 1))]
+id TST2-MUC4-0078
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating organization for attack event', (111, 117), ('trigger for attack event', 0, 1))]
+id TST2-MUC4-0079
+triggers []
+arguments []
+id TST2-MUC4-0080
+triggers [('trigger for attack event', 0, 1)]
+arguments [('target for attack event', (39, 41), ('trigger for attack event', 0, 1)), ('target for attack event', (58, 59), ('trigger for attack event', 0, 1))]
+id TST2-MUC4-0081
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('victim for bombing event', (23, 26), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (51, 53), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (54, 56), ('trigger for bombing event', 0, 1))]
+id TST2-MUC4-0082
+triggers []
+arguments []
+id TST2-MUC4-0083
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('perpetrating individual for bombing event', (25, 26), ('trigger for bombing event', 0, 1))]
+id TST2-MUC4-0084
+triggers []
+arguments []
+id TST2-MUC4-0085
+triggers []
+arguments []
+id TST2-MUC4-0086
+triggers []
+arguments []
+id TST2-MUC4-0087
+triggers []
+arguments []
+id TST2-MUC4-0088
+triggers []
+arguments []
+id TST2-MUC4-0089
+triggers []
+arguments []
+id TST2-MUC4-0090
+triggers []
+arguments []
+id TST2-MUC4-0091
+triggers []
+arguments []
+id TST2-MUC4-0092
+triggers []
+arguments []
+id TST2-MUC4-0093
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating individual for attack event', (16, 18), ('trigger for attack event', 0, 1))]
+id TST2-MUC4-0094
+triggers []
+arguments []
+id TST2-MUC4-0095
+triggers []
+arguments []
+id TST2-MUC4-0096
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (29, 32), ('trigger for attack event', 0, 1)), ('perpetrating organization for attack event', (85, 87), ('trigger for attack event', 0, 1))]
+id TST2-MUC4-0097
+triggers []
+arguments []
+id TST2-MUC4-0098
+triggers []
+arguments []
+id TST2-MUC4-0099
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('perpetrating individual for bombing event', (16, 17), ('trigger for bombing event', 0, 1)), ('perpetrating organization for bombing event', (24, 28), ('trigger for bombing event', 0, 1)), ('target for bombing event', (36, 40), ('trigger for bombing event', 0, 1))]
+id TST2-MUC4-0100
+triggers [('trigger for kidnapping event', 0, 1)]
+arguments [('victim for kidnapping event', (32, 34), ('trigger for kidnapping event', 0, 1)), ('perpetrating individual for kidnapping event', (38, 44), ('trigger for kidnapping event', 0, 1))]
+id TST3-MUC4-0001
+triggers []
+arguments []
+id TST3-MUC4-0002
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating organization for attack event', (60, 61), ('trigger for attack event', 0, 1)), ('perpetrating organization for attack event', (234, 236), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0003
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (43, 47), ('trigger for attack event', 0, 1)), ('perpetrating organization for attack event', (77, 79), ('trigger for attack event', 0, 1)), ('perpetrating individual for attack event', (156, 159), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0004
+triggers []
+arguments []
+id TST3-MUC4-0005
+triggers [('trigger for kidnapping event', 0, 1)]
+arguments [('victim for kidnapping event', (20, 23), ('trigger for kidnapping event', 0, 1)), ('perpetrating individual for kidnapping event', (110, 113), ('trigger for kidnapping event', 0, 1)), ('victim for kidnapping event', (126, 128), ('trigger for kidnapping event', 0, 1))]
+id TST3-MUC4-0006
+triggers [('trigger for kidnapping event', 0, 1)]
+arguments [('victim for kidnapping event', (16, 18), ('trigger for kidnapping event', 0, 1)), ('victim for kidnapping event', (33, 35), ('trigger for kidnapping event', 0, 1)), ('perpetrating individual for kidnapping event', (124, 130), ('trigger for kidnapping event', 0, 1))]
+id TST3-MUC4-0007
+triggers []
+arguments []
+id TST3-MUC4-0008
+triggers [('trigger for attack event', 0, 1)]
+arguments [('target for attack event', (30, 32), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0009
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating individual for attack event', (47, 49), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0010
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('target for bombing event', (36, 42), ('trigger for bombing event', 0, 1)), ('perpetrating organization for bombing event', (93, 94), ('trigger for bombing event', 0, 1))]
+id TST3-MUC4-0011
+triggers [('trigger for kidnapping event', 0, 1)]
+arguments [('perpetrating organization for kidnapping event', (44, 46), ('trigger for kidnapping event', 0, 1)), ('perpetrating individual for kidnapping event', (85, 93), ('trigger for kidnapping event', 0, 1))]
+id TST3-MUC4-0012
+triggers []
+arguments []
+id TST3-MUC4-0013
+triggers []
+arguments []
+id TST3-MUC4-0014
+triggers [('trigger for bombing event', 0, 1), ('trigger for trigger for bombing event event', 2, 3)]
+arguments [('weapon for bombing event', (19, 20), ('trigger for bombing event', 0, 1))]
+arguments []
+id TST3-MUC4-0015
+triggers [('trigger for attack event', 0, 1), ('trigger for attack event', 2, 3)]
+arguments [('victim for attack event', (15, 17), ('trigger for attack event', 0, 1))]
+arguments [('victim for attack event', (117, 119), ('trigger for attack event', 2, 3))]
+id TST3-MUC4-0016
+triggers []
+arguments []
+id TST3-MUC4-0017
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('perpetrating organization for bombing event', (20, 22), ('trigger for bombing event', 0, 1)), ('victim for bombing event', (36, 38), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (45, 47), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (48, 51), ('trigger for bombing event', 0, 1))]
+id TST3-MUC4-0018
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating individual for attack event', (15, 16), ('trigger for attack event', 0, 1)), ('target for attack event', (24, 27), ('trigger for attack event', 0, 1)), ('target for attack event', (124, 126), ('trigger for attack event', 0, 1)), ('target for attack event', (132, 133), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0019
+triggers []
+arguments []
+id TST3-MUC4-0020
+triggers [('trigger for trigger for attack event event', 0, 1)]
+arguments []
+id TST3-MUC4-0021
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (60, 64), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0022
+triggers [('trigger for attack event', 0, 1), ('trigger for attack event', 2, 3)]
+arguments [('victim for attack event', (31, 33), ('trigger for attack event', 0, 1)), ('perpetrating individual for attack event', (56, 59), ('trigger for attack event', 0, 1))]
+arguments [('perpetrating individual for attack event', (105, 107), ('trigger for attack event', 2, 3)), ('perpetrating organization for attack event', (110, 112), ('trigger for attack event', 2, 3))]
+id TST3-MUC4-0023
+triggers []
+arguments []
+id TST3-MUC4-0024
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('perpetrating individual for bombing event', (19, 21), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (77, 78), ('trigger for bombing event', 0, 1))]
+id TST3-MUC4-0025
+triggers []
+arguments []
+id TST3-MUC4-0026
+triggers []
+arguments []
+id TST3-MUC4-0027
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (13, 15), ('trigger for attack event', 0, 1)), ('perpetrating individual for attack event', (37, 39), ('trigger for attack event', 0, 1)), ('weapon for attack event', (78, 79), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0028
+triggers []
+arguments []
+id TST3-MUC4-0029
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating individual for attack event', (41, 42), ('trigger for attack event', 0, 1)), ('target for attack event', (44, 47), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0030
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (62, 64), ('trigger for attack event', 0, 1)), ('victim for attack event', (80, 83), ('trigger for attack event', 0, 1)), ('perpetrating individual for attack event', (301, 303), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0031
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating individual for attack event', (49, 53), ('trigger for attack event', 0, 1)), ('victim for attack event', (59, 61), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0032
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (106, 109), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0033
+triggers []
+arguments []
+id TST3-MUC4-0034
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (37, 40), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0035
+triggers []
+arguments []
+id TST3-MUC4-0036
+triggers []
+arguments []
+id TST3-MUC4-0037
+triggers [('trigger for bombing event', 0, 1), ('trigger for bombing event', 2, 3)]
+arguments [('weapon for bombing event', (38, 39), ('trigger for bombing event', 0, 1)), ('target for bombing event', (44, 47), ('trigger for bombing event', 0, 1)), ('target for bombing event', (57, 60), ('trigger for bombing event', 0, 1)), ('target for bombing event', (94, 95), ('trigger for bombing event', 0, 1)), ('target for bombing event', (110, 111), ('trigger for bombing event', 0, 1))]
+arguments [('target for bombing event', (198, 200), ('trigger for bombing event', 2, 3))]
+id TST3-MUC4-0038
+triggers []
+arguments []
+id TST3-MUC4-0039
+triggers []
+arguments []
+id TST3-MUC4-0040
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('weapon for bombing event', (33, 34), ('trigger for bombing event', 0, 1)), ('target for bombing event', (55, 59), ('trigger for bombing event', 0, 1)), ('target for bombing event', (123, 126), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (176, 178), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (197, 200), ('trigger for bombing event', 0, 1)), ('target for bombing event', (223, 232), ('trigger for bombing event', 0, 1)), ('target for bombing event', (235, 237), ('trigger for bombing event', 0, 1))]
+id TST3-MUC4-0041
+triggers []
+arguments []
+id TST3-MUC4-0042
+triggers []
+arguments []
+id TST3-MUC4-0043
+triggers []
+arguments []
+id TST3-MUC4-0044
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('weapon for bombing event', (18, 19), ('trigger for bombing event', 0, 1)), ('target for bombing event', (27, 28), ('trigger for bombing event', 0, 1)), ('victim for bombing event', (31, 33), ('trigger for bombing event', 0, 1)), ('target for bombing event', (67, 71), ('trigger for bombing event', 0, 1))]
+id TST3-MUC4-0045
+triggers []
+arguments []
+id TST3-MUC4-0046
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (51, 54), ('trigger for attack event', 0, 1)), ('victim for attack event', (61, 64), ('trigger for attack event', 0, 1)), ('perpetrating individual for attack event', (80, 81), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0047
+triggers []
+arguments []
+id TST3-MUC4-0048
+triggers [('trigger for kidnapping event', 0, 1)]
+arguments [('victim for kidnapping event', (30, 33), ('trigger for kidnapping event', 0, 1))]
+id TST3-MUC4-0049
+triggers []
+arguments []
+id TST3-MUC4-0050
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('perpetrating individual for bombing event', (25, 26), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (51, 52), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (54, 55), ('trigger for bombing event', 0, 1)), ('target for bombing event', (57, 59), ('trigger for bombing event', 0, 1))]
+id TST3-MUC4-0051
+triggers []
+arguments []
+id TST3-MUC4-0052
+triggers []
+arguments []
+id TST3-MUC4-0053
+triggers []
+arguments []
+id TST3-MUC4-0054
+triggers [('trigger for attack event', 0, 1)]
+arguments [('target for attack event', (166, 172), ('trigger for attack event', 0, 1)), ('target for attack event', (182, 185), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0055
+triggers []
+arguments []
+id TST3-MUC4-0056
+triggers []
+arguments []
+id TST3-MUC4-0057
+triggers []
+arguments []
+id TST3-MUC4-0058
+triggers []
+arguments []
+id TST3-MUC4-0059
+triggers []
+arguments []
+id TST3-MUC4-0060
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating organization for attack event', (71, 74), ('trigger for attack event', 0, 1)), ('perpetrating individual for attack event', (74, 75), ('trigger for attack event', 0, 1)), ('target for attack event', (96, 100), ('trigger for attack event', 0, 1)), ('victim for attack event', (143, 145), ('trigger for attack event', 0, 1)), ('victim for attack event', (153, 156), ('trigger for attack event', 0, 1)), ('victim for attack event', (164, 166), ('trigger for attack event', 0, 1)), ('victim for attack event', (175, 178), ('trigger for attack event', 0, 1)), ('victim for attack event', (183, 186), ('trigger for attack event', 0, 1)), ('victim for attack event', (188, 192), ('trigger for attack event', 0, 1)), ('victim for attack event', (196, 198), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0061
+triggers []
+arguments []
+id TST3-MUC4-0062
+triggers []
+arguments []
+id TST3-MUC4-0063
+triggers []
+arguments []
+id TST3-MUC4-0064
+triggers []
+arguments []
+id TST3-MUC4-0065
+triggers [('trigger for trigger for attack event event', 0, 1)]
+arguments []
+id TST3-MUC4-0066
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating individual for attack event', (136, 138), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0067
+triggers []
+arguments []
+id TST3-MUC4-0068
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (43, 46), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0069
+triggers []
+arguments []
+id TST3-MUC4-0070
+triggers []
+arguments []
+id TST3-MUC4-0071
+triggers []
+arguments []
+id TST3-MUC4-0072
+triggers []
+arguments []
+id TST3-MUC4-0073
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('weapon for bombing event', (14, 15), ('trigger for bombing event', 0, 1)), ('target for bombing event', (22, 28), ('trigger for bombing event', 0, 1))]
+id TST3-MUC4-0074
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('perpetrating organization for bombing event', (45, 46), ('trigger for bombing event', 0, 1)), ('victim for bombing event', (169, 172), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (176, 177), ('trigger for bombing event', 0, 1))]
+id TST3-MUC4-0075
+triggers []
+arguments []
+id TST3-MUC4-0076
+triggers []
+arguments []
+id TST3-MUC4-0077
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (24, 27), ('trigger for attack event', 0, 1)), ('victim for attack event', (30, 31), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0078
+triggers [('trigger for kidnapping event', 0, 1)]
+arguments [('perpetrating individual for kidnapping event', (22, 23), ('trigger for kidnapping event', 0, 1)), ('victim for kidnapping event', (30, 32), ('trigger for kidnapping event', 0, 1))]
+id TST3-MUC4-0079
+triggers []
+arguments []
+id TST3-MUC4-0080
+triggers []
+arguments []
+id TST3-MUC4-0081
+triggers []
+arguments []
+id TST3-MUC4-0082
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('victim for bombing event', (42, 45), ('trigger for bombing event', 0, 1))]
+id TST3-MUC4-0083
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (143, 145), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0084
+triggers [('trigger for arson event', 0, 1), ('trigger for bombing event', 2, 3)]
+arguments [('target for bombing event', (60, 61), ('trigger for arson event', 0, 1)), ('target for arson event', (65, 67), ('trigger for arson event', 0, 1)), ('perpetrating organization for arson event', (83, 85), ('trigger for arson event', 0, 1))]
+arguments [('weapon for bombing event', (179, 180), ('trigger for bombing event', 2, 3)), ('target for bombing event', (184, 187), ('trigger for bombing event', 2, 3))]
+id TST3-MUC4-0085
+triggers []
+arguments []
+id TST3-MUC4-0086
+triggers []
+arguments []
+id TST3-MUC4-0087
+triggers []
+arguments []
+id TST3-MUC4-0088
+triggers []
+arguments []
+id TST3-MUC4-0089
+triggers []
+arguments []
+id TST3-MUC4-0090
+triggers []
+arguments []
+id TST3-MUC4-0091
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (15, 18), ('trigger for attack event', 0, 1)), ('victim for attack event', (40, 42), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0092
+triggers []
+arguments []
+id TST3-MUC4-0093
+triggers []
+arguments []
+id TST3-MUC4-0094
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating individual for attack event', (99, 101), ('trigger for attack event', 0, 1)), ('victim for attack event', (110, 112), ('trigger for attack event', 0, 1)), ('victim for attack event', (113, 115), ('trigger for attack event', 0, 1)), ('perpetrating individual for kidnapping event', (251, 253), ('trigger for attack event', 0, 1)), ('victim for kidnapping event', (257, 260), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0095
+triggers []
+arguments []
+id TST3-MUC4-0096
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (34, 37), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0097
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating organization for attack event', (156, 158), ('trigger for attack event', 0, 1)), ('target for attack event', (286, 287), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0098
+triggers []
+arguments []
+id TST3-MUC4-0099
+triggers []
+arguments []
+id TST3-MUC4-0100
+triggers [('trigger for trigger for attack event event', 0, 1)]
+arguments []
+id TST4-MUC4-0001
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('perpetrating individual for bombing event', (27, 29), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (31, 32), ('trigger for bombing event', 0, 1)), ('target for bombing event', (36, 38), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0002
+triggers []
+arguments []
+id TST4-MUC4-0003
+triggers []
+arguments []
+id TST4-MUC4-0004
+triggers [('trigger for kidnapping event', 0, 1)]
+arguments [('perpetrating individual for kidnapping event', (21, 23), ('trigger for kidnapping event', 0, 1))]
+id TST4-MUC4-0005
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('victim for attack event', (13, 15), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (258, 259), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (261, 264), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0006
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (40, 43), ('trigger for attack event', 0, 1)), ('perpetrating individual for bombing event', (95, 97), ('trigger for attack event', 0, 1)), ('target for attack event', (123, 125), ('trigger for attack event', 0, 1))]
+id TST4-MUC4-0007
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('target for bombing event', (32, 34), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0008
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('target for bombing event', (29, 31), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0009
+triggers []
+arguments []
+id TST4-MUC4-0010
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('target for bombing event', (16, 19), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (29, 31), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (33, 34), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0011
+triggers []
+arguments []
+id TST4-MUC4-0012
+triggers []
+arguments []
+id TST4-MUC4-0013
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (24, 26), ('trigger for attack event', 0, 1)), ('victim for attack event', (35, 38), ('trigger for attack event', 0, 1))]
+id TST4-MUC4-0014
+triggers []
+arguments []
+id TST4-MUC4-0015
+triggers [('trigger for arson event', 0, 1)]
+arguments [('perpetrating individual for arson event', (247, 252), ('trigger for arson event', 0, 1))]
+id TST4-MUC4-0016
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('weapon for bombing event', (26, 29), ('trigger for bombing event', 0, 1)), ('perpetrating organization for bombing event', (44, 45), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (45, 47), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0017
+triggers []
+arguments []
+id TST4-MUC4-0018
+triggers []
+arguments []
+id TST4-MUC4-0019
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('target for bombing event', (24, 27), ('trigger for bombing event', 0, 1)), ('target for bombing event', (35, 37), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (46, 48), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (142, 143), ('trigger for bombing event', 0, 1)), ('target for bombing event', (148, 153), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0020
+triggers []
+arguments []
+id TST4-MUC4-0021
+triggers [('trigger for bombing event', 0, 1), ('trigger for bombing event', 2, 3)]
+arguments [('target for bombing event', (42, 46), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (52, 54), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (56, 57), ('trigger for bombing event', 0, 1)), ('target for bombing event', (59, 62), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (106, 107), ('trigger for bombing event', 0, 1))]
+arguments [('perpetrating individual for bombing event', (154, 155), ('trigger for bombing event', 2, 3)), ('target for bombing event', (160, 164), ('trigger for bombing event', 2, 3))]
+id TST4-MUC4-0022
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('perpetrating individual for bombing event', (36, 37), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (56, 58), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0023
+triggers []
+arguments []
+id TST4-MUC4-0024
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating organization for attack event', (23, 25), ('trigger for attack event', 0, 1)), ('perpetrating individual for attack event', (56, 57), ('trigger for attack event', 0, 1)), ('victim for attack event', (66, 68), ('trigger for attack event', 0, 1))]
+id TST4-MUC4-0025
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (61, 64), ('trigger for attack event', 0, 1)), ('perpetrating individual for attack event', (75, 76), ('trigger for attack event', 0, 1)), ('target for attack event', (107, 115), ('trigger for attack event', 0, 1))]
+id TST4-MUC4-0026
+triggers []
+arguments []
+id TST4-MUC4-0027
+triggers []
+arguments []
+id TST4-MUC4-0028
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('weapon for bombing event', (19, 21), ('trigger for bombing event', 0, 1)), ('target for bombing event', (27, 30), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0029
+triggers [('trigger for attack event', 0, 1), ('trigger for bombing event', 2, 3), ('trigger for trigger for bombing event event', 4, 5)]
+arguments [('victim for attack event', (70, 72), ('trigger for attack event', 0, 1))]
+arguments [('perpetrating individual for attack event', (95, 96), ('trigger for bombing event', 2, 3)), ('weapon for bombing event', (141, 143), ('trigger for bombing event', 2, 3))]
+arguments []
+id TST4-MUC4-0030
+triggers []
+arguments []
+id TST4-MUC4-0031
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('target for bombing event', (23, 25), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0032
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('weapon for bombing event', (14, 16), ('trigger for bombing event', 0, 1)), ('target for bombing event', (22, 29), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0033
+triggers []
+arguments []
+id TST4-MUC4-0034
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('weapon for bombing event', (21, 22), ('trigger for bombing event', 0, 1)), ('target for bombing event', (29, 30), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (74, 76), ('trigger for bombing event', 0, 1)), ('target for bombing event', (82, 87), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0035
+triggers [('trigger for attack event', 0, 1)]
+arguments [('weapon for attack event', (25, 27), ('trigger for attack event', 0, 1))]
+id TST4-MUC4-0036
+triggers []
+arguments []
+id TST4-MUC4-0037
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('weapon for bombing event', (16, 17), ('trigger for bombing event', 0, 1)), ('perpetrating organization for bombing event', (20, 21), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (21, 23), ('trigger for bombing event', 0, 1)), ('target for bombing event', (30, 35), ('trigger for bombing event', 0, 1)), ('target for bombing event', (124, 134), ('trigger for bombing event', 0, 1)), ('target for bombing event', (151, 153), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0038
+triggers [('trigger for kidnapping event', 0, 1), ('trigger for attack event', 2, 3)]
+arguments [('victim for kidnapping event', (97, 100), ('trigger for kidnapping event', 0, 1)), ('victim for kidnapping event', (103, 107), ('trigger for kidnapping event', 0, 1))]
+arguments [('weapon for attack event', (159, 162), ('trigger for attack event', 2, 3))]
+id TST4-MUC4-0039
+triggers [('trigger for kidnapping event', 0, 1)]
+arguments [('victim for kidnapping event', (49, 52), ('trigger for kidnapping event', 0, 1)), ('victim for kidnapping event', (56, 59), ('trigger for kidnapping event', 0, 1))]
+id TST4-MUC4-0040
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating individual for attack event', (16, 21), ('trigger for attack event', 0, 1)), ('target for attack event', (25, 27), ('trigger for attack event', 0, 1)), ('target for attack event', (47, 48), ('trigger for attack event', 0, 1))]
+id TST4-MUC4-0041
+triggers [('trigger for trigger for kidnapping event event', 0, 1)]
+arguments []
+id TST4-MUC4-0042
+triggers []
+arguments []
+id TST4-MUC4-0043
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('perpetrating organization for bombing event', (55, 56), ('trigger for bombing event', 0, 1)), ('target for bombing event', (80, 82), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (95, 97), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0044
+triggers []
+arguments []
+id TST4-MUC4-0045
+triggers [('trigger for bombing event', 0, 1), ('trigger for trigger for attack event event', 2, 3)]
+arguments [('perpetrating individual for bombing event', (36, 37), ('trigger for bombing event', 0, 1)), ('target for bombing event', (40, 41), ('trigger for bombing event', 0, 1)), ('target for bombing event', (43, 45), ('trigger for bombing event', 0, 1))]
+arguments []
+id TST4-MUC4-0046
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating organization for attack event', (48, 50), ('trigger for attack event', 0, 1)), ('victim for attack event', (180, 183), ('trigger for attack event', 0, 1))]
+id TST4-MUC4-0047
+triggers []
+arguments []
+id TST4-MUC4-0048
+triggers []
+arguments []
+id TST4-MUC4-0049
+triggers []
+arguments []
+id TST4-MUC4-0050
+triggers []
+arguments []
+id TST4-MUC4-0051
+triggers [('trigger for attack event', 0, 1), ('trigger for attack event', 2, 3)]
+arguments [('perpetrating individual for attack event', (36, 39), ('trigger for attack event', 0, 1)), ('victim for attack event', (43, 46), ('trigger for attack event', 0, 1))]
+arguments [('victim for attack event', (105, 108), ('trigger for attack event', 2, 3))]
+id TST4-MUC4-0052
+triggers []
+arguments []
+id TST4-MUC4-0053
+triggers []
+arguments []
+id TST4-MUC4-0054
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('perpetrating individual for bombing event', (44, 45), ('trigger for bombing event', 0, 1)), ('perpetrating organization for bombing event', (49, 52), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (54, 55), ('trigger for bombing event', 0, 1)), ('target for bombing event', (65, 66), ('trigger for bombing event', 0, 1))]

@@ -108,6 +108,8 @@ class InputExample:
     output_relations: List[Relation] = None
     output_triggers: List[Entity] = None
 
+    event_type_numbers: List[int] = None # [attack, bombing, kidnapping, robbery, arson, forced work stoppage]
+
 
 @dataclass
 class CorefDocument:

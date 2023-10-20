@@ -52,7 +52,8 @@ class BaseDataset(Dataset, ABC):
             is_eval: bool = False,
             same_input_output_trigs = False,
             mask_args_weight = False,
-            trim_sep = False
+            trim_sep = False,
+            meta_sent = False,
     ):
         if seed is not None:
             # set random seed for repeatability
@@ -60,6 +61,7 @@ class BaseDataset(Dataset, ABC):
 
         self.trim_sep = trim_sep
         self.mask_args_weight = mask_args_weight
+        self.meta_sent = meta_sent
         self.data_args = data_args
         self.tokenizer = tokenizer
 
@@ -192,8 +194,12 @@ class BaseDataset(Dataset, ABC):
     def compute_features(self, max_input_length: int, max_output_length: int, multitask: bool = False):
         input_sentences = [self.input_format.format_input(
             example, multitask=multitask) for example in self.examples]
-        output_sentences = [self.output_format.format_output(
-            example) for example in self.examples]
+        if self.meta_sent:
+            output_sentences = [self.output_format.format_output(
+                example, meta_sentence=True) for example in self.examples]
+        else:
+            output_sentences = [self.output_format.format_output(
+                example) for example in self.examples]
         if self.trim_sep:
             try:
                 sep_sequence = "( SEP ) "

@@ -472,7 +472,7 @@ class EventOutputFormat(JointEROutputFormat):
     # name = 'ace2005_event'
     name = "muc_event"
 
-    def format_output(self, example: InputExample, entities=None, triggers=None, relations=None) -> str:
+    def format_output(self, example: InputExample, entities=None, triggers=None, relations=None, meta_sentence=False) -> str:
         """
         Get output in augmented natural language, similarly to JointEROutputFormat (but we also consider triggers).
         """
@@ -499,9 +499,15 @@ class EventOutputFormat(JointEROutputFormat):
                 entity.start,
                 entity.end,
             ))
+        
+        sent = augment_sentence(example.tokens, augmentations, self.BEGIN_ENTITY_TOKEN, self.SEPARATOR_TOKEN,
+                                    self.RELATION_SEPARATOR_TOKEN, self.END_ENTITY_TOKEN)
 
-        return augment_sentence(example.tokens, augmentations, self.BEGIN_ENTITY_TOKEN, self.SEPARATOR_TOKEN,
-                                self.RELATION_SEPARATOR_TOKEN, self.END_ENTITY_TOKEN)
+        if not meta_sentence:
+            return sent
+        
+        meta_sentence = " recap: There are {} attack, {} bombing, {} kidnapping, {} robbery, {} arson, and {} forced work stoppage events".format(*example.event_type_numbers)
+        return sent + meta_sentence
 
     def run_inference(self, example: InputExample, output_sentence: str,
                       entity_types: Dict[str, EntityType] = None, relation_types: Dict[str, RelationType] = None,
@@ -534,48 +540,76 @@ class EventOutputFormat(JointEROutputFormat):
             raw_predicted_entities, wrong_reconstruction = self.parse_output_sentence(
             example, output_sentence)
 
-        types_map = {
-            "perpetrating individual": "PerpInd",
-            "perpetrating organization": "PerpOrg",
-            "target": "Target",
-            "weapon": "Weapon",
-            "victim": "Victim"
-        }
-        if log_file:
-            if len(raw_predicted_entities) > 2:
-                print(raw_predicted_entities)
-                print(1/0)
+        def find_numerical_substrings(input_string, min_len):
+            numerical_substrings = [int(count) for count in re.findall(r'\b\d+\b', input_string)]
+            return numerical_substrings + [0] * (min_len - len(numerical_substrings))
 
+        if log_file:
             trigs_to_args = {}
+            event_types = {}
+            if "recap: " in output_sentence:
+                meta_sentence = output_sentence[output_sentence.index("recap: "):]
+            else:
+                meta_sentence = ""
+            event_type_names = ["attack", "bombing", "kidnapping", "robbery", "arson", "forced work stoppage"]
+            stated_event_type_nums = {
+                f"trigger for {trigger_type} event" : num for (trigger_type, num) in zip(
+                    event_type_names,
+                    find_numerical_substrings(meta_sentence, len(event_type_names))
+                )
+            }
+            nonempty_event_type_nums = {
+                f"trigger for {event_type} event" : 0 for event_type in event_type_names 
+            }
             for annotation in raw_predicted_entities:
                 if len(annotation[1]) == 2 and len(annotation[1][1]) == 2:
+                    event_name = annotation[1][1][1]
+                    if not event_name in trigs_to_args:
+                        trigs_to_args[event_name] = []
+                        event_types[event_name] = []
+                    
+                    role_type = annotation[1][1][0]
+                    trigs_to_args[event_name].append(
+                        [role_type, annotation[-2], annotation[-1]]
+                    )
                     try:
-                        relation_type = annotation[1][1][0]
-                        for_ind = relation_type.index(" for")
-                        event_ind = relation_type.index(" event")
-                        trig_type = relation_type[for_ind + len(" for ") : event_ind]
-                        role_type = relation_type[ : for_ind]
+                        for_ind, event_ind = role_type.index("for"), role_type.index(" event")
+                        event_type = role_type[for_ind + len("for ") : event_ind]
+                    except ValueError:
+                        event_type = "attack"
+                    event_type = f"trigger for {event_type} event"
+                    event_types[event_name].append(event_type)
+                    nonempty_event_type_nums[event_type] += 1
+            empty_event_types = {
+                template_type: stated_event_type_nums[template_type] - nonempty_event_type_nums[template_type]
+                for template_type in nonempty_event_type_nums.keys()
+            }
+            counter = 0
+            for event_type, count in empty_event_types.items():
+                for _ in range(0, count):
+                    trigger_name = f"event -{counter}"
+                    trigs_to_args[trigger_name] = []
+                    event_types[trigger_name] = [f"trigger for {event_type} event"]
+                    counter += 1
 
-                        trig_enumerated = annotation[1][1][1]
-                        if not trig_enumerated in trigs_to_args:
-                            trigs_to_args[trig_enumerated] = {v: [] for v in types_map.values()}
-                            trigs_to_args[trig_enumerated]["incident_type"] = [trig_type]
-                        else:
-                            trigs_to_args[trig_enumerated]["incident_type"].append(trig_type)
-                        
-                        if role_type in types_map:
-                            trigs_to_args[trig_enumerated][types_map[role_type]].append(
-                                [[annotation[0]]]
-                            )
-                    except:
-                        pass
+            triggers, arguments = [], []
+            for i, (trigger_name, args) in enumerate(trigs_to_args.items()):
+                possible_event_types = event_types[trigger_name]
+                trigger_type = max(set(possible_event_types), key=possible_event_types.count)
+                trigger_tup = (trigger_type, i * 2, i * 2 + 1)
+                triggers.append(trigger_tup)
+                arguments.append(
+                    [(arg[0], (arg[-2], arg[-1]), trigger_tup) for arg in args]
+                )
             
             with open(log_file, "a") as f:
-                info = json.dumps({
-                    "id": example.id,
-                    "templates": list(v for v in trigs_to_args.values())
-                })
-                f.write(info + "\n")
+                if not len(triggers):
+                    f.write(f"id {example.id}\ntriggers []\narguments []\n")
+                else:
+                    s = f"id {example.id}\ntriggers {triggers}\n"
+                    for args in arguments:
+                        s += f"arguments {args}\n"
+                    f.write(s)
             
             return 0, 0, 0
             # args = []

@@ -20,7 +20,7 @@ RUN="../run/default.py"
 
 mkdir "../g2_environments/$ENV_NAME"
 cp -r "../../../original_scripts/MUC/." "../g2_environments/$ENV_NAME"
-cp "../../../original_scripts/*" "../g2_environments/$ENV_NAME"
+cp "../../../original_scripts/"* "../g2_environments/$ENV_NAME"
 cp $TRAIN_TRIG "../g2_environments/$ENV_NAME/data/mucevent/mucevent_trigger_train.json"
 cp $TRAIN_ARG "../g2_environments/$ENV_NAME/data/mucevent/mucevent_argument_train.json"
 cp $RUN "../g2_environments/$ENV_NAME/run.py"

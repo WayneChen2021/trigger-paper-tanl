@@ -225,7 +225,7 @@ def main():
                 dataset = load_dataset(
                     dataset_name, data_args, split=data_args.train_split,
                     max_input_length=data_args.max_seq_length, max_output_length=data_args.max_output_seq_length,
-                    tokenizer=tokenizer, seed=ep_idx, train_subset=data_args.train_subset, trim_sep=True
+                    tokenizer=tokenizer, seed=ep_idx, train_subset=data_args.train_subset, trim_sep=True, meta_sent=True
                 )
                 datasets.append(dataset)
 
@@ -237,13 +237,13 @@ def main():
                 'mucevent_no_trig', data_args,
                 max_input_length=data_args.max_seq_length_eval,
                 max_output_length=data_args.max_output_seq_length_eval,
-                tokenizer=tokenizer, split='dev', seed=ep_idx, shuffle=False, is_eval=True, trim_sep=True
+                tokenizer=tokenizer, split='dev', seed=ep_idx, shuffle=False, is_eval=True, trim_sep=True, meta_sent=True
             )
             tracking_dataset_test = load_dataset(
                 'mucevent_no_trig', data_args,
                 max_input_length=data_args.max_seq_length_eval,
                 max_output_length=data_args.max_output_seq_length_eval,
-                tokenizer=tokenizer, split='test', seed=ep_idx, shuffle=False, is_eval=True, trim_sep=True
+                tokenizer=tokenizer, split='test', seed=ep_idx, shuffle=False, is_eval=True, trim_sep=True, meta_sent=True
             )
 
             class CustomCallback(TrainerCallback):
@@ -307,7 +307,7 @@ def main():
             'mucevent_no_trig', data_args,
             max_input_length=data_args.max_seq_length_eval,
             max_output_length=data_args.max_output_seq_length_eval,
-            tokenizer=tokenizer, split='dev', seed=ep_idx, shuffle=False, is_eval=True, trim_sep=True
+            tokenizer=tokenizer, split='dev', seed=ep_idx, shuffle=False, is_eval=True, trim_sep=True, meta_sent=True
         )
         _ = dev_dataset.evaluate_dataset(data_args=data_args, model=model, device=device, batch_size=training_args.per_device_eval_batch_size,
                                             log_file="dev_predictions.txt")
