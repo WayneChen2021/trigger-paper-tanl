@@ -182,7 +182,7 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
         
         gtt = info[message_id]
         gtt['docid'] = gtt['id']
-        gtt['doctext'] = gtt['text']
+        gtt['doctext'] = gtt['text'].lower().replace("[", "(").replace("]", ")")
         del gtt['id']
         del gtt['text']
         del gtt['source']
@@ -190,7 +190,7 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
             del template['Triggers']
             for role, entities in template.items():
                 if role in ['PerpInd', 'PerpOrg', 'Target', 'Victim', 'Weapon']:
-                    template[role] = [[tup[:1] for tup in coref_span_lst] for coref_span_lst in entities]
+                    template[role] = [[[tup[0].lower().replace("[", "(").replace("]", ")")] for tup in coref_span_lst] for coref_span_lst in entities]
 
         if 'TST' in message_id:
             out_test_trigs += trig_examples
@@ -202,6 +202,12 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
             out_train_args += arg_examples
             out_train_event.append(event_example)
             gtt_train_events.append(gtt)
+    
+    sort_tanl = lambda doc : doc['id']
+    sort_gtt = lambda doc : doc['docid']
+    out_train_trigs, out_train_args, out_train_event = sorted(out_train_trigs, key = sort_tanl), sorted(out_train_args, key = sort_tanl), sorted(out_train_event, key = sort_tanl)
+    out_test_trigs, out_test_args, out_test_event = sorted(out_test_trigs, key = sort_tanl), sorted(out_test_args, key = sort_tanl), sorted(out_test_event, key = sort_tanl)
+    gtt_train_events, gtt_test_events = sorted(gtt_train_events, key = sort_gtt), sorted(gtt_test_events, key = sort_gtt)
     
     if train_trig:
         with open(train_trig, "w") as f:
