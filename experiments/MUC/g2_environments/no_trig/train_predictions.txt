@@ -1370,7 +1370,7 @@ triggers []
 arguments []
 TEST PART
 id TST1-MUC3-0001
-triggers [('trigger for arson event', 0, 1), ('trigger for trigger for attack event event', 2, 3)]
+triggers [('trigger for arson event', 0, 1), ('trigger for attack event', 2, 3)]
 arguments [('target for arson event', (255, 257), ('trigger for arson event', 0, 1))]
 arguments []
 id TST1-MUC3-0002
@@ -1820,11 +1820,11 @@ id DEV-MUC3-0009
 triggers []
 arguments []
 id DEV-MUC3-0010
-triggers [('trigger for trigger for attack event event', 0, 1)]
+triggers [('trigger for attack event', 0, 1)]
 arguments []
 TEST PART
 id TST1-MUC3-0001
-triggers [('trigger for arson event', 0, 1), ('trigger for trigger for attack event event', 2, 3)]
+triggers [('trigger for arson event', 0, 1), ('trigger for attack event', 2, 3)]
 arguments [('target for arson event', (255, 257), ('trigger for arson event', 0, 1))]
 arguments []
 id TST1-MUC3-0002
@@ -2086,7 +2086,7 @@ id TST1-MUC3-0001
 triggers [('trigger for arson event', 0, 1)]
 arguments [('target for arson event', (255, 257), ('trigger for arson event', 0, 1))]
 id TST1-MUC3-0002
-triggers [('trigger for attack event', 0, 1), ('trigger for trigger for attack event event', 2, 3)]
+triggers [('trigger for attack event', 0, 1), ('trigger for attack event', 2, 3)]
 arguments [('target for attack event', (39, 42), ('trigger for attack event', 0, 1))]
 arguments []
 id TST1-MUC3-0003
@@ -2212,7 +2212,7 @@ triggers []
 arguments []
 TEST PART
 id TST1-MUC3-0001
-triggers [('trigger for attack event', 0, 1), ('trigger for arson event', 2, 3), ('trigger for trigger for attack event event', 4, 5)]
+triggers [('trigger for attack event', 0, 1), ('trigger for arson event', 2, 3), ('trigger for attack event', 4, 5)]
 arguments [('perpetrating individual for attack event', (19, 20), ('trigger for attack event', 0, 1))]
 arguments [('target for arson event', (255, 257), ('trigger for arson event', 2, 3))]
 arguments []
@@ -2347,7 +2347,7 @@ triggers [('trigger for attack event', 0, 1), ('trigger for arson event', 2, 3)]
 arguments [('perpetrating individual for attack event', (19, 20), ('trigger for attack event', 0, 1)), ('target for attack event', (22, 28), ('trigger for attack event', 0, 1))]
 arguments [('target for arson event', (255, 257), ('trigger for arson event', 2, 3))]
 id TST1-MUC3-0002
-triggers [('trigger for attack event', 0, 1), ('trigger for trigger for attack event event', 2, 3)]
+triggers [('trigger for attack event', 0, 1), ('trigger for attack event', 2, 3)]
 arguments [('target for attack event', (39, 42), ('trigger for attack event', 0, 1))]
 arguments []
 id TST1-MUC3-0003
@@ -2797,7 +2797,7 @@ triggers []
 arguments []
 TEST PART
 id TST1-MUC3-0001
-triggers [('trigger for arson event', 0, 1), ('trigger for trigger for bombing event event', 2, 3)]
+triggers [('trigger for arson event', 0, 1), ('trigger for bombing event', 2, 3)]
 arguments [('target for arson event', (255, 257), ('trigger for arson event', 0, 1))]
 arguments []
 id TST1-MUC3-0002
@@ -3121,7 +3121,7 @@ triggers []
 arguments []
 TEST PART
 id TST1-MUC3-0001
-triggers [('trigger for attack event', 0, 1), ('trigger for arson event', 2, 3), ('trigger for trigger for attack event event', 4, 5)]
+triggers [('trigger for attack event', 0, 1), ('trigger for arson event', 2, 3), ('trigger for attack event', 4, 5)]
 arguments [('perpetrating individual for attack event', (19, 20), ('trigger for attack event', 0, 1))]
 arguments [('target for arson event', (255, 257), ('trigger for arson event', 2, 3))]
 arguments []

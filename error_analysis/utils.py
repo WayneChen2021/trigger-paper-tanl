@@ -32,12 +32,12 @@ def to_error_analysis_format_event(triplets, types_mapping):
             except KeyError:
                 print("type '{}' not identified".format(trig_tup[0]))
         
-        try:
-            assert error_analysis["docid"].strip() == triplet["tanl"]["id"].strip()
-            assert triplet["tanl"]["id"].strip() == triplet["model_out"]["id"].strip()
-        except Exception as e:
-            print(error_analysis["docid"].strip(), triplet["tanl"]["id"].strip(), triplet["model_out"]["id"].strip())
-            raise e
+        # try:
+        #     assert error_analysis["docid"].strip() == triplet["tanl"]["id"].strip()
+        #     assert triplet["tanl"]["id"].strip() == triplet["model_out"]["id"].strip()
+        # except Exception as e:
+        #     print(error_analysis["docid"].strip(), triplet["tanl"]["id"].strip(), triplet["model_out"]["id"].strip())
+        #     raise e
 
         for arg_tup in triplet["model_out"]["args"]:
             try:

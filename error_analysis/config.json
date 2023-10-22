@@ -3,43 +3,52 @@
         "test_time_logs": {
             "run": true,
             "raw_outs": {
-                "0": "../experiments/multi_task/g2_environments/heavy_weight/dev_predictions.txt"
+                "0": "../experiments/MUC/g2_environments/keyword/dev_predictions.txt",
+                "1": "../experiments/MUC/g2_environments/no_trig/dev_predictions.txt"
             },
-            "tanl_ref": "../../data/full_eval/tanl_eval.json",
-            "gtt_ref": "../../data/full_eval/gtt_eval.json",
+            "tanl_ref": "../original_scripts/MUC/eval_data/dev.json",
+            "gtt_ref": "../data/MUC/gtt/full_test.json",
             "output_file": {
-                "0": "../experiments/multi_task/error_analysis_output/heavy_weight.out"
+                "0": "../experiments/MUC/error_analysis/keyword/error_analysis.out",
+                "1": "../experiments/MUC/error_analysis/no_trig/error_analysis.out"
             },
-            "error_analysis_script": "Error_Analysis.py"
+            "error_analysis_script": "../error_analysis/Error_Analysis.py"
         },
         "train_time_logs": {
             "run": true,
             "raw_outs": {
-                "0": "../experiments/multi_task/g2_environments/heavy_weight/train_predictions.txt"
+                "0": "../experiments/MUC/g2_environments/keyword/train_predictions.txt",
+                "1": "../experiments/MUC/g2_environments/no_trig/train_predictions.txt"
             },
             "tanl_ref": [
-                "../../data/short_files/tanl_train.json",
-                "../../data/short_files/tanl_test.json"
+                "../original_scripts/MUC/data/mucevent/mucevent_dev.json",
+                "../original_scripts/MUC/data/mucevent/mucevent_test.json"
             ],
             "gtt_ref": [
-                "../../data/short_files/gtt_train.json",
-                "../../data/short_files/gtt_test.json"
+                "../data/MUC/gtt/short_train.json",
+                "../data/MUC/gtt/short_test.json"
             ],
             "output_file": {
                 "0": [
-                    "../experiments/multi_task/training_errors/heavy_weight/train_template_errors.txt",
-                    "../experiments/multi_task/training_errors/heavy_weight/test_template_errors.txt"
+                    "../experiments/MUC/error_analysis/keyword/train_template_errors.txt",
+                    "../experiments/MUC/error_analysis/keyword/test_template_errors.txt"
+                ],
+                "1": [
+                    "../experiments/MUC/error_analysis/no_trig/train_template_errors.txt",
+                    "../experiments/MUC/error_analysis/no_trig/test_template_errors.txt"
                 ]
             },
-            "error_analysis_script": "Error_Analysis_quick.py"
+            "error_analysis_script": "../error_analysis/Error_Analysis_quick.py"
         },
         "training_errors": {
             "run": true,
             "log_file": {
-                "0": "../experiments/multi_task/g2_environments/heavy_weight/logs.json"
+                "0": "../experiments/MUC/g2_environments/keyword/logs.json",
+                "1": "../experiments/MUC/g2_environments/no_trig/logs.json"
             },
             "output_file": {
-                "0": "../experiments/multi_task/training_errors/heavy_weight/graph.png"
+                "0": "../experiments/MUC/error_analysis/keyword/graph.png",
+                "1": "../experiments/MUC/error_analysis/no_trig/graph.png"
             },
             "loss_collection_interval": 100,
             "small_evaluation_interval": 500
