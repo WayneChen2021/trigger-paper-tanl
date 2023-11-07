@@ -3,22 +3,22 @@
         "test_time_logs": {
             "run": true,
             "raw_outs": {
-                "0": "../experiments/MUC/g2_environments/keyword/dev_predictions.txt",
-                "1": "../experiments/MUC/g2_environments/no_trig/dev_predictions.txt"
+                "0": "../experiments/MUC/g2_environments/keyword_1_trig_standard/dev_predictions.txt",
+                "1": "../experiments/MUC/g2_environments/single_pass/dev_predictions.txt"
             },
             "tanl_ref": "../original_scripts/MUC/eval_data/dev.json",
             "gtt_ref": "../data/MUC/gtt/full_test.json",
             "output_file": {
-                "0": "../experiments/MUC/error_analysis/keyword/error_analysis.out",
-                "1": "../experiments/MUC/error_analysis/no_trig/error_analysis.out"
+                "0": "../experiments/MUC/error_analysis/keyword_1_trig_standard/error_analysis.out",
+                "1": "../experiments/MUC/error_analysis/single_pass/error_analysis.out"
             },
             "error_analysis_script": "../error_analysis/Error_Analysis.py"
         },
         "train_time_logs": {
             "run": true,
             "raw_outs": {
-                "0": "../experiments/MUC/g2_environments/keyword/train_predictions.txt",
-                "1": "../experiments/MUC/g2_environments/no_trig/train_predictions.txt"
+                "0": "../experiments/MUC/g2_environments/keyword_1_trig_standard/train_predictions.txt",
+                "1": "../experiments/MUC/g2_environments/single_pass/train_predictions.txt"
             },
             "tanl_ref": [
                 "../original_scripts/MUC/data/mucevent/mucevent_dev.json",
@@ -30,12 +30,12 @@
             ],
             "output_file": {
                 "0": [
-                    "../experiments/MUC/error_analysis/keyword/train_template_errors.txt",
-                    "../experiments/MUC/error_analysis/keyword/test_template_errors.txt"
+                    "../experiments/MUC/error_analysis/keyword_1_trig_standard/train_template_errors.txt",
+                    "../experiments/MUC/error_analysis/keyword_1_trig_standard/test_template_errors.txt"
                 ],
                 "1": [
-                    "../experiments/MUC/error_analysis/no_trig/train_template_errors.txt",
-                    "../experiments/MUC/error_analysis/no_trig/test_template_errors.txt"
+                    "../experiments/MUC/error_analysis/single_pass/train_template_errors.txt",
+                    "../experiments/MUC/error_analysis/single_pass/test_template_errors.txt"
                 ]
             },
             "error_analysis_script": "../error_analysis/Error_Analysis_quick.py"
@@ -43,12 +43,12 @@
         "training_errors": {
             "run": true,
             "log_file": {
-                "0": "../experiments/MUC/g2_environments/keyword/logs.json",
-                "1": "../experiments/MUC/g2_environments/no_trig/logs.json"
+                "0": "../experiments/MUC/g2_environments/keyword_1_trig_standard/logs.json",
+                "1": "../experiments/MUC/g2_environments/single_pass/logs.json"
             },
             "output_file": {
-                "0": "../experiments/MUC/error_analysis/keyword/graph.png",
-                "1": "../experiments/MUC/error_analysis/no_trig/graph.png"
+                "0": "../experiments/MUC/error_analysis/keyword_1_trig_standard/graph.png",
+                "1": "../experiments/MUC/error_analysis/single_pass/graph.png"
             },
             "loss_collection_interval": 100,
             "small_evaluation_interval": 500
