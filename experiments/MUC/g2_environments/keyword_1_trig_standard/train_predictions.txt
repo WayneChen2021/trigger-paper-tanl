@@ -1,0 +1,4914 @@
+EVAL PART
+id DEV-MUC3-0001
+triggers []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers []
+id DEV-MUC3-0009
+triggers [('trigger for attack event', 11, 12)]
+arguments []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 36, 37)]
+arguments [('perpetrating organization for kidnapping event', (10, 15), ('trigger for kidnapping event', 36, 37))]
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for bombing event', 36, 37), ('trigger for attack event', 29, 30)]
+arguments []
+arguments [('perpetrating organization for attack event', (36, 40), ('trigger for attack event', 29, 30))]
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers [('trigger for kidnapping event', 42, 43)]
+arguments []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 11, 12)]
+arguments [('perpetrating organization for kidnapping event', (41, 46), ('trigger for kidnapping event', 11, 12))]
+id DEV-MUC3-0002
+triggers [('trigger for attack event', 30, 31)]
+arguments []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments [('perpetrating organization for attack event', (63, 64), ('trigger for attack event', 20, 21)), ('perpetrating organization for attack event', (18, 21), ('trigger for attack event', 20, 21))]
+id DEV-MUC3-0005
+triggers [('trigger for attack event', 32, 33)]
+arguments [('perpetrating organization for attack event', (24, 25), ('trigger for attack event', 32, 33))]
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30)]
+arguments [('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 29, 30)), ('perpetrating organization for kidnapping event', (36, 40), ('trigger for kidnapping event', 29, 30))]
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments [('victim for attack event', (28, 31), ('trigger for attack event', 22, 23)), ('victim for attack event', (56, 59), ('trigger for attack event', 22, 23))]
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 36, 37)]
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30)]
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers [('trigger for kidnapping event', 42, 43)]
+arguments []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 11, 12)]
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30)]
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id TST1-MUC3-0002
+triggers [('trigger for bombing event', 37, 38)]
+arguments []
+id TST1-MUC3-0003
+triggers [('trigger for kidnapping event', 42, 43)]
+arguments []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 36, 37)]
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments [('victim for attack event', (300, 302), ('trigger for attack event', 20, 21))]
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30)]
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers [('trigger for attack event', 21, 22)]
+arguments []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id TST1-MUC3-0002
+triggers [('trigger for attack event', 37, 38)]
+arguments []
+id TST1-MUC3-0003
+triggers [('trigger for kidnapping event', 42, 43)]
+arguments []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 11, 12)]
+arguments [('perpetrating organization for kidnapping event', (41, 46), ('trigger for kidnapping event', 11, 12))]
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 36, 37), ('trigger for kidnapping event', 29, 30)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id TST1-MUC3-0002
+triggers [('trigger for attack event', 37, 38)]
+arguments []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12)]
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for kidnapping event', 12, 15), ('trigger for kidnapping event', 43, 44)]
+arguments []
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 19, 20), ('trigger for attack event', 20, 21)]
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers [('trigger for kidnapping event', 41, 42)]
+arguments []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12)]
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30)]
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers []
+id TST1-MUC3-0002
+triggers [('trigger for attack event', 37, 38)]
+arguments []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments [('perpetrating organization for kidnapping event', (41, 46), ('trigger for kidnapping event', 10, 12)), ('perpetrating individual for kidnapping event', (38, 39), ('trigger for kidnapping event', 10, 12))]
+arguments [('perpetrating organization for attack event', (41, 46), ('trigger for attack event', 10, 12)), ('perpetrating individual for attack event', (38, 39), ('trigger for attack event', 10, 12))]
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments [('perpetrating organization for attack event', (18, 21), ('trigger for attack event', 20, 21))]
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 36, 37), ('trigger for kidnapping event', 29, 30)]
+arguments [('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 36, 37))]
+arguments [('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 29, 30))]
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments [('perpetrating organization for attack event', (16, 17), ('trigger for attack event', 22, 23))]
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 12, 13), ('trigger for kidnapping event', 11, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 36, 37), ('trigger for kidnapping event', 29, 30)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for arson event', 15, 16)]
+arguments [('target for arson event', (255, 257), ('trigger for arson event', 15, 16))]
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for bombing event', 43, 44), ('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 12, 13), ('trigger for attack event', 10, 12)]
+arguments [('perpetrating individual for kidnapping event', (38, 39), ('trigger for kidnapping event', 12, 13)), ('perpetrating organization for kidnapping event', (10, 13), ('trigger for kidnapping event', 12, 13)), ('perpetrating organization for kidnapping event', (41, 46), ('trigger for kidnapping event', 12, 13))]
+arguments [('perpetrating organization for attack event', (41, 46), ('trigger for attack event', 10, 12)), ('perpetrating individual for attack event', (38, 39), ('trigger for attack event', 10, 12))]
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for bombing event', 36, 37), ('trigger for bombing event', 29, 30)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16)]
+arguments [('perpetrating organization for attack event', (14, 16), ('trigger for attack event', 15, 16))]
+id TST1-MUC3-0002
+triggers [('trigger for attack event', 37, 38)]
+arguments []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12)]
+arguments [('perpetrating organization for kidnapping event', (41, 46), ('trigger for kidnapping event', 10, 12)), ('perpetrating individual for kidnapping event', (38, 39), ('trigger for kidnapping event', 10, 12))]
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments [('perpetrating organization for attack event', (18, 21), ('trigger for attack event', 20, 21))]
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 36, 37), ('trigger for kidnapping event', 29, 30)]
+arguments [('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 36, 37)), ('perpetrating individual for kidnapping event', (43, 44), ('trigger for kidnapping event', 36, 37)), ('perpetrating organization for kidnapping event', (36, 40), ('trigger for kidnapping event', 36, 37))]
+arguments [('perpetrating organization for kidnapping event', (36, 40), ('trigger for kidnapping event', 29, 30)), ('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 29, 30)), ('perpetrating individual for kidnapping event', (43, 44), ('trigger for kidnapping event', 29, 30))]
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for arson event', 15, 16)]
+arguments [('target for arson event', (22, 28), ('trigger for arson event', 15, 16)), ('perpetrating organization for arson event', (14, 16), ('trigger for arson event', 15, 16)), ('perpetrating individual for arson event', (19, 20), ('trigger for arson event', 15, 16)), ('target for arson event', (255, 257), ('trigger for arson event', 15, 16))]
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers [('trigger for attack event', 167, 168)]
+arguments [('perpetrating organization for attack event', (131, 133), ('trigger for attack event', 167, 168))]
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for bombing event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for bombing event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments [('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 29, 30))]
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for arson event', 15, 16)]
+arguments [('target for arson event', (255, 257), ('trigger for arson event', 15, 16))]
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers [('trigger for bombing event', 18, 19)]
+arguments [('target for bombing event', (137, 140), ('trigger for bombing event', 18, 19)), ('target for bombing event', (142, 145), ('trigger for bombing event', 18, 19))]
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for bombing event', 43, 44), ('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments [('perpetrating individual for bombing event', (43, 44), ('trigger for bombing event', 43, 44)), ('victim for bombing event', (12, 15), ('trigger for bombing event', 43, 44)), ('perpetrating organization for bombing event', (36, 40), ('trigger for bombing event', 43, 44))]
+arguments [('perpetrating organization for kidnapping event', (36, 40), ('trigger for kidnapping event', 29, 30)), ('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 29, 30)), ('perpetrating individual for kidnapping event', (43, 44), ('trigger for kidnapping event', 29, 30))]
+arguments [('victim for bombing event', (12, 15), ('trigger for bombing event', 36, 37))]
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers [('trigger for bombing event', 18, 19)]
+arguments [('weapon for bombing event', (97, 102), ('trigger for bombing event', 18, 19)), ('weapon for bombing event', (99, 101), ('trigger for bombing event', 18, 19))]
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for attack event', 10, 12)]
+arguments [('perpetrating individual for attack event', (38, 39), ('trigger for attack event', 10, 12)), ('perpetrating organization for attack event', (40, 46), ('trigger for attack event', 10, 12))]
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments [('perpetrating organization for attack event', (18, 21), ('trigger for attack event', 20, 21))]
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments [('perpetrating organization for kidnapping event', (36, 40), ('trigger for kidnapping event', 29, 30)), ('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 29, 30)), ('perpetrating individual for kidnapping event', (43, 44), ('trigger for kidnapping event', 29, 30))]
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16)]
+arguments [('target for attack event', (255, 257), ('trigger for attack event', 15, 16)), ('perpetrating individual for attack event', (76, 78), ('trigger for attack event', 15, 16))]
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23), ('trigger for attack event', 26, 27)]
+arguments [('perpetrating organization for attack event', (16, 17), ('trigger for attack event', 22, 23))]
+arguments [('perpetrating organization for attack event', (16, 17), ('trigger for attack event', 26, 27))]
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for attack event', 10, 12)]
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16), ('trigger for arson event', 15, 16)]
+arguments [('target for attack event', (255, 257), ('trigger for attack event', 15, 16))]
+arguments [('perpetrating organization for arson event', (14, 16), ('trigger for arson event', 15, 16)), ('target for arson event', (255, 257), ('trigger for arson event', 15, 16))]
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers [('trigger for bombing event', 18, 19)]
+arguments [('weapon for bombing event', (97, 101), ('trigger for bombing event', 18, 19)), ('target for bombing event', (22, 25), ('trigger for bombing event', 18, 19))]
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for attack event', 10, 12)]
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 20, 21), ('trigger for arson event', 15, 16)]
+arguments [('target for attack event', (22, 28), ('trigger for attack event', 20, 21)), ('target for attack event', (255, 257), ('trigger for attack event', 20, 21))]
+arguments [('target for arson event', (22, 28), ('trigger for arson event', 15, 16)), ('target for arson event', (255, 257), ('trigger for arson event', 15, 16))]
+id TST1-MUC3-0002
+triggers [('trigger for attack event', 37, 38)]
+arguments []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12)]
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12)]
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for arson event', 15, 16)]
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for attack event', 10, 12)]
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments [('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 29, 30)), ('perpetrating organization for kidnapping event', (36, 40), ('trigger for kidnapping event', 29, 30))]
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16), ('trigger for arson event', 15, 16)]
+arguments [('target for attack event', (255, 257), ('trigger for attack event', 15, 16))]
+arguments [('target for arson event', (181, 186), ('trigger for arson event', 15, 16)), ('target for arson event', (255, 257), ('trigger for arson event', 15, 16))]
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers [('trigger for kidnapping event', 36, 37)]
+arguments []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for bombing event', 43, 44), ('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16), ('trigger for arson event', 15, 16)]
+arguments [('target for attack event', (181, 186), ('trigger for attack event', 15, 16))]
+arguments [('target for arson event', (181, 186), ('trigger for arson event', 15, 16)), ('target for arson event', (255, 257), ('trigger for arson event', 15, 16))]
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers [('trigger for kidnapping event', 36, 37)]
+arguments []
+id TST1-MUC3-0004
+triggers [('trigger for bombing event', 18, 19)]
+arguments [('weapon for bombing event', (97, 101), ('trigger for bombing event', 18, 19)), ('target for bombing event', (137, 140), ('trigger for bombing event', 18, 19))]
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16)]
+arguments [('target for attack event', (255, 257), ('trigger for attack event', 15, 16))]
+id TST1-MUC3-0002
+triggers [('trigger for attack event', 37, 38)]
+arguments [('perpetrating organization for attack event', (29, 34), ('trigger for attack event', 37, 38))]
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id TST1-MUC3-0002
+triggers [('trigger for attack event', 37, 38)]
+arguments []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for attack event', 10, 12)]
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for bombing event', 43, 44), ('trigger for bombing event', 36, 37), ('trigger for bombing event', 29, 30)]
+arguments []
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16), ('trigger for arson event', 15, 16)]
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30)]
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 20, 21), ('trigger for arson event', 15, 16)]
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers [('trigger for bombing event', 18, 19)]
+arguments [('target for bombing event', (137, 140), ('trigger for bombing event', 18, 19)), ('target for bombing event', (142, 145), ('trigger for bombing event', 18, 19))]
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 20, 21), ('trigger for arson event', 15, 16)]
+arguments [('weapon for attack event', (255, 257), ('trigger for attack event', 20, 21))]
+arguments [('weapon for arson event', (255, 257), ('trigger for arson event', 15, 16))]
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16), ('trigger for attack event', 20, 21), ('trigger for arson event', 15, 16)]
+arguments []
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers [('trigger for bombing event', 18, 19)]
+arguments []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for bombing event', 43, 44), ('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16)]
+arguments [('target for attack event', (255, 257), ('trigger for attack event', 15, 16))]
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16)]
+arguments [('weapon for attack event', (255, 257), ('trigger for attack event', 15, 16))]
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16)]
+arguments [('target for attack event', (255, 257), ('trigger for attack event', 15, 16))]
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers [('trigger for kidnapping event', 36, 37)]
+arguments []
+id TST1-MUC3-0004
+triggers [('trigger for bombing event', 18, 19)]
+arguments []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments [('perpetrating organization for kidnapping event', (41, 46), ('trigger for kidnapping event', 10, 12)), ('perpetrating individual for kidnapping event', (38, 39), ('trigger for kidnapping event', 10, 12))]
+arguments [('perpetrating organization for attack event', (41, 46), ('trigger for attack event', 10, 12)), ('perpetrating individual for attack event', (38, 39), ('trigger for attack event', 10, 12))]
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments [('perpetrating organization for attack event', (18, 21), ('trigger for attack event', 20, 21))]
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments [('perpetrating organization for kidnapping event', (36, 40), ('trigger for kidnapping event', 29, 30)), ('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 29, 30)), ('perpetrating individual for kidnapping event', (43, 44), ('trigger for kidnapping event', 29, 30))]
+arguments [('perpetrating organization for bombing event', (36, 40), ('trigger for bombing event', 36, 37)), ('victim for bombing event', (12, 15), ('trigger for bombing event', 36, 37)), ('perpetrating individual for bombing event', (43, 44), ('trigger for bombing event', 36, 37))]
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16)]
+arguments [('target for attack event', (255, 257), ('trigger for attack event', 15, 16)), ('perpetrating individual for attack event', (76, 78), ('trigger for attack event', 15, 16)), ('target for attack event', (22, 28), ('trigger for attack event', 15, 16))]
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments [('perpetrating organization for attack event', (16, 17), ('trigger for attack event', 22, 23))]
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 20, 21), ('trigger for arson event', 15, 16)]
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers [('trigger for attack event', 37, 38)]
+arguments []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 47, 48), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers [('trigger for kidnapping event', 36, 37)]
+arguments []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 20, 21), ('trigger for arson event', 15, 16)]
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers [('trigger for attack event', 37, 38)]
+arguments []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers [('trigger for bombing event', 18, 19)]
+arguments []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments [('perpetrating organization for kidnapping event', (41, 46), ('trigger for kidnapping event', 10, 12)), ('perpetrating individual for kidnapping event', (38, 39), ('trigger for kidnapping event', 10, 12))]
+arguments [('perpetrating organization for attack event', (41, 46), ('trigger for attack event', 10, 12)), ('perpetrating individual for attack event', (38, 39), ('trigger for attack event', 10, 12))]
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16), ('trigger for arson event', 15, 16)]
+arguments [('target for attack event', (255, 257), ('trigger for attack event', 15, 16))]
+arguments [('target for arson event', (255, 257), ('trigger for arson event', 15, 16))]
+id TST1-MUC3-0002
+triggers [('trigger for attack event', 37, 38)]
+arguments []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers [('trigger for bombing event', 18, 19)]
+arguments [('target for bombing event', (22, 25), ('trigger for bombing event', 18, 19))]
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16)]
+arguments [('target for attack event', (255, 257), ('trigger for attack event', 15, 16)), ('target for attack event', (22, 28), ('trigger for attack event', 15, 16))]
+id TST1-MUC3-0002
+triggers [('trigger for attack event', 37, 38)]
+arguments []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments [('perpetrating organization for kidnapping event', (41, 46), ('trigger for kidnapping event', 10, 12)), ('perpetrating individual for kidnapping event', (38, 39), ('trigger for kidnapping event', 10, 12))]
+arguments [('perpetrating organization for attack event', (41, 46), ('trigger for attack event', 10, 12)), ('perpetrating individual for attack event', (38, 39), ('trigger for attack event', 10, 12))]
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16)]
+arguments [('perpetrating individual for attack event', (19, 20), ('trigger for attack event', 15, 16)), ('weapon for attack event', (255, 257), ('trigger for attack event', 15, 16)), ('target for attack event', (22, 28), ('trigger for attack event', 15, 16))]
+id TST1-MUC3-0002
+triggers [('trigger for attack event', 37, 38)]
+arguments [('target for attack event', (39, 42), ('trigger for attack event', 37, 38))]
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for bombing event', 36, 37), ('trigger for bombing event', 29, 30)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 20, 21), ('trigger for arson event', 15, 16), ('trigger for bombing event', 15, 16)]
+arguments []
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 20, 21), ('trigger for bombing event', 15, 16)]
+arguments []
+arguments [('perpetrating organization for bombing event', (14, 16), ('trigger for bombing event', 15, 16)), ('target for bombing event', (22, 28), ('trigger for bombing event', 15, 16))]
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments [('perpetrating organization for kidnapping event', (41, 46), ('trigger for kidnapping event', 10, 12)), ('perpetrating individual for kidnapping event', (38, 39), ('trigger for kidnapping event', 10, 12))]
+arguments [('perpetrating organization for attack event', (41, 46), ('trigger for attack event', 10, 12)), ('perpetrating individual for attack event', (38, 39), ('trigger for attack event', 10, 12))]
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for bombing event', 36, 37), ('trigger for bombing event', 29, 30)]
+arguments [('victim for bombing event', (12, 15), ('trigger for bombing event', 36, 37))]
+arguments [('victim for bombing event', (12, 15), ('trigger for bombing event', 29, 30)), ('perpetrating organization for bombing event', (36, 40), ('trigger for bombing event', 29, 30))]
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16), ('trigger for arson event', 15, 16)]
+arguments [('target for attack event', (255, 257), ('trigger for attack event', 15, 16))]
+arguments [('target for arson event', (255, 257), ('trigger for arson event', 15, 16))]
+id TST1-MUC3-0002
+triggers [('trigger for attack event', 37, 38)]
+arguments [('target for attack event', (39, 42), ('trigger for attack event', 37, 38))]
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers [('trigger for bombing event', 18, 19)]
+arguments [('weapon for bombing event', (27, 28), ('trigger for bombing event', 18, 19)), ('target for bombing event', (137, 140), ('trigger for bombing event', 18, 19)), ('target for bombing event', (22, 25), ('trigger for bombing event', 18, 19))]
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments [('perpetrating organization for attack event', (16, 17), ('trigger for attack event', 22, 23))]
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16), ('trigger for attack event', 20, 21)]
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers [('trigger for attack event', 37, 38)]
+arguments []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments [('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 29, 30))]
+arguments [('victim for bombing event', (12, 15), ('trigger for bombing event', 36, 37))]
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16), ('trigger for attack event', 20, 21), ('trigger for arson event', 15, 16)]
+arguments [('target for attack event', (255, 257), ('trigger for attack event', 15, 16))]
+arguments []
+arguments [('target for arson event', (255, 257), ('trigger for arson event', 15, 16))]
+id TST1-MUC3-0002
+triggers [('trigger for attack event', 37, 38)]
+arguments []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments [('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 29, 30))]
+arguments [('perpetrating organization for bombing event', (36, 40), ('trigger for bombing event', 36, 37)), ('victim for bombing event', (12, 15), ('trigger for bombing event', 36, 37))]
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16), ('trigger for arson event', 15, 16)]
+arguments [('target for attack event', (255, 257), ('trigger for attack event', 15, 16)), ('perpetrating individual for attack event', (76, 78), ('trigger for attack event', 15, 16))]
+arguments [('perpetrating individual for arson event', (76, 78), ('trigger for arson event', 15, 16)), ('target for arson event', (255, 257), ('trigger for arson event', 15, 16))]
+id TST1-MUC3-0002
+triggers [('trigger for attack event', 37, 38)]
+arguments [('perpetrating organization for attack event', (29, 34), ('trigger for attack event', 37, 38)), ('target for attack event', (39, 42), ('trigger for attack event', 37, 38))]
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments [('weapon for attack event', (211, 214), ('trigger for attack event', 22, 23))]
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments [('perpetrating organization for kidnapping event', (41, 46), ('trigger for kidnapping event', 10, 12))]
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for bombing event', 43, 44), ('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments [('victim for bombing event', (12, 15), ('trigger for bombing event', 43, 44))]
+arguments [('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 29, 30))]
+arguments [('perpetrating organization for bombing event', (36, 40), ('trigger for bombing event', 36, 37)), ('victim for bombing event', (12, 15), ('trigger for bombing event', 36, 37))]
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16), ('trigger for attack event', 20, 21)]
+arguments [('target for attack event', (255, 257), ('trigger for attack event', 15, 16))]
+arguments [('target for attack event', (255, 257), ('trigger for attack event', 20, 21))]
+id TST1-MUC3-0002
+triggers [('trigger for attack event', 37, 38)]
+arguments [('target for attack event', (39, 42), ('trigger for attack event', 37, 38))]
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23), ('trigger for attack event', 26, 27)]
+arguments []
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments [('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 29, 30))]
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16)]
+arguments [('target for attack event', (255, 257), ('trigger for attack event', 15, 16)), ('perpetrating individual for attack event', (76, 78), ('trigger for attack event', 15, 16))]
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers [('trigger for bombing event', 18, 19)]
+arguments [('target for bombing event', (22, 25), ('trigger for bombing event', 18, 19))]
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23), ('trigger for attack event', 26, 27)]
+arguments [('weapon for attack event', (211, 214), ('trigger for attack event', 22, 23)), ('target for attack event', (166, 170), ('trigger for attack event', 22, 23))]
+arguments [('weapon for attack event', (211, 214), ('trigger for attack event', 26, 27)), ('target for attack event', (166, 170), ('trigger for attack event', 26, 27))]
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments [('perpetrating organization for kidnapping event', (41, 46), ('trigger for kidnapping event', 10, 12)), ('perpetrating individual for kidnapping event', (38, 39), ('trigger for kidnapping event', 10, 12))]
+arguments [('perpetrating organization for attack event', (41, 46), ('trigger for attack event', 10, 12)), ('perpetrating individual for attack event', (38, 39), ('trigger for attack event', 10, 12))]
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments [('perpetrating organization for attack event', (18, 21), ('trigger for attack event', 20, 21))]
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments [('perpetrating organization for kidnapping event', (36, 40), ('trigger for kidnapping event', 29, 30)), ('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 29, 30)), ('perpetrating individual for kidnapping event', (43, 44), ('trigger for kidnapping event', 29, 30))]
+arguments [('perpetrating organization for bombing event', (36, 40), ('trigger for bombing event', 36, 37)), ('victim for bombing event', (12, 15), ('trigger for bombing event', 36, 37)), ('perpetrating individual for bombing event', (43, 44), ('trigger for bombing event', 36, 37))]
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16), ('trigger for attack event', 20, 21), ('trigger for arson event', 15, 16)]
+arguments [('target for attack event', (255, 257), ('trigger for attack event', 15, 16))]
+arguments [('perpetrating individual for attack event', (76, 78), ('trigger for attack event', 20, 21)), ('target for attack event', (255, 257), ('trigger for attack event', 20, 21))]
+arguments [('target for arson event', (255, 257), ('trigger for arson event', 15, 16))]
+id TST1-MUC3-0002
+triggers [('trigger for attack event', 37, 38)]
+arguments [('perpetrating organization for attack event', (29, 34), ('trigger for attack event', 37, 38)), ('target for attack event', (39, 42), ('trigger for attack event', 37, 38))]
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23), ('trigger for attack event', 26, 27)]
+arguments [('weapon for attack event', (213, 214), ('trigger for attack event', 22, 23)), ('target for attack event', (166, 170), ('trigger for attack event', 22, 23))]
+arguments [('target for attack event', (166, 170), ('trigger for attack event', 26, 27)), ('weapon for attack event', (213, 214), ('trigger for attack event', 26, 27))]
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments [('perpetrating organization for kidnapping event', (41, 46), ('trigger for kidnapping event', 10, 12))]
+arguments [('perpetrating organization for attack event', (41, 46), ('trigger for attack event', 10, 12))]
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments [('perpetrating organization for attack event', (18, 21), ('trigger for attack event', 20, 21))]
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments [('perpetrating organization for kidnapping event', (36, 40), ('trigger for kidnapping event', 29, 30)), ('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 29, 30)), ('perpetrating individual for kidnapping event', (43, 44), ('trigger for kidnapping event', 29, 30))]
+arguments [('perpetrating organization for bombing event', (36, 40), ('trigger for bombing event', 36, 37)), ('victim for bombing event', (12, 15), ('trigger for bombing event', 36, 37)), ('perpetrating individual for bombing event', (43, 44), ('trigger for bombing event', 36, 37))]
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16)]
+arguments [('target for attack event', (255, 257), ('trigger for attack event', 15, 16)), ('perpetrating individual for attack event', (76, 78), ('trigger for attack event', 15, 16))]
+id TST1-MUC3-0002
+triggers [('trigger for attack event', 37, 38)]
+arguments [('perpetrating organization for attack event', (29, 34), ('trigger for attack event', 37, 38)), ('target for attack event', (39, 42), ('trigger for attack event', 37, 38))]
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments [('weapon for attack event', (211, 214), ('trigger for attack event', 22, 23)), ('target for attack event', (166, 170), ('trigger for attack event', 22, 23))]
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers [('trigger for attack event', 76, 77)]
+arguments []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16), ('trigger for attack event', 20, 21), ('trigger for arson event', 15, 16)]
+arguments []
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers [('trigger for attack event', 37, 38)]
+arguments []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers [('trigger for attack event', 76, 77)]
+arguments []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16), ('trigger for attack event', 20, 21), ('trigger for arson event', 15, 16)]
+arguments []
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16), ('trigger for attack event', 20, 21), ('trigger for arson event', 15, 16)]
+arguments []
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for arson event', 15, 16), ('trigger for bombing event', 15, 16)]
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments [('weapon for attack event', (211, 214), ('trigger for attack event', 22, 23)), ('target for attack event', (166, 170), ('trigger for attack event', 22, 23))]
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments [('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 29, 30))]
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for arson event', 15, 16), ('trigger for bombing event', 15, 16)]
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for arson event', 15, 16)]
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 18, 20)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for arson event', 15, 16), ('trigger for bombing event', 15, 16)]
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments [('victim for attack event', (28, 31), ('trigger for attack event', 22, 23))]
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16), ('trigger for arson event', 15, 16)]
+arguments [('target for attack event', (255, 257), ('trigger for attack event', 15, 16))]
+arguments [('target for arson event', (255, 257), ('trigger for arson event', 15, 16))]
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments [('victim for attack event', (28, 31), ('trigger for attack event', 22, 23))]
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16), ('trigger for arson event', 15, 16)]
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments [('victim for attack event', (28, 31), ('trigger for attack event', 22, 23))]
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16)]
+arguments [('target for attack event', (255, 257), ('trigger for attack event', 15, 16))]
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 20, 21), ('trigger for arson event', 15, 16), ('trigger for bombing event', 15, 16)]
+arguments []
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16), ('trigger for robbery event', 15, 16)]
+arguments [('target for attack event', (255, 257), ('trigger for attack event', 15, 16)), ('target for attack event', (22, 25), ('trigger for attack event', 15, 16))]
+arguments [('target for robbery event', (22, 25), ('trigger for robbery event', 15, 16)), ('target for robbery event', (255, 257), ('trigger for robbery event', 15, 16))]
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments [('victim for attack event', (28, 31), ('trigger for attack event', 22, 23))]
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers [('trigger for attack event', 167, 168)]
+arguments []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments [('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 29, 30))]
+arguments [('perpetrating organization for bombing event', (40, 42), ('trigger for bombing event', 36, 37)), ('perpetrating individual for bombing event', (43, 44), ('trigger for bombing event', 36, 37)), ('victim for bombing event', (12, 15), ('trigger for bombing event', 36, 37))]
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments [('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 29, 30))]
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16), ('trigger for arson event', 15, 16)]
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments [('victim for attack event', (28, 31), ('trigger for attack event', 22, 23)), ('perpetrating organization for attack event', (16, 17), ('trigger for attack event', 22, 23))]
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments [('perpetrating organization for kidnapping event', (41, 46), ('trigger for kidnapping event', 10, 12)), ('perpetrating individual for kidnapping event', (38, 39), ('trigger for kidnapping event', 10, 12))]
+arguments [('perpetrating organization for attack event', (41, 46), ('trigger for attack event', 10, 12)), ('perpetrating individual for attack event', (38, 39), ('trigger for attack event', 10, 12))]
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments [('perpetrating organization for attack event', (18, 21), ('trigger for attack event', 20, 21))]
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments [('perpetrating organization for kidnapping event', (36, 40), ('trigger for kidnapping event', 29, 30)), ('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 29, 30)), ('perpetrating individual for kidnapping event', (43, 44), ('trigger for kidnapping event', 29, 30))]
+arguments [('perpetrating organization for bombing event', (36, 40), ('trigger for bombing event', 36, 37)), ('victim for bombing event', (12, 15), ('trigger for bombing event', 36, 37)), ('perpetrating individual for bombing event', (43, 44), ('trigger for bombing event', 36, 37))]
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16), ('trigger for arson event', 15, 16)]
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers [('trigger for attack event', 37, 38)]
+arguments [('perpetrating organization for attack event', (29, 34), ('trigger for attack event', 37, 38)), ('perpetrating individual for attack event', (26, 27), ('trigger for attack event', 37, 38)), ('target for attack event', (39, 42), ('trigger for attack event', 37, 38))]
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers [('trigger for attack event', 167, 168)]
+arguments []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments [('perpetrating organization for kidnapping event', (41, 46), ('trigger for kidnapping event', 10, 12)), ('perpetrating individual for kidnapping event', (38, 39), ('trigger for kidnapping event', 10, 12))]
+arguments [('perpetrating organization for attack event', (41, 46), ('trigger for attack event', 10, 12)), ('perpetrating individual for attack event', (38, 39), ('trigger for attack event', 10, 12))]
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments [('perpetrating organization for attack event', (18, 21), ('trigger for attack event', 20, 21))]
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments [('perpetrating organization for kidnapping event', (36, 40), ('trigger for kidnapping event', 29, 30)), ('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 29, 30)), ('perpetrating individual for kidnapping event', (43, 44), ('trigger for kidnapping event', 29, 30))]
+arguments [('perpetrating organization for bombing event', (36, 40), ('trigger for bombing event', 36, 37)), ('victim for bombing event', (12, 15), ('trigger for bombing event', 36, 37)), ('perpetrating individual for bombing event', (43, 44), ('trigger for bombing event', 36, 37))]
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16), ('trigger for attack event', 20, 21), ('trigger for arson event', 15, 16)]
+arguments [('target for attack event', (255, 257), ('trigger for attack event', 15, 16))]
+arguments [('target for attack event', (255, 257), ('trigger for attack event', 20, 21))]
+arguments [('target for arson event', (255, 257), ('trigger for arson event', 15, 16))]
+id TST1-MUC3-0002
+triggers [('trigger for attack event', 37, 38)]
+arguments [('target for attack event', (39, 42), ('trigger for attack event', 37, 38))]
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments [('perpetrating organization for kidnapping event', (41, 46), ('trigger for kidnapping event', 10, 12)), ('perpetrating individual for kidnapping event', (38, 39), ('trigger for kidnapping event', 10, 12))]
+arguments [('perpetrating organization for attack event', (41, 46), ('trigger for attack event', 10, 12)), ('perpetrating individual for attack event', (38, 39), ('trigger for attack event', 10, 12))]
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments [('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 29, 30))]
+arguments [('perpetrating organization for bombing event', (36, 40), ('trigger for bombing event', 36, 37)), ('victim for bombing event', (12, 15), ('trigger for bombing event', 36, 37)), ('perpetrating individual for bombing event', (43, 44), ('trigger for bombing event', 36, 37))]
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 20, 21), ('trigger for arson event', 15, 16), ('trigger for bombing event', 15, 16)]
+arguments [('target for attack event', (255, 257), ('trigger for attack event', 20, 21))]
+arguments [('target for arson event', (255, 257), ('trigger for arson event', 15, 16))]
+arguments [('target for bombing event', (255, 257), ('trigger for bombing event', 15, 16))]
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments [('perpetrating organization for kidnapping event', (41, 46), ('trigger for kidnapping event', 10, 12)), ('perpetrating individual for kidnapping event', (38, 39), ('trigger for kidnapping event', 10, 12))]
+arguments [('perpetrating organization for attack event', (41, 46), ('trigger for attack event', 10, 12)), ('perpetrating individual for attack event', (38, 39), ('trigger for attack event', 10, 12))]
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments [('perpetrating organization for kidnapping event', (36, 40), ('trigger for kidnapping event', 29, 30)), ('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 29, 30)), ('perpetrating individual for kidnapping event', (43, 44), ('trigger for kidnapping event', 29, 30))]
+arguments [('perpetrating organization for bombing event', (36, 40), ('trigger for bombing event', 36, 37)), ('victim for bombing event', (12, 15), ('trigger for bombing event', 36, 37)), ('perpetrating individual for bombing event', (43, 44), ('trigger for bombing event', 36, 37))]
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for arson event', 15, 16), ('trigger for bombing event', 15, 16)]
+arguments [('perpetrating individual for arson event', (19, 20), ('trigger for arson event', 15, 16))]
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments [('weapon for attack event', (211, 214), ('trigger for attack event', 22, 23))]
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments [('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 29, 30))]
+arguments [('victim for bombing event', (12, 15), ('trigger for bombing event', 36, 37))]
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for arson event', 15, 16), ('trigger for bombing event', 15, 16)]
+arguments [('target for arson event', (255, 257), ('trigger for arson event', 15, 16))]
+arguments [('target for bombing event', (255, 257), ('trigger for bombing event', 15, 16))]
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments [('victim for attack event', (56, 59), ('trigger for attack event', 22, 23)), ('weapon for attack event', (211, 214), ('trigger for attack event', 22, 23))]
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments [('perpetrating organization for kidnapping event', (36, 40), ('trigger for kidnapping event', 29, 30)), ('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 29, 30)), ('perpetrating individual for kidnapping event', (43, 44), ('trigger for kidnapping event', 29, 30))]
+arguments [('perpetrating organization for bombing event', (36, 40), ('trigger for bombing event', 36, 37)), ('victim for bombing event', (12, 15), ('trigger for bombing event', 36, 37)), ('perpetrating individual for bombing event', (43, 44), ('trigger for bombing event', 36, 37))]
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for arson event', 15, 16), ('trigger for bombing event', 15, 16)]
+arguments [('perpetrating organization for arson event', (14, 16), ('trigger for arson event', 15, 16)), ('perpetrating individual for arson event', (19, 20), ('trigger for arson event', 15, 16)), ('target for arson event', (22, 28), ('trigger for arson event', 15, 16))]
+arguments [('perpetrating individual for bombing event', (19, 20), ('trigger for bombing event', 15, 16)), ('perpetrating organization for bombing event', (14, 16), ('trigger for bombing event', 15, 16)), ('target for bombing event', (22, 28), ('trigger for bombing event', 15, 16))]
+id TST1-MUC3-0002
+triggers [('trigger for attack event', 37, 38)]
+arguments [('target for attack event', (39, 42), ('trigger for attack event', 37, 38))]
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments [('weapon for attack event', (211, 214), ('trigger for attack event', 22, 23)), ('perpetrating organization for attack event', (16, 17), ('trigger for attack event', 22, 23))]
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments [('perpetrating organization for kidnapping event', (36, 40), ('trigger for kidnapping event', 29, 30)), ('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 29, 30)), ('perpetrating individual for kidnapping event', (43, 44), ('trigger for kidnapping event', 29, 30))]
+arguments [('perpetrating organization for bombing event', (36, 40), ('trigger for bombing event', 36, 37)), ('victim for bombing event', (12, 15), ('trigger for bombing event', 36, 37)), ('perpetrating individual for bombing event', (43, 44), ('trigger for bombing event', 36, 37))]
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for arson event', 15, 16), ('trigger for bombing event', 15, 16)]
+arguments [('target for arson event', (255, 257), ('trigger for arson event', 15, 16))]
+arguments [('target for bombing event', (255, 257), ('trigger for bombing event', 15, 16))]
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments [('weapon for attack event', (211, 214), ('trigger for attack event', 22, 23))]
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments [('perpetrating organization for kidnapping event', (36, 40), ('trigger for kidnapping event', 29, 30)), ('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 29, 30)), ('perpetrating individual for kidnapping event', (43, 44), ('trigger for kidnapping event', 29, 30))]
+arguments [('perpetrating organization for bombing event', (36, 40), ('trigger for bombing event', 36, 37)), ('victim for bombing event', (12, 15), ('trigger for bombing event', 36, 37)), ('perpetrating individual for bombing event', (43, 44), ('trigger for bombing event', 36, 37))]
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for arson event', 15, 16), ('trigger for bombing event', 15, 16)]
+arguments [('target for arson event', (255, 257), ('trigger for arson event', 15, 16))]
+arguments [('target for bombing event', (22, 28), ('trigger for bombing event', 15, 16))]
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments [('perpetrating organization for attack event', (41, 46), ('trigger for attack event', 10, 12)), ('perpetrating individual for attack event', (38, 39), ('trigger for attack event', 10, 12))]
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments [('perpetrating organization for attack event', (18, 21), ('trigger for attack event', 20, 21))]
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments [('perpetrating organization for kidnapping event', (36, 40), ('trigger for kidnapping event', 29, 30)), ('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 29, 30)), ('perpetrating individual for kidnapping event', (43, 44), ('trigger for kidnapping event', 29, 30))]
+arguments [('perpetrating organization for bombing event', (36, 40), ('trigger for bombing event', 36, 37)), ('victim for bombing event', (12, 15), ('trigger for bombing event', 36, 37)), ('perpetrating individual for bombing event', (43, 44), ('trigger for bombing event', 36, 37))]
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16), ('trigger for arson event', 15, 16)]
+arguments [('perpetrating individual for attack event', (19, 20), ('trigger for attack event', 15, 16)), ('perpetrating organization for attack event', (14, 16), ('trigger for attack event', 15, 16)), ('target for attack event', (22, 28), ('trigger for attack event', 15, 16))]
+arguments [('target for arson event', (22, 28), ('trigger for arson event', 15, 16)), ('perpetrating organization for arson event', (14, 16), ('trigger for arson event', 15, 16)), ('perpetrating individual for arson event', (19, 20), ('trigger for arson event', 15, 16)), ('target for arson event', (255, 257), ('trigger for arson event', 15, 16))]
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments [('victim for attack event', (56, 59), ('trigger for attack event', 22, 23)), ('weapon for attack event', (211, 214), ('trigger for attack event', 22, 23))]
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments [('perpetrating organization for kidnapping event', (36, 40), ('trigger for kidnapping event', 29, 30)), ('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 29, 30)), ('perpetrating individual for kidnapping event', (43, 44), ('trigger for kidnapping event', 29, 30))]
+arguments [('perpetrating organization for bombing event', (36, 40), ('trigger for bombing event', 36, 37)), ('victim for bombing event', (12, 15), ('trigger for bombing event', 36, 37)), ('perpetrating individual for bombing event', (43, 44), ('trigger for bombing event', 36, 37))]
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for arson event', 15, 16), ('trigger for bombing event', 15, 16)]
+arguments [('perpetrating organization for arson event', (14, 16), ('trigger for arson event', 15, 16)), ('perpetrating individual for arson event', (19, 20), ('trigger for arson event', 15, 16))]
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments [('perpetrating organization for attack event', (41, 46), ('trigger for attack event', 10, 12)), ('perpetrating individual for attack event', (38, 39), ('trigger for attack event', 10, 12))]
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments [('perpetrating organization for attack event', (18, 21), ('trigger for attack event', 20, 21))]
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments [('perpetrating organization for kidnapping event', (36, 40), ('trigger for kidnapping event', 29, 30)), ('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 29, 30)), ('perpetrating individual for kidnapping event', (43, 44), ('trigger for kidnapping event', 29, 30))]
+arguments [('perpetrating organization for bombing event', (36, 40), ('trigger for bombing event', 36, 37)), ('victim for bombing event', (12, 15), ('trigger for bombing event', 36, 37)), ('perpetrating individual for bombing event', (43, 44), ('trigger for bombing event', 36, 37))]
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for arson event', 15, 16), ('trigger for bombing event', 15, 16)]
+arguments [('perpetrating organization for arson event', (14, 16), ('trigger for arson event', 15, 16)), ('perpetrating individual for arson event', (19, 20), ('trigger for arson event', 15, 16)), ('target for arson event', (255, 257), ('trigger for arson event', 15, 16))]
+arguments [('perpetrating individual for bombing event', (19, 20), ('trigger for bombing event', 15, 16)), ('perpetrating organization for bombing event', (14, 16), ('trigger for bombing event', 15, 16)), ('target for bombing event', (22, 28), ('trigger for bombing event', 15, 16))]
+id TST1-MUC3-0002
+triggers [('trigger for attack event', 37, 38)]
+arguments [('target for attack event', (39, 42), ('trigger for attack event', 37, 38))]
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers [('trigger for attack event', 167, 168)]
+arguments []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments [('perpetrating organization for attack event', (41, 46), ('trigger for attack event', 10, 12)), ('perpetrating individual for attack event', (38, 39), ('trigger for attack event', 10, 12))]
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments [('perpetrating organization for attack event', (18, 21), ('trigger for attack event', 20, 21))]
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments [('perpetrating organization for kidnapping event', (36, 40), ('trigger for kidnapping event', 29, 30)), ('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 29, 30)), ('perpetrating individual for kidnapping event', (43, 44), ('trigger for kidnapping event', 29, 30))]
+arguments [('perpetrating organization for bombing event', (36, 40), ('trigger for bombing event', 36, 37)), ('victim for bombing event', (12, 15), ('trigger for bombing event', 36, 37)), ('perpetrating individual for bombing event', (43, 44), ('trigger for bombing event', 36, 37))]
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 15, 16)]
+arguments [('perpetrating individual for attack event', (19, 20), ('trigger for attack event', 15, 16)), ('perpetrating organization for attack event', (14, 16), ('trigger for attack event', 15, 16)), ('target for attack event', (22, 28), ('trigger for attack event', 15, 16))]
+id TST1-MUC3-0002
+triggers [('trigger for attack event', 37, 38)]
+arguments [('target for attack event', (39, 42), ('trigger for attack event', 37, 38))]
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments [('perpetrating organization for kidnapping event', (41, 46), ('trigger for kidnapping event', 10, 12)), ('perpetrating individual for kidnapping event', (38, 39), ('trigger for kidnapping event', 10, 12))]
+arguments [('perpetrating organization for attack event', (41, 46), ('trigger for attack event', 10, 12)), ('perpetrating individual for attack event', (38, 39), ('trigger for attack event', 10, 12))]
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments [('perpetrating organization for attack event', (18, 21), ('trigger for attack event', 20, 21))]
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments [('perpetrating organization for kidnapping event', (36, 40), ('trigger for kidnapping event', 29, 30)), ('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 29, 30)), ('perpetrating individual for kidnapping event', (43, 44), ('trigger for kidnapping event', 29, 30))]
+arguments [('perpetrating organization for bombing event', (36, 40), ('trigger for bombing event', 36, 37)), ('victim for bombing event', (12, 15), ('trigger for bombing event', 36, 37)), ('perpetrating individual for bombing event', (43, 44), ('trigger for bombing event', 36, 37))]
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 20, 21), ('trigger for arson event', 15, 16), ('trigger for bombing event', 15, 16)]
+arguments [('target for attack event', (255, 257), ('trigger for attack event', 20, 21))]
+arguments [('target for arson event', (22, 28), ('trigger for arson event', 15, 16)), ('perpetrating organization for arson event', (14, 16), ('trigger for arson event', 15, 16)), ('perpetrating individual for arson event', (19, 20), ('trigger for arson event', 15, 16)), ('target for arson event', (255, 257), ('trigger for arson event', 15, 16))]
+arguments [('target for bombing event', (255, 257), ('trigger for bombing event', 15, 16)), ('target for bombing event', (22, 28), ('trigger for bombing event', 15, 16))]
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments [('perpetrating organization for kidnapping event', (41, 46), ('trigger for kidnapping event', 10, 12)), ('perpetrating individual for kidnapping event', (38, 39), ('trigger for kidnapping event', 10, 12))]
+arguments [('perpetrating organization for attack event', (41, 46), ('trigger for attack event', 10, 12)), ('perpetrating individual for attack event', (38, 39), ('trigger for attack event', 10, 12))]
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments [('perpetrating organization for attack event', (18, 21), ('trigger for attack event', 20, 21))]
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments [('perpetrating organization for kidnapping event', (36, 40), ('trigger for kidnapping event', 29, 30)), ('victim for kidnapping event', (12, 15), ('trigger for kidnapping event', 29, 30)), ('perpetrating individual for kidnapping event', (43, 44), ('trigger for kidnapping event', 29, 30))]
+arguments [('perpetrating organization for bombing event', (36, 40), ('trigger for bombing event', 36, 37)), ('victim for bombing event', (12, 15), ('trigger for bombing event', 36, 37)), ('perpetrating individual for bombing event', (43, 44), ('trigger for bombing event', 36, 37))]
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for arson event', 15, 16), ('trigger for bombing event', 15, 16)]
+arguments [('perpetrating organization for arson event', (14, 16), ('trigger for arson event', 15, 16)), ('perpetrating individual for arson event', (19, 20), ('trigger for arson event', 15, 16)), ('target for arson event', (22, 28), ('trigger for arson event', 15, 16))]
+arguments [('perpetrating individual for bombing event', (19, 20), ('trigger for bombing event', 15, 16)), ('perpetrating organization for bombing event', (14, 16), ('trigger for bombing event', 15, 16)), ('target for bombing event', (22, 28), ('trigger for bombing event', 15, 16))]
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments [('victim for attack event', (56, 59), ('trigger for attack event', 22, 23))]
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 20, 21), ('trigger for arson event', 15, 16), ('trigger for bombing event', 15, 16)]
+arguments [('target for attack event', (255, 257), ('trigger for attack event', 20, 21))]
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments [('victim for attack event', (56, 59), ('trigger for attack event', 22, 23))]
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 20, 21), ('trigger for arson event', 15, 16), ('trigger for bombing event', 15, 16)]
+arguments [('target for attack event', (255, 257), ('trigger for attack event', 20, 21))]
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for arson event', 15, 16), ('trigger for bombing event', 15, 16)]
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 20, 21), ('trigger for arson event', 15, 16), ('trigger for bombing event', 15, 16)]
+arguments []
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 20, 21), ('trigger for arson event', 15, 16), ('trigger for bombing event', 15, 16)]
+arguments [('target for attack event', (255, 257), ('trigger for attack event', 20, 21))]
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 20, 21), ('trigger for arson event', 15, 16), ('trigger for bombing event', 15, 16)]
+arguments [('target for attack event', (255, 257), ('trigger for attack event', 20, 21))]
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 20, 21), ('trigger for arson event', 15, 16), ('trigger for bombing event', 15, 16)]
+arguments []
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 20, 21), ('trigger for arson event', 15, 16), ('trigger for bombing event', 15, 16)]
+arguments []
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 20, 21), ('trigger for arson event', 15, 16), ('trigger for bombing event', 15, 16)]
+arguments []
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 20, 21), ('trigger for arson event', 15, 16), ('trigger for bombing event', 15, 16)]
+arguments []
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 20, 21), ('trigger for arson event', 15, 16), ('trigger for bombing event', 15, 16)]
+arguments []
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 20, 21), ('trigger for arson event', 15, 16), ('trigger for bombing event', 15, 16)]
+arguments []
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 20, 21), ('trigger for arson event', 15, 16), ('trigger for bombing event', 15, 16)]
+arguments []
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 20, 21), ('trigger for arson event', 15, 16), ('trigger for bombing event', 15, 16)]
+arguments []
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
+EVAL PART
+id DEV-MUC3-0001
+triggers [('trigger for kidnapping event', 10, 12), ('trigger for attack event', 10, 12)]
+arguments []
+arguments []
+id DEV-MUC3-0002
+triggers []
+id DEV-MUC3-0003
+triggers []
+id DEV-MUC3-0004
+triggers [('trigger for attack event', 20, 21)]
+arguments []
+id DEV-MUC3-0005
+triggers []
+id DEV-MUC3-0006
+triggers [('trigger for attack event', 15, 16)]
+arguments []
+id DEV-MUC3-0007
+triggers []
+id DEV-MUC3-0008
+triggers [('trigger for kidnapping event', 29, 30), ('trigger for bombing event', 36, 37)]
+arguments []
+arguments []
+id DEV-MUC3-0009
+triggers []
+id DEV-MUC3-0010
+triggers []
+TEST PART
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 20, 21), ('trigger for arson event', 15, 16), ('trigger for bombing event', 15, 16)]
+arguments []
+arguments []
+arguments []
+id TST1-MUC3-0002
+triggers []
+id TST1-MUC3-0003
+triggers []
+id TST1-MUC3-0004
+triggers []
+id TST1-MUC3-0005
+triggers []
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 22, 23)]
+arguments []
+id TST1-MUC3-0007
+triggers []
+id TST1-MUC3-0008
+triggers []
+id TST1-MUC3-0009
+triggers []
+id TST1-MUC3-0010
+triggers []
