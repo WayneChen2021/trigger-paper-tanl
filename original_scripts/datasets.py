@@ -2313,6 +2313,13 @@ class MUCEventNoTrig(MUCEventArgumentDataset):
         return examples
 
 @register_dataset
+class MUCEventSinglePass(MUCEventNoTrig):
+    name = 'mucevent_single_pass'
+    data_name = 'mucevent_single_pass'
+
+    default_input_format = 'plain'
+
+@register_dataset
 class MUCNERMultiPhaseArgument(MUCEventArgumentDataset):
     name = 'muc_ner_multiphase_argument'
     data_name = 'muc_ner_multiphase'
