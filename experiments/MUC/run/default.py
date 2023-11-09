@@ -31,7 +31,6 @@ def main():
     # parse arguments
     parser = argparse.ArgumentParser()
     parser.add_argument('job')
-    parser.add_argument('--do_test', action='store_true')
     parser.add_argument('-c', '--config_file', type=str,
                         default='config.ini', help='configuration file')
     parser.add_argument('-e', '--eval', action='store_true',
@@ -62,8 +61,12 @@ def main():
         'overwrite_cache': True,
         'per_device_eval_batch_size': 4,
         'learning_rate': 5e-4,
-        'logging_steps': 100,     # do not log by default
+        'logging_steps': 500,     # do not log by default
         'save_steps': 0,        # do not save checkpoints by default
+        'evaluation_strategy': "epoch",
+        'save_strategy': "epoch",
+        'save_total_limit': 1,
+        'metric_for_best_model': "eval_loss"
     }
 
     # the config file gives default values for the command line arguments
@@ -228,50 +231,27 @@ def main():
                     tokenizer=tokenizer, seed=ep_idx, train_subset=data_args.train_subset,
                 )
                 datasets.append(dataset)
-
             train_dataset = torch.utils.data.ConcatDataset(
                 datasets) if training_args.do_train else None
-
-            num_gpus = args.gpu
-            tracking_dataset_eval = load_dataset(
-                'mucevent', data_args,
-                max_input_length=data_args.max_seq_length_eval,
-                max_output_length=data_args.max_output_seq_length_eval,
-                tokenizer=tokenizer, split='dev', seed=ep_idx, shuffle=False, is_eval=True,
-            )
-            tracking_dataset_test = load_dataset(
-                'mucevent', data_args,
-                max_input_length=data_args.max_seq_length_eval,
-                max_output_length=data_args.max_output_seq_length_eval,
-                tokenizer=tokenizer, split='test', seed=ep_idx, shuffle=False, is_eval=True,
-            )
-
-            class CustomCallback(TrainerCallback):
-                def on_step_end(self, args, state, control, **kwargs):
-                    if state.global_step % 500 == 0:
-                        # Call your custom function here
-                        model.eval()
-                        device = torch.device(
-                            "cuda", num_gpus) if torch.cuda.is_available() else torch.device("cpu")
-                        model.to(device)
-                        with open("train_predictions.txt", "a") as pred_file:
-                            pred_file.write("EVAL PART\n")
-                        tracking_dataset_eval.evaluate_dataset(
-                            data_args=data_args, model=model, device=device, batch_size=training_args.per_device_eval_batch_size,
-                            log_file="train_predictions.txt")
-                        with open("train_predictions.txt", "a") as pred_file:
-                            pred_file.write("TEST PART\n")
-                        tracking_dataset_test.evaluate_dataset(
-                            data_args=data_args, model=model, device=device, batch_size=training_args.per_device_eval_batch_size,
-                            log_file="train_predictions.txt")
-                        model.train()
+            
+            datasets = []
+            for dataset_name in dataset_names:
+                # logging.info(f'Process dataset {dataset_name} (train)')
+                dataset = load_dataset(
+                    dataset_name, data_args, split='dev',
+                    max_input_length=data_args.max_seq_length_eval, max_output_length=data_args.max_output_seq_length_eval,
+                    tokenizer=tokenizer, seed=ep_idx, shuffle=False, is_eval=True,
+                )
+                datasets.append(dataset)
+            dev_dataset = torch.utils.data.ConcatDataset(
+                datasets) if training_args.do_train else None
 
             # construct trainer
             trainer = Trainer(
                 model=model,
                 args=training_args,
                 train_dataset=train_dataset,
-                callbacks=[CustomCallback]
+                eval_dataset = dev_dataset
             )
 
             # start trainer
@@ -286,10 +266,6 @@ def main():
             if not os.path.exists("model_checkpoint"):
                 os.mkdir("model_checkpoint")
             trainer.save_model("model_checkpoint")
-        
-        dev_dir = "data/mucevent/mucevent_dev.json"
-        os.remove(dev_dir)
-        shutil.copy("eval_data/dev.json", dev_dir)
 
         # run evaluation
         if not model:
@@ -303,14 +279,14 @@ def main():
         device = torch.device(
             "cuda", args.gpu) if torch.cuda.is_available() else torch.device("cpu")
         model.to(device)
-        dev_dataset = load_dataset(
+        test_dataset = load_dataset(
             'mucevent', data_args,
             max_input_length=data_args.max_seq_length_eval,
             max_output_length=data_args.max_output_seq_length_eval,
-            tokenizer=tokenizer, split='dev', seed=ep_idx, shuffle=False, is_eval=True,
+            tokenizer=tokenizer, split='test', seed=ep_idx, shuffle=False, is_eval=True,
         )
-        _ = dev_dataset.evaluate_dataset(data_args=data_args, model=model, device=device, batch_size=training_args.per_device_eval_batch_size,
-                                            log_file="dev_predictions.txt")
+        _ = test_dataset.evaluate_dataset(data_args=data_args, model=model, device=device, batch_size=training_args.per_device_eval_batch_size,
+                                          log_file="test_predictions.txt")
         
         # if args.do_test:
         #     test_dir = "data/mucevent/mucevent_test.json"

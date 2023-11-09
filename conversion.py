@@ -97,7 +97,7 @@ def enumerate_examples(message_id, container, triggers_per_temp):
 
     return trig_examples, list(arg_examples.values()), base_example
 
-def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_event, gtt_train, gtt_test, num_trigs, span_selection, trigger_selection, event_header):
+def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_event, dev_trig, dev_arg, dev_event, gtt_train, gtt_test, gtt_dev, num_trigs, span_selection, trigger_selection, event_header):
     with open(in_file, "r") as f:
         info = json.loads(f.read())
     
@@ -170,8 +170,9 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
             containers[example['id']] = container
     
     out_train_trigs, out_train_args, out_train_event = [], [], []
+    out_dev_trigs, out_dev_args, out_dev_event = [], [], []
     out_test_trigs, out_test_args, out_test_event = [], [], []
-    gtt_train_events, gtt_test_events = [], []
+    gtt_train_events, gtt_test_events, gtt_dev_events = [], [], []
     for message_id, container in containers.items():
         trig_examples, arg_examples, event_example = enumerate_examples(message_id, container, num_trigs)
         if not len(trig_examples):
@@ -192,11 +193,16 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
                 if role in ['PerpInd', 'PerpOrg', 'Target', 'Victim', 'Weapon']:
                     template[role] = [[[tup[0].lower().replace("[", "(").replace("]", ")")] for tup in coref_span_lst] for coref_span_lst in entities]
 
-        if 'TST' in message_id:
+        if 'TST3' in message_id or 'TST4' in message_id:
             out_test_trigs += trig_examples
             out_test_args += arg_examples
             out_test_event.append(event_example)
             gtt_test_events.append(gtt)
+        elif 'TST1' in message_id or 'TST2' in message_id:
+            out_dev_trigs += trig_examples
+            out_dev_args += arg_examples
+            out_dev_event.append(event_example)
+            gtt_dev_events.append(gtt)
         else:
             out_train_trigs += trig_examples
             out_train_args += arg_examples
@@ -233,6 +239,18 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
         with open(test_event, "w") as f:
             f.write(json.dumps(out_test_event))
     
+    if dev_trig:
+        with open(dev_trig, "w") as f:
+            f.write(json.dumps(out_dev_trigs))
+    
+    if dev_arg:
+        with open(dev_arg, "w") as f:
+            f.write(json.dumps(out_dev_args))
+
+    if dev_event:
+        with open(dev_event, "w") as f:
+            f.write(json.dumps(out_dev_event))
+    
     if gtt_train:
         with open(gtt_train, "w") as f:
             f.write(json.dumps(gtt_train_events))
@@ -240,6 +258,10 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
     if gtt_test:
         with open(gtt_test, "w") as f:
             f.write(json.dumps(gtt_test_events))
+
+    if gtt_dev:
+        with open(gtt_dev, "w") as f:
+            f.write(json.dumps(gtt_dev_events))
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -250,9 +272,13 @@ if __name__ == "__main__":
     parser.add_argument("--out_test_trig", type=str, required=False)
     parser.add_argument("--out_test_arg", type=str, required=False)
     parser.add_argument("--out_test_event", type=str, required=False)
+    parser.add_argument("--out_dev_trig", type=str, required=False)
+    parser.add_argument("--out_dev_arg", type=str, required=False)
+    parser.add_argument("--out_dev_event", type=str, required=False)
     parser.add_argument("--num_trigs", type=int, required=False, default=1)
     parser.add_argument("--out_train_gtt", type=str, required=False)
     parser.add_argument("--out_test_gtt", type=str, required=False)
+    parser.add_argument("--out_dev_gtt", type=str, required=False)
     parser.add_argument("--span_selection", type=str, required=False, default="earliest") # "earliest" or "longest"
     parser.add_argument("--trigger_selection", type=str, required=False, default="position") # "position" or "popularity"
     parser.add_argument("--dummy_trigs", action='store_true')
@@ -265,4 +291,4 @@ if __name__ == "__main__":
             event_header += f"event {i} "
         event_header += "(SEP) "
 
-    main(args.in_file, args.out_train_trig, args.out_train_arg, args.out_train_event, args.out_test_trig, args.out_test_arg, args.out_test_event, args.out_train_gtt, args.out_test_gtt, args.num_trigs, args.span_selection, args.trigger_selection, event_header)
+    main(args.in_file, args.out_train_trig, args.out_train_arg, args.out_train_event, args.out_test_trig, args.out_test_arg, args.out_test_event, args.out_dev_trig, args.out_dev_arg, args.out_dev_event, args.out_train_gtt, args.out_test_gtt, args.out_dev_gtt, args.num_trigs, args.span_selection, args.trigger_selection, event_header)
