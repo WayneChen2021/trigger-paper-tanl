@@ -3,19 +3,17 @@
         "test_time_logs": {
             "run": true,
             "raw_outs": {
-                "0": "../experiments/MUC/g2_environments/keyword_1_trig_standard/dev_predictions.txt",
-                "1": "../experiments/MUC/g2_environments/single_pass/dev_predictions.txt"
+                "2": "../experiments/MUC/g2_environments/no_trig/no_trig/test_predictions.txt"
             },
-            "tanl_ref": "../original_scripts/MUC/eval_data/dev.json",
-            "gtt_ref": "../data/MUC/gtt/full_test.json",
+            "tanl_ref": "../data/MUC/no_trig/test_event.json",
+            "gtt_ref": "../data/MUC/gtt/test.json",
             "output_file": {
-                "0": "../experiments/MUC/error_analysis/keyword_1_trig_standard/error_analysis.out",
-                "1": "../experiments/MUC/error_analysis/single_pass/error_analysis.out"
+                "2": "../experiments/MUC/error_analysis/no_trig/no_trig.out"
             },
             "error_analysis_script": "../error_analysis/Error_Analysis.py"
         },
         "train_time_logs": {
-            "run": true,
+            "run": false,
             "raw_outs": {
                 "0": "../experiments/MUC/g2_environments/keyword_1_trig_standard/train_predictions.txt",
                 "1": "../experiments/MUC/g2_environments/single_pass/train_predictions.txt"
@@ -41,7 +39,7 @@
             "error_analysis_script": "../error_analysis/Error_Analysis_quick.py"
         },
         "training_errors": {
-            "run": true,
+            "run": false,
             "log_file": {
                 "0": "../experiments/MUC/g2_environments/keyword_1_trig_standard/logs.json",
                 "1": "../experiments/MUC/g2_environments/single_pass/logs.json"

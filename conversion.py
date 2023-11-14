@@ -30,25 +30,18 @@ def build_entity(name, spans, head, tail):
         "end": entity_tail + 1
     }
 
-def enumerate_examples(message_id, container, triggers_per_temp):
-    trigger_sets = list(product(*[range(min(len(sublist), triggers_per_temp)) for sublist in container['triggers']]))
+def enumerate_examples(message_id, container, triggers_per_temp, relation_map, trigger_map):
+    trigger_sets = list(product(*[range(min(len(sublist), 2)) for sublist in container['triggers']]))
     num_examples = 0
     if len(container['triggers']):
         num_examples = reduce(lambda x , y : x * y, [min(len(sublist), triggers_per_temp) for sublist in container['triggers']])
-    relation_name_map = {
-        "PerpInd": "perpetrating individual",
-        "PerpOrg": "perpetrating organization",
-        "Target": "target",
-        "Weapon": "weapon",
-        "Victim": "victim"
-    }
     
     base_example = {
         "entities": [build_entity("template entity", container['token_spans'], tup[0], tup[1]) for tup in container['entities']],
         "triggers": [],
         "relations": [],
         "tokens": [container['text'][tup[0] : tup[1]] for tup in container['token_spans']],
-        "id": message_id
+        "id": str(message_id)
     }
     trig_examples, arg_examples = [], {}
     for trigger_set in trigger_sets:
@@ -58,7 +51,7 @@ def enumerate_examples(message_id, container, triggers_per_temp):
             for template_ind, ind in enumerate(trigger_set):
                 trigger_tup = container['triggers'][template_ind][ind]
                 new_example['triggers'].append(build_entity(
-                    f"trigger for {container['incident_types'][template_ind]} event",
+                    f"trigger for {trigger_map[container['incident_types'][template_ind]]} event",
                     container['token_spans'],
                     trigger_tup[1],
                     trigger_tup[1] + len(trigger_tup[0])
@@ -73,7 +66,7 @@ def enumerate_examples(message_id, container, triggers_per_temp):
                         new_example_copy['relations'] = [{
                             "head": entity_index,
                             "tail": 0,
-                            "type": f"{relation_name_map[rel_type]} for {container['incident_types'][trig_index]} event"
+                            "type": f"{relation_map[rel_type]} for {trigger_map[container['incident_types'][trig_index]]} event"
                         } for (entity_index, trig_index, rel_type) in filter(lambda triple : triple[1] == ref_trig_index, container['relations'])]
                         new_example_copy['triggers'] = [trig]
                     
@@ -83,7 +76,7 @@ def enumerate_examples(message_id, container, triggers_per_temp):
     for template_ind, ind in enumerate(trigger_set):
         trigger_tup = container['triggers'][template_ind][ind]
         base_example['triggers'].append(build_entity(
-            f"trigger for {container['incident_types'][template_ind]} event",
+            f"trigger for {trigger_map[container['incident_types'][template_ind]]} event",
             container['token_spans'],
             trigger_tup[1],
             trigger_tup[1] + len(trigger_tup[0])
@@ -92,12 +85,28 @@ def enumerate_examples(message_id, container, triggers_per_temp):
     base_example['relations'] = [{
         "head": entity_index,
         "tail": trig_index,
-        "type": f"{relation_name_map[rel_type]} for {container['incident_types'][trig_index]} event"
+        "type": f"{relation_map[rel_type]} for {trigger_map[container['incident_types'][trig_index]]} event"
     } for (entity_index, trig_index, rel_type) in container['relations']]
 
     return trig_examples, list(arg_examples.values()), base_example
 
-def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_event, dev_trig, dev_arg, dev_event, gtt_train, gtt_test, gtt_dev, num_trigs, span_selection, trigger_selection, event_header):
+def determine_split_muc(id, in_file_name):
+    if 'TST3' in id or 'TST4' in id:
+        return 'test'
+    elif 'TST1' in id or 'TST2' in id:
+        return 'dev'
+    else:
+        return 'train'
+
+def determine_split_wikievent(id, in_file_name):
+    if 'dev' in in_file_name:
+        return 'dev'
+    elif 'test' in in_file_name:
+        return 'test'
+    else:
+        return 'train'
+
+def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_event, dev_trig, dev_arg, dev_event, gtt_train, gtt_test, gtt_dev, num_trigs, span_selection, trigger_selection, event_header, relation_map, trigger_map, splitter_func):
     with open(in_file, "r") as f:
         info = json.loads(f.read())
     
@@ -105,6 +114,7 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
     if event_header_len:
         num_trigs = 1
     containers = {}
+
     for example in info.values():      
         if event_header_len or all(len(template['Triggers']) for template in example['templates']):
             text = event_header + example['text'].lower().replace('[', '(').replace(']', ')')
@@ -174,14 +184,14 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
     out_test_trigs, out_test_args, out_test_event = [], [], []
     gtt_train_events, gtt_test_events, gtt_dev_events = [], [], []
     for message_id, container in containers.items():
-        trig_examples, arg_examples, event_example = enumerate_examples(message_id, container, num_trigs)
+        trig_examples, arg_examples, event_example = enumerate_examples(message_id, container, num_trigs, relation_map, trigger_map)
         if not len(trig_examples):
             trig_examples = [deepcopy(event_example)]
             trig_examples[0]['triggers'] = []
             trig_examples[0]['entities'] = []
             trig_examples[0]['relations'] = []
         
-        gtt = info[message_id]
+        gtt = info[str(message_id)]
         gtt['docid'] = gtt['id']
         gtt['doctext'] = gtt['text'].lower().replace("[", "(").replace("]", ")")
         del gtt['id']
@@ -190,15 +200,16 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
         for template in gtt['templates']:
             del template['Triggers']
             for role, entities in template.items():
-                if role in ['PerpInd', 'PerpOrg', 'Target', 'Victim', 'Weapon']:
+                if role in relation_map:
                     template[role] = [[[tup[0].lower().replace("[", "(").replace("]", ")")] for tup in coref_span_lst] for coref_span_lst in entities]
 
-        if 'TST3' in message_id or 'TST4' in message_id:
+        split = splitter_func(message_id, in_file)
+        if split == 'test':
             out_test_trigs += trig_examples
             out_test_args += arg_examples
             out_test_event.append(event_example)
             gtt_test_events.append(gtt)
-        elif 'TST1' in message_id or 'TST2' in message_id:
+        elif split == 'dev':
             out_dev_trigs += trig_examples
             out_dev_args += arg_examples
             out_dev_event.append(event_example)
@@ -282,8 +293,125 @@ if __name__ == "__main__":
     parser.add_argument("--span_selection", type=str, required=False, default="earliest") # "earliest" or "longest"
     parser.add_argument("--trigger_selection", type=str, required=False, default="position") # "position" or "popularity"
     parser.add_argument("--dummy_trigs", action='store_true')
-    parser.add_argument("--num_dummy_events", type=int, required=False, default=30)
+    parser.add_argument("--num_dummy_events", type=int, required=False, default=100)
+    parser.add_argument("--dataset", type=str, required=True) # one of "TANL", "WikiEvents"
     args = parser.parse_args()
+
+    if args.dataset == "MUC":
+        relation_map = {
+            "PerpInd": "perpetrating individual",
+            "PerpOrg": "perpetrating organization",
+            "Target": "target",
+            "Weapon": "weapon",
+            "Victim": "victim"
+        }
+        trigger_map = {
+            "kidnapping": "kidnapping",
+            "attack": "attack",
+            "bombing": "bombing",
+            "robbery": "robbery",
+            "arson": "arson",
+            "forced work stoppage": "forced work stoppage"
+        }
+        splitter_func = determine_split_muc
+    elif args.dataset == "WikiEvents":
+        relation_map = {
+            "Defeated": "defeated",
+            "Investigator": "investigator",
+            "Killer": "killer",
+            "Jailer": "jailer",
+            "Destroyer": "destroyer",
+            "ManufacturerAssembler": "manufacturer or assembler",
+            "Instrument": "instrument",
+            "PlaceOfEmployment": "place of employment",
+            "Learner": "learner",
+            "Components": "components",
+            "Vehicle": "vehicle",
+            "Disabler": "disabler",
+            "Injurer": "injurer",
+            "Communicator": "communicator",
+            "BodyPart": "body part",
+            "Disease": "disease",
+            "Detainee": "detainee",
+            "Position": "position",
+            "Patient": "patient",
+            "PassengerArtifact": "passenger or artifact",
+            "Defendant": "defendant",
+            "Attacker": "attacker",
+            "IdentifiedRole": "identified role",
+            "Preventer": "preventer",
+            "CrashObject": "crash object",
+            "Victim": "victim",
+            "Identifier": "identifier",
+            "AcquiredEntity": "acquired entity",
+            "Researcher": "researcher",
+            "Regulator": "regulator",
+            "Observer": "observer",
+            "Artifact": "artifact",
+            "Target": "target",
+            "Participant": "participant",
+            "Recipient": "recipient",
+            "Topic": "topic",
+            "Impeder": "impeder",
+            "Treater": "treater",
+            "Subject": "subject",
+            "Destination": "destination",
+            "Giver": "giver",
+            "Perpetrator": "perpetrator",
+            "ExplosiveDevice": "explosive device",
+            "Transporter": "transporter",
+            "Employee": "employee",
+            "PaymentBarter": "payment or barter",
+            "Place": "place",
+            "Damager": "damager",
+            "JudgeCourt": "judge or court",
+            "ArtifactMoney": "artifact or money",
+            "IdentifiedObject": "identified object",
+            "ObservedEntity": "observed entity",
+            "Demonstrator": "demonstrator",
+            "Victor": "victor",
+            "TeacherTrainer": "teacher or trainer",
+            "Prosecutor": "prosecutor",
+            "Dismantler": "dismantler",
+            "DamagerDestroyer": "damager or destroyer",
+            "Origin": "origin"
+        }
+        trigger_map = {
+            "Life.Die": "person death",
+            "Contact.Contact": "communicaton",
+            "Life.Injure": "person injured",
+            "Conflict.Attack": "attack",
+            "Movement.Transportation": "transportation",
+            "GenericCrime.GenericCrime": "criminal ativity",
+            "Contact.ThreatenCoerce": "contact to threaten or coerce",
+            "Personnel.EndPosition": "person leaves organization",
+            "Control.ImpedeInterfereWith": "impediment or interference",
+            "Justice.ArrestJailDetain": "arrest or jail with detainment",
+            "Conflict.Demonstrate": "protest demonstration",
+            "Contact.RequestCommand": "contact to discuss topic",
+            "Justice.ChargeIndict": "charged or indicted",
+            "Justice.Sentence": "sentencing",
+            "Justice.TrialHearing": "tried for crime",
+            "Medical.Intervention": "medical intervention",
+            "Justice.InvestigateCrime": "crime investigation",
+            "Cognitive.IdentifyCategorize": "identification",
+            "Cognitive.Inspection": "observation",
+            "Justice.ReleaseParole": "released on paraole",
+            "Disaster.DiseaseOutbreak": "disease outbreak",
+            "ArtifactExistence.DamageDestroyDisableDismantle": "artifact destroyed",
+            "ArtifactExistence.ManufactureAssemble": "artifact assembled",
+            "Justice.Convict": "convicted trial prosecution",
+            "Transaction.ExchangeBuySell": "transaction",
+            "Cognitive.Research": "research activity",
+            "Personnel.StartPosition": "person joins organization",
+            "Disaster.Crash": "vehicular crash",
+            "Justice.Acquit": "acquitted trial prosecution",
+            "Conflict.Defeat": "defeat",
+            "Life.Infect": "infected",
+            "Cognitive.TeachingTrainingLearning": "teaching",
+            "Transaction.Donation": "donation"
+        }
+        splitter_func = determine_split_wikievent
 
     event_header = ""
     if args.dummy_trigs:
@@ -291,4 +419,4 @@ if __name__ == "__main__":
             event_header += f"event {i} "
         event_header += "(SEP) "
 
-    main(args.in_file, args.out_train_trig, args.out_train_arg, args.out_train_event, args.out_test_trig, args.out_test_arg, args.out_test_event, args.out_dev_trig, args.out_dev_arg, args.out_dev_event, args.out_train_gtt, args.out_test_gtt, args.out_dev_gtt, args.num_trigs, args.span_selection, args.trigger_selection, event_header)
+    main(args.in_file, args.out_train_trig, args.out_train_arg, args.out_train_event, args.out_test_trig, args.out_test_arg, args.out_test_event, args.out_dev_trig, args.out_dev_arg, args.out_dev_event, args.out_train_gtt, args.out_test_gtt, args.out_dev_gtt, args.num_trigs, args.span_selection, args.trigger_selection, event_header, relation_map, trigger_map, splitter_func)

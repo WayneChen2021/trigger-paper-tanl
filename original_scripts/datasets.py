@@ -1936,6 +1936,11 @@ class MUCEventTriggerDataset(JointERDataset):
         return examples
 
 @register_dataset
+class WikiEventTriggerDataset(MUCEventTriggerDataset):
+    name = 'wikievent_trigger'
+    data_name = 'wikievent'
+
+@register_dataset
 class MUCNERMultiPhaseTrigger(MUCEventTriggerDataset):
     name = 'muc_ner_multiphase_trigger'
     data_name = 'muc_ner_multiphase'
@@ -2254,11 +2259,20 @@ class MUCEventArgumentDataset(MUCEventTriggerDataset):
         """
 
 @register_dataset
+class WikiEventArgumentDataset(WikiEventTriggerDataset):
+    name = 'wikievent_argument'
+    data_name = 'wikievent'
+
+    default_input_format = 'muc_event_with_trigger'
+    default_output_format = 'muc_event'
+
+@register_dataset
 class MUCEventNoTrig(MUCEventArgumentDataset):
     name = 'mucevent_no_trig'
     data_name = 'mucevent_no_trig'
 
     default_input_format = 'plain'
+    event_types = ["attack", "bombing", "kidnapping", "robbery", "arson", "forced work stoppage"]
 
     def load_data_single_split(self, split: str, seed: int = None) -> List[InputExample]:
         """
@@ -2285,7 +2299,7 @@ class MUCEventNoTrig(MUCEventArgumentDataset):
                     for j, y in enumerate(x['triggers'] if 'triggers' in x else x['first_phase']['triggers'])
                 ]
                 event_type_nums = [0] * 6
-                for i, trigger_type in enumerate(["attack", "bombing", "kidnapping", "robbery", "arson", "forced work stoppage"]):
+                for i, trigger_type in enumerate(self.event_types):
                     event_type_nums[i] = len([trig for trig in x['triggers'] if trigger_type in trig['type']])
 
                 relations = [
@@ -2313,9 +2327,58 @@ class MUCEventNoTrig(MUCEventArgumentDataset):
         return examples
 
 @register_dataset
+class WikiEventNoTrig(MUCEventNoTrig):
+    name = 'wikievent_no_trig'
+    data_name = 'wikievent_no_trig'
+
+    default_input_format = 'plain'
+    event_types = [
+        "person death event",
+        "communicaton event",
+        "person injured event",
+        "attack event",
+        "transportation event",
+        "criminal ativity event",
+        "contact to threaten or coerce event",
+        "person leaves organization event",
+        "impediment or interference event",
+        "arrest or jail with detainment event",
+        "protest demonstration event",
+        "contact to discuss topic event",
+        "charged or indicted event",
+        "sentencing event",
+        "tried for crime event",
+        "medical intervention event",
+        "crime investigation event",
+        "identification event",
+        "observation event",
+        "released on paraole event",
+        "disease outbreak event",
+        "artifact destroyed event",
+        "artifact assembled event",
+        "convicted trial prosecution event",
+        "transaction event",
+        "research activity event",
+        "person joins organization event",
+        "vehicular crash event",
+        "acquitted trial prosecution event",
+        "defeat event",
+        "infected event",
+        "teaching event",
+        "donation event"
+    ]
+
+@register_dataset
 class MUCEventSinglePass(MUCEventNoTrig):
     name = 'mucevent_single_pass'
     data_name = 'mucevent_single_pass'
+
+    default_input_format = 'plain'
+
+@register_dataset
+class WikiEventSinglePass(WikiEventNoTrig):
+    name = 'wikievent_single_pass'
+    data_name = 'wikievent_single_pass'
 
     default_input_format = 'plain'
 
