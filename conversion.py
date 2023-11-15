@@ -378,7 +378,7 @@ if __name__ == "__main__":
         }
         trigger_map = {
             "Life.Die": "person death",
-            "Contact.Contact": "communicaton",
+            "Contact.Contact": "communication",
             "Life.Injure": "person injured",
             "Conflict.Attack": "attack",
             "Movement.Transportation": "transportation",
