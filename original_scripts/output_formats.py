@@ -506,12 +506,12 @@ class EventOutputFormat(JointEROutputFormat):
         if not meta_sentence:
             return sent
         
-        meta_sentence = " recap: There are {} attack, {} bombing, {} kidnapping, {} robbery, {} arson, and {} forced work stoppage events".format(*example.event_type_numbers)
+        meta_sentence = f" recap: {meta_sentence.format(*example.event_type_numbers)}"
         return sent + meta_sentence
 
     def run_inference(self, example: InputExample, output_sentence: str,
                       entity_types: Dict[str, EntityType] = None, relation_types: Dict[str, RelationType] = None,
-                      log_file = None, trim_sep=False) \
+                      log_file = None, trim_sep=False, event_names=None) \
             -> Tuple[set, set, bool]:
         """
         Process an output sentence to extract arguments, given as entities and relations.
@@ -551,7 +551,7 @@ class EventOutputFormat(JointEROutputFormat):
                 meta_sentence = output_sentence[output_sentence.index("recap: "):]
             else:
                 meta_sentence = ""
-            event_type_names = ["attack", "bombing", "kidnapping", "robbery", "arson", "forced work stoppage"]
+            event_type_names = event_names
             stated_event_type_nums = {
                 f"trigger for {trigger_type} event" : num for (trigger_type, num) in zip(
                     event_type_names,

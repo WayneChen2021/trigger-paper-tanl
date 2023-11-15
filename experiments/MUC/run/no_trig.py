@@ -193,6 +193,7 @@ def main():
     # episode loop
     # (note that the episode index is used as the random seed, so that each episode is reproducible)
     evaluation_results = defaultdict(list)
+    meta_sent = "There are {} attack, {} bombing, {} kidnapping, {} robbery, {} arson, and {} forced work stoppage events"
     for ep_idx in episode_indices:
         print()
         logging.info(
@@ -228,7 +229,7 @@ def main():
                 dataset = load_dataset(
                     dataset_name, data_args, split=data_args.train_split,
                     max_input_length=data_args.max_seq_length, max_output_length=data_args.max_output_seq_length,
-                    tokenizer=tokenizer, seed=ep_idx, train_subset=data_args.train_subset, trim_sep=True, meta_sent=True
+                    tokenizer=tokenizer, seed=ep_idx, train_subset=data_args.train_subset, trim_sep=True, meta_sent=meta_sent
                 )
                 datasets.append(dataset)
             train_dataset = torch.utils.data.ConcatDataset(
@@ -239,7 +240,7 @@ def main():
                 'mucevent_no_trig', data_args,
                 max_input_length=data_args.max_seq_length_eval,
                 max_output_length=data_args.max_output_seq_length_eval,
-                tokenizer=tokenizer, split='dev', seed=ep_idx, shuffle=False, is_eval=True, trim_sep=True, meta_sent=True
+                tokenizer=tokenizer, split='dev', seed=ep_idx, shuffle=False, is_eval=True, trim_sep=True, meta_sent=meta_sent
             )
 
             # construct trainer
@@ -279,10 +280,10 @@ def main():
             'mucevent_no_trig', data_args,
             max_input_length=data_args.max_seq_length_eval,
             max_output_length=data_args.max_output_seq_length_eval,
-            tokenizer=tokenizer, split='test', seed=ep_idx, shuffle=False, is_eval=True, trim_sep=True, meta_sent=True
+            tokenizer=tokenizer, split='test', seed=ep_idx, shuffle=False, is_eval=True, trim_sep=True, meta_sent=meta_sent
         )
         _ = dataset_test.evaluate_dataset(data_args=data_args, model=model, device=device, batch_size=training_args.per_device_eval_batch_size,
-                                          log_file="test_predictions.txt")
+                                          log_file="test_predictions.txt", event_names=["attack", "bombing", "kidnapping", "robbery", "arson", "forced work stoppage event"])
         
         # if args.do_test:
         #     test_dir = "data/mucevent/mucevent_test.json"

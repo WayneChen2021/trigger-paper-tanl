@@ -283,7 +283,7 @@ def main():
             tokenizer=tokenizer, split='test', seed=ep_idx, shuffle=False, is_eval=True
         )
         _ = dataset_test.evaluate_dataset(data_args=data_args, model=model, device=device, batch_size=training_args.per_device_eval_batch_size,
-                                          log_file="test_predictions.txt")
+                                          log_file="test_predictions.txt", event_names=[])
         
         # if args.do_test:
         #     test_dir = "data/mucevent/mucevent_test.json"

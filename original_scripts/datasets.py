@@ -1936,9 +1936,9 @@ class MUCEventTriggerDataset(JointERDataset):
         return examples
 
 @register_dataset
-class WikiEventTriggerDataset(MUCEventTriggerDataset):
-    name = 'wikievent_trigger'
-    data_name = 'wikievent'
+class WikiEventsTriggerDataset(MUCEventTriggerDataset):
+    name = 'wikievents_trigger'
+    data_name = 'wikievents'
 
 @register_dataset
 class MUCNERMultiPhaseTrigger(MUCEventTriggerDataset):
@@ -2161,7 +2161,7 @@ class MUCEventArgumentDataset(MUCEventTriggerDataset):
 
         return examples
 
-    def evaluate_example(self, example: InputExample, output_sentence: str, model=None, tokenizer=None, log_file=None, trim_sep=False) -> Counter:
+    def evaluate_example(self, example: InputExample, output_sentence: str, model=None, tokenizer=None, log_file=None, trim_sep=False, event_names=None) -> Counter:
         """
         Evaluate an output sentence on a single example of this dataset.
         """
@@ -2173,7 +2173,8 @@ class MUCEventArgumentDataset(MUCEventTriggerDataset):
                 entity_types=self.entity_types,
                 relation_types=self.relation_types,
                 log_file=log_file,
-                trim_sep=trim_sep
+                trim_sep=trim_sep,
+                event_names=event_names
             )
 
         # filter relation tuples for argument classification
@@ -2212,7 +2213,7 @@ class MUCEventArgumentDataset(MUCEventTriggerDataset):
         #     'correct_relations_no_type': len(correct_relations_no_type),
         # })
 
-    def evaluate_dataset(self, data_args: DataTrainingArguments, model, device, batch_size: int, macro: bool = False, log_file: str = None, trim_sep=False) \
+    def evaluate_dataset(self, data_args: DataTrainingArguments, model, device, batch_size: int, macro: bool = False, log_file: str = None, trim_sep=False, event_names=None) \
             -> Dict[str, float]:
         """
         Evaluate model on this dataset.
@@ -2226,7 +2227,8 @@ class MUCEventArgumentDataset(MUCEventTriggerDataset):
                 output_sentence=output_sentence,
                 tokenizer=self.tokenizer,
                 log_file=log_file,
-                trim_sep=trim_sep
+                trim_sep=trim_sep,
+                event_names=event_names
             )
 
         """
@@ -2259,9 +2261,9 @@ class MUCEventArgumentDataset(MUCEventTriggerDataset):
         """
 
 @register_dataset
-class WikiEventArgumentDataset(WikiEventTriggerDataset):
-    name = 'wikievent_argument'
-    data_name = 'wikievent'
+class WikiEventsArgumentDataset(WikiEventsTriggerDataset):
+    name = 'wikievents_argument'
+    data_name = 'wikievents'
 
     default_input_format = 'muc_event_with_trigger'
     default_output_format = 'muc_event'
@@ -2327,9 +2329,9 @@ class MUCEventNoTrig(MUCEventArgumentDataset):
         return examples
 
 @register_dataset
-class WikiEventNoTrig(MUCEventNoTrig):
-    name = 'wikievent_no_trig'
-    data_name = 'wikievent_no_trig'
+class WikiEventsNoTrig(MUCEventNoTrig):
+    name = 'wikievents_no_trig'
+    data_name = 'wikievents_no_trig'
 
     default_input_format = 'plain'
     event_types = [
@@ -2376,9 +2378,9 @@ class MUCEventSinglePass(MUCEventNoTrig):
     default_input_format = 'plain'
 
 @register_dataset
-class WikiEventSinglePass(WikiEventNoTrig):
-    name = 'wikievent_single_pass'
-    data_name = 'wikievent_single_pass'
+class WikiEventsSinglePass(WikiEventsNoTrig):
+    name = 'wikievents_single_pass'
+    data_name = 'wikievents_single_pass'
 
     default_input_format = 'plain'
 
@@ -2650,6 +2652,16 @@ class MUCEventDataset(MUCEventArgumentDataset):
         }
 
         return full_results
+
+@register_dataset
+class WikiEventsDataset(MUCEventDataset):
+    name = 'wikievents'
+    task_descriptor = 'wikievents_trigger'
+    default_input_format = 'plain'
+    default_output_format = 'joint_er'
+    argument_input_format = 'ace2005_event_with_trigger'
+    argument_output_format = 'ace2005_event'
+
 
 @register_dataset
 class MUCNERMultiPhaseDataset(MUCEventDataset):

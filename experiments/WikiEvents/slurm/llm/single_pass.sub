@@ -1,0 +1,39 @@
+#!/bin/bash
+#SBATCH -J single_pass                         # Job name
+#SBATCH -o ../../g2_logs/human/single_pass.out                  # output file (%j expands to jobID)
+#SBATCH -e ../../g2_logs/human/single_pass.err                  # error log file (%j expands to jobID)
+#SBATCH -N 1                                 # Total number of nodes requested
+#SBATCH -n 1                                 # Total number of cores requested
+#SBATCH --get-user-env                       # retrieve the users login environment
+#SBATCH --mem=50000                           # server memory requested (per node)
+#SBATCH -t 100:00:00                           # Time limit (hh:mm:ss)
+#SBATCH --partition=claire       # Request partition
+#SBATCH --gres=gpu:titanxp:2                  # Type/number of GPUs needed
+
+CONDA_ENV=TANL2
+ENV_NAME="single_pass"
+TRIGGER_SOURCE="llm"
+NUM_EPOCHS=25
+DATASET="WikiEvents"
+
+TRAIN_EVENT="../../../../data/$DATASET/$TRIGGER_SOURCE/train_event.json"
+DEV_EVENT="../../../../data/$DATASET/$TRIGGER_SOURCE/dev_event.json"
+TEST_EVENT="../../../../data/$DATASET/$TRIGGER_SOURCE/test_event.json"
+RUN="../../run/$ENV_NAME.py"
+
+mkdir "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME"
+cp -r "../../../../original_scripts/$DATASET/." "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME"
+cp "../../../../original_scripts/"* "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME"
+cp $TRAIN_EVENT "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME/data/wikievents_single_pass/wikievents_single_pass_train.json"
+cp $DEV_EVENT "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME/data/wikievents_single_pass/wikievents_single_pass_dev.json"
+cp $TEST_EVENT "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME/data/wikievents_single_pass/wikievents_single_pass_test.json"
+cp $RUN "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME/run.py"
+
+source /share/apps/anaconda3/2022.10/bin/activate
+conda activate $CONDA_ENV
+cd "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME"
+pip3 install transformers
+pip3 install scipy
+pip3 install accelerate --upgrade
+
+python3 run.py wikievents_single_pass --num_train_epochs $NUM_EPOCHS
