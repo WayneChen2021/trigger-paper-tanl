@@ -382,7 +382,7 @@ if __name__ == "__main__":
             "Life.Injure": "person injured",
             "Conflict.Attack": "attack",
             "Movement.Transportation": "transportation",
-            "GenericCrime.GenericCrime": "criminal ativity",
+            "GenericCrime.GenericCrime": "criminal activity",
             "Contact.ThreatenCoerce": "contact to threaten or coerce",
             "Personnel.EndPosition": "person leaves organization",
             "Control.ImpedeInterfereWith": "impediment or interference",
