@@ -53,7 +53,7 @@ class BaseDataset(Dataset, ABC):
             same_input_output_trigs = False,
             mask_args_weight = False,
             trim_sep = False,
-            meta_sent = False,
+            meta_sent = None,
     ):
         if seed is not None:
             # set random seed for repeatability
@@ -196,7 +196,7 @@ class BaseDataset(Dataset, ABC):
             example, multitask=multitask) for example in self.examples]
         if self.meta_sent:
             output_sentences = [self.output_format.format_output(
-                example, meta_sentence=True) for example in self.examples]
+                example, meta_sentence=self.meta_sent) for example in self.examples]
         else:
             output_sentences = [self.output_format.format_output(
                 example) for example in self.examples]

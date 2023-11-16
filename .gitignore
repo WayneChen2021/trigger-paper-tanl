@@ -9,3 +9,15 @@ experiments/MUC/g2_environments/keyword/single_pass/*
 experiments/MUC/g2_environments/no_trig/no_trig/*
 !experiments/MUC/g2_environments/no_trig/no_trig/logs.json
 !experiments/MUC/g2_environments/no_trig/no_trig/test_predictions.txt
+
+experiments/WikiEvents/g2_environments/human/default/*
+!experiments/WikiEvents/g2_environments/human/default/logs.json
+!experiments/WikiEvents/g2_environments/human/default/test_predictions.txt
+
+experiments/WikiEvents/g2_environments/human/single_pass/*
+!experiments/WikiEvents/g2_environments/human/single_pass/logs.json
+!experiments/WikiEvents/g2_environments/human/single_pass/test_predictions.txt
+
+experiments/WikiEvents/g2_environments/no_trig/no_trig/*
+!experiments/WikiEvents/g2_environments/no_trig/no_trig/logs.json
+!experiments/WikiEvents/g2_environments/no_trig/no_trig/test_predictions.txt

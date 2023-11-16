@@ -268,12 +268,18 @@ def main():
             trainer.save_model("model_checkpoint")
 
         # run evaluation
-        if not model:
-            model = AutoModelForSeq2SeqLM.from_pretrained(
-                "model_checkpoint",
-                config=config,
-                cache_dir=model_args.cache_dir,
-            )
+        # if not model:
+        #     model = AutoModelForSeq2SeqLM.from_pretrained(
+        #         "model_checkpoint",
+        #         config=config,
+        #         cache_dir=model_args.cache_dir,
+        #     )
+        checkpoint_name = os.listdir(episode_output_dir)[0]
+        model = AutoModelForSeq2SeqLM.from_pretrained(
+            os.path.join(episode_output_dir, checkpoint_name),
+            config=config,
+            cache_dir=model_args.cache_dir,
+        )
         model.eval()
 
         device = torch.device(

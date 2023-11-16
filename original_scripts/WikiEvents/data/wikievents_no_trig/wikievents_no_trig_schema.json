@@ -5,11 +5,11 @@
         "instrument for person injured event",
         "body part for person injured event"
     ],
-    "trigger for charge or indicted event": [
-        "defendant for charge or indicted event",
-        "judege or court for charge or indicted event",
-        "prosecutor for charge or indicted event",
-        "place for charge or indicted event"
+    "trigger for charged or indicted event": [
+        "defendant for charged or indicted event",
+        "judge or court for charged or indicted event",
+        "prosecutor for charged or indicted event",
+        "place for charged or indicted event"
     ],
     "trigger for arrest or jail with detainment event": [
         "place for arrest or jail with detainment event",
@@ -113,7 +113,7 @@
     ],
     "trigger for artifact assembled event": [
         "components for artifact assembled event",
-        "manufacture or assembler for artifact assembled event",
+        "manufacturer or assembler for artifact assembled event",
         "place for artifact assembled event",
         "artifact for artifact assembled event"
     ],

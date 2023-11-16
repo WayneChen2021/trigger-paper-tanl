@@ -564,22 +564,25 @@ class EventOutputFormat(JointEROutputFormat):
             for annotation in raw_predicted_entities:
                 if len(annotation[1]) == 2 and len(annotation[1][1]) == 2:
                     event_name = annotation[1][1][1]
-                    if not event_name in trigs_to_args:
-                        trigs_to_args[event_name] = []
-                        event_types[event_name] = []
-                    
                     role_type = annotation[1][1][0]
-                    trigs_to_args[event_name].append(
-                        [role_type, annotation[-2], annotation[-1]]
-                    )
                     try:
                         for_ind, event_ind = role_type.index("for"), role_type.index(" event")
                         event_type = role_type[for_ind + len("for ") : event_ind]
                     except ValueError:
                         event_type = "attack"
-                    event_type = f"trigger for {event_type} event"
-                    event_types[event_name].append(event_type)
-                    nonempty_event_type_nums[event_type] += 1
+                    
+                    if event_type in event_type_names:
+                        if not event_name in trigs_to_args:
+                            trigs_to_args[event_name] = []
+                            event_types[event_name] = []
+                        trigs_to_args[event_name].append(
+                            [role_type, annotation[-2], annotation[-1]]
+                        )
+                        
+                        event_type = f"trigger for {event_type} event"
+                        event_types[event_name].append(event_type)
+                        nonempty_event_type_nums[event_type] += 1
+
             empty_event_types = {
                 template_type: stated_event_type_nums[template_type] - nonempty_event_type_nums[template_type]
                 for template_type in nonempty_event_type_nums.keys()

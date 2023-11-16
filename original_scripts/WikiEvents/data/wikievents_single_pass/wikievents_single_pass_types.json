@@ -6,8 +6,8 @@
         "trigger for person injured event": {
             "verbose": "trigger for person injured event"
         },
-        "trigger for charge or indicted event": {
-            "verbose": "trigger for charge or indicted event"
+        "trigger for charged or indicted event": {
+            "verbose": "trigger for charged or indicted event"
         },
         "trigger for arrest or jail with detainment event": {
             "verbose": "trigger for arrest or jail with detainment event"
@@ -116,17 +116,17 @@
         "body part for person injured event": {
             "verbose": "body part for person injured event"
         },
-        "defendant for charge or indicted event": {
-            "verbose": "defendant for charge or indicted event"
+        "defendant for charged or indicted event": {
+            "verbose": "defendant for charged or indicted event"
         },
-        "judege or court for charge or indicted event": {
-            "verbose": "judege or court for charge or indicted event"
+        "judge or court for charged or indicted event": {
+            "verbose": "judge or court for charged or indicted event"
         },
-        "prosecutor for charge or indicted event": {
-            "verbose": "prosecutor for charge or indicted event"
+        "prosecutor for charged or indicted event": {
+            "verbose": "prosecutor for charged or indicted event"
         },
-        "place for charge or indicted event": {
-            "verbose": "place for charge or indicted event"
+        "place for charged or indicted event": {
+            "verbose": "place for charged or indicted event"
         },
         "place for arrest or jail with detainment event": {
             "verbose": "place for arrest or jail with detainment event"
@@ -329,8 +329,8 @@
         "components for artifact assembled event": {
             "verbose": "components for artifact assembled event"
         },
-        "manufacture or assembler for artifact assembled event": {
-            "verbose": "manufacture or assembler for artifact assembled event"
+        "manufacturer or assembler for artifact assembled event": {
+            "verbose": "manufacturer or assembler for artifact assembled event"
         },
         "place for artifact assembled event": {
             "verbose": "place for artifact assembled event"

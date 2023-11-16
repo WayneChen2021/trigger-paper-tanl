@@ -7,8 +7,8 @@
 #SBATCH --get-user-env                       # retrieve the users login environment
 #SBATCH --mem=50000                           # server memory requested (per node)
 #SBATCH -t 100:00:00                           # Time limit (hh:mm:ss)
-#SBATCH --partition=claire       # Request partition
-#SBATCH --gres=gpu:titanxp:2                  # Type/number of GPUs needed
+#SBATCH --partition=gpu       # Request partition
+#SBATCH --gres=gpu:2                  # Type/number of GPUs needed
 
 CONDA_ENV=TANL2
 ENV_NAME="no_trig"

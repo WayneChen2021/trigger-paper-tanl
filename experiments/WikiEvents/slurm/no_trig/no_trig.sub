@@ -8,7 +8,7 @@
 #SBATCH --mem=50000                           # server memory requested (per node)
 #SBATCH -t 100:00:00                           # Time limit (hh:mm:ss)
 #SBATCH --partition=gpu       # Request partition
-#SBATCH --gres=gpu:3090:2                  # Type/number of GPUs needed
+#SBATCH --gres=gpu:2                  # Type/number of GPUs needed
 
 CONDA_ENV=TANL2
 ENV_NAME="no_trig"
@@ -16,13 +16,13 @@ TRIGGER_SOURCE="no_trig"
 NUM_EPOCHS=25
 DATASET="WikiEvents"
 
-TRAIN_EVENT="../../../../data/$Dataset/$TRIGGER_SOURCE/train_event.json"
-DEV_EVENT="../../../../data/$Dataset/$TRIGGER_SOURCE/dev_event.json"
-TEST_EVENT="../../../../data/$Dataset/$TRIGGER_SOURCE/test_event.json"
+TRAIN_EVENT="../../../../data/$DATASET/$TRIGGER_SOURCE/train_event.json"
+DEV_EVENT="../../../../data/$DATASET/$TRIGGER_SOURCE/dev_event.json"
+TEST_EVENT="../../../../data/$DATASET/$TRIGGER_SOURCE/test_event.json"
 RUN="../../run/$ENV_NAME.py"
 
 mkdir "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME"
-cp -r "../../../../original_scripts/$Dataset/." "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME"
+cp -r "../../../../original_scripts/$DATASET/." "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME"
 cp "../../../../original_scripts/"* "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME"
 cp $TRAIN_EVENT "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME/data/wikievents_no_trig/wikievents_no_trig_train.json"
 cp $DEV_EVENT "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME/data/wikievents_no_trig/wikievents_no_trig_dev.json"
