@@ -52,6 +52,10 @@ def profile(func):
 role_names = ["incident_type", "PerpInd",
               "PerpOrg", "Target", "Weapon", "Victim"]
 
+#WikiEvents
+# role_names = ["incident_type"]
+# role_names += ['Defeated', 'Investigator', 'Killer', 'Jailer', 'Destroyer', 'ManufacturerAssembler', 'Instrument', 'PlaceOfEmployment', 'Learner', 'Components', 'Vehicle', 'Disabler', 'Injurer', 'Communicator', 'BodyPart', 'Disease', 'Detainee', 'Position', 'Patient', 'PassengerArtifact', 'Defendant', 'Attacker', 'IdentifiedRole', 'Preventer', 'CrashObject', 'Victim', 'Identifier', 'AcquiredEntity', 'Researcher', 'Regulator', 'Observer', 'Artifact', 'Target', 'Participant', 'Recipient', 'Topic', 'Impeder', 'Treater', 'Subject', 'Destination', 'Giver', 'Perpetrator', 'ExplosiveDevice', 'Transporter', 'Employee', 'PaymentBarter', 'Place', 'Damager', 'JudgeCourt', 'ArtifactMoney', 'IdentifiedObject', 'ObservedEntity', 'Demonstrator', 'Victor', 'TeacherTrainer', 'Prosecutor', 'Dismantler', 'DamagerDestroyer', 'Origin']
+
 # ProMed - mode = Errors
 # role_names = ["Status", "Country", "Disease", "Victims"]
 

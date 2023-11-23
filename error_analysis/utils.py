@@ -6,7 +6,7 @@ import BaseProcessing
 from tqdm import tqdm
 from copy import deepcopy
 
-def to_error_analysis_format_event(triplets, types_mapping):
+def to_error_analysis_format_event(triplets, types_mapping, roles):
     outputs = {}
     for triplet in triplets:
         error_analysis = {
@@ -15,29 +15,31 @@ def to_error_analysis_format_event(triplets, types_mapping):
             "gold_templates": triplet["gtt"]["templates"],
             "pred_templates": []
         }
+        for template in error_analysis['gold_templates']:
+            for role in roles:
+                if not role in template:
+                    template[role] = []
 
         trig_to_template = {}
         for trig_tup in triplet["model_out"]["triggers"]:
             try:
                 incident_type = types_mapping[trig_tup[0]]
                 new_trig_tup = (incident_type, trig_tup[-2], trig_tup[-1])
+
                 trig_to_template[new_trig_tup] = {
                     "incident_type": incident_type,
-                    "PerpInd": [],
-                    "PerpOrg": [],
-                    "Target": [],
-                    "Victim": [],
-                    "Weapon": []
                 }
+                for role in roles:
+                    trig_to_template[new_trig_tup][role] = []
             except KeyError:
                 print("type '{}' not identified".format(trig_tup[0]))
         
-        try:
-            assert error_analysis["docid"][:14].strip() == triplet["tanl"]["id"][:14].strip()
-            assert triplet["tanl"]["id"][:14].strip() == triplet["model_out"]["id"][:14].strip()
-        except Exception as e:
-            print(error_analysis["docid"].strip(), triplet["tanl"]["id"].strip(), triplet["model_out"]["id"].strip())
-            raise e
+        # try:
+        #     assert error_analysis["docid"][:14].strip() == triplet["tanl"]["id"][:14].strip()
+        #     assert triplet["tanl"]["id"][:14].strip() == triplet["model_out"]["id"][:14].strip()
+        # except Exception as e:
+        #     print(error_analysis["docid"].strip(), triplet["tanl"]["id"].strip(), triplet["model_out"]["id"].strip())
+        #     raise e
 
         for arg_tup in triplet["model_out"]["args"]:
             try:
@@ -154,8 +156,8 @@ def handle_buffer_event(buffers):
     return results
 
 
-def error_analysis_event(model_out, tanl_ref, gtt_ref, error_analysis, types_mapping, out_file):
-    error_analysis_inputs = BaseProcessing.get_error_analysis_input(model_out, tanl_ref, gtt_ref, handle_buffer_event, to_error_analysis_format_event, types_mapping)
+def error_analysis_event(model_out, tanl_ref, gtt_ref, error_analysis, types_mapping, out_file, roles):
+    error_analysis_inputs = BaseProcessing.get_error_analysis_input(model_out, tanl_ref, gtt_ref, handle_buffer_event, to_error_analysis_format_event, types_mapping, roles)
     
     if isinstance(out_file, list):
         eval_out, test_out = out_file
@@ -175,7 +177,7 @@ def error_analysis_event(model_out, tanl_ref, gtt_ref, error_analysis, types_map
         
         os.system('python3 {} -i "temp.json" -o "{}" --verbose -s all -m "MUC_Errors" -at'.format(error_analysis, out_file))
     
-    os.remove("temp.json")
+    # os.remove("temp.json")
     if os.path.exists("_.out"):
         os.remove("_.out")
 
@@ -327,6 +329,13 @@ def create_annotation_event(tup):
 #     return BaseProcessing.create_second_phase(model_out, tanl_ref, output_file, handle_buffer_event, annotate_second_phase_train_event)
 
 def run_task(mode, log_name, config, types_mapping=None, id=None, global_config=None):
+    muc_roles = ["PerpInd", "PerpOrg", "Target", "Victim", "Weapon"]
+    wikievent_roles = ['Defeated', 'Investigator', 'Killer', 'Jailer', 'Destroyer', 'ManufacturerAssembler', 'Instrument', 'PlaceOfEmployment', 'Learner', 'Components', 'Vehicle', 'Disabler', 'Injurer', 'Communicator', 'BodyPart', 'Disease', 'Detainee', 'Position', 'Patient', 'PassengerArtifact', 'Defendant', 'Attacker', 'IdentifiedRole', 'Preventer', 'CrashObject', 'Victim', 'Identifier', 'AcquiredEntity', 'Researcher', 'Regulator', 'Observer', 'Artifact', 'Target', 'Participant', 'Recipient', 'Topic', 'Impeder', 'Treater', 'Subject', 'Destination', 'Giver', 'Perpetrator', 'ExplosiveDevice', 'Transporter', 'Employee', 'PaymentBarter', 'Place', 'Damager', 'JudgeCourt', 'ArtifactMoney', 'IdentifiedObject', 'ObservedEntity', 'Demonstrator', 'Victor', 'TeacherTrainer', 'Prosecutor', 'Dismantler', 'DamagerDestroyer', 'Origin']
+    if config['dataset'] == 'muc':
+        roles = muc_roles
+    elif config['dataset'] == 'wikievents':
+        roles = wikievent_roles
+    
     if mode == "default":
         if log_name in ["train_time_logs", "test_time_logs"]:
             error_analysis_event(
@@ -335,7 +344,8 @@ def run_task(mode, log_name, config, types_mapping=None, id=None, global_config=
                 config["gtt_ref"],
                 config["error_analysis_script"],
                 types_mapping,
-                config["output_file"]
+                config["output_file"],
+                roles
             )
         elif log_name == "training_errors":
             error_analysis_summary = global_config["train_time_logs"]["output_file"][id]

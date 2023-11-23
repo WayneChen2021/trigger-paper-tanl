@@ -78,7 +78,7 @@ def load_data_test(model_out, tanl_ref, gtt_ref):
 
     return buffers, tanl_ref, gtt_ref
 
-def get_error_analysis_input(model_out, tanl_ref, gtt_ref, handle_buffer, to_error_analysis_format, types_mapping):
+def get_error_analysis_input(model_out, tanl_ref, gtt_ref, handle_buffer, to_error_analysis_format, types_mapping, roles):
     if types_mapping:
         with open(types_mapping, "r") as f:
             types_mapping = json.loads(f.read())
@@ -95,14 +95,14 @@ def get_error_analysis_input(model_out, tanl_ref, gtt_ref, handle_buffer, to_err
                 triplets = add_annotations(split, tanl_ref_2, gtt_ref_2)
                 is_eval = True
             
-            error_analysis_input = to_error_analysis_format(triplets, types_mapping)
+            error_analysis_input = to_error_analysis_format(triplets, types_mapping, roles)
             all_inputs.append(error_analysis_input)
         
         return all_inputs
     else:
         buffers, tanl_ref, gtt_ref = load_data_test(model_out, tanl_ref, gtt_ref)
         triplets = add_annotations(handle_buffer(buffers)[0], tanl_ref, gtt_ref)
-        error_analysis_input = to_error_analysis_format(triplets, types_mapping)
+        error_analysis_input = to_error_analysis_format(triplets, types_mapping, roles)
 
         return [error_analysis_input]
 

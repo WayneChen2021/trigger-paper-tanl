@@ -1,0 +1,17 @@
+{
+    "event_type_names": [
+        "attack",
+        "bombing",
+        "kidnapping",
+        "arson",
+        "forced work stoppage",
+        "robbery"
+    ],
+    "role_names": [
+        "PerpInd",
+        "PerpOrg",
+        "Target",
+        "Victim",
+        "Weapon"
+    ]
+}
