@@ -1,0 +1,66 @@
+id 21
+triggers [('trigger for person death event', 1, 3), ('trigger for person death event', 76, 78), ('trigger for attack event', 81, 83), ('trigger for person death event', 57, 59)]
+arguments [('place for person death event', (6, 8), ('trigger for person death event', 1, 3)), ('killer for person death event', (1, 2), ('trigger for person death event', 1, 3)), ('victim for person death event', (4, 6), ('trigger for person death event', 1, 3))]
+arguments []
+arguments [('explosive device for attack event', (80, 82), ('trigger for attack event', 81, 83)), ('target for attack event', (87, 89), ('trigger for attack event', 81, 83))]
+arguments []
+id 22
+triggers []
+id 23
+triggers []
+id 24
+triggers []
+id 25
+triggers []
+id 26
+triggers [('trigger for attack event', 12, 14), ('trigger for person death event', 34, 36), ('trigger for person death event', 22, 24), ('trigger for infected event', 27, 29)]
+arguments [('attacker for attack event', (11, 13), ('trigger for attack event', 12, 14))]
+arguments []
+arguments []
+arguments []
+id 27
+triggers []
+id 28
+triggers []
+id 29
+triggers []
+id 30
+triggers []
+id 31
+triggers [('trigger for attack event', 75, 77), ('trigger for person death event', 96, 98), ('trigger for artifact assembled event', 144, 146), ('trigger for person death event', 21, 23), ('trigger for person death event', 1, 3), ('trigger for attack event', 25, 27), ('trigger for person death event', 78, 80), ('trigger for attack event', 117, 119), ('trigger for artifact assembled event', 48, 50)]
+arguments [('explosive device for attack event', (74, 76), ('trigger for attack event', 75, 77))]
+arguments []
+arguments []
+arguments [('place for person death event', (27, 29), ('trigger for person death event', 21, 23)), ('place for person death event', (31, 34), ('trigger for person death event', 21, 23)), ('victim for person death event', (19, 21), ('trigger for person death event', 21, 23))]
+arguments [('victim for person death event', (0, 2), ('trigger for person death event', 1, 3)), ('place for person death event', (5, 7), ('trigger for person death event', 1, 3))]
+arguments [('place for attack event', (31, 34), ('trigger for attack event', 25, 27)), ('place for attack event', (27, 29), ('trigger for attack event', 25, 27))]
+arguments []
+arguments []
+arguments [('artifact for artifact assembled event', (51, 54), ('trigger for artifact assembled event', 48, 50)), ('components for artifact assembled event', (54, 56), ('trigger for artifact assembled event', 48, 50)), ('manufacturer or assembler for artifact assembled event', (45, 47), ('trigger for artifact assembled event', 48, 50))]
+id 32
+triggers []
+id 33
+triggers []
+id 34
+triggers []
+id 35
+triggers [('trigger for person death event', 271, 273), ('trigger for person death event', 28, 30), ('trigger for attack event', 245, 247), ('trigger for attack event', 10, 12), ('trigger for person death event', 14, 16)]
+arguments [('victim for person death event', (275, 277), ('trigger for person death event', 271, 273)), ('victim for person death event', (269, 271), ('trigger for person death event', 271, 273))]
+arguments [('victim for person death event', (27, 29), ('trigger for person death event', 28, 30))]
+arguments [('attacker for attack event', (238, 240), ('trigger for attack event', 245, 247)), ('explosive device for attack event', (244, 246), ('trigger for attack event', 245, 247))]
+arguments [('attacker for attack event', (9, 11), ('trigger for attack event', 10, 12))]
+arguments [('killer for person death event', (9, 11), ('trigger for person death event', 14, 16)), ('victim for person death event', (18, 20), ('trigger for person death event', 14, 16))]
+id 36
+triggers [('trigger for person death event', 76, 78), ('trigger for attack event', 137, 139), ('trigger for attack event', 57, 59), ('trigger for attack event', 180, 182)]
+arguments [('victim for person death event', (74, 76), ('trigger for person death event', 76, 78))]
+arguments [('place for attack event', (140, 142), ('trigger for attack event', 137, 139)), ('attacker for attack event', (134, 136), ('trigger for attack event', 137, 139))]
+arguments [('explosive device for attack event', (61, 63), ('trigger for attack event', 57, 59))]
+arguments [('explosive device for attack event', (177, 179), ('trigger for attack event', 180, 182))]
+id 37
+triggers []
+id 38
+triggers []
+id 39
+triggers []
+id 40
+triggers []

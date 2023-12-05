@@ -8,12 +8,12 @@
 #SBATCH --mem=50000                           # server memory requested (per node)
 #SBATCH -t 100:00:00                           # Time limit (hh:mm:ss)
 #SBATCH --partition=gpu       # Request partition
-#SBATCH --gres=gpu:2                  # Type/number of GPUs needed
+#SBATCH --gres=gpu:a6000:1                  # Type/number of GPUs needed"
 
 CONDA_ENV=TANL2
 ENV_NAME="no_trig"
 TRIGGER_SOURCE="no_trig"
-NUM_EPOCHS=25
+NUM_EPOCHS=150
 DATASET="WikiEvents"
 
 TRAIN_EVENT="../../../../data/$DATASET/$TRIGGER_SOURCE/train_event.json"
@@ -27,6 +27,8 @@ cp "../../../../original_scripts/"* "../../g2_environments/$TRIGGER_SOURCE/$ENV_
 cp $TRAIN_EVENT "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME/data/wikievents_no_trig/wikievents_no_trig_train.json"
 cp $DEV_EVENT "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME/data/wikievents_no_trig/wikievents_no_trig_dev.json"
 cp $TEST_EVENT "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME/data/wikievents_no_trig/wikievents_no_trig_test.json"
+mkdir "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME/dev_predictions"
+mkdir "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME/test_predictions"
 cp $RUN "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME/run.py"
 
 source /share/apps/anaconda3/2022.10/bin/activate

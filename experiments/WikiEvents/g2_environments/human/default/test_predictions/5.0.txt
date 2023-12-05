@@ -1,0 +1,50 @@
+id 1
+triggers [('trigger for person death event', 38, 40)]
+arguments []
+id 10
+triggers []
+id 11
+triggers [('trigger for attack event', 7, 9)]
+arguments []
+id 12
+triggers []
+id 13
+triggers []
+id 14
+triggers [('trigger for attack event', 212, 214)]
+arguments [('target for attack event', (215, 217), ('trigger for attack event', 212, 214))]
+id 15
+triggers [('trigger for attack event', 37, 39), ('trigger for attack event', 6, 8)]
+arguments [('target for attack event', (40, 42), ('trigger for attack event', 37, 39))]
+arguments [('instrument for attack event', (2, 4), ('trigger for attack event', 6, 8))]
+id 16
+triggers []
+id 17
+triggers []
+id 18
+triggers []
+id 19
+triggers [('trigger for arrest or jail with detainment event', 144, 146), ('trigger for arrest or jail with detainment event', 13, 15)]
+arguments [('detainee for arrest or jail with detainment event', (142, 144), ('trigger for arrest or jail with detainment event', 144, 146))]
+arguments [('jailer for arrest or jail with detainment event', (11, 13), ('trigger for arrest or jail with detainment event', 13, 15)), ('detainee for arrest or jail with detainment event', (15, 17), ('trigger for arrest or jail with detainment event', 13, 15))]
+id 2
+triggers []
+id 20
+triggers []
+id 3
+triggers [('trigger for sentencing event', 12, 14), ('trigger for communication event', 28, 30)]
+arguments [('judge or court for sentencing event', (11, 13), ('trigger for sentencing event', 12, 14))]
+arguments [('participant for communication event', (31, 33), ('trigger for communication event', 28, 30))]
+id 4
+triggers []
+id 5
+triggers []
+id 6
+triggers []
+id 7
+triggers []
+id 8
+triggers [('trigger for charged or indicted event', 21, 23)]
+arguments [('defendant for charged or indicted event', (23, 25), ('trigger for charged or indicted event', 21, 23))]
+id 9
+triggers []

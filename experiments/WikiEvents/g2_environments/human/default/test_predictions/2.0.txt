@@ -1,0 +1,50 @@
+id 1
+triggers []
+id 10
+triggers []
+id 11
+triggers [('trigger for transaction event', 112, 114)]
+arguments [('recipient for transaction event', (111, 113), ('trigger for transaction event', 112, 114)), ('recipient for transaction event', (107, 109), ('trigger for transaction event', 112, 114))]
+id 12
+triggers []
+id 13
+triggers []
+id 14
+triggers [('trigger for arrest or jail with detainment event', 124, 126)]
+arguments [('detainee for arrest or jail with detainment event', (201, 203), ('trigger for arrest or jail with detainment event', 124, 126)), ('jailer for arrest or jail with detainment event', (121, 123), ('trigger for arrest or jail with detainment event', 124, 126))]
+id 15
+triggers []
+id 16
+triggers [('trigger for person death event', 116, 118), ('trigger for person injured event', 119, 121), ('trigger for person injured event', 45, 47)]
+arguments [('victim for person death event', (114, 116), ('trigger for person death event', 116, 118)), ('victim for person death event', (119, 121), ('trigger for person death event', 116, 118))]
+arguments [('victim for person injured event', (119, 121), ('trigger for person injured event', 119, 121)), ('victim for person injured event', (116, 118), ('trigger for person injured event', 119, 121))]
+arguments [('victim for person injured event', (285, 287), ('trigger for person injured event', 45, 47)), ('victim for person injured event', (43, 45), ('trigger for person injured event', 45, 47))]
+id 17
+triggers [('trigger for attack event', 228, 230)]
+arguments [('target for attack event', (226, 228), ('trigger for attack event', 228, 230))]
+id 18
+triggers []
+id 19
+triggers [('trigger for arrest or jail with detainment event', 144, 146)]
+arguments [('detainee for arrest or jail with detainment event', (142, 144), ('trigger for arrest or jail with detainment event', 144, 146))]
+id 2
+triggers []
+id 20
+triggers []
+id 3
+triggers []
+id 4
+triggers [('trigger for person death event', 88, 90)]
+arguments [('victim for person death event', (86, 88), ('trigger for person death event', 88, 90))]
+id 5
+triggers [('trigger for person injured event', 31, 33), ('trigger for attack event', 7, 9)]
+arguments [('victim for person injured event', (29, 31), ('trigger for person injured event', 31, 33))]
+arguments [('place for attack event', (17, 19), ('trigger for attack event', 7, 9)), ('explosive device for attack event', (6, 8), ('trigger for attack event', 7, 9)), ('target for attack event', (11, 17), ('trigger for attack event', 7, 9))]
+id 6
+triggers []
+id 7
+triggers []
+id 8
+triggers []
+id 9
+triggers []

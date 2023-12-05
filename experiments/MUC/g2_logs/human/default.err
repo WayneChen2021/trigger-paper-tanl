@@ -1,0 +1,36 @@
+cp: -r not specified; omitting directory '../../../../original_scripts/MUC'
+cp: -r not specified; omitting directory '../../../../original_scripts/WikiEvents'
+cp: cannot stat '../../../../data/MUC/human/train_trig.json': No such file or directory
+cp: cannot stat '../../../../data/MUC/human/train_arg.json': No such file or directory
+cp: cannot stat '../../../../data/MUC/human/dev_event.json': No such file or directory
+cp: cannot stat '../../../../data/MUC/human/test_event.json': No such file or directory
+/home/zc272/trigger-paper-tanl/experiments/MUC/g2_environments/human/default/utils.py:15: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if episodes_string is not None and episodes_string is not '':
+/home/zc272/.conda/envs/TANL2/lib/python3.11/site-packages/transformers/models/t5/tokenization_t5_fast.py:155: FutureWarning: This tokenizer was incorrectly instantiated with a model max length of 512 which will be corrected in Transformers v5.
+For now, this behavior is kept to avoid breaking backwards compatibility when padding/encoding with `truncation is True`.
+- Be aware that you SHOULD NOT rely on t5-base automatically truncating your input to 512 when padding/encoding.
+- If you want to encode/pad to sequences longer than 512 you can either instantiate this tokenizer with `model_max_length` or pass `max_length` when encoding/padding.
+- To avoid this warning, please instantiate this tokenizer with `model_max_length` set to your preferred value.
+  warnings.warn(
+Episode 0 (1 episodes total)
+Output directory: experiments/muc_event-t5-base-ep150-len512-b4-train/episode0
+Using model t5-base
+Traceback (most recent call last):
+  File "/home/zc272/trigger-paper-tanl/experiments/MUC/g2_environments/human/default/run.py", line 329, in <module>
+    main()
+  File "/home/zc272/trigger-paper-tanl/experiments/MUC/g2_environments/human/default/run.py", line 224, in main
+    dataset = load_dataset(
+              ^^^^^^^^^^^^^
+  File "/home/zc272/trigger-paper-tanl/experiments/MUC/g2_environments/human/default/datasets.py", line 56, in load_dataset
+    return DATASETS[dataset_name](
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zc272/trigger-paper-tanl/experiments/MUC/g2_environments/human/default/base_dataset.py", line 96, in __init__
+    self.examples = self.load_data(mode=mode, seed=seed)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zc272/trigger-paper-tanl/experiments/MUC/g2_environments/human/default/base_dataset.py", line 181, in load_data
+    examples += self.load_data_single_split(split, seed=seed)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zc272/trigger-paper-tanl/experiments/MUC/g2_environments/human/default/datasets.py", line 2151, in load_data_single_split
+    with open(file_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/mucevent/mucevent_argument_train.json'

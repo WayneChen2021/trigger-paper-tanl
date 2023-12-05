@@ -1,0 +1,47 @@
+id 1
+triggers []
+id 10
+triggers [('trigger for attack event', 48, 49), ('trigger for communication event', 60, 61)]
+arguments []
+arguments []
+id 11
+triggers []
+id 12
+triggers []
+id 13
+triggers []
+id 14
+triggers []
+id 15
+triggers []
+id 16
+triggers [('trigger for person injured event', 280, 281)]
+arguments []
+id 17
+triggers []
+id 18
+triggers []
+id 19
+triggers []
+id 2
+triggers []
+id 20
+triggers []
+id 3
+triggers []
+id 4
+triggers [('trigger for person death event', 89, 90)]
+arguments []
+id 5
+triggers []
+id 6
+triggers [('trigger for attack event', 62, 63)]
+arguments []
+id 7
+triggers []
+id 8
+triggers [('trigger for attack event', 11, 12), ('trigger for attack event', 4, 5)]
+arguments [('attacker for attack event', (4, 5), ('trigger for attack event', 11, 12))]
+arguments [('attacker for attack event', (11, 12), ('trigger for attack event', 4, 5))]
+id 9
+triggers []

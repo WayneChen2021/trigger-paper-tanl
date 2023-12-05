@@ -7,18 +7,17 @@
 #SBATCH --get-user-env                       # retrieve the users login environment
 #SBATCH --mem=50000                           # server memory requested (per node)
 #SBATCH -t 100:00:00                           # Time limit (hh:mm:ss)
-#SBATCH --partition=claire       # Request partition
-#SBATCH --gres=gpu:titanxp:2                  # Type/number of GPUs needed
+#SBATCH --partition=gpu       # Request partition
+#SBATCH --constraint="gpu-mid|gpu-high"
 
 CONDA_ENV=TANL2
 ENV_NAME="default"
 TRIGGER_SOURCE="human"
-NUM_EPOCHS=25
+NUM_EPOCHS=150
 
 TRAIN_TRIG="../../../../data/MUC/$TRIGGER_SOURCE/train_trig.json"
 TRAIN_ARG="../../../../data/MUC/$TRIGGER_SOURCE/train_arg.json"
-DEV_TRIG="../../../../data/MUC/$TRIGGER_SOURCE/dev_trig.json"
-DEV_ARG="../../../../data/MUC/$TRIGGER_SOURCE/dev_arg.json"
+DEV_EVENT="../../../../data/MUC/$TRIGGER_SOURCE/dev_event.json"
 TEST_EVENT="../../../../data/MUC/$TRIGGER_SOURCE/test_event.json"
 RUN="../../run/$ENV_NAME.py"
 
@@ -27,9 +26,10 @@ cp -r "../../../../original_scripts/MUC/." "../../g2_environments/$TRIGGER_SOURC
 cp "../../../../original_scripts/"* "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME"
 cp $TRAIN_TRIG "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME/data/mucevent/mucevent_trigger_train.json"
 cp $TRAIN_ARG "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME/data/mucevent/mucevent_argument_train.json"
-cp $DEV_TRIG "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME/data/mucevent/mucevent_trigger_dev.json"
-cp $DEV_ARG "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME/data/mucevent/mucevent_argument_dev.json"
+cp $DEV_EVENT "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME/data/mucevent/mucevent_dev.json"
 cp $TEST_EVENT "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME/data/mucevent/mucevent_test.json"
+mkdir "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME/dev_predictions"
+mkdir "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME/test_predictions"
 cp $RUN "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME/run.py"
 
 source /share/apps/anaconda3/2022.10/bin/activate

@@ -1,0 +1,44 @@
+id 21
+triggers []
+id 22
+triggers []
+id 23
+triggers []
+id 24
+triggers [('trigger for person injured event', 259, 261)]
+arguments [('victim for person injured event', (259, 261), ('trigger for person injured event', 259, 261))]
+id 25
+triggers []
+id 26
+triggers [('trigger for person death event', 35, 36)]
+arguments []
+id 27
+triggers []
+id 28
+triggers []
+id 29
+triggers []
+id 30
+triggers [('trigger for attack event', 260, 261), ('trigger for attack event', 295, 296)]
+arguments []
+arguments []
+id 31
+triggers []
+id 32
+triggers []
+id 33
+triggers []
+id 34
+triggers []
+id 35
+triggers []
+id 36
+triggers []
+id 37
+triggers []
+id 38
+triggers []
+id 39
+triggers []
+id 40
+triggers []

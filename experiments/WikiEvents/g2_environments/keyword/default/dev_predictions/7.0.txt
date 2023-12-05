@@ -1,0 +1,89 @@
+id 21
+triggers [('trigger for person injured event', 2, 3), ('trigger for person death event', 2, 3), ('trigger for person death event', 58, 59), ('trigger for person death event', 214, 215), ('trigger for person death event', 143, 144)]
+arguments []
+arguments []
+arguments []
+arguments []
+arguments []
+id 22
+triggers []
+id 23
+triggers [('trigger for person injured event', 20, 21), ('trigger for person injured event', 123, 124), ('trigger for person injured event', 86, 87)]
+arguments []
+arguments []
+arguments []
+id 24
+triggers []
+id 25
+triggers [('trigger for attack event', 40, 41)]
+arguments []
+id 26
+triggers [('trigger for person death event', 23, 24), ('trigger for person death event', 35, 36), ('trigger for person injured event', 13, 14)]
+arguments []
+arguments []
+arguments []
+id 27
+triggers [('trigger for person injured event', 325, 326), ('trigger for person injured event', 208, 209), ('trigger for disease outbreak event', 210, 211)]
+arguments []
+arguments []
+arguments []
+id 28
+triggers []
+id 29
+triggers [('trigger for attack event', 235, 236)]
+arguments []
+id 30
+triggers [('trigger for attack event', 84, 85), ('trigger for person death event', 87, 88), ('trigger for attack event', 295, 296), ('trigger for attack event', 260, 261)]
+arguments []
+arguments []
+arguments []
+arguments []
+id 31
+triggers [('trigger for person death event', 22, 23), ('trigger for person death event', 2, 3), ('trigger for person death event', 79, 80), ('trigger for person death event', 97, 98), ('trigger for artifact assembled event', 145, 146)]
+arguments []
+arguments []
+arguments []
+arguments []
+arguments []
+id 32
+triggers [('trigger for person death event', 228, 229), ('trigger for attack event', 79, 80), ('trigger for attack event', 127, 128)]
+arguments []
+arguments []
+arguments []
+id 33
+triggers []
+id 34
+triggers [('trigger for attack event', 100, 101), ('trigger for transaction event', 351, 352)]
+arguments []
+arguments []
+id 35
+triggers [('trigger for attack event', 483, 484), ('trigger for person death event', 29, 30), ('trigger for person death event', 15, 16)]
+arguments []
+arguments []
+arguments []
+id 36
+triggers [('trigger for person injured event', 85, 86), ('trigger for person death event', 271, 272), ('trigger for person injured event', 329, 330), ('trigger for attack event', 160, 161)]
+arguments []
+arguments []
+arguments []
+arguments []
+id 37
+triggers [('trigger for disease outbreak event', 271, 272), ('trigger for person injured event', 295, 296)]
+arguments []
+arguments []
+id 38
+triggers [('trigger for person injured event', 279, 280), ('trigger for person injured event', 237, 238), ('trigger for attack event', 298, 299), ('trigger for attack event', 40, 41), ('trigger for person death event', 24, 25), ('trigger for person death event', 232, 233), ('trigger for attack event', 6, 7)]
+arguments []
+arguments []
+arguments []
+arguments []
+arguments []
+arguments []
+arguments []
+id 39
+triggers [('trigger for person death event', 150, 151), ('trigger for person death event', 205, 206)]
+arguments []
+arguments []
+id 40
+triggers [('trigger for person injured event', 34, 35)]
+arguments []

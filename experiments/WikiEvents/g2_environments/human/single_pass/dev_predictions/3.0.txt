@@ -1,0 +1,63 @@
+id 21
+triggers []
+arguments []
+id 22
+triggers []
+arguments []
+id 23
+triggers []
+arguments []
+id 24
+triggers []
+arguments []
+id 25
+triggers []
+arguments []
+id 26
+triggers []
+arguments []
+id 27
+triggers []
+arguments []
+id 28
+triggers []
+arguments []
+id 29
+triggers []
+arguments []
+id 30
+triggers []
+arguments []
+id 31
+triggers []
+arguments []
+id 32
+triggers []
+arguments []
+id 33
+triggers [('trigger for person injured event', 0, 1), ('trigger for person injured event', 2, 3)]
+arguments [('victim for person injured event', (22, 24), ('trigger for person injured event', 0, 1))]
+arguments [('victim for person injured event', (86, 88), ('trigger for person injured event', 2, 3))]
+id 34
+triggers []
+arguments []
+id 35
+triggers []
+arguments []
+id 36
+triggers [('trigger for person death event', 0, 1)]
+arguments [('victim for person death event', (74, 76), ('trigger for person death event', 0, 1))]
+id 37
+triggers []
+arguments []
+id 38
+triggers [('trigger for person death event', 0, 1), ('trigger for person injured event', 2, 3), ('trigger for person death event', 4, 5)]
+arguments [('victim for person death event', (25, 27), ('trigger for person death event', 0, 1))]
+arguments [('victim for person injured event', (29, 30), ('trigger for person injured event', 2, 3))]
+arguments [('victim for person death event', (131, 133), ('trigger for person death event', 4, 5))]
+id 39
+triggers []
+arguments []
+id 40
+triggers []
+arguments []

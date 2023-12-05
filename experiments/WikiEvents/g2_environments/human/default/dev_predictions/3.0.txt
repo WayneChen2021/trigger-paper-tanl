@@ -1,0 +1,43 @@
+id 21
+triggers []
+id 22
+triggers []
+id 23
+triggers []
+id 24
+triggers []
+id 25
+triggers [('trigger for attack event', 39, 41)]
+arguments [('place for attack event', (44, 46), ('trigger for attack event', 39, 41)), ('attacker for attack event', (34, 35), ('trigger for attack event', 39, 41))]
+id 26
+triggers []
+id 27
+triggers []
+id 28
+triggers [('trigger for criminal activity event', 115, 118)]
+arguments []
+id 29
+triggers []
+id 30
+triggers []
+id 31
+triggers []
+id 32
+triggers [('trigger for person death event', 260, 262)]
+arguments [('victim for person death event', (257, 260), ('trigger for person death event', 260, 262)), ('place for person death event', (271, 274), ('trigger for person death event', 260, 262))]
+id 33
+triggers []
+id 34
+triggers []
+id 35
+triggers []
+id 36
+triggers []
+id 37
+triggers []
+id 38
+triggers []
+id 39
+triggers []
+id 40
+triggers []
