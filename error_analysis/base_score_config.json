@@ -1,0 +1,74 @@
+[
+    {
+        "experiment_dir": "../experiments/MUC/g2_environments/no_trig/no_trig",
+        "output_dir": "../experiments/MUC/error_analysis/no_trig/no_trig",
+        "hungarian_config": "scorer_configs/muc_config.json",
+        "types_mapping": "types_mapping/types_mapping_muc.json",
+        "gtt_ref_dev": "../data/MUC/gtt/dev.json",
+        "tanl_ref_dev": "../data/MUC/no_trig/dev_event.json",
+        "gtt_ref_test": "../data/MUC/gtt/test.json",
+        "tanl_ref_test": "../data/MUC/no_trig/test_event.json",
+        "relax_match": true,
+        "dataset_name": "muc"
+    },
+    {
+        "experiment_dir": "../experiments/WikiEvents/g2_environments/human/default",
+        "output_dir": "../experiments/WikiEvents/error_analysis/human/default",
+        "hungarian_config": "scorer_configs/wikievents_config.json",
+        "types_mapping": "types_mapping/types_mapping_wikievents.json",
+        "gtt_ref_dev": "../data/WikiEvents/gtt/dev.json",
+        "tanl_ref_dev": "../data/WikiEvents/human/dev_event.json",
+        "gtt_ref_test": "../data/WikiEvents/gtt/test.json",
+        "tanl_ref_test": "../data/WikiEvents/human/test_event.json",
+        "relax_match": true,
+        "dataset_name": "wikievents"
+    },
+    {
+        "experiment_dir": "../experiments/WikiEvents/g2_environments/human/single_pass",
+        "output_dir": "../experiments/WikiEvents/error_analysis/human/single_pass",
+        "hungarian_config": "scorer_configs/wikievents_config.json",
+        "types_mapping": "types_mapping/types_mapping_wikievents.json",
+        "gtt_ref_dev": "../data/WikiEvents/gtt/dev.json",
+        "tanl_ref_dev": "../data/WikiEvents/human/dev_event.json",
+        "gtt_ref_test": "../data/WikiEvents/gtt/test.json",
+        "tanl_ref_test": "../data/WikiEvents/human/test_event.json",
+        "relax_match": true,
+        "dataset_name": "wikievents"
+    },
+    {
+        "experiment_dir": "../experiments/WikiEvents/g2_environments/keyword/default",
+        "output_dir": "../experiments/WikiEvents/error_analysis/keyword/default",
+        "hungarian_config": "scorer_configs/wikievents_config.json",
+        "types_mapping": "types_mapping/types_mapping_wikievents.json",
+        "gtt_ref_dev": "../data/WikiEvents/gtt/dev.json",
+        "tanl_ref_dev": "../data/WikiEvents/keyword/dev_event.json",
+        "gtt_ref_test": "../data/WikiEvents/gtt/test.json",
+        "tanl_ref_test": "../data/WikiEvents/keyword/test_event.json",
+        "relax_match": true,
+        "dataset_name": "wikievents"
+    },
+    {
+        "experiment_dir": "../experiments/WikiEvents/g2_environments/keyword/single_pass",
+        "output_dir": "../experiments/WikiEvents/error_analysis/keyword/single_pass",
+        "hungarian_config": "scorer_configs/wikievents_config.json",
+        "types_mapping": "types_mapping/types_mapping_wikievents.json",
+        "gtt_ref_dev": "../data/WikiEvents/gtt/dev.json",
+        "tanl_ref_dev": "../data/WikiEvents/keyword/dev_event.json",
+        "gtt_ref_test": "../data/WikiEvents/gtt/test.json",
+        "tanl_ref_test": "../data/WikiEvents/keyword/test_event.json",
+        "relax_match": true,
+        "dataset_name": "wikievents"
+    },
+    {
+        "experiment_dir": "../experiments/WikiEvents/g2_environments/no_trig/no_trig",
+        "output_dir": "../experiments/WikiEvents/error_analysis/no_trig/no_trig",
+        "hungarian_config": "scorer_configs/wikievents_config.json",
+        "types_mapping": "types_mapping/types_mapping_wikievents.json",
+        "gtt_ref_dev": "../data/WikiEvents/gtt/dev.json",
+        "tanl_ref_dev": "../data/WikiEvents/no_trig/dev_event.json",
+        "gtt_ref_test": "../data/WikiEvents/gtt/test.json",
+        "tanl_ref_test": "../data/WikiEvents/no_trig/test_event.json",
+        "relax_match": true,
+        "dataset_name": "wikievents"
+    }
+]

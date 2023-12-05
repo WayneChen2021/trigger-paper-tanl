@@ -80,7 +80,7 @@ id TST1-MUC3-0027
 triggers [('trigger for bombing event', 0, 1)]
 arguments [('weapon for bombing event', (86, 87), ('trigger for bombing event', 0, 1)), ('target for bombing event', (95, 96), ('trigger for bombing event', 0, 1)), ('target for bombing event', (158, 163), ('trigger for bombing event', 0, 1)), ('target for bombing event', (165, 167), ('trigger for bombing event', 0, 1))]
 id TST1-MUC3-0028
-triggers [('trigger for trigger for attack event event', 0, 1)]
+triggers [('trigger for attack event', 0, 1)]
 arguments []
 id TST1-MUC3-0029
 triggers []
@@ -95,7 +95,7 @@ id TST1-MUC3-0032
 triggers []
 arguments []
 id TST1-MUC3-0033
-triggers [('trigger for trigger for attack event event', 0, 1)]
+triggers [('trigger for attack event', 0, 1)]
 arguments []
 id TST1-MUC3-0034
 triggers []
@@ -515,7 +515,7 @@ id TST2-MUC4-0070
 triggers []
 arguments []
 id TST2-MUC4-0071
-triggers [('trigger for trigger for attack event event', 0, 1)]
+triggers [('trigger for attack event', 0, 1)]
 arguments []
 id TST2-MUC4-0072
 triggers []

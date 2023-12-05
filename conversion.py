@@ -294,7 +294,7 @@ if __name__ == "__main__":
     parser.add_argument("--trigger_selection", type=str, required=False, default="position") # "position" or "popularity"
     parser.add_argument("--dummy_trigs", action='store_true')
     parser.add_argument("--num_dummy_events", type=int, required=False, default=100)
-    parser.add_argument("--dataset", type=str, required=True) # one of "TANL", "WikiEvents"
+    parser.add_argument("--dataset", type=str, required=True) # one of "MUC", "WikiEvents"
     args = parser.parse_args()
 
     if args.dataset == "MUC":

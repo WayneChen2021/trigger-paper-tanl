@@ -103,7 +103,7 @@ id TST1-MUC3-0034
 triggers []
 arguments []
 id TST1-MUC3-0035
-triggers [('trigger for trigger for attack event event', 0, 1), ('trigger for trigger for attack event event', 2, 3)]
+triggers [('trigger for attack event', 0, 1), ('trigger for attack event', 2, 3)]
 arguments []
 arguments []
 id TST1-MUC3-0036
@@ -526,7 +526,7 @@ id TST2-MUC4-0070
 triggers []
 arguments []
 id TST2-MUC4-0071
-triggers [('trigger for trigger for attack event event', 0, 1)]
+triggers [('trigger for attack event', 0, 1)]
 arguments []
 id TST2-MUC4-0072
 triggers []
@@ -544,7 +544,7 @@ id TST2-MUC4-0076
 triggers [('trigger for bombing event', 0, 1)]
 arguments [('weapon for bombing event', (95, 97), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (150, 152), ('trigger for bombing event', 0, 1)), ('target for bombing event', (159, 161), ('trigger for bombing event', 0, 1))]
 id TST2-MUC4-0077
-triggers [('trigger for kidnapping event', 0, 1), ('trigger for trigger for kidnapping event event', 2, 3)]
+triggers [('trigger for kidnapping event', 0, 1), ('trigger for kidnapping event', 2, 3)]
 arguments [('victim for kidnapping event', (119, 122), ('trigger for kidnapping event', 0, 1))]
 arguments []
 id TST2-MUC4-0078

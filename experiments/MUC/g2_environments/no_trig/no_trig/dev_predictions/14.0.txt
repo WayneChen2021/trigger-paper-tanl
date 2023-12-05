@@ -267,7 +267,7 @@ id TST1-MUC3-0089
 triggers [('trigger for arson event', 0, 1)]
 arguments [('target for arson event', (89, 92), ('trigger for arson event', 0, 1)), ('perpetrating organization for arson event', (169, 170), ('trigger for arson event', 0, 1)), ('target for arson event', (213, 214), ('trigger for arson event', 0, 1)), ('target for arson event', (326, 331), ('trigger for arson event', 0, 1))]
 id TST1-MUC3-0090
-triggers [('trigger for bombing event', 0, 1), ('trigger for trigger for bombing event event', 2, 3)]
+triggers [('trigger for bombing event', 0, 1), ('trigger for bombing event', 2, 3)]
 arguments [('target for bombing event', (122, 125), ('trigger for bombing event', 0, 1))]
 arguments []
 id TST1-MUC3-0091

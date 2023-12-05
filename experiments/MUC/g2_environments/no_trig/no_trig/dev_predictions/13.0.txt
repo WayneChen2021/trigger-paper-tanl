@@ -242,7 +242,7 @@ id TST1-MUC3-0081
 triggers []
 arguments []
 id TST1-MUC3-0082
-triggers [('trigger for trigger for bombing event event', 0, 1)]
+triggers [('trigger for bombing event', 0, 1)]
 arguments []
 id TST1-MUC3-0083
 triggers [('trigger for attack event', 0, 1)]

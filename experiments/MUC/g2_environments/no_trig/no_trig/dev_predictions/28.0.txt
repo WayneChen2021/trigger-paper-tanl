@@ -96,7 +96,7 @@ id TST1-MUC3-0032
 triggers []
 arguments []
 id TST1-MUC3-0033
-triggers [('trigger for trigger for attack event event', 0, 1)]
+triggers [('trigger for attack event', 0, 1)]
 arguments []
 id TST1-MUC3-0034
 triggers []
@@ -168,7 +168,7 @@ id TST1-MUC3-0056
 triggers [('trigger for attack event', 0, 1)]
 arguments [('target for attack event', (94, 97), ('trigger for attack event', 0, 1))]
 id TST1-MUC3-0057
-triggers [('trigger for trigger for attack event event', 0, 1)]
+triggers [('trigger for attack event', 0, 1)]
 arguments []
 id TST1-MUC3-0058
 triggers []
@@ -219,7 +219,7 @@ id TST1-MUC3-0073
 triggers [('trigger for bombing event', 0, 1)]
 arguments [('perpetrating individual for bombing event', (84, 85), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (87, 88), ('trigger for bombing event', 0, 1)), ('target for bombing event', (110, 112), ('trigger for bombing event', 0, 1)), ('target for bombing event', (118, 126), ('trigger for bombing event', 0, 1)), ('target for bombing event', (160, 162), ('trigger for bombing event', 0, 1))]
 id TST1-MUC3-0074
-triggers [('trigger for trigger for attack event event', 0, 1)]
+triggers [('trigger for attack event', 0, 1)]
 arguments []
 id TST1-MUC3-0075
 triggers [('trigger for attack event', 0, 1)]
@@ -249,7 +249,7 @@ id TST1-MUC3-0083
 triggers [('trigger for attack event', 0, 1)]
 arguments [('perpetrating individual for attack event', (95, 97), ('trigger for attack event', 0, 1)), ('victim for attack event', (104, 107), ('trigger for attack event', 0, 1))]
 id TST1-MUC3-0084
-triggers [('trigger for trigger for attack event event', 0, 1)]
+triggers [('trigger for attack event', 0, 1)]
 arguments []
 id TST1-MUC3-0085
 triggers []
@@ -268,7 +268,7 @@ id TST1-MUC3-0089
 triggers [('trigger for arson event', 0, 1)]
 arguments [('perpetrating individual for arson event', (86, 87), ('trigger for arson event', 0, 1)), ('target for arson event', (89, 92), ('trigger for arson event', 0, 1)), ('perpetrating organization for arson event', (169, 170), ('trigger for arson event', 0, 1))]
 id TST1-MUC3-0090
-triggers [('trigger for trigger for bombing event event', 0, 1), ('trigger for trigger for bombing event event', 2, 3)]
+triggers [('trigger for bombing event', 0, 1), ('trigger for bombing event', 2, 3)]
 arguments []
 arguments []
 id TST1-MUC3-0091
@@ -302,7 +302,7 @@ id TST1-MUC3-0100
 triggers []
 arguments []
 id TST2-MUC4-0001
-triggers [('trigger for trigger for attack event event', 0, 1)]
+triggers [('trigger for attack event', 0, 1)]
 arguments []
 id TST2-MUC4-0002
 triggers [('trigger for bombing event', 0, 1)]
@@ -359,10 +359,10 @@ id TST2-MUC4-0019
 triggers [('trigger for attack event', 0, 1)]
 arguments [('perpetrating organization for attack event', (103, 105), ('trigger for attack event', 0, 1))]
 id TST2-MUC4-0020
-triggers [('trigger for trigger for attack event event', 0, 1)]
+triggers [('trigger for attack event', 0, 1)]
 arguments []
 id TST2-MUC4-0021
-triggers [('trigger for bombing event', 0, 1), ('trigger for trigger for attack event event', 2, 3)]
+triggers [('trigger for bombing event', 0, 1), ('trigger for attack event', 2, 3)]
 arguments [('target for bombing event', (165, 167), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (168, 169), ('trigger for bombing event', 0, 1))]
 arguments []
 id TST2-MUC4-0022
@@ -469,7 +469,7 @@ id TST2-MUC4-0055
 triggers [('trigger for kidnapping event', 0, 1)]
 arguments [('victim for kidnapping event', (101, 104), ('trigger for kidnapping event', 0, 1)), ('perpetrating individual for kidnapping event', (155, 156), ('trigger for kidnapping event', 0, 1)), ('perpetrating organization for kidnapping event', (158, 165), ('trigger for kidnapping event', 0, 1))]
 id TST2-MUC4-0056
-triggers [('trigger for trigger for attack event event', 0, 1)]
+triggers [('trigger for attack event', 0, 1)]
 arguments []
 id TST2-MUC4-0057
 triggers []
@@ -515,7 +515,7 @@ id TST2-MUC4-0070
 triggers []
 arguments []
 id TST2-MUC4-0071
-triggers [('trigger for trigger for attack event event', 0, 1)]
+triggers [('trigger for attack event', 0, 1)]
 arguments []
 id TST2-MUC4-0072
 triggers []

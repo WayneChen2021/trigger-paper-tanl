@@ -289,7 +289,7 @@ id TST1-MUC3-0095
 triggers []
 arguments []
 id TST1-MUC3-0096
-triggers [('trigger for trigger for kidnapping event event', 0, 1)]
+triggers [('trigger for kidnapping event', 0, 1)]
 arguments []
 id TST1-MUC3-0097
 triggers []
@@ -471,7 +471,7 @@ id TST2-MUC4-0055
 triggers [('trigger for kidnapping event', 0, 1)]
 arguments [('victim for kidnapping event', (101, 104), ('trigger for kidnapping event', 0, 1)), ('perpetrating organization for kidnapping event', (165, 167), ('trigger for kidnapping event', 0, 1))]
 id TST2-MUC4-0056
-triggers [('trigger for trigger for attack event event', 0, 1)]
+triggers [('trigger for attack event', 0, 1)]
 arguments []
 id TST2-MUC4-0057
 triggers []

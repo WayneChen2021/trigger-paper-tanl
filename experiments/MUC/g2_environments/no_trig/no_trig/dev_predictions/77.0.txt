@@ -222,7 +222,7 @@ id TST1-MUC3-0074
 triggers [('trigger for attack event', 0, 1)]
 arguments [('victim for attack event', (167, 170), ('trigger for attack event', 0, 1))]
 id TST1-MUC3-0075
-triggers [('trigger for attack event', 0, 1), ('trigger for trigger for attack event event', 2, 3)]
+triggers [('trigger for attack event', 0, 1), ('trigger for attack event', 2, 3)]
 arguments [('perpetrating individual for attack event', (130, 135), ('trigger for attack event', 0, 1))]
 arguments []
 id TST1-MUC3-0076
@@ -303,7 +303,7 @@ id TST1-MUC3-0100
 triggers []
 arguments []
 id TST2-MUC4-0001
-triggers [('trigger for trigger for attack event event', 0, 1)]
+triggers [('trigger for attack event', 0, 1)]
 arguments []
 id TST2-MUC4-0002
 triggers [('trigger for bombing event', 0, 1)]
@@ -516,7 +516,7 @@ id TST2-MUC4-0070
 triggers []
 arguments []
 id TST2-MUC4-0071
-triggers [('trigger for trigger for attack event event', 0, 1)]
+triggers [('trigger for attack event', 0, 1)]
 arguments []
 id TST2-MUC4-0072
 triggers []

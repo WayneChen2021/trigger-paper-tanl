@@ -30,7 +30,7 @@ id TST3-MUC4-0010
 triggers [('trigger for bombing event', 0, 1)]
 arguments [('weapon for bombing event', (95, 96), ('trigger for bombing event', 0, 1)), ('target for bombing event', (99, 105), ('trigger for bombing event', 0, 1)), ('target for bombing event', (113, 118), ('trigger for bombing event', 0, 1)), ('perpetrating organization for attack event', (156, 157), ('trigger for bombing event', 0, 1)), ('target for bombing event', (159, 163), ('trigger for bombing event', 0, 1))]
 id TST3-MUC4-0011
-triggers [('trigger for kidnapping event', 0, 1), ('trigger for trigger for attack event event', 2, 3)]
+triggers [('trigger for kidnapping event', 0, 1), ('trigger for attack event', 2, 3)]
 arguments [('perpetrating individual for kidnapping event', (148, 156), ('trigger for kidnapping event', 0, 1))]
 arguments []
 id TST3-MUC4-0012

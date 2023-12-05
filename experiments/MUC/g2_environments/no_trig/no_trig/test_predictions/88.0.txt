@@ -578,7 +578,7 @@ id TST4-MUC4-0091
 triggers [('trigger for bombing event', 0, 1)]
 arguments [('target for bombing event', (185, 186), ('trigger for bombing event', 0, 1))]
 id TST4-MUC4-0092
-triggers [('trigger for arson event', 0, 1), ('trigger for arson event', 2, 3), ('trigger for trigger for attack event event', 4, 5)]
+triggers [('trigger for arson event', 0, 1), ('trigger for arson event', 2, 3), ('trigger for attack event', 4, 5)]
 arguments [('perpetrating individual for arson event', (94, 95), ('trigger for arson event', 0, 1))]
 arguments [('target for arson event', (115, 123), ('trigger for arson event', 2, 3))]
 arguments []

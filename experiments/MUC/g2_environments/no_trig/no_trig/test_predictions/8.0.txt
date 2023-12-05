@@ -56,7 +56,7 @@ id TST3-MUC4-0019
 triggers []
 arguments []
 id TST3-MUC4-0020
-triggers [('trigger for trigger for attack event event', 0, 1)]
+triggers [('trigger for attack event', 0, 1)]
 arguments []
 id TST3-MUC4-0021
 triggers [('trigger for attack event', 0, 1)]
@@ -68,7 +68,7 @@ id TST3-MUC4-0023
 triggers []
 arguments []
 id TST3-MUC4-0024
-triggers [('trigger for bombing event', 0, 1), ('trigger for trigger for bombing event event', 2, 3)]
+triggers [('trigger for bombing event', 0, 1), ('trigger for bombing event', 2, 3)]
 arguments [('weapon for bombing event', (140, 141), ('trigger for bombing event', 0, 1))]
 arguments []
 id TST3-MUC4-0025
@@ -297,7 +297,7 @@ id TST3-MUC4-0099
 triggers [('trigger for attack event', 0, 1)]
 arguments [('perpetrating individual for attack event', (89, 90), ('trigger for attack event', 0, 1)), ('target for attack event', (92, 95), ('trigger for attack event', 0, 1)), ('perpetrating individual for attack event', (114, 115), ('trigger for attack event', 0, 1)), ('target for attack event', (117, 119), ('trigger for attack event', 0, 1)), ('target for attack event', (121, 123), ('trigger for attack event', 0, 1))]
 id TST3-MUC4-0100
-triggers [('trigger for trigger for attack event event', 0, 1)]
+triggers [('trigger for attack event', 0, 1)]
 arguments []
 id TST4-MUC4-0001
 triggers [('trigger for bombing event', 0, 1)]

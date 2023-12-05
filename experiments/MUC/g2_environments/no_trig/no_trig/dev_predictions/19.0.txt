@@ -192,7 +192,7 @@ id TST1-MUC3-0064
 triggers []
 arguments []
 id TST1-MUC3-0065
-triggers [('trigger for trigger for kidnapping event event', 0, 1)]
+triggers [('trigger for kidnapping event', 0, 1)]
 arguments []
 id TST1-MUC3-0066
 triggers []

@@ -156,30 +156,42 @@ def handle_buffer_event(buffers):
     return results
 
 
-def error_analysis_event(model_out, tanl_ref, gtt_ref, error_analysis, types_mapping, out_file, roles):
-    error_analysis_inputs = BaseProcessing.get_error_analysis_input(model_out, tanl_ref, gtt_ref, handle_buffer_event, to_error_analysis_format_event, types_mapping, roles)
+# def error_analysis_event(model_out, tanl_ref, gtt_ref, error_analysis, types_mapping, out_file, roles):
+#     error_analysis_inputs = BaseProcessing.get_error_analysis_input(model_out, tanl_ref, gtt_ref, handle_buffer_event, to_error_analysis_format_event, types_mapping, roles)
     
-    if isinstance(out_file, list):
-        eval_out, test_out = out_file
-        is_eval = True
-        for inputs in tqdm(error_analysis_inputs, desc="Processing train time template errors..."):
-            with open("temp.json", "w") as f:
-                f.write(json.dumps(inputs))
-            if is_eval:
-                os.system('python3 {} -i "temp.json" -o "_.out" --muc_errors "{}" --verbose -s all -m "MUC_Errors" -at'.format(error_analysis, eval_out))
-                is_eval = False
-            else:
-                os.system('python3 {} -i "temp.json" -o "_.out" --muc_errors "{}" --verbose -s all -m "MUC_Errors" -at'.format(error_analysis, test_out))
-                is_eval = True
-    else:
-        with open("temp.json", "w") as f:
-            f.write(json.dumps(error_analysis_inputs[0]))
+#     if isinstance(out_file, list):
+#         eval_out, test_out = out_file
+#         is_eval = True
+#         for inputs in tqdm(error_analysis_inputs, desc="Processing train time template errors..."):
+#             with open("temp.json", "w") as f:
+#                 f.write(json.dumps(inputs))
+#             if is_eval:
+#                 os.system('python3 {} -i "temp.json" -o "_.out" --muc_errors "{}" --verbose -s all -m "MUC_Errors" -at'.format(error_analysis, eval_out))
+#                 is_eval = False
+#             else:
+#                 os.system('python3 {} -i "temp.json" -o "_.out" --muc_errors "{}" --verbose -s all -m "MUC_Errors" -at'.format(error_analysis, test_out))
+#                 is_eval = True
+#     else:
+#         with open("temp.json", "w") as f:
+#             f.write(json.dumps(error_analysis_inputs[0]))
         
-        os.system('python3 {} -i "temp.json" -o "{}" --verbose -s all -m "MUC_Errors" -at'.format(error_analysis, out_file))
+#         os.system('python3 {} -i "temp.json" -o "{}" --verbose -s all -m "MUC_Errors" -at'.format(error_analysis, out_file))
     
-    # os.remove("temp.json")
-    if os.path.exists("_.out"):
-        os.remove("_.out")
+#     # os.remove("temp.json")
+#     if os.path.exists("_.out"):
+#         os.remove("_.out")
+
+def error_analysis_event(model_out, tanl_ref, gtt_ref, error_analysis, types_mapping, out_file, roles, config_path, relax_match):
+    error_analysis_inputs = BaseProcessing.get_error_analysis_input(model_out, tanl_ref, gtt_ref, handle_buffer_event, to_error_analysis_format_event, types_mapping, roles)
+    with open("temp.json", "w") as f:
+        f.write(json.dumps(error_analysis_inputs[0]))
+    
+    if relax_match:
+        os.system(f'python3 {error_analysis} --config {config_path} --in_file "temp.json" --out_file {out_file} --relax_match')
+    else:
+        os.system(f'python3 {error_analysis} --config {config_path} --in_file "temp.json" --out_file {out_file}')
+    
+    os.remove("temp.json")
 
 
 # def error_analysis_ner(model_out, tanl_ref, gtt_ref, error_analysis, out_file):

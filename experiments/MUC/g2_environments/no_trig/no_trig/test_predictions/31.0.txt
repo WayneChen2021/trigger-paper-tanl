@@ -45,7 +45,7 @@ triggers [('trigger for attack event', 0, 1), ('trigger for attack event', 2, 3)
 arguments [('victim for attack event', (78, 80), ('trigger for attack event', 0, 1))]
 arguments [('victim for attack event', (180, 182), ('trigger for attack event', 2, 3))]
 id TST3-MUC4-0016
-triggers [('trigger for trigger for attack event event', 0, 1)]
+triggers [('trigger for attack event', 0, 1)]
 arguments []
 id TST3-MUC4-0017
 triggers [('trigger for bombing event', 0, 1)]
@@ -194,7 +194,7 @@ id TST3-MUC4-0064
 triggers []
 arguments []
 id TST3-MUC4-0065
-triggers [('trigger for trigger for attack event event', 0, 1)]
+triggers [('trigger for attack event', 0, 1)]
 arguments []
 id TST3-MUC4-0066
 triggers [('trigger for attack event', 0, 1)]
@@ -233,7 +233,7 @@ id TST3-MUC4-0077
 triggers [('trigger for attack event', 0, 1)]
 arguments [('victim for attack event', (87, 90), ('trigger for attack event', 0, 1)), ('victim for attack event', (93, 94), ('trigger for attack event', 0, 1))]
 id TST3-MUC4-0078
-triggers [('trigger for kidnapping event', 0, 1), ('trigger for trigger for kidnapping event event', 2, 3)]
+triggers [('trigger for kidnapping event', 0, 1), ('trigger for kidnapping event', 2, 3)]
 arguments [('victim for kidnapping event', (93, 95), ('trigger for kidnapping event', 0, 1))]
 arguments []
 id TST3-MUC4-0079
@@ -301,7 +301,7 @@ id TST3-MUC4-0099
 triggers [('trigger for attack event', 0, 1)]
 arguments [('target for attack event', (121, 123), ('trigger for attack event', 0, 1)), ('perpetrating organization for attack event', (258, 260), ('trigger for attack event', 0, 1))]
 id TST3-MUC4-0100
-triggers [('trigger for trigger for attack event event', 0, 1)]
+triggers [('trigger for attack event', 0, 1)]
 arguments []
 id TST4-MUC4-0001
 triggers [('trigger for bombing event', 0, 1)]
@@ -536,7 +536,7 @@ id TST4-MUC4-0077
 triggers []
 arguments []
 id TST4-MUC4-0078
-triggers [('trigger for trigger for bombing event event', 0, 1)]
+triggers [('trigger for bombing event', 0, 1)]
 arguments []
 id TST4-MUC4-0079
 triggers []

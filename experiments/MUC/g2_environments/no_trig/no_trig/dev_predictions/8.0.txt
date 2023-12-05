@@ -89,7 +89,7 @@ id TST1-MUC3-0030
 triggers [('trigger for attack event', 0, 1)]
 arguments [('victim for attack event', (255, 257), ('trigger for attack event', 0, 1))]
 id TST1-MUC3-0031
-triggers [('trigger for trigger for attack event event', 0, 1)]
+triggers [('trigger for attack event', 0, 1)]
 arguments []
 id TST1-MUC3-0032
 triggers []

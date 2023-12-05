@@ -44,7 +44,7 @@ id TST3-MUC4-0015
 triggers [('trigger for attack event', 0, 1)]
 arguments [('victim for attack event', (78, 80), ('trigger for attack event', 0, 1)), ('victim for attack event', (180, 182), ('trigger for attack event', 0, 1))]
 id TST3-MUC4-0016
-triggers [('trigger for attack event', 0, 1), ('trigger for trigger for attack event event', 2, 3)]
+triggers [('trigger for attack event', 0, 1), ('trigger for attack event', 2, 3)]
 arguments [('weapon for attack event', (230, 232), ('trigger for attack event', 0, 1))]
 arguments []
 id TST3-MUC4-0017
@@ -57,7 +57,7 @@ id TST3-MUC4-0019
 triggers []
 arguments []
 id TST3-MUC4-0020
-triggers [('trigger for trigger for attack event event', 0, 1)]
+triggers [('trigger for attack event', 0, 1)]
 arguments []
 id TST3-MUC4-0021
 triggers [('trigger for attack event', 0, 1)]
@@ -253,7 +253,7 @@ id TST3-MUC4-0083
 triggers [('trigger for attack event', 0, 1)]
 arguments [('victim for attack event', (206, 208), ('trigger for attack event', 0, 1)), ('perpetrating organization for attack event', (261, 264), ('trigger for attack event', 0, 1))]
 id TST3-MUC4-0084
-triggers [('trigger for bombing event', 0, 1), ('trigger for bombing event', 2, 3), ('trigger for trigger for arson event event', 4, 5)]
+triggers [('trigger for bombing event', 0, 1), ('trigger for bombing event', 2, 3), ('trigger for arson event', 4, 5)]
 arguments [('target for bombing event', (123, 124), ('trigger for bombing event', 0, 1)), ('target for bombing event', (128, 130), ('trigger for bombing event', 0, 1))]
 arguments [('weapon for bombing event', (241, 243), ('trigger for bombing event', 2, 3)), ('target for bombing event', (247, 250), ('trigger for bombing event', 2, 3))]
 arguments []
@@ -367,7 +367,7 @@ id TST4-MUC4-0020
 triggers []
 arguments []
 id TST4-MUC4-0021
-triggers [('trigger for attack event', 0, 1), ('trigger for attack event', 2, 3), ('trigger for bombing event', 4, 5), ('trigger for trigger for bombing event event', 6, 7)]
+triggers [('trigger for attack event', 0, 1), ('trigger for attack event', 2, 3), ('trigger for bombing event', 4, 5), ('trigger for bombing event', 6, 7)]
 arguments [('target for attack event', (82, 83), ('trigger for attack event', 0, 1))]
 arguments [('target for attack event', (90, 91), ('trigger for attack event', 2, 3)), ('target for attack event', (96, 99), ('trigger for attack event', 2, 3)), ('target for attack event', (105, 109), ('trigger for attack event', 2, 3)), ('perpetrating individual for attack event', (115, 117), ('trigger for attack event', 2, 3)), ('weapon for attack event', (119, 120), ('trigger for attack event', 2, 3)), ('target for attack event', (122, 126), ('trigger for attack event', 2, 3)), ('perpetrating individual for bombing event', (169, 170), ('trigger for attack event', 2, 3))]
 arguments [('perpetrating individual for bombing event', (217, 218), ('trigger for bombing event', 4, 5))]

@@ -101,7 +101,7 @@ id TST1-MUC3-0034
 triggers []
 arguments []
 id TST1-MUC3-0035
-triggers [('trigger for trigger for attack event event', 0, 1)]
+triggers [('trigger for attack event', 0, 1)]
 arguments []
 id TST1-MUC3-0036
 triggers [('trigger for bombing event', 0, 1)]
@@ -242,7 +242,7 @@ id TST1-MUC3-0081
 triggers [('trigger for attack event', 0, 1)]
 arguments [('perpetrating organization for attack event', (76, 77), ('trigger for attack event', 0, 1))]
 id TST1-MUC3-0082
-triggers [('trigger for trigger for bombing event event', 0, 1)]
+triggers [('trigger for bombing event', 0, 1)]
 arguments []
 id TST1-MUC3-0083
 triggers [('trigger for kidnapping event', 0, 1)]
@@ -360,7 +360,7 @@ id TST2-MUC4-0020
 triggers []
 arguments []
 id TST2-MUC4-0021
-triggers [('trigger for trigger for bombing event event', 0, 1)]
+triggers [('trigger for bombing event', 0, 1)]
 arguments []
 id TST2-MUC4-0022
 triggers []
