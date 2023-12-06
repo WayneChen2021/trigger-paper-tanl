@@ -115,69 +115,70 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
         num_trigs = 1
     containers = {}
 
-    for example in info.values():      
-        if event_header_len or all(len(template['Triggers']) for template in example['templates']):
-            text = event_header + example['text'].lower().replace('[', '(').replace(']', ')')
-            if span_selection == "longest":
-                for template in example['templates']:
+    for example in info.values():  
+        if all('Triggers' in template for template in example['templates']):    
+            if event_header_len or all(len(template['Triggers']) for template in example['templates']):
+                text = event_header + example['text'].lower().replace('[', '(').replace(']', ')')
+                if span_selection == "longest":
+                    for template in example['templates']:
+                        for role, entity_lst in template.items():
+                            if role not in ['Triggers', 'incident_type']:
+                                new_entity_lst = [sorted(coref_list, key = lambda tup : -1 * len(tup[0])) for coref_list in entity_lst]
+                                template[role] = new_entity_lst
+
+                if event_header_len:
+                    earliest_entity = []
+                    for template in example['templates']:
+                        earliest_start = len(text)
+                        for role, entities_list in template.items():
+                            if not role in ["incident_type", "Triggers"]:
+                                for coref_spans in entities_list:
+                                    earliest_start = min(coref_spans[0][1], earliest_start)
+                        earliest_entity.append(earliest_start)
+                    example['templates'] = sorted(list(enumerate(example['templates'])), key = lambda tup : earliest_entity[tup[0]])
+                    example['templates'] = list(map(lambda tup : tup[1], example['templates']))
+
+                    container = {
+                        'text': text,
+                        'token_spans': list(tbwt().span_tokenize(text)),
+                        'entities': [],
+                        'triggers': [
+                            [[f"event {i}", text.index(f"event {i}")]]
+                            for i in range(len(example['templates']))],
+                        'incident_types': [template['incident_type'] for template in example['templates']],
+                        'relations': []
+                    }
+                else:
+                    for template in example['templates']:
+                        if trigger_selection == "position":
+                            template['Triggers'] = sorted(template['Triggers'], key = lambda tup : tup[1])
+                    
+                    container = {
+                        'text': text,
+                        'token_spans': list(tbwt().span_tokenize(text)),
+                        'entities': [],
+                        'triggers': [template['Triggers'] for template in example['templates']],
+                        'incident_types': [template['incident_type'] for template in example['templates']],
+                        'relations': []
+                    }
+
+                for i, template in enumerate(example['templates']):
                     for role, entity_lst in template.items():
                         if role not in ['Triggers', 'incident_type']:
-                            new_entity_lst = [sorted(coref_list, key = lambda tup : -1 * len(tup[0])) for coref_list in entity_lst]
-                            template[role] = new_entity_lst
+                            for coref_list in entity_lst:
+                                span_tup = coref_list[0]
+                                span_tup = (span_tup[1] + event_header_len, span_tup[1] + len(span_tup[0]) + event_header_len)
+                                try:
+                                    entity_index = container['entities'].index(span_tup)
+                                except ValueError:
+                                    entity_index = len(container['entities'])
+                                    container['entities'].append(span_tup)
 
-            if event_header_len:
-                earliest_entity = []
-                for template in example['templates']:
-                    earliest_start = len(text)
-                    for role, entities_list in template.items():
-                        if not role in ["incident_type", "Triggers"]:
-                            for coref_spans in entities_list:
-                                earliest_start = min(coref_spans[0][1], earliest_start)
-                    earliest_entity.append(earliest_start)
-                example['templates'] = sorted(list(enumerate(example['templates'])), key = lambda tup : earliest_entity[tup[0]])
-                example['templates'] = list(map(lambda tup : tup[1], example['templates']))
-
-                container = {
-                    'text': text,
-                    'token_spans': list(tbwt().span_tokenize(text)),
-                    'entities': [],
-                    'triggers': [
-                        [[f"event {i}", text.index(f"event {i}")]]
-                        for i in range(len(example['templates']))],
-                    'incident_types': [template['incident_type'] for template in example['templates']],
-                    'relations': []
-                }
-            else:
-                for template in example['templates']:
-                    if trigger_selection == "position":
-                        template['Triggers'] = sorted(template['Triggers'], key = lambda tup : tup[1])
+                                container['relations'].append(
+                                    (entity_index, i, role)
+                                )
                 
-                container = {
-                    'text': text,
-                    'token_spans': list(tbwt().span_tokenize(text)),
-                    'entities': [],
-                    'triggers': [template['Triggers'] for template in example['templates']],
-                    'incident_types': [template['incident_type'] for template in example['templates']],
-                    'relations': []
-                }
-
-            for i, template in enumerate(example['templates']):
-                for role, entity_lst in template.items():
-                    if role not in ['Triggers', 'incident_type']:
-                        for coref_list in entity_lst:
-                            span_tup = coref_list[0]
-                            span_tup = (span_tup[1] + event_header_len, span_tup[1] + len(span_tup[0]) + event_header_len)
-                            try:
-                                entity_index = container['entities'].index(span_tup)
-                            except ValueError:
-                                entity_index = len(container['entities'])
-                                container['entities'].append(span_tup)
-
-                            container['relations'].append(
-                                (entity_index, i, role)
-                            )
-            
-            containers[example['id']] = container
+                containers[example['id']] = container
     
     out_train_trigs, out_train_args, out_train_event = [], [], []
     out_dev_trigs, out_dev_args, out_dev_event = [], [], []
