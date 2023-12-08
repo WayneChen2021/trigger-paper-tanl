@@ -7,6 +7,12 @@ from functools import reduce
 from copy import deepcopy
 
 def build_entity(name, spans, head, tail):
+    if head == -1:
+        return {
+            "type": "DUMMY TRIGGER",
+            "start": -1,
+            "end": -1
+        }
     entity_head = -1
     entity_tail = -1
     for i, tup in enumerate(spans):
@@ -106,6 +112,13 @@ def determine_split_wikievent(id, in_file_name):
     else:
         return 'train'
 
+def has_no_dummy_trig(example):
+    for trigger in example['triggers']:
+        if trigger['type'] == 'DUMMY TRIGGER':
+            return False
+    
+    return True
+
 def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_event, dev_trig, dev_arg, dev_event, gtt_train, gtt_test, gtt_dev, num_trigs, span_selection, trigger_selection, event_header, relation_map, trigger_map, splitter_func):
     with open(in_file, "r") as f:
         info = json.loads(f.read())
@@ -116,7 +129,11 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
     containers = {}
 
     for example in info.values():  
-        if all('Triggers' in template for template in example['templates']):    
+        if all('Triggers' in template for template in example['templates']):
+            if not event_header_len and any(len(template['Triggers']) == 0 for template in example['templates']):
+                for template in example['templates']:
+                    if not len(template['Triggers']):
+                        template['Triggers'] = [['DUMMY TRIGGER', -1]]
             if event_header_len or all(len(template['Triggers']) for template in example['templates']):
                 text = event_header + example['text'].lower().replace('[', '(').replace(']', ')')
                 if span_selection == "longest":
@@ -216,8 +233,8 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
             out_dev_event.append(event_example)
             gtt_dev_events.append(gtt)
         else:
-            out_train_trigs += trig_examples
-            out_train_args += arg_examples
+            out_train_trigs += list(filter(has_no_dummy_trig, trig_examples))
+            out_train_args += list(filter(has_no_dummy_trig, arg_examples))
             out_train_event.append(event_example)
             gtt_train_events.append(gtt)
     
