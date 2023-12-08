@@ -8,6 +8,26 @@ experiments/MUC/g2_environments/keyword/single_pass/*
 !experiments/MUC/g2_environments/keyword/single_pass/test_predictions
 !experiments/MUC/g2_environments/keyword/single_pass/dev_predictions
 
+experiments/MUC/g2_environments/human/default/*
+!experiments/MUC/g2_environments/human/default/logs.json
+!experiments/MUC/g2_environments/human/default/test_predictions
+!experiments/MUC/g2_environments/human/default/dev_predictions
+
+experiments/MUC/g2_environments/human/single_pass/*
+!experiments/MUC/g2_environments/human/single_pass/logs.json
+!experiments/MUC/g2_environments/human/single_pass/test_predictions
+!experiments/MUC/g2_environments/human/single_pass/dev_predictions
+
+experiments/MUC/g2_environments/llm/default/*
+!experiments/MUC/g2_environments/llm/default/logs.json
+!experiments/MUC/g2_environments/llm/default/test_predictions
+!experiments/MUC/g2_environments/llm/default/dev_predictions
+
+experiments/MUC/g2_environments/llm/single_pass/*
+!experiments/MUC/g2_environments/llm/single_pass/logs.json
+!experiments/MUC/g2_environments/llm/single_pass/test_predictions
+!experiments/MUC/g2_environments/llm/single_pass/dev_predictions
+
 experiments/MUC/g2_environments/no_trig/no_trig/*
 !experiments/MUC/g2_environments/no_trig/no_trig/logs.json
 !experiments/MUC/g2_environments/no_trig/no_trig/test_predictions

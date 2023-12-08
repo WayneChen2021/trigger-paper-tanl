@@ -8,7 +8,7 @@
 #SBATCH --mem=50000                           # server memory requested (per node)
 #SBATCH -t 100:00:00                           # Time limit (hh:mm:ss)
 #SBATCH --partition=gpu       # Request partition
-#SBATCH --constraint="gpu-mid|gpu-high"
+#SBATCH --gres=gpu:a100:1                  # Type/number of GPUs needed"
 
 CONDA_ENV=TANL2
 ENV_NAME="single_pass"
