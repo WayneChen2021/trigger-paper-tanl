@@ -1919,7 +1919,7 @@ class MUCEventTriggerDataset(JointERDataset):
                 triggers = [
                     Entity(
                         id=j, type=self.entity_types[y['type']], start=y['start'], end=y['end'])
-                    for j, y in enumerate(x['triggers'])
+                    for j, y in enumerate(filter(lambda info : info['type'] != 'DUMMY TRIGGER', x['triggers']))
                 ]
 
                 tokens = x['tokens']
@@ -2032,7 +2032,7 @@ class MUCEventArgumentDataset(MUCEventTriggerDataset):
         triggers = [
             Entity(
                 id=j, type=self.entity_types[y['type']], start=y['start'], end=y['end'])
-            for j, y in enumerate(x['triggers'])
+            for j, y in enumerate(filter(lambda info : info['type'] != 'DUMMY TRIGGER', x['triggers']))
         ]
 
         relations = [
@@ -2058,9 +2058,12 @@ class MUCEventArgumentDataset(MUCEventTriggerDataset):
             if not 'relations' in x:
                 x['relations'] = []
 
-            triggers = [
-                Entity(id=trig_id, type=self.entity_types[trig['type']], start=trig['start'], end=trig['end'])
-            ]
+            try:
+                triggers = [
+                    Entity(id=trig_id, type=self.entity_types[trig['type']], start=trig['start'], end=trig['end'])
+                ]
+            except Exception as e:
+                triggers = []
 
             entities = [
                 Entity(
@@ -2298,7 +2301,7 @@ class MUCEventNoTrig(MUCEventArgumentDataset):
                 triggers = [
                     Entity(
                         id=j, type=self.entity_types[y['type']], start=y['start'], end=y['end'])
-                    for j, y in enumerate(x['triggers'] if 'triggers' in x else x['first_phase']['triggers'])
+                    for j, y in enumerate(filter(lambda info : info['type'] != 'DUMMY TRIGGER', x['triggers']) if 'triggers' in x else x['first_phase']['triggers'])
                 ]
                 event_type_nums = [0] * len(self.event_types)
                 for i, trigger_type in enumerate(self.event_types):
@@ -2432,7 +2435,7 @@ class MUCEventDataset(MUCEventArgumentDataset):
                 triggers = [
                     Entity(
                         id=j, type=self.entity_types[y['type']], start=y['start'], end=y['end'])
-                    for j, y in enumerate(x['triggers'] if 'triggers' in x else x['first_phase']['triggers'])
+                    for j, y in enumerate(filter(lambda info : info['type'] != 'DUMMY TRIGGER', x['triggers']) if 'triggers' in x else x['first_phase']['triggers'])
                 ]
 
                 relations = [
