@@ -235,7 +235,8 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
         else:
             out_train_trigs += list(filter(has_no_dummy_trig, trig_examples))
             out_train_args += list(filter(has_no_dummy_trig, arg_examples))
-            out_train_event.append(event_example)
+            if has_no_dummy_trig(event_example):
+                out_train_event.append(event_example)
             gtt_train_events.append(gtt)
     
     sort_tanl = lambda doc : doc['id']
