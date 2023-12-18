@@ -1,30 +1,24 @@
-# Experiment outputs and error analysis results
-
-Each folder corresponds to a dataset. Each experiment has corresponding entries
-in the `error_analysis`, `g2_environments`, `g2_logs`, and `slurm` folders.
+Each dataset has its own folder and all but the `run` folder has split directories for each trigger source
 
 ## Overview of folders
+`error_analysis`: scorer outputs for each experiment (for WikiEvents, this is split into `strict` and `non_strict`, where the former requires the event type predicted with an argument annotation to correspond to an existing argument role, event type pair and the latter does not require this)
 
-`error_analysis`: contains error analysis outputs and training plots
+`g2_environments`: directories where all experiments are run on G2
 
-`g2_environments`: contains folder in which G2 executes training/inference; most
-files are not committed since files from [original_scripts](../original_scripts/)
-are copied there
+`g2_logs`: `.err` and `.out` files for experiment runs
 
-`g2_logs`: contains logs outputted by G2
+`run`: files customized for each variant (default, no trigger, single pass) of TANL
 
-`slurm`: contains slurm commands to execute each experiment on G2
+`slurm`: slurm files to run experiments
 
-There might be extra folders (for example [run](MUC/run)) that help streamline
-setting up experiments
+## More specific details
+
+`error_analysis`: there is a directory for each experiment with a bunch of folders `output_<n>` which correspond to the scorer results for each epoch
+
+`g2_environments`: each experiment has 2 directories of text files (for dev and test) which are the raw model predictions at each epoch
 
 ## Running experiments
 
-1. If the experiment has already been run delete the folder containing the old
-results or rename the folder
+1. The slurm files assume a Conda environment is created with the name "TANL". Make this environment using `conda create --name TANL python=3.10`.
 
-2. Call `sbatch <slurm_file_nam>` within the corresponding `slurm` folder; need
-to do this via G2
-
-3. Add entries in the [.gitignore](../.gitignore) (if they're not there already)
-to only commit results necessary for error analysis (from G2)
+2. Navigate to the corresponding directory containing the slurm file, then `sbatch <slurm_file_name>`
