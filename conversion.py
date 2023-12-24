@@ -59,8 +59,8 @@ def enumerate_examples(message_id, container, triggers_per_temp, relation_map, t
                 new_example['triggers'].append(build_entity(
                     f"trigger for {trigger_map[container['incident_types'][template_ind]]} event",
                     container['token_spans'],
-                    trigger_tup[1],
-                    trigger_tup[1] + len(trigger_tup[0])
+                    trigger_tup[0][1],
+                    trigger_tup[0][1] + len(trigger_tup[0][0])
                 ))
 
             if len(new_example['triggers']) == len(set([str(e) for e in new_example['triggers']])):
@@ -84,8 +84,8 @@ def enumerate_examples(message_id, container, triggers_per_temp, relation_map, t
         base_example['triggers'].append(build_entity(
             f"trigger for {trigger_map[container['incident_types'][template_ind]]} event",
             container['token_spans'],
-            trigger_tup[1],
-            trigger_tup[1] + len(trigger_tup[0])
+            trigger_tup[0][1],
+            trigger_tup[0][1] + len(trigger_tup[0][0])
         ))
     
     base_example['relations'] = [{
@@ -135,7 +135,7 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
                     if not len(template['Triggers']):
                         template['Triggers'] = [['DUMMY TRIGGER', -1]]
             if event_header_len or all(len(template['Triggers']) for template in example['templates']):
-                text = event_header + example['text'].lower().replace('[', '(').replace(']', ')')
+                text = event_header + example['doctext'].lower().replace('[', '(').replace(']', ')')
                 if span_selection == "longest":
                     for template in example['templates']:
                         for role, entity_lst in template.items():
@@ -168,7 +168,7 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
                 else:
                     for template in example['templates']:
                         if trigger_selection == "position":
-                            template['Triggers'] = sorted(template['Triggers'], key = lambda tup : tup[1])
+                            template['Triggers'] = sorted(template['Triggers'], key = lambda tup : tup[0][1])
                     
                     container = {
                         'text': text,
@@ -195,7 +195,7 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
                                     (entity_index, i, role)
                                 )
                 
-                containers[example['id']] = container
+                containers[example['docid']] = container
     
     out_train_trigs, out_train_args, out_train_event = [], [], []
     out_dev_trigs, out_dev_args, out_dev_event = [], [], []
@@ -210,10 +210,7 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
             trig_examples[0]['relations'] = []
         
         gtt = info[str(message_id)]
-        gtt['docid'] = gtt['id']
-        gtt['doctext'] = gtt['text'].lower().replace("[", "(").replace("]", ")")
-        del gtt['id']
-        del gtt['text']
+        gtt['doctext'] = gtt['doctext'].lower().replace("[", "(").replace("]", ")")
         del gtt['source']
         for template in gtt['templates']:
             del template['Triggers']

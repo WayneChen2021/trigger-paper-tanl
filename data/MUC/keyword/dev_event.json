@@ -45,28 +45,28 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 15,
-                "end": 16
+                "start": 236,
+                "end": 237
             },
             {
                 "type": "trigger for arson event",
-                "start": 15,
-                "end": 16
+                "start": 197,
+                "end": 198
             },
             {
                 "type": "trigger for robbery event",
-                "start": 15,
-                "end": 16
+                "start": 201,
+                "end": 202
             },
             {
                 "type": "trigger for attack event",
-                "start": 15,
-                "end": 16
+                "start": 20,
+                "end": 21
             },
             {
                 "type": "trigger for arson event",
-                "start": 15,
-                "end": 16
+                "start": 253,
+                "end": 254
             }
         ],
         "relations": [
@@ -1017,8 +1017,8 @@
         "triggers": [
             {
                 "type": "trigger for bombing event",
-                "start": 18,
-                "end": 19
+                "start": 31,
+                "end": 32
             }
         ],
         "relations": [
@@ -1550,8 +1550,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 22,
-                "end": 23
+                "start": 62,
+                "end": 63
             }
         ],
         "relations": [
@@ -6131,8 +6131,8 @@
         "triggers": [
             {
                 "type": "trigger for bombing event",
-                "start": 26,
-                "end": 27
+                "start": 40,
+                "end": 42
             }
         ],
         "relations": [
@@ -7297,8 +7297,8 @@
         "triggers": [
             {
                 "type": "trigger for kidnapping event",
-                "start": 20,
-                "end": 21
+                "start": 78,
+                "end": 79
             }
         ],
         "relations": [
@@ -7573,8 +7573,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 40,
-                "end": 41
+                "start": 195,
+                "end": 196
             }
         ],
         "relations": [
@@ -10373,8 +10373,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 131,
-                "end": 132
+                "start": 534,
+                "end": 535
             }
         ],
         "relations": [
@@ -11878,8 +11878,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 146,
-                "end": 147
+                "start": 219,
+                "end": 221
             }
         ],
         "relations": [
@@ -14764,8 +14764,8 @@
         "triggers": [
             {
                 "type": "trigger for bombing event",
-                "start": 21,
-                "end": 22
+                "start": 58,
+                "end": 59
             }
         ],
         "relations": [
@@ -14924,13 +14924,13 @@
             },
             {
                 "type": "trigger for bombing event",
-                "start": 18,
-                "end": 19
+                "start": 119,
+                "end": 120
             },
             {
                 "type": "trigger for attack event",
-                "start": 18,
-                "end": 19
+                "start": 78,
+                "end": 79
             }
         ],
         "relations": [
@@ -15159,8 +15159,8 @@
         "triggers": [
             {
                 "type": "trigger for kidnapping event",
-                "start": 168,
-                "end": 169
+                "start": 431,
+                "end": 432
             }
         ],
         "relations": [
@@ -15757,18 +15757,18 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 18,
-                "end": 19
+                "start": 267,
+                "end": 268
             },
             {
                 "type": "trigger for attack event",
-                "start": 18,
-                "end": 19
+                "start": 229,
+                "end": 230
             },
             {
                 "type": "trigger for attack event",
-                "start": 18,
-                "end": 19
+                "start": 349,
+                "end": 351
             }
         ],
         "relations": [
@@ -16228,13 +16228,13 @@
         "triggers": [
             {
                 "type": "trigger for bombing event",
-                "start": 24,
-                "end": 25
+                "start": 281,
+                "end": 282
             },
             {
                 "type": "trigger for bombing event",
-                "start": 24,
-                "end": 25
+                "start": 298,
+                "end": 299
             }
         ],
         "relations": [
@@ -18443,8 +18443,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 18,
-                "end": 19
+                "start": 936,
+                "end": 937
             }
         ],
         "relations": [
@@ -19515,8 +19515,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 16,
-                "end": 17
+                "start": 213,
+                "end": 214
             }
         ],
         "relations": [
@@ -19996,13 +19996,13 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 36,
-                "end": 37
+                "start": 151,
+                "end": 152
             },
             {
                 "type": "trigger for attack event",
-                "start": 36,
-                "end": 37
+                "start": 210,
+                "end": 211
             },
             {
                 "type": "trigger for attack event",
@@ -21056,18 +21056,18 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 24,
-                "end": 25
+                "start": 35,
+                "end": 36
             },
             {
                 "type": "trigger for bombing event",
-                "start": 24,
-                "end": 25
+                "start": 57,
+                "end": 59
             },
             {
                 "type": "trigger for arson event",
-                "start": 24,
-                "end": 25
+                "start": 75,
+                "end": 76
             }
         ],
         "relations": [
@@ -21427,8 +21427,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 51,
-                "end": 52
+                "start": 317,
+                "end": 319
             }
         ],
         "relations": [
@@ -22728,8 +22728,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 8,
-                "end": 9
+                "start": 205,
+                "end": 207
             }
         ],
         "relations": [
@@ -24382,18 +24382,18 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 16,
-                "end": 17
+                "start": 72,
+                "end": 73
             },
             {
                 "type": "trigger for attack event",
-                "start": 16,
-                "end": 17
+                "start": 111,
+                "end": 112
             },
             {
                 "type": "trigger for attack event",
-                "start": 16,
-                "end": 17
+                "start": 28,
+                "end": 29
             }
         ],
         "relations": [
@@ -25587,8 +25587,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 38,
-                "end": 39
+                "start": 48,
+                "end": 49
             }
         ],
         "relations": [
@@ -26563,8 +26563,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 47,
-                "end": 48
+                "start": 255,
+                "end": 256
             }
         ],
         "relations": [
@@ -27058,8 +27058,8 @@
         "triggers": [
             {
                 "type": "trigger for bombing event",
-                "start": 13,
-                "end": 14
+                "start": 126,
+                "end": 127
             }
         ],
         "relations": [
@@ -29889,8 +29889,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 22,
-                "end": 23
+                "start": 141,
+                "end": 143
             }
         ],
         "relations": [
@@ -30182,8 +30182,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 30,
-                "end": 31
+                "start": 33,
+                "end": 34
             }
         ],
         "relations": [
@@ -31215,8 +31215,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 24,
-                "end": 25
+                "start": 265,
+                "end": 266
             }
         ],
         "relations": [
@@ -31665,8 +31665,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 88,
-                "end": 89
+                "start": 112,
+                "end": 113
             }
         ],
         "relations": [
@@ -31875,38 +31875,38 @@
         "triggers": [
             {
                 "type": "trigger for bombing event",
-                "start": 12,
-                "end": 13
+                "start": 24,
+                "end": 25
             },
             {
                 "type": "trigger for bombing event",
-                "start": 12,
-                "end": 13
+                "start": 78,
+                "end": 80
             },
             {
                 "type": "trigger for bombing event",
-                "start": 12,
-                "end": 13
+                "start": 110,
+                "end": 111
             },
             {
                 "type": "trigger for bombing event",
-                "start": 12,
-                "end": 13
+                "start": 139,
+                "end": 140
             },
             {
                 "type": "trigger for bombing event",
-                "start": 12,
-                "end": 13
+                "start": 153,
+                "end": 154
             },
             {
                 "type": "trigger for bombing event",
-                "start": 12,
-                "end": 13
+                "start": 189,
+                "end": 191
             },
             {
                 "type": "trigger for bombing event",
-                "start": 12,
-                "end": 13
+                "start": 228,
+                "end": 229
             }
         ],
         "relations": [
@@ -32355,8 +32355,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 100,
-                "end": 101
+                "start": 179,
+                "end": 180
             }
         ],
         "relations": [
@@ -32601,13 +32601,13 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 61,
-                "end": 62
+                "start": 238,
+                "end": 239
             },
             {
                 "type": "trigger for attack event",
-                "start": 61,
-                "end": 62
+                "start": 160,
+                "end": 161
             }
         ],
         "relations": [
@@ -32955,18 +32955,18 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 24,
-                "end": 25
+                "start": 34,
+                "end": 35
             },
             {
                 "type": "trigger for robbery event",
-                "start": 13,
-                "end": 14
+                "start": 93,
+                "end": 94
             },
             {
                 "type": "trigger for attack event",
-                "start": 24,
-                "end": 25
+                "start": 86,
+                "end": 87
             }
         ],
         "relations": [
@@ -34909,8 +34909,8 @@
         "triggers": [
             {
                 "type": "trigger for kidnapping event",
-                "start": 33,
-                "end": 34
+                "start": 62,
+                "end": 63
             }
         ],
         "relations": [
@@ -35097,8 +35097,8 @@
         "triggers": [
             {
                 "type": "trigger for bombing event",
-                "start": 10,
-                "end": 11
+                "start": 69,
+                "end": 70
             }
         ],
         "relations": [
@@ -35277,13 +35277,13 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 38,
-                "end": 39
+                "start": 228,
+                "end": 229
             },
             {
                 "type": "trigger for kidnapping event",
-                "start": 103,
-                "end": 104
+                "start": 187,
+                "end": 188
             }
         ],
         "relations": [
@@ -36993,8 +36993,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 67,
-                "end": 68
+                "start": 173,
+                "end": 174
             },
             {
                 "type": "trigger for attack event",
@@ -37782,23 +37782,23 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 23,
-                "end": 24
+                "start": 165,
+                "end": 166
             },
             {
                 "type": "trigger for arson event",
-                "start": 23,
-                "end": 24
+                "start": 148,
+                "end": 149
             },
             {
                 "type": "trigger for arson event",
-                "start": 23,
-                "end": 24
+                "start": 154,
+                "end": 155
             },
             {
                 "type": "trigger for attack event",
-                "start": 23,
-                "end": 24
+                "start": 68,
+                "end": 69
             }
         ],
         "relations": [
@@ -39056,8 +39056,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 20,
-                "end": 21
+                "start": 65,
+                "end": 66
             }
         ],
         "relations": [
@@ -39409,8 +39409,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 38,
-                "end": 39
+                "start": 192,
+                "end": 193
             }
         ],
         "relations": [
@@ -41348,18 +41348,18 @@
         "triggers": [
             {
                 "type": "trigger for bombing event",
-                "start": 12,
-                "end": 13
+                "start": 18,
+                "end": 19
             },
             {
                 "type": "trigger for bombing event",
-                "start": 12,
-                "end": 13
+                "start": 29,
+                "end": 30
             },
             {
                 "type": "trigger for arson event",
-                "start": 16,
-                "end": 17
+                "start": 248,
+                "end": 249
             }
         ],
         "relations": [
@@ -41729,28 +41729,28 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 52,
-                "end": 53
+                "start": 716,
+                "end": 717
             },
             {
                 "type": "trigger for arson event",
-                "start": 52,
-                "end": 53
+                "start": 667,
+                "end": 668
             },
             {
                 "type": "trigger for attack event",
-                "start": 52,
-                "end": 53
+                "start": 632,
+                "end": 633
             },
             {
                 "type": "trigger for attack event",
-                "start": 52,
-                "end": 53
+                "start": 667,
+                "end": 668
             },
             {
                 "type": "trigger for bombing event",
-                "start": 52,
-                "end": 53
+                "start": 734,
+                "end": 735
             }
         ],
         "relations": [
@@ -43014,18 +43014,18 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 17,
-                "end": 18
+                "start": 129,
+                "end": 130
             },
             {
                 "type": "trigger for kidnapping event",
-                "start": 17,
-                "end": 18
+                "start": 64,
+                "end": 65
             },
             {
                 "type": "trigger for attack event",
-                "start": 17,
-                "end": 18
+                "start": 420,
+                "end": 421
             }
         ],
         "relations": [
@@ -43573,8 +43573,8 @@
         "triggers": [
             {
                 "type": "trigger for bombing event",
-                "start": 15,
-                "end": 16
+                "start": 236,
+                "end": 237
             }
         ],
         "relations": [
@@ -45711,13 +45711,13 @@
         "triggers": [
             {
                 "type": "trigger for bombing event",
-                "start": 38,
-                "end": 39
+                "start": 128,
+                "end": 129
             },
             {
                 "type": "trigger for attack event",
-                "start": 38,
-                "end": 39
+                "start": 45,
+                "end": 47
             }
         ],
         "relations": [
@@ -46281,8 +46281,8 @@
         "triggers": [
             {
                 "type": "trigger for bombing event",
-                "start": 56,
-                "end": 57
+                "start": 269,
+                "end": 270
             }
         ],
         "relations": [],
@@ -47534,8 +47534,8 @@
         "triggers": [
             {
                 "type": "trigger for bombing event",
-                "start": 485,
-                "end": 486
+                "start": 541,
+                "end": 543
             }
         ],
         "relations": [
@@ -48149,8 +48149,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 26,
-                "end": 27
+                "start": 344,
+                "end": 346
             }
         ],
         "relations": [
@@ -48928,13 +48928,13 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 67,
-                "end": 68
+                "start": 103,
+                "end": 104
             },
             {
                 "type": "trigger for kidnapping event",
-                "start": 69,
-                "end": 70
+                "start": 61,
+                "end": 62
             }
         ],
         "relations": [
@@ -49531,8 +49531,8 @@
         "triggers": [
             {
                 "type": "trigger for bombing event",
-                "start": 26,
-                "end": 27
+                "start": 92,
+                "end": 93
             }
         ],
         "relations": [
@@ -50749,8 +50749,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 52,
-                "end": 53
+                "start": 89,
+                "end": 90
             }
         ],
         "relations": [
@@ -51352,8 +51352,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 43,
-                "end": 44
+                "start": 132,
+                "end": 133
             }
         ],
         "relations": [
@@ -52079,8 +52079,8 @@
         "triggers": [
             {
                 "type": "trigger for bombing event",
-                "start": 20,
-                "end": 21
+                "start": 99,
+                "end": 100
             }
         ],
         "relations": [
@@ -52362,23 +52362,23 @@
         "triggers": [
             {
                 "type": "trigger for bombing event",
-                "start": 58,
-                "end": 59
+                "start": 105,
+                "end": 107
             },
             {
                 "type": "trigger for bombing event",
-                "start": 58,
-                "end": 59
+                "start": 99,
+                "end": 101
             },
             {
                 "type": "trigger for bombing event",
-                "start": 58,
-                "end": 59
+                "start": 49,
+                "end": 50
             },
             {
                 "type": "trigger for bombing event",
-                "start": 58,
-                "end": 59
+                "start": 99,
+                "end": 101
             }
         ],
         "relations": [
@@ -52609,8 +52609,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 43,
-                "end": 44
+                "start": 584,
+                "end": 585
             }
         ],
         "relations": [
@@ -53360,13 +53360,13 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 31,
-                "end": 32
+                "start": 95,
+                "end": 97
             },
             {
                 "type": "trigger for attack event",
-                "start": 31,
-                "end": 32
+                "start": 136,
+                "end": 138
             }
         ],
         "relations": [
@@ -53808,13 +53808,13 @@
         "triggers": [
             {
                 "type": "trigger for bombing event",
-                "start": 53,
-                "end": 54
+                "start": 275,
+                "end": 276
             },
             {
                 "type": "trigger for attack event",
-                "start": 13,
-                "end": 14
+                "start": 61,
+                "end": 63
             }
         ],
         "relations": [
@@ -54365,8 +54365,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 19,
-                "end": 20
+                "start": 224,
+                "end": 225
             }
         ],
         "relations": [
@@ -54711,13 +54711,13 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 16,
-                "end": 17
+                "start": 136,
+                "end": 137
             },
             {
                 "type": "trigger for attack event",
-                "start": 16,
-                "end": 17
+                "start": 190,
+                "end": 191
             }
         ],
         "relations": [
@@ -55411,18 +55411,18 @@
         "triggers": [
             {
                 "type": "trigger for kidnapping event",
-                "start": 30,
-                "end": 31
+                "start": 460,
+                "end": 461
             },
             {
                 "type": "trigger for kidnapping event",
-                "start": 30,
-                "end": 31
+                "start": 460,
+                "end": 461
             },
             {
                 "type": "trigger for kidnapping event",
-                "start": 30,
-                "end": 31
+                "start": 460,
+                "end": 461
             }
         ],
         "relations": [
@@ -56630,13 +56630,13 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 13,
-                "end": 14
+                "start": 21,
+                "end": 22
             },
             {
                 "type": "trigger for attack event",
-                "start": 13,
-                "end": 14
+                "start": 114,
+                "end": 115
             }
         ],
         "relations": [
@@ -57185,13 +57185,13 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 14,
-                "end": 15
+                "start": 131,
+                "end": 132
             },
             {
                 "type": "trigger for attack event",
-                "start": 14,
-                "end": 15
+                "start": 168,
+                "end": 169
             }
         ],
         "relations": [
@@ -57643,8 +57643,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 30,
-                "end": 31
+                "start": 295,
+                "end": 296
             }
         ],
         "relations": [
@@ -58096,18 +58096,18 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 17,
-                "end": 18
+                "start": 95,
+                "end": 96
             },
             {
                 "type": "trigger for kidnapping event",
-                "start": 19,
-                "end": 20
+                "start": 93,
+                "end": 94
             },
             {
                 "type": "trigger for kidnapping event",
-                "start": 19,
-                "end": 20
+                "start": 177,
+                "end": 178
             }
         ],
         "relations": [
@@ -58941,48 +58941,48 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 57,
-                "end": 58
+                "start": 480,
+                "end": 481
             },
             {
                 "type": "trigger for kidnapping event",
-                "start": 57,
-                "end": 58
+                "start": 361,
+                "end": 362
             },
             {
                 "type": "trigger for kidnapping event",
-                "start": 57,
-                "end": 58
+                "start": 226,
+                "end": 227
             },
             {
                 "type": "trigger for attack event",
-                "start": 57,
-                "end": 58
+                "start": 185,
+                "end": 186
             },
             {
                 "type": "trigger for kidnapping event",
-                "start": 57,
-                "end": 58
+                "start": 336,
+                "end": 337
             },
             {
                 "type": "trigger for kidnapping event",
-                "start": 57,
-                "end": 58
+                "start": 369,
+                "end": 370
             },
             {
                 "type": "trigger for kidnapping event",
-                "start": 57,
-                "end": 58
+                "start": 379,
+                "end": 380
             },
             {
                 "type": "trigger for kidnapping event",
-                "start": 57,
-                "end": 58
+                "start": 417,
+                "end": 418
             },
             {
                 "type": "trigger for kidnapping event",
-                "start": 57,
-                "end": 58
+                "start": 447,
+                "end": 448
             }
         ],
         "relations": [
@@ -60749,8 +60749,8 @@
             },
             {
                 "type": "trigger for kidnapping event",
-                "start": 30,
-                "end": 31
+                "start": 71,
+                "end": 72
             }
         ],
         "relations": [
@@ -60944,8 +60944,8 @@
         "triggers": [
             {
                 "type": "trigger for kidnapping event",
-                "start": 187,
-                "end": 188
+                "start": 288,
+                "end": 289
             }
         ],
         "relations": [
@@ -62065,8 +62065,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 31,
-                "end": 32
+                "start": 121,
+                "end": 122
             }
         ],
         "relations": [
@@ -63659,8 +63659,8 @@
         "triggers": [
             {
                 "type": "trigger for bombing event",
-                "start": 56,
-                "end": 57
+                "start": 131,
+                "end": 132
             }
         ],
         "relations": [
@@ -64450,13 +64450,13 @@
         "triggers": [
             {
                 "type": "trigger for bombing event",
-                "start": 19,
-                "end": 20
+                "start": 82,
+                "end": 83
             },
             {
                 "type": "trigger for bombing event",
-                "start": 19,
-                "end": 20
+                "start": 230,
+                "end": 231
             }
         ],
         "relations": [
@@ -65204,8 +65204,8 @@
         "triggers": [
             {
                 "type": "trigger for bombing event",
-                "start": 21,
-                "end": 22
+                "start": 90,
+                "end": 91
             }
         ],
         "relations": [
@@ -66459,8 +66459,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 33,
-                "end": 34
+                "start": 40,
+                "end": 41
             }
         ],
         "relations": [
@@ -66924,13 +66924,13 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 111,
-                "end": 112
+                "start": 118,
+                "end": 120
             },
             {
                 "type": "trigger for kidnapping event",
-                "start": 30,
-                "end": 31
+                "start": 49,
+                "end": 50
             }
         ],
         "relations": [
@@ -67245,8 +67245,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 23,
-                "end": 24
+                "start": 331,
+                "end": 332
             }
         ],
         "relations": [
@@ -67637,8 +67637,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 34,
-                "end": 35
+                "start": 277,
+                "end": 279
             }
         ],
         "relations": [
@@ -68313,13 +68313,13 @@
         "triggers": [
             {
                 "type": "trigger for bombing event",
-                "start": 13,
-                "end": 14
+                "start": 49,
+                "end": 50
             },
             {
                 "type": "trigger for bombing event",
-                "start": 13,
-                "end": 14
+                "start": 69,
+                "end": 70
             }
         ],
         "relations": [
@@ -69081,8 +69081,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 20,
-                "end": 21
+                "start": 45,
+                "end": 46
             }
         ],
         "relations": [
@@ -69541,13 +69541,13 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 21,
-                "end": 22
+                "start": 118,
+                "end": 119
             },
             {
                 "type": "trigger for attack event",
-                "start": 21,
-                "end": 22
+                "start": 165,
+                "end": 166
             }
         ],
         "relations": [
@@ -69762,8 +69762,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 128,
-                "end": 129
+                "start": 277,
+                "end": 278
             }
         ],
         "relations": [
@@ -70684,18 +70684,18 @@
         "triggers": [
             {
                 "type": "trigger for forced work stoppage event",
-                "start": 161,
-                "end": 162
+                "start": 133,
+                "end": 134
             },
             {
                 "type": "trigger for attack event",
-                "start": 34,
-                "end": 35
+                "start": 163,
+                "end": 164
             },
             {
                 "type": "trigger for attack event",
-                "start": 34,
-                "end": 35
+                "start": 156,
+                "end": 157
             }
         ],
         "relations": [
@@ -71022,8 +71022,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 13,
-                "end": 14
+                "start": 22,
+                "end": 23
             }
         ],
         "relations": [
@@ -71424,8 +71424,8 @@
             },
             {
                 "type": "trigger for bombing event",
-                "start": 35,
-                "end": 36
+                "start": 69,
+                "end": 70
             }
         ],
         "relations": [
@@ -73173,8 +73173,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 51,
-                "end": 52
+                "start": 244,
+                "end": 246
             }
         ],
         "relations": [
@@ -73669,13 +73669,13 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 36,
-                "end": 37
+                "start": 210,
+                "end": 211
             },
             {
                 "type": "trigger for robbery event",
-                "start": 81,
-                "end": 82
+                "start": 348,
+                "end": 349
             }
         ],
         "relations": [
@@ -74312,8 +74312,8 @@
         "triggers": [
             {
                 "type": "trigger for bombing event",
-                "start": 18,
-                "end": 19
+                "start": 25,
+                "end": 26
             }
         ],
         "relations": [
@@ -74440,8 +74440,8 @@
         "triggers": [
             {
                 "type": "trigger for bombing event",
-                "start": 26,
-                "end": 27
+                "start": 33,
+                "end": 34
             }
         ],
         "relations": [
@@ -74757,13 +74757,13 @@
         "triggers": [
             {
                 "type": "trigger for kidnapping event",
-                "start": 23,
-                "end": 24
+                "start": 37,
+                "end": 38
             },
             {
                 "type": "trigger for kidnapping event",
-                "start": 23,
-                "end": 24
+                "start": 48,
+                "end": 49
             }
         ],
         "relations": [
@@ -74914,8 +74914,8 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 32,
-                "end": 33
+                "start": 242,
+                "end": 244
             }
         ],
         "relations": [
@@ -75726,13 +75726,13 @@
             },
             {
                 "type": "trigger for arson event",
-                "start": 50,
-                "end": 51
+                "start": 75,
+                "end": 76
             },
             {
                 "type": "trigger for attack event",
-                "start": 50,
-                "end": 51
+                "start": 67,
+                "end": 68
             }
         ],
         "relations": [
@@ -76111,8 +76111,8 @@
         "triggers": [
             {
                 "type": "trigger for bombing event",
-                "start": 32,
-                "end": 33
+                "start": 55,
+                "end": 56
             }
         ],
         "relations": [
@@ -78382,13 +78382,13 @@
         "triggers": [
             {
                 "type": "trigger for attack event",
-                "start": 39,
-                "end": 40
+                "start": 287,
+                "end": 288
             },
             {
                 "type": "trigger for attack event",
-                "start": 39,
-                "end": 40
+                "start": 268,
+                "end": 269
             }
         ],
         "relations": [],
@@ -80077,13 +80077,13 @@
         "triggers": [
             {
                 "type": "trigger for bombing event",
-                "start": 313,
-                "end": 314
+                "start": 548,
+                "end": 549
             },
             {
                 "type": "trigger for attack event",
-                "start": 313,
-                "end": 314
+                "start": 507,
+                "end": 508
             }
         ],
         "relations": [
@@ -82361,8 +82361,8 @@
         "triggers": [
             {
                 "type": "trigger for bombing event",
-                "start": 24,
-                "end": 25
+                "start": 67,
+                "end": 68
             }
         ],
         "relations": [
@@ -83137,12 +83137,12 @@
             {
                 "type": "trigger for kidnapping event",
                 "start": 31,
-                "end": 32
+                "end": 33
             },
             {
                 "type": "trigger for kidnapping event",
-                "start": 31,
-                "end": 32
+                "start": 171,
+                "end": 172
             }
         ],
         "relations": [
@@ -83870,13 +83870,13 @@
         "triggers": [
             {
                 "type": "trigger for bombing event",
-                "start": 16,
-                "end": 17
+                "start": 57,
+                "end": 58
             },
             {
                 "type": "trigger for attack event",
-                "start": 16,
-                "end": 17
+                "start": 81,
+                "end": 82
             }
         ],
         "relations": [
@@ -84232,8 +84232,8 @@
         "triggers": [
             {
                 "type": "trigger for kidnapping event",
-                "start": 27,
-                "end": 28
+                "start": 36,
+                "end": 37
             }
         ],
         "relations": [
