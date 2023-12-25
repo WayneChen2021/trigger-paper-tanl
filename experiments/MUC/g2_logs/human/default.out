@@ -169,12 +169,3 @@ mucevent_trigger : san salvador , 1 nov 89 -- ( communique ) ( salvadoran nation
 san salvador , 1 nov 89 -- ( communique ) ( salvadoran national communications secretariat ) ( text ) the government of el salvador strongly condemns the terrorist attacks carried out with explosives today against the committee of mothers of political prisoners and missing in el salvador and against the salvadoran workers national union federation. as a result of these attacks , several persons were wounded and others died. the government offers its condolences. the government repudiates these irrational and criminal actions and the terrorist attack carried out on 30 october by the fmln against the armed forces staff installations , where 1 civilian died and 14 others were wounded. it is evident that these actions are part of a plot whose objective is to block the dialogue initiated by president alfredo cristiani. the government has ordered a careful investigation to determine what happened and to file charges against criminal groups that have unleashed this increased wave of terrorist violence to create a climate of unrest and to block the road to peace. finally , the government of el salvador reaffirms its determination to continue the search for peace through the dialogue , and it states that in spite of these bloody events , salvadorans must remain calm and not give up hopes to find a solution to the conflict through civilized means. 31 october 1989 , national secretariat of communications .
 
 {'loss': 0.1105, 'learning_rate': 0.0004967637540453074, 'epoch': 0.97}
-{'loss': 0.0351, 'learning_rate': 0.0004935275080906149, 'epoch': 1.94}
-{'loss': 0.0273, 'learning_rate': 0.0004902912621359224, 'epoch': 2.91}
-{'loss': 0.0222, 'learning_rate': 0.00048705501618122977, 'epoch': 3.88}
-{'loss': 0.0174, 'learning_rate': 0.00048381877022653724, 'epoch': 4.85}
-{'loss': 0.0151, 'learning_rate': 0.0004805825242718447, 'epoch': 5.83}
-{'loss': 0.0136, 'learning_rate': 0.0004773462783171521, 'epoch': 6.8}
-{'loss': 0.012, 'learning_rate': 0.0004741100323624595, 'epoch': 7.77}
-{'loss': 0.0099, 'learning_rate': 0.000470873786407767, 'epoch': 8.74}
-{'loss': 0.01, 'learning_rate': 0.00046763754045307446, 'epoch': 9.71}
