@@ -1,0 +1,611 @@
+id TST3-MUC4-0001
+triggers []
+arguments []
+id TST3-MUC4-0002
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating individual for attack event', (234, 237), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0003
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (43, 47), ('trigger for attack event', 0, 1)), ('perpetrating organization for attack event', (77, 79), ('trigger for attack event', 0, 1)), ('perpetrating individual for attack event', (156, 159), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0004
+triggers []
+arguments []
+id TST3-MUC4-0005
+triggers [('trigger for kidnapping event', 0, 1)]
+arguments [('victim for kidnapping event', (20, 23), ('trigger for kidnapping event', 0, 1)), ('perpetrating individual for kidnapping event', (110, 113), ('trigger for kidnapping event', 0, 1)), ('victim for kidnapping event', (126, 128), ('trigger for kidnapping event', 0, 1))]
+id TST3-MUC4-0006
+triggers [('trigger for kidnapping event', 0, 1)]
+arguments [('victim for kidnapping event', (16, 18), ('trigger for kidnapping event', 0, 1)), ('victim for kidnapping event', (33, 35), ('trigger for kidnapping event', 0, 1)), ('perpetrating individual for kidnapping event', (124, 130), ('trigger for kidnapping event', 0, 1))]
+id TST3-MUC4-0007
+triggers []
+arguments []
+id TST3-MUC4-0008
+triggers [('trigger for attack event', 0, 1)]
+arguments [('target for attack event', (30, 32), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0009
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating individual for attack event', (27, 30), ('trigger for attack event', 0, 1)), ('perpetrating individual for attack event', (47, 49), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0010
+triggers []
+arguments []
+id TST3-MUC4-0011
+triggers [('trigger for kidnapping event', 0, 1)]
+arguments [('perpetrating organization for kidnapping event', (44, 46), ('trigger for kidnapping event', 0, 1)), ('perpetrating organization for kidnapping event', (85, 93), ('trigger for kidnapping event', 0, 1))]
+id TST3-MUC4-0012
+triggers []
+arguments []
+id TST3-MUC4-0013
+triggers []
+arguments []
+id TST3-MUC4-0014
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('weapon for bombing event', (19, 20), ('trigger for bombing event', 0, 1)), ('perpetrating organization for bombing event', (29, 31), ('trigger for bombing event', 0, 1))]
+id TST3-MUC4-0015
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (15, 17), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0016
+triggers []
+arguments []
+id TST3-MUC4-0017
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('perpetrating organization for bombing event', (20, 22), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (23, 25), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (45, 47), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (48, 51), ('trigger for bombing event', 0, 1))]
+id TST3-MUC4-0018
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating individual for attack event', (15, 16), ('trigger for attack event', 0, 1)), ('perpetrating organization for attack event', (39, 43), ('trigger for attack event', 0, 1)), ('target for attack event', (124, 126), ('trigger for attack event', 0, 1)), ('target for attack event', (132, 133), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0019
+triggers []
+arguments []
+id TST3-MUC4-0020
+triggers []
+arguments []
+id TST3-MUC4-0021
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (60, 64), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0022
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (31, 33), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0023
+triggers []
+arguments []
+id TST3-MUC4-0024
+triggers [('trigger for bombing event', 0, 1), ('trigger for bombing event', 2, 3)]
+arguments [('perpetrating individual for bombing event', (19, 21), ('trigger for bombing event', 0, 1)), ('target for bombing event', (23, 25), ('trigger for bombing event', 0, 1))]
+arguments [('weapon for bombing event', (77, 78), ('trigger for bombing event', 2, 3))]
+id TST3-MUC4-0025
+triggers []
+arguments []
+id TST3-MUC4-0026
+triggers []
+arguments []
+id TST3-MUC4-0027
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (13, 15), ('trigger for attack event', 0, 1)), ('perpetrating individual for attack event', (37, 39), ('trigger for attack event', 0, 1)), ('weapon for attack event', (78, 79), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0028
+triggers []
+arguments []
+id TST3-MUC4-0029
+triggers []
+arguments []
+id TST3-MUC4-0030
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (62, 64), ('trigger for attack event', 0, 1)), ('victim for attack event', (80, 83), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0031
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (59, 61), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0032
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (106, 109), ('trigger for attack event', 0, 1)), ('perpetrating organization for attack event', (132, 134), ('trigger for attack event', 0, 1)), ('perpetrating organization for attack event', (264, 266), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0033
+triggers []
+arguments []
+id TST3-MUC4-0034
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (37, 40), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0035
+triggers []
+arguments []
+id TST3-MUC4-0036
+triggers []
+arguments []
+id TST3-MUC4-0037
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('weapon for bombing event', (38, 39), ('trigger for bombing event', 0, 1)), ('target for bombing event', (44, 47), ('trigger for bombing event', 0, 1)), ('target for bombing event', (57, 60), ('trigger for bombing event', 0, 1)), ('target for bombing event', (94, 95), ('trigger for bombing event', 0, 1)), ('target for bombing event', (110, 111), ('trigger for bombing event', 0, 1))]
+id TST3-MUC4-0038
+triggers []
+arguments []
+id TST3-MUC4-0039
+triggers []
+arguments []
+id TST3-MUC4-0040
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('target for bombing event', (18, 20), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (33, 34), ('trigger for bombing event', 0, 1)), ('target for bombing event', (55, 59), ('trigger for bombing event', 0, 1)), ('target for bombing event', (123, 126), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (176, 178), ('trigger for bombing event', 0, 1)), ('perpetrating organization for bombing event', (197, 200), ('trigger for bombing event', 0, 1)), ('target for bombing event', (223, 232), ('trigger for bombing event', 0, 1))]
+id TST3-MUC4-0041
+triggers []
+arguments []
+id TST3-MUC4-0042
+triggers []
+arguments []
+id TST3-MUC4-0043
+triggers []
+arguments []
+id TST3-MUC4-0044
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('weapon for bombing event', (18, 19), ('trigger for bombing event', 0, 1)), ('target for bombing event', (27, 33), ('trigger for bombing event', 0, 1)), ('target for bombing event', (67, 71), ('trigger for bombing event', 0, 1))]
+id TST3-MUC4-0045
+triggers []
+arguments []
+id TST3-MUC4-0046
+triggers [('trigger for attack event', 0, 1), ('trigger for bombing event', 2, 3)]
+arguments [('victim for attack event', (51, 54), ('trigger for attack event', 0, 1)), ('victim for attack event', (55, 60), ('trigger for attack event', 0, 1)), ('victim for attack event', (61, 64), ('trigger for attack event', 0, 1)), ('perpetrating individual for attack event', (80, 81), ('trigger for attack event', 0, 1))]
+arguments [('target for bombing event', (267, 269), ('trigger for bombing event', 2, 3))]
+id TST3-MUC4-0047
+triggers []
+arguments []
+id TST3-MUC4-0048
+triggers []
+arguments []
+id TST3-MUC4-0049
+triggers []
+arguments []
+id TST3-MUC4-0050
+triggers [('trigger for bombing event', 0, 1), ('trigger for attack event', 2, 3)]
+arguments [('perpetrating individual for bombing event', (25, 26), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (54, 55), ('trigger for bombing event', 0, 1)), ('target for bombing event', (60, 63), ('trigger for bombing event', 0, 1))]
+arguments [('weapon for attack event', (124, 125), ('trigger for attack event', 2, 3))]
+id TST3-MUC4-0051
+triggers []
+arguments []
+id TST3-MUC4-0052
+triggers []
+arguments []
+id TST3-MUC4-0053
+triggers []
+arguments []
+id TST3-MUC4-0054
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating organization for attack event', (68, 69), ('trigger for attack event', 0, 1)), ('target for attack event', (166, 172), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0055
+triggers []
+arguments []
+id TST3-MUC4-0056
+triggers []
+arguments []
+id TST3-MUC4-0057
+triggers []
+arguments []
+id TST3-MUC4-0058
+triggers []
+arguments []
+id TST3-MUC4-0059
+triggers []
+arguments []
+id TST3-MUC4-0060
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating organization for attack event', (71, 74), ('trigger for attack event', 0, 1)), ('victim for attack event', (143, 145), ('trigger for attack event', 0, 1)), ('victim for attack event', (153, 156), ('trigger for attack event', 0, 1)), ('victim for attack event', (176, 178), ('trigger for attack event', 0, 1)), ('victim for attack event', (183, 186), ('trigger for attack event', 0, 1)), ('victim for attack event', (188, 192), ('trigger for attack event', 0, 1)), ('victim for attack event', (196, 198), ('trigger for attack event', 0, 1)), ('weapon for attack event', (231, 232), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0061
+triggers []
+arguments []
+id TST3-MUC4-0062
+triggers [('trigger for attack event', 0, 1)]
+arguments [('weapon for attack event', (321, 322), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0063
+triggers []
+arguments []
+id TST3-MUC4-0064
+triggers []
+arguments []
+id TST3-MUC4-0065
+triggers []
+arguments []
+id TST3-MUC4-0066
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating organization for attack event', (44, 46), ('trigger for attack event', 0, 1)), ('perpetrating organization for attack event', (134, 138), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0067
+triggers []
+arguments []
+id TST3-MUC4-0068
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (43, 46), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0069
+triggers []
+arguments []
+id TST3-MUC4-0070
+triggers []
+arguments []
+id TST3-MUC4-0071
+triggers []
+arguments []
+id TST3-MUC4-0072
+triggers []
+arguments []
+id TST3-MUC4-0073
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('weapon for bombing event', (14, 15), ('trigger for bombing event', 0, 1)), ('target for bombing event', (22, 29), ('trigger for bombing event', 0, 1))]
+id TST3-MUC4-0074
+triggers []
+arguments []
+id TST3-MUC4-0075
+triggers []
+arguments []
+id TST3-MUC4-0076
+triggers []
+arguments []
+id TST3-MUC4-0077
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (24, 27), ('trigger for attack event', 0, 1)), ('victim for attack event', (30, 31), ('trigger for attack event', 0, 1)), ('perpetrating individual for attack event', (279, 281), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0078
+triggers [('trigger for kidnapping event', 0, 1)]
+arguments [('victim for kidnapping event', (30, 32), ('trigger for kidnapping event', 0, 1))]
+id TST3-MUC4-0079
+triggers []
+arguments []
+id TST3-MUC4-0080
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating individual for attack event', (26, 27), ('trigger for attack event', 0, 1)), ('target for attack event', (172, 175), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0081
+triggers []
+arguments []
+id TST3-MUC4-0082
+triggers []
+arguments []
+id TST3-MUC4-0083
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (143, 145), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0084
+triggers [('trigger for bombing event', 0, 1), ('trigger for arson event', 2, 3)]
+arguments [('target for bombing event', (60, 61), ('trigger for bombing event', 0, 1)), ('perpetrating organization for bombing event', (83, 85), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (178, 180), ('trigger for bombing event', 0, 1)), ('target for bombing event', (184, 187), ('trigger for bombing event', 0, 1))]
+arguments [('target for arson event', (65, 67), ('trigger for arson event', 2, 3))]
+id TST3-MUC4-0085
+triggers []
+arguments []
+id TST3-MUC4-0086
+triggers []
+arguments []
+id TST3-MUC4-0087
+triggers []
+arguments []
+id TST3-MUC4-0088
+triggers [('trigger for attack event', 0, 1)]
+arguments [('target for attack event', (106, 108), ('trigger for attack event', 0, 1)), ('target for attack event', (113, 114), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0089
+triggers []
+arguments []
+id TST3-MUC4-0090
+triggers []
+arguments []
+id TST3-MUC4-0091
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (15, 18), ('trigger for attack event', 0, 1)), ('victim for attack event', (40, 42), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0092
+triggers []
+arguments []
+id TST3-MUC4-0093
+triggers []
+arguments []
+id TST3-MUC4-0094
+triggers [('trigger for kidnapping event', 0, 1), ('trigger for attack event', 2, 3), ('trigger for attack event', 4, 5)]
+arguments [('perpetrating individual for kidnapping event', (99, 101), ('trigger for kidnapping event', 0, 1)), ('perpetrating individual for kidnapping event', (251, 291), ('trigger for kidnapping event', 0, 1))]
+arguments [('victim for attack event', (110, 112), ('trigger for attack event', 2, 3)), ('victim for attack event', (113, 115), ('trigger for attack event', 2, 3))]
+arguments [('victim for attack event', (221, 224), ('trigger for attack event', 4, 5))]
+id TST3-MUC4-0095
+triggers []
+arguments []
+id TST3-MUC4-0096
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (34, 37), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0097
+triggers []
+arguments []
+id TST3-MUC4-0098
+triggers []
+arguments []
+id TST3-MUC4-0099
+triggers [('trigger for attack event', 0, 1)]
+arguments [('target for attack event', (58, 60), ('trigger for attack event', 0, 1)), ('target for attack event', (143, 145), ('trigger for attack event', 0, 1)), ('target for attack event', (167, 168), ('trigger for attack event', 0, 1)), ('perpetrating organization for attack event', (190, 195), ('trigger for attack event', 0, 1))]
+id TST3-MUC4-0100
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating individual for attack event', (142, 143), ('trigger for attack event', 0, 1)), ('victim for attack event', (177, 181), ('trigger for attack event', 0, 1))]
+id TST4-MUC4-0001
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('perpetrating individual for bombing event', (27, 29), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (31, 32), ('trigger for bombing event', 0, 1)), ('target for bombing event', (36, 38), ('trigger for bombing event', 0, 1)), ('target for bombing event', (58, 68), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0002
+triggers []
+arguments []
+id TST4-MUC4-0003
+triggers []
+arguments []
+id TST4-MUC4-0004
+triggers [('trigger for kidnapping event', 0, 1)]
+arguments [('perpetrating individual for kidnapping event', (21, 23), ('trigger for kidnapping event', 0, 1))]
+id TST4-MUC4-0005
+triggers [('trigger for attack event', 0, 1), ('trigger for bombing event', 2, 3)]
+arguments [('victim for attack event', (13, 15), ('trigger for attack event', 0, 1))]
+arguments [('weapon for bombing event', (258, 259), ('trigger for bombing event', 2, 3)), ('perpetrating individual for bombing event', (261, 262), ('trigger for bombing event', 2, 3))]
+id TST4-MUC4-0006
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('target for bombing event', (123, 125), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0007
+triggers [('trigger for attack event', 0, 1)]
+arguments [('target for attack event', (32, 34), ('trigger for attack event', 0, 1))]
+id TST4-MUC4-0008
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('target for bombing event', (29, 31), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0009
+triggers []
+arguments []
+id TST4-MUC4-0010
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('target for bombing event', (16, 19), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (29, 31), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (33, 34), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0011
+triggers []
+arguments []
+id TST4-MUC4-0012
+triggers []
+arguments []
+id TST4-MUC4-0013
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating individual for attack event', (24, 26), ('trigger for attack event', 0, 1)), ('victim for attack event', (35, 38), ('trigger for attack event', 0, 1))]
+id TST4-MUC4-0014
+triggers []
+arguments []
+id TST4-MUC4-0015
+triggers []
+arguments []
+id TST4-MUC4-0016
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('weapon for bombing event', (28, 29), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (45, 47), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0017
+triggers []
+arguments []
+id TST4-MUC4-0018
+triggers []
+arguments []
+id TST4-MUC4-0019
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('weapon for bombing event', (46, 48), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (142, 143), ('trigger for bombing event', 0, 1)), ('target for bombing event', (148, 153), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0020
+triggers []
+arguments []
+id TST4-MUC4-0021
+triggers [('trigger for bombing event', 0, 1), ('trigger for attack event', 2, 3)]
+arguments [('target for bombing event', (27, 28), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (52, 54), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (106, 107), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (154, 155), ('trigger for bombing event', 0, 1)), ('target for bombing event', (160, 165), ('trigger for bombing event', 0, 1))]
+arguments [('weapon for attack event', (56, 57), ('trigger for attack event', 2, 3))]
+id TST4-MUC4-0022
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('perpetrating individual for bombing event', (36, 37), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (54, 55), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (56, 58), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0023
+triggers []
+arguments []
+id TST4-MUC4-0024
+triggers [('trigger for attack event', 0, 1), ('trigger for attack event', 2, 3)]
+arguments [('perpetrating organization for attack event', (19, 23), ('trigger for attack event', 0, 1))]
+arguments [('perpetrating individual for attack event', (56, 57), ('trigger for attack event', 2, 3))]
+id TST4-MUC4-0025
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (61, 64), ('trigger for attack event', 0, 1)), ('perpetrating individual for attack event', (75, 76), ('trigger for attack event', 0, 1)), ('target for attack event', (107, 115), ('trigger for attack event', 0, 1))]
+id TST4-MUC4-0026
+triggers []
+arguments []
+id TST4-MUC4-0027
+triggers [('trigger for attack event', 0, 1)]
+arguments [('target for attack event', (74, 77), ('trigger for attack event', 0, 1))]
+id TST4-MUC4-0028
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('weapon for bombing event', (19, 21), ('trigger for bombing event', 0, 1)), ('target for bombing event', (27, 30), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0029
+triggers [('trigger for attack event', 0, 1), ('trigger for bombing event', 2, 3)]
+arguments [('perpetrating organization for attack event', (16, 18), ('trigger for attack event', 0, 1))]
+arguments [('weapon for bombing event', (141, 143), ('trigger for bombing event', 2, 3))]
+id TST4-MUC4-0030
+triggers []
+arguments []
+id TST4-MUC4-0031
+triggers []
+arguments []
+id TST4-MUC4-0032
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('weapon for bombing event', (14, 16), ('trigger for bombing event', 0, 1)), ('target for bombing event', (22, 29), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0033
+triggers []
+arguments []
+id TST4-MUC4-0034
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('weapon for bombing event', (21, 22), ('trigger for bombing event', 0, 1)), ('target for bombing event', (29, 30), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (74, 76), ('trigger for bombing event', 0, 1)), ('target for bombing event', (85, 87), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0035
+triggers []
+arguments []
+id TST4-MUC4-0036
+triggers []
+arguments []
+id TST4-MUC4-0037
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('weapon for bombing event', (15, 17), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (21, 23), ('trigger for bombing event', 0, 1)), ('target for bombing event', (30, 35), ('trigger for bombing event', 0, 1)), ('target for bombing event', (124, 134), ('trigger for bombing event', 0, 1)), ('target for bombing event', (151, 153), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0038
+triggers [('trigger for kidnapping event', 0, 1)]
+arguments [('victim for kidnapping event', (97, 100), ('trigger for kidnapping event', 0, 1)), ('victim for kidnapping event', (103, 107), ('trigger for kidnapping event', 0, 1))]
+id TST4-MUC4-0039
+triggers [('trigger for kidnapping event', 0, 1)]
+arguments [('perpetrating organization for kidnapping event', (14, 17), ('trigger for kidnapping event', 0, 1)), ('perpetrating individual for kidnapping event', (42, 43), ('trigger for kidnapping event', 0, 1)), ('perpetrating individual for kidnapping event', (56, 59), ('trigger for kidnapping event', 0, 1))]
+id TST4-MUC4-0040
+triggers []
+arguments []
+id TST4-MUC4-0041
+triggers []
+arguments []
+id TST4-MUC4-0042
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('target for bombing event', (36, 37), ('trigger for bombing event', 0, 1)), ('target for bombing event', (282, 283), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0043
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('target for bombing event', (80, 82), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0044
+triggers []
+arguments []
+id TST4-MUC4-0045
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('perpetrating individual for bombing event', (36, 37), ('trigger for bombing event', 0, 1)), ('target for bombing event', (40, 41), ('trigger for bombing event', 0, 1)), ('target for bombing event', (43, 45), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0046
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating organization for attack event', (48, 50), ('trigger for attack event', 0, 1)), ('victim for attack event', (180, 183), ('trigger for attack event', 0, 1))]
+id TST4-MUC4-0047
+triggers []
+arguments []
+id TST4-MUC4-0048
+triggers []
+arguments []
+id TST4-MUC4-0049
+triggers []
+arguments []
+id TST4-MUC4-0050
+triggers []
+arguments []
+id TST4-MUC4-0051
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating individual for attack event', (36, 39), ('trigger for attack event', 0, 1)), ('victim for attack event', (43, 46), ('trigger for attack event', 0, 1))]
+id TST4-MUC4-0052
+triggers []
+arguments []
+id TST4-MUC4-0053
+triggers []
+arguments []
+id TST4-MUC4-0054
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('perpetrating individual for bombing event', (44, 45), ('trigger for bombing event', 0, 1)), ('perpetrating organization for bombing event', (49, 52), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (54, 55), ('trigger for bombing event', 0, 1)), ('target for bombing event', (59, 61), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0055
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('perpetrating organization for bombing event', (16, 18), ('trigger for bombing event', 0, 1)), ('target for bombing event', (26, 30), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0056
+triggers []
+arguments []
+id TST4-MUC4-0057
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating organization for attack event', (150, 151), ('trigger for attack event', 0, 1))]
+id TST4-MUC4-0058
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('weapon for bombing event', (25, 26), ('trigger for bombing event', 0, 1)), ('target for bombing event', (40, 42), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (64, 65), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (115, 116), ('trigger for bombing event', 0, 1)), ('victim for bombing event', (124, 127), ('trigger for bombing event', 0, 1)), ('perpetrating organization for bombing event', (143, 146), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0059
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('target for bombing event', (56, 58), ('trigger for bombing event', 0, 1)), ('perpetrating individual for bombing event', (133, 134), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0060
+triggers []
+arguments []
+id TST4-MUC4-0061
+triggers [('trigger for attack event', 0, 1)]
+arguments [('target for attack event', (41, 45), ('trigger for attack event', 0, 1)), ('target for attack event', (87, 93), ('trigger for attack event', 0, 1))]
+id TST4-MUC4-0062
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating individual for attack event', (40, 41), ('trigger for attack event', 0, 1)), ('target for attack event', (49, 53), ('trigger for attack event', 0, 1)), ('victim for attack event', (65, 66), ('trigger for attack event', 0, 1))]
+id TST4-MUC4-0063
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('target for bombing event', (55, 62), ('trigger for bombing event', 0, 1)), ('perpetrating organization for bombing event', (66, 67), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0064
+triggers []
+arguments []
+id TST4-MUC4-0065
+triggers [('trigger for attack event', 0, 1), ('trigger for attack event', 2, 3)]
+arguments [('perpetrating organization for attack event', (34, 38), ('trigger for attack event', 0, 1))]
+arguments [('victim for attack event', (96, 98), ('trigger for attack event', 2, 3)), ('victim for attack event', (101, 104), ('trigger for attack event', 2, 3)), ('victim for attack event', (112, 115), ('trigger for attack event', 2, 3))]
+id TST4-MUC4-0066
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (15, 17), ('trigger for attack event', 0, 1)), ('victim for attack event', (42, 44), ('trigger for attack event', 0, 1))]
+id TST4-MUC4-0067
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('weapon for bombing event', (19, 20), ('trigger for bombing event', 0, 1)), ('target for bombing event', (26, 28), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (65, 70), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (83, 84), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0068
+triggers [('trigger for kidnapping event', 0, 1)]
+arguments [('perpetrating organization for kidnapping event', (18, 21), ('trigger for kidnapping event', 0, 1)), ('perpetrating individual for kidnapping event', (24, 25), ('trigger for kidnapping event', 0, 1)), ('victim for kidnapping event', (40, 43), ('trigger for kidnapping event', 0, 1))]
+id TST4-MUC4-0069
+triggers []
+arguments []
+id TST4-MUC4-0070
+triggers []
+arguments []
+id TST4-MUC4-0071
+triggers []
+arguments []
+id TST4-MUC4-0072
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('perpetrating organization for bombing event', (38, 41), ('trigger for bombing event', 0, 1)), ('victim for bombing event', (83, 85), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (133, 134), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0073
+triggers []
+arguments []
+id TST4-MUC4-0074
+triggers []
+arguments []
+id TST4-MUC4-0075
+triggers []
+arguments []
+id TST4-MUC4-0076
+triggers []
+arguments []
+id TST4-MUC4-0077
+triggers []
+arguments []
+id TST4-MUC4-0078
+triggers []
+arguments []
+id TST4-MUC4-0079
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (216, 219), ('trigger for attack event', 0, 1))]
+id TST4-MUC4-0080
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (60, 65), ('trigger for attack event', 0, 1))]
+id TST4-MUC4-0081
+triggers []
+arguments []
+id TST4-MUC4-0082
+triggers []
+arguments []
+id TST4-MUC4-0083
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('weapon for bombing event', (43, 44), ('trigger for bombing event', 0, 1)), ('target for bombing event', (49, 51), ('trigger for bombing event', 0, 1)), ('target for bombing event', (53, 54), ('trigger for bombing event', 0, 1)), ('victim for bombing event', (78, 81), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0084
+triggers []
+arguments []
+id TST4-MUC4-0085
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating individual for attack event', (46, 47), ('trigger for attack event', 0, 1))]
+id TST4-MUC4-0086
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (20, 22), ('trigger for attack event', 0, 1)), ('perpetrating individual for attack event', (53, 54), ('trigger for attack event', 0, 1))]
+id TST4-MUC4-0087
+triggers [('trigger for kidnapping event', 0, 1)]
+arguments [('victim for kidnapping event', (25, 28), ('trigger for kidnapping event', 0, 1)), ('perpetrating organization for kidnapping event', (71, 74), ('trigger for kidnapping event', 0, 1))]
+id TST4-MUC4-0088
+triggers [('trigger for attack event', 0, 1)]
+arguments [('victim for attack event', (23, 25), ('trigger for attack event', 0, 1))]
+id TST4-MUC4-0089
+triggers []
+arguments []
+id TST4-MUC4-0090
+triggers [('trigger for attack event', 0, 1)]
+arguments [('perpetrating individual for attack event', (21, 23), ('trigger for attack event', 0, 1)), ('victim for attack event', (34, 38), ('trigger for attack event', 0, 1))]
+id TST4-MUC4-0091
+triggers []
+arguments []
+id TST4-MUC4-0092
+triggers [('trigger for arson event', 0, 1)]
+arguments [('perpetrating organization for arson event', (30, 31), ('trigger for arson event', 0, 1)), ('perpetrating individual for arson event', (31, 32), ('trigger for arson event', 0, 1)), ('victim for arson event', (33, 36), ('trigger for arson event', 0, 1)), ('target for arson event', (52, 60), ('trigger for arson event', 0, 1))]
+id TST4-MUC4-0093
+triggers []
+arguments []
+id TST4-MUC4-0094
+triggers []
+arguments []
+id TST4-MUC4-0095
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('target for bombing event', (115, 126), ('trigger for bombing event', 0, 1)), ('weapon for bombing event', (142, 143), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0096
+triggers []
+arguments []
+id TST4-MUC4-0097
+triggers [('trigger for bombing event', 0, 1)]
+arguments [('weapon for bombing event', (18, 20), ('trigger for bombing event', 0, 1)), ('target for bombing event', (22, 23), ('trigger for bombing event', 0, 1))]
+id TST4-MUC4-0098
+triggers []
+arguments []
+id TST4-MUC4-0099
+triggers []
+arguments []
+id TST4-MUC4-0100
+triggers []
+arguments []
