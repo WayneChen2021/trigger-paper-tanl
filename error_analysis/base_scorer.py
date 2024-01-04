@@ -1,7 +1,7 @@
 import argparse
 import json
 import os
-from matplotlib import pyplot as plt
+import matplotlib.pyplot as plt
 
 from utils import error_analysis_event
 

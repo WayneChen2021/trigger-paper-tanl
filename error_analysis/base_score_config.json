@@ -1,7 +1,43 @@
 [
     {
+        "experiment_dir": "../experiments/MUC/g2_environments/keyword/single_pass",
+        "output_dir": "../experiments/MUC/error_analysis/keyword/single_pass",
+        "hungarian_config": "scorer_configs/muc_config.json",
+        "types_mapping": "types_mapping/types_mapping_muc.json",
+        "gtt_ref_dev": "../data/MUC/gtt/dev.json",
+        "tanl_ref_dev": "../data/MUC/keyword/dev_event.json",
+        "gtt_ref_test": "../data/MUC/gtt/test.json",
+        "tanl_ref_test": "../data/MUC/keyword/test_event.json",
+        "relax_match": true,
+        "dataset_name": "muc"
+    },
+    {
+        "experiment_dir": "../experiments/MUC/g2_environments/keyword/default",
+        "output_dir": "../experiments/MUC/error_analysis/keyword/default",
+        "hungarian_config": "scorer_configs/muc_config.json",
+        "types_mapping": "types_mapping/types_mapping_muc.json",
+        "gtt_ref_dev": "../data/MUC/gtt/dev.json",
+        "tanl_ref_dev": "../data/MUC/keyword/dev_event.json",
+        "gtt_ref_test": "../data/MUC/gtt/test.json",
+        "tanl_ref_test": "../data/MUC/keyword/test_event.json",
+        "relax_match": true,
+        "dataset_name": "muc"
+    },
+    {
         "experiment_dir": "../experiments/MUC/g2_environments/human/single_pass",
         "output_dir": "../experiments/MUC/error_analysis/human/single_pass",
+        "hungarian_config": "scorer_configs/muc_config.json",
+        "types_mapping": "types_mapping/types_mapping_muc.json",
+        "gtt_ref_dev": "../data/MUC/gtt/dev.json",
+        "tanl_ref_dev": "../data/MUC/human/dev_event.json",
+        "gtt_ref_test": "../data/MUC/gtt/test.json",
+        "tanl_ref_test": "../data/MUC/human/test_event.json",
+        "relax_match": true,
+        "dataset_name": "muc"
+    },
+    {
+        "experiment_dir": "../experiments/MUC/g2_environments/human/default",
+        "output_dir": "../experiments/MUC/error_analysis/human/default",
         "hungarian_config": "scorer_configs/muc_config.json",
         "types_mapping": "types_mapping/types_mapping_muc.json",
         "gtt_ref_dev": "../data/MUC/gtt/dev.json",

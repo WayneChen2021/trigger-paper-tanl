@@ -1,3 +1,5 @@
+venv
+
 experiments/MUC/g2_environments/keyword/default/*
 !experiments/MUC/g2_environments/keyword/default/logs.json
 !experiments/MUC/g2_environments/keyword/default/test_predictions

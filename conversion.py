@@ -62,21 +62,21 @@ def enumerate_examples(message_id, container, triggers_per_temp, relation_map, t
                     trigger_tup[0][1],
                     trigger_tup[0][1] + len(trigger_tup[0][0])
                 ))
-
-            if len(new_example['triggers']) == len(set([str(e) for e in new_example['triggers']])):
-                if add_trig_example:
-                    trig_examples.append(deepcopy(new_example))
-                if add_arg_example and len(arg_examples) < num_examples:
-                    for ref_trig_index, trig in enumerate(new_example['triggers']):
-                        new_example_copy = deepcopy(new_example)
-                        new_example_copy['relations'] = [{
-                            "head": entity_index,
-                            "tail": 0,
-                            "type": f"{relation_map[rel_type]} for {trigger_map[container['incident_types'][trig_index]]} event"
-                        } for (entity_index, trig_index, rel_type) in filter(lambda triple : triple[1] == ref_trig_index, container['relations'])]
-                        new_example_copy['triggers'] = [trig]
-                    
-                        arg_examples[str(trig)] = new_example_copy
+            
+            # if len(new_example['triggers']) == len(set([str(e) for e in new_example['triggers']])):
+            if add_trig_example:
+                trig_examples.append(deepcopy(new_example))
+            if add_arg_example and len(arg_examples) < num_examples:
+                for ref_trig_index, trig in enumerate(new_example['triggers']):
+                    new_example_copy = deepcopy(new_example)
+                    new_example_copy['relations'] = [{
+                        "head": entity_index,
+                        "tail": 0,
+                        "type": f"{relation_map[rel_type]} for {trigger_map[container['incident_types'][trig_index]]} event"
+                    } for (entity_index, trig_index, rel_type) in filter(lambda triple : triple[1] == ref_trig_index, container['relations'])]
+                    new_example_copy['triggers'] = [trig]
+                
+                    arg_examples[str(trig)] = new_example_copy
     
     trigger_set = trigger_sets[0]
     for template_ind, ind in enumerate(trigger_set):
@@ -127,7 +127,7 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
     if event_header_len:
         num_trigs = 1
     containers = {}
-
+    
     for example in info.values():  
         if all('Triggers' in template for template in example['templates']):
             if not event_header_len and any(len(template['Triggers']) == 0 for template in example['templates']):
@@ -160,7 +160,7 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
                         'token_spans': list(tbwt().span_tokenize(text)),
                         'entities': [],
                         'triggers': [
-                            [[f"event {i}", text.index(f"event {i}")]]
+                            [[[f"event {i}", text.index(f"event {i}")]]]
                             for i in range(len(example['templates']))],
                         'incident_types': [template['incident_type'] for template in example['templates']],
                         'relations': []
@@ -196,7 +196,7 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
                                 )
                 
                 containers[example['docid']] = container
-    
+
     out_train_trigs, out_train_args, out_train_event = [], [], []
     out_dev_trigs, out_dev_args, out_dev_event = [], [], []
     out_test_trigs, out_test_args, out_test_event = [], [], []
