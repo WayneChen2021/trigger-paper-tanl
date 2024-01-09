@@ -1,4 +1,8 @@
 venv
+ipynb.ipynb
+json.json
+test.json
+train.json
 
 experiments/MUC/g2_environments/keyword/default/*
 !experiments/MUC/g2_environments/keyword/default/logs.json

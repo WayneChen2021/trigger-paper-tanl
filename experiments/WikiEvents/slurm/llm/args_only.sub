@@ -1,0 +1,41 @@
+#!/bin/bash
+#SBATCH -J default                         # Job name
+#SBATCH -o ../../g2_logs/llm/default.out                  # output file (%j expands to jobID)
+#SBATCH -e ../../g2_logs/llm/default.err                  # error log file (%j expands to jobID)
+#SBATCH -N 1                                 # Total number of nodes requested
+#SBATCH -n 1                                 # Total number of cores requested
+#SBATCH --get-user-env                       # retrieve the users login environment
+#SBATCH --mem=50000                           # server memory requested (per node)
+#SBATCH -t 100:00:00                           # Time limit (hh:mm:ss)
+#SBATCH --partition=gpu       # Request partition
+#SBATCH --gres=gpu:a100:1                  # Type/number of GPUs needed"
+
+CONDA_ENV=TANL2
+ENV_NAME="default"
+TRIGGER_SOURCE="llm"
+NUM_EPOCHS=150
+DATASET="WikiEvents"
+
+TRAIN_ARGS="../../../../data/$DATASET/$TRIGGER_SOURCE/train_arg.json"
+DEV_ARGS="../../../../data/$DATASET/$TRIGGER_SOURCE/dev_arg.json"
+TEST_ARGS="../../../../data/$DATASET/$TRIGGER_SOURCE/test_arg.json"
+RUN="../../run/$ENV_NAME.py"
+
+mkdir "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME"
+cp -r "../../../../original_scripts/$DATASET/." "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME"
+cp "../../../../original_scripts/"* "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME"
+cp $TRAIN_ARGS "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME/data/wikievents/wikievents_argument_train.json"
+cp $DEV_ARGS "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME/data/wikievents/wikievents_argument_dev.json"
+cp $TEST_ARGS "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME/data/wikievents/wikievents_argument_test.json"
+mkdir "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME/dev_predictions"
+mkdir "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME/test_predictions"
+cp $RUN "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME/run.py"
+
+source /share/apps/anaconda3/2022.10/bin/activate
+conda activate $CONDA_ENV
+cd "../../g2_environments/$TRIGGER_SOURCE/$ENV_NAME"
+pip3 install transformers
+pip3 install scipy
+pip3 install accelerate --upgrade
+
+python3 run.py wikievents_argument --num_train_epochs $NUM_EPOCHS

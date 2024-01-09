@@ -42,20 +42,21 @@ def compute_matches(pred_template, gold_template, relax):
     for role_type, pred_entities in pred_template.items():
         if role_type != 'incident_type':
             gold_entities = gold_template[role_type]
-            matr_size = max(len(gold_entities), len(pred_entities))
-            cost_matr = np.zeros((matr_size, matr_size))
+            if role_type != 'Triggers' or len(gold_entities) != 0:
+                matr_size = max(len(gold_entities), len(pred_entities))
+                cost_matr = np.zeros((matr_size, matr_size))
 
-            for i, pred_entity in enumerate(pred_entities):
-                for j, gold_entity in enumerate(gold_entities):
-                    cost_matr[i][j] = -1 * int(entities_match(pred_entity, gold_entity, relax))
-            
-            row_ind, col_ind = linear_sum_assignment(cost_matr)
-            matches = int(-1 * cost_matr[row_ind, col_ind].sum())
+                for i, pred_entity in enumerate(pred_entities):
+                    for j, gold_entity in enumerate(gold_entities):
+                        cost_matr[i][j] = -1 * int(entities_match(pred_entity, gold_entity, relax))
+                
+                row_ind, col_ind = linear_sum_assignment(cost_matr)
+                matches = int(-1 * cost_matr[row_ind, col_ind].sum())
 
-            matches_per_role[role_type] = matches
-            predicted_per_role[role_type] = len(pred_entities)
-            gold_per_role[role_type] = len(gold_entities)
-            total_matches += matches
+                matches_per_role[role_type] = matches
+                predicted_per_role[role_type] = len(pred_entities)
+                gold_per_role[role_type] = len(gold_entities)
+                total_matches += matches
 
     return event_type_matches, matches_per_role, predicted_per_role, gold_per_role, total_matches
 
