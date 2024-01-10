@@ -63,20 +63,20 @@ def enumerate_examples(message_id, container, triggers_per_temp, relation_map, t
                     trigger_tup[0][1] + len(trigger_tup[0][0])
                 ))
             
-            # if len(new_example['triggers']) == len(set([str(e) for e in new_example['triggers']])):
-            if add_trig_example:
+            if add_trig_example and len(new_example['triggers']) == len(set([str(e) for e in new_example['triggers']])):
                 trig_examples.append(deepcopy(new_example))
-            if add_arg_example and len(arg_examples) < num_examples:
+            if add_arg_example:
                 for ref_trig_index, trig in enumerate(new_example['triggers']):
-                    new_example_copy = deepcopy(new_example)
-                    new_example_copy['relations'] = [{
-                        "head": entity_index,
-                        "tail": 0,
-                        "type": f"{relation_map[rel_type]} for {trigger_map[container['incident_types'][trig_index]]} event"
-                    } for (entity_index, trig_index, rel_type) in filter(lambda triple : triple[1] == ref_trig_index, container['relations'])]
-                    new_example_copy['triggers'] = [trig]
-                
-                    arg_examples[str(trig)] = new_example_copy
+                    if trig['type'] != "DUMMY TRIGGER":
+                        new_example_copy = deepcopy(new_example)
+                        new_example_copy['relations'] = [{
+                            "head": entity_index,
+                            "tail": 0,
+                            "type": f"{relation_map[rel_type]} for {trigger_map[container['incident_types'][trig_index]]} event"
+                        } for (entity_index, trig_index, rel_type) in filter(lambda triple : triple[1] == ref_trig_index, container['relations'])]
+                        new_example_copy['triggers'] = [trig]
+                    
+                        arg_examples[str(trig)] = new_example_copy
     
     trigger_set = trigger_sets[0]
     for template_ind, ind in enumerate(trigger_set):
@@ -133,8 +133,8 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
             if not event_header_len and any(len(template['Triggers']) == 0 for template in example['templates']):
                 for template in example['templates']:
                     if not len(template['Triggers']):
-                        template['Triggers'] = [['DUMMY TRIGGER', -1]]
-            elif event_header_len or all(len(template['Triggers']) for template in example['templates']):
+                        template['Triggers'] = [[['DUMMY TRIGGER', -1]]]
+            if event_header_len or all(len(template['Triggers']) for template in example['templates']):
                 text = event_header + example['doctext'].lower().replace('[', '(').replace(']', ')')
                 if span_selection == "longest":
                     for template in example['templates']:
@@ -498,7 +498,7 @@ if __name__ == "__main__":
             'contact.collaborate.correspondence': "correspondence to collaborate",
             'transaction.transaction.transfercontrol': "transfer control in transaction",
             'transaction.transaction': "transaction",
-            'transaction.transfermoney.giftgrantprovideaid': "gift, grant, or provide aid",
+            'transaction.transfermoney.giftgrantprovideaid': "gift, grant, or provide aid money",
             'contact.commitmentpromiseexpressintent.correspondence': "correspondence for commitment or expression of intent",
             'conflict.attack.airstrikemissilestrike': "air or missle strike",
             'government.formation.n/a': "government formation",
@@ -508,10 +508,10 @@ if __name__ == "__main__":
             'transaction.transaction.embargosanction': "embargo or sanction",
             'conflict.attack.stabbing': "stabbing",
             'conflict.yield.retreat': "retreating",
-            'conflict.yield': "yielding",
+            'conflict.yield': "yielding in conflict",
             'transaction.transfermoney.embargosanction': "embargo or sanction on money transfer",
             'manufacture.artifact.build': "build artifact",
-            'manufacture.artifact.build': "manufacture artifact",
+            'manufacture.artifact': "manufacture artifact",
             'inspection.sensoryobserve.n/a': "sense or observation in inspection",
             'inspection.sensoryobserve': "sense or observation in inspection",
             'justice.initiatejudicialprocess.trialhearing': "trial hearing",
@@ -531,7 +531,72 @@ if __name__ == "__main__":
             'artifactexistence.damagedestroy.destroy': "destroyed artifact",
             'artifactexistence.damagedestroy': "damaged or destroyed artifact",
             'life.die.n/a': "death",
-            'contact.threatencoerce.meet': ""
+            'contact.threatencoerce.meet': "threat or coercion in meeting",
+            'personnel.startposition.hiring': "hiring",
+            'personnel.startposition': "person starts position at organization",
+            'conflict.attack.n/a': "attack",
+            'personnel.endposition.quitretire': "person quits or retires",
+            'justice.initiatejudicialprocess.chargeindict': "charge or indictment",
+            'contact.requestadvise.meet': "request or advise in meeting",
+            'government.formation.startgpe': "start government GPE",
+            'transaction.transfermoney.payforservice': "payment for service",
+            'personnel.elect.winelection': "win election",
+            'movement.transportperson.grantentryasylum': "grant entry or asylum",
+            'movement.transportartifact.n/a': "transport artifact",
+            'contact.publicstatementinperson.broadcast': "in person broadcast of public statement",
+            'contact.publicstatementinperson': "in person public statement",
+            'contact.discussion.correspondence': "discussion in correspondence",
+            'movement.transportperson.disperseseparate': "disperse or seperate when transporting person",
+            'transaction.transferownership.purchase': "transfer of ownership via purchase",
+            'movement.transportperson.n/a': "transport person",
+            'conflict.demonstrate.n/a': "demonstration",
+            'conflict.demonstrate': "demonstration",
+            'conflict.demonstrate.marchprotestpoliticalgathering': "march, protest, or political gathering",
+            'movement.transportperson.smuggleextract': "smuggle or extract person",
+            'inspection.sensoryobserve.physicalinvestigateinspect': "physically investigate or inspect",
+            'contact.publicstatementinperson.n/a': "in person public statement",
+            'justice.judicialconsequences.convict': "conviction",
+            'contact.funeralvigil.meet': "meeting for funeral or vigil",
+            'contact.funeralvigil': "funeral or vigil",
+            'manufacture.artifact.createmanufacture': "create or manufacture artifact",
+            'conflict.yield.n/a': "yielding in conflict",
+            'government.formation.mergegpe': "merge government GPE",
+            'transaction.transfermoney.borrowlend': "borrow or lend money",
+            'transaction.transaction.n/a': "transaction",
+            'transaction.transferownership.embargosanction': "transfer ownership from embargo or sanction",
+            'transaction.transaction.giftgrantprovideaid': "gift, grant, or provide aid in transaction",
+            'artifactexistence.damagedestroy.damage': "damage artifact",
+            'contact.prevarication.n/a': "prevarication",
+            'government.vote.n/a': "voting",
+            'government.vote': "voting",
+            'conflict.attack.invade': "invasion",
+            'contact.threatencoerce.correspondence': "threat or coercion in correspondence",
+            'personnel.startposition.n/a': "person starts position at organization",
+            'contact.funeralvigil.n/a': "funeral or vigil",
+            'contact.threatencoerce.broadcast': "threat or coercion in broadcast",
+            'conflict.attack.biologicalchemicalpoisonattack': "biolgical chemical or poison attack",
+            'conflict.attack.bombing': "bombing",
+            'life.die.nonviolentdeath': "non-violent death",
+            'contact.collaborate.meet': "collaborate in meeting",
+            'contact.negotiate.correspondence': "negotiation in correspondence",
+            'government.agreements.rejectnullifyagreementcontractceasefire': "reject or nullify agreement, contract, or ceasefire",
+            'disaster.accidentcrash.accidentcrash': "accident or crash",
+            'disaster.accidentcrash': "accident or crash",
+            'transaction.transferownership.borrowlend': "borrow or lend",
+            'movement.transportartifact.preventexit': "prevent exit when transporting artifact",
+            'movement.transportperson.evacuationrescue': "evacuation or rescue of person",
+            'movement.transportartifact.receiveimport': "receive or import",
+            'artifactexistence.damagedestroy.n/a': "artifact damaged or destroyed",
+            'movement.transportartifact.grantentry': "grant entry when transporting artifact",
+            'government.vote.castvote': "cast vote in election",
+            'contact.commandorder.meet': "give commands or orders in meeting",
+            'conflict.yield.surrender': "surrender in conflict",
+            'contact.commandorder.n/a': "command or order",
+            'contact.prevarication.meet': "prevarication in meeting",
+            'transaction.transferownership.giftgrantprovideaid': "transfer ownership via gift, grant, or providing aid",
+            'manufacture.artifact.n/a': "manufacture artifact",
+            'inspection.sensoryobserve.inspectpeopleorganization': "inspect people or organization",
+            'movement.transportperson.bringcarryunload': "bring, carry, or unload person",
         }
 
     event_header = ""
