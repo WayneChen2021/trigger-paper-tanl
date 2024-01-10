@@ -1,8 +1,6 @@
 venv
 ipynb.ipynb
 json.json
-test.json
-train.json
 math
 
 experiments/MUC/g2_environments/keyword/default/*

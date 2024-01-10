@@ -310,7 +310,7 @@ if __name__ == "__main__":
     parser.add_argument("--trigger_selection", type=str, required=False, default="position") # "position" or "popularity"
     parser.add_argument("--dummy_trigs", action='store_true')
     parser.add_argument("--num_dummy_events", type=int, required=False, default=100)
-    parser.add_argument("--dataset", type=str, required=True) # one of "MUC", "WikiEvents"
+    parser.add_argument("--dataset", type=str, required=True) # one of "MUC", "WikiEvents", "RAMS"
     args = parser.parse_args()
 
     if args.dataset == "MUC":
@@ -429,7 +429,7 @@ if __name__ == "__main__":
         }
         splitter_func = determine_split_wikievent
     elif args.dataset == "RAMS":
-        {
+        trigger_map = {
             'movement.transportartifact.nonviolentthrowlaunch': "non-violent throw or launch artifact",
             'movement.transportartifact': "transport artifact",
             'life.die.deathcausedbyviolentevents': "death caused by violence",
@@ -597,7 +597,85 @@ if __name__ == "__main__":
             'manufacture.artifact.n/a': "manufacture artifact",
             'inspection.sensoryobserve.inspectpeopleorganization': "inspect people or organization",
             'movement.transportperson.bringcarryunload': "bring, carry, or unload person",
+            'movement.transportartifact.fall': 'artifact falls during transportation',
+            'inspection.sensoryobserve.monitorelection': "monitoring election",
+            'movement.transportperson.fall': "person falls during tranportation",
+            'manufacture.artifact.createintellectualproperty': "create intellectual property",
+            'contact.mediastatement.n/a': 'media statement',
+            'conflict.attack.hanging': "hanging",
+            'movement.transportartifact.prevententry': "prevent entry for artifact transportation",
+            'conflict.attack.setfire': "set fire to something",
+            'movement.transportperson.selfmotion': "self motion",
+            'government.vote.violationspreventvote': "violations prevent vote"
         }
+        relation_map = {
+            "inspector": "inspector",
+            "deceased": "deceased",
+            "judgecourt": "judgecourt",
+            "damager": "damager",
+            "voter": "voter",
+            "otherparticipant": "other participant",
+            "founder": "founder",
+            "placeofemployment": "place of employment",
+            "driverpassenger": "driver or passenger",
+            "monitoredentity": "monitored entity",
+            "spy": "spy",
+            "damagerdestroyer": "damager or destroyer",
+            "crashobject": "crash object",
+            "manufacturer": "manufacturer",
+            "recipient": "recipient",
+            "surrenderer": "surrenderer",
+            "money": "money",
+            "violator": "violator",
+            "rejecternullifier": "rejecter or nullifier",
+            "vehicle": "vehicle",
+            "origin": "origin",
+            "territoryorfacility": "territory or facility",
+            "fireexplosionobject": "fire explosion object",
+            "employee": "employee",
+            "law": "law",
+            "artifact": "artifact",
+            "jailer": "jailer",
+            "retreater": "retreater",
+            "artifactmoney": "money artifact",
+            "destination": "destination",
+            "injurer": "injurer",
+            "investigator": "investigator",
+            "defendant": "defendant",
+            "detainee": "detainee",
+            "instrument": "instrument",
+            "executioner": "executioner",
+            "result": "result",
+            "observer": "observer",
+            "candidate": "candidate",
+            "destroyer": "destroyer",
+            "victim": "victim",
+            "passenger": "passenger",
+            "gpe": "gpe",
+            "extraditer": "extraditer",
+            "ballot": "ballot",
+            "participant": "participant",
+            "giver": "giver",
+            "observedentity": "observed entity",
+            "demonstrator": "demonstrator",
+            "crime": "crime",
+            "communicator": "communicator",
+            "attacker": "attacker",
+            "killer": "killer",
+            "transporter": "transporter",
+            "governmentbody": "government body",
+            "preventer": "preventer",
+            "beneficiary": "beneficiary",
+            "monitor": "monitor",
+            "prosecutor": "prosecutor",
+            "target": "target",
+            "place": "place",
+            "yielder": "yielder",
+            "inspectedentity": "inspected entity",
+            "granter": "granter",
+            "hidingplace": "hiding place"
+        }
+        splitter_func = determine_split_wikievent
 
     event_header = ""
     if args.dummy_trigs:
