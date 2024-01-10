@@ -134,7 +134,7 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
                 for template in example['templates']:
                     if not len(template['Triggers']):
                         template['Triggers'] = [['DUMMY TRIGGER', -1]]
-            if event_header_len or all(len(template['Triggers']) for template in example['templates']):
+            elif event_header_len or all(len(template['Triggers']) for template in example['templates']):
                 text = event_header + example['doctext'].lower().replace('[', '(').replace(']', ')')
                 if span_selection == "longest":
                     for template in example['templates']:
