@@ -1,0 +1,84 @@
+id 20_VOA_EN_NW_2016.11.17.3601570
+triggers [('trigger for attack event', 196, 197)]
+arguments []
+id 23_VOA_EN_NW_2015.11.24.3071320
+triggers [('trigger for arrest or jail with detainment event', 102, 103), ('trigger for charged or indicted event', 13, 14), ('trigger for charged or indicted event', 37, 38), ('trigger for person death event', 29, 30), ('trigger for person injured event', 202, 203), ('trigger for attack event', 168, 169)]
+arguments []
+arguments [('defendant for charged or indicted event', (15, 16), ('trigger for charged or indicted event', 13, 14))]
+arguments []
+arguments [('victim for person death event', (30, 32), ('trigger for person death event', 29, 30))]
+arguments []
+arguments []
+id 38_VOA_EN_NW_2013.04.24.1647602
+triggers [('trigger for communication event', 121, 122), ('trigger for observation event', 219, 220), ('trigger for communication event', 60, 61)]
+arguments []
+arguments []
+arguments []
+id 53_VOA_EN_NW_2015.06.24.2835606
+triggers [('trigger for person injured event', 195, 196)]
+arguments [('victim for person injured event', (196, 197), ('trigger for person injured event', 195, 196))]
+id JC002YBW0
+triggers [('trigger for attack event', 185, 186), ('trigger for communication event', 16, 17), ('trigger for transaction event', 113, 114)]
+arguments []
+arguments []
+arguments []
+id K0C041O37
+triggers [('trigger for attack event', 282, 283), ('trigger for communication event', 61, 86), ('trigger for communication event', 82, 83), ('trigger for criminal activity event', 61, 62)]
+arguments []
+arguments []
+arguments []
+arguments []
+id backpack_ied_13
+triggers [('trigger for attack event', 170, 171)]
+arguments []
+id backpack_ied_20
+triggers [('trigger for medical intervention event', 267, 268), ('trigger for attack event', 8, 9)]
+arguments [('treater for medical intervention event', (264, 266), ('trigger for medical intervention event', 267, 268))]
+arguments []
+id scenario_en_kairos_16
+triggers [('trigger for charged or indicted event', 24, 25)]
+arguments []
+id scenario_en_kairos_2
+triggers []
+id scenario_en_kairos_30
+triggers []
+id scenario_en_kairos_68
+triggers []
+id suicide_ied_100
+triggers [('trigger for person injured event', 67, 68), ('trigger for person death event', 31, 32), ('trigger for attack event', 174, 175), ('trigger for person injured event', 189, 190)]
+arguments [('victim for person injured event', (65, 66), ('trigger for person injured event', 67, 68))]
+arguments []
+arguments []
+arguments []
+id wiki_drone_strikes_0_news_1
+triggers []
+id wiki_drone_strikes_1_news_1
+triggers [('trigger for person injured event', 126, 127), ('trigger for charged or indicted event', 167, 168), ('trigger for arrest or jail with detainment event', 145, 146), ('trigger for crime investigation event', 105, 106)]
+arguments []
+arguments []
+arguments [('detainee for arrest or jail with detainment event', (496, 497), ('trigger for arrest or jail with detainment event', 145, 146))]
+arguments []
+id wiki_ied_bombings_10
+triggers [('trigger for attack event', 176, 179), ('trigger for person injured event', 32, 33), ('trigger for attack event', 233, 234), ('trigger for attack event', 8, 9)]
+arguments []
+arguments []
+arguments []
+arguments []
+id wiki_ied_bombings_5_news_3
+triggers [('trigger for person injured event', 326, 327)]
+arguments [('victim for person injured event', (325, 326), ('trigger for person injured event', 326, 327))]
+id wiki_mass_car_bombings_0_news_9
+triggers []
+id wiki_mass_car_bombings_1_news_8
+triggers [('trigger for person death event', 2, 3), ('trigger for attack event', 42, 43), ('trigger for attack event', 97, 98), ('trigger for person death event', 39, 40)]
+arguments []
+arguments []
+arguments []
+arguments []
+id wiki_mass_car_bombings_7_news_2
+triggers [('trigger for contact to threaten or coerce event', 27, 28), ('trigger for person death event', 8, 9), ('trigger for person injured event', 286, 287), ('trigger for person injured event', 120, 121), ('trigger for person injured event', 46, 47)]
+arguments []
+arguments []
+arguments []
+arguments []
+arguments [('victim for person injured event', (44, 45), ('trigger for person injured event', 46, 47))]

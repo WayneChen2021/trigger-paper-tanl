@@ -224,4 +224,4 @@ san salvador , 1 nov 89 -- ( communique ) ( salvadoran national communications s
 {'loss': 0.0001, 'learning_rate': 1.5765765765765765e-05, 'epoch': 145.27}
 {'loss': 0.0001, 'learning_rate': 1.0135135135135136e-05, 'epoch': 146.96}
 {'loss': 0.0001, 'learning_rate': 4.504504504504505e-06, 'epoch': 148.65}
-{'train_runtime': 178392.1714, 'train_samples_per_second': 0.993, 'train_steps_per_second': 0.249, 'train_loss': 0.004174933401565697, 'epoch': 150.0}
+{'train_runtime': 223454.7456, 'train_samples_per_second': 0.793, 'train_steps_per_second': 0.199, 'train_loss': 0.004174933401565697, 'epoch': 150.0}

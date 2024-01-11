@@ -303,3 +303,23 @@ san salvador , 1 nov 89 -- ( communique ) ( salvadoran national communications s
 {'loss': 0.0001, 'learning_rate': 6.957928802588997e-05, 'epoch': 129.13}
 {'loss': 0.0001, 'learning_rate': 6.634304207119742e-05, 'epoch': 130.1}
 {'loss': 0.0001, 'learning_rate': 6.310679611650486e-05, 'epoch': 131.07}
+{'loss': 0.0001, 'learning_rate': 5.9870550161812294e-05, 'epoch': 132.04}
+{'loss': 0.0001, 'learning_rate': 5.663430420711974e-05, 'epoch': 133.01}
+{'loss': 0.0001, 'learning_rate': 5.339805825242718e-05, 'epoch': 133.98}
+{'loss': 0.0001, 'learning_rate': 5.0161812297734626e-05, 'epoch': 134.95}
+{'loss': 0.0001, 'learning_rate': 4.692556634304207e-05, 'epoch': 135.92}
+{'loss': 0.0001, 'learning_rate': 4.368932038834952e-05, 'epoch': 136.89}
+{'loss': 0.0001, 'learning_rate': 4.045307443365696e-05, 'epoch': 137.86}
+{'loss': 0.0001, 'learning_rate': 3.7216828478964405e-05, 'epoch': 138.83}
+{'loss': 0.0001, 'learning_rate': 3.3980582524271844e-05, 'epoch': 139.81}
+{'loss': 0.0001, 'learning_rate': 3.074433656957929e-05, 'epoch': 140.78}
+{'loss': 0.0001, 'learning_rate': 2.750809061488673e-05, 'epoch': 141.75}
+{'loss': 0.0001, 'learning_rate': 2.4271844660194176e-05, 'epoch': 142.72}
+{'loss': 0.0001, 'learning_rate': 2.103559870550162e-05, 'epoch': 143.69}
+{'loss': 0.0001, 'learning_rate': 1.7799352750809062e-05, 'epoch': 144.66}
+{'loss': 0.0001, 'learning_rate': 1.4563106796116505e-05, 'epoch': 145.63}
+{'loss': 0.0001, 'learning_rate': 1.132686084142395e-05, 'epoch': 146.6}
+{'loss': 0.0001, 'learning_rate': 8.090614886731391e-06, 'epoch': 147.57}
+{'loss': 0.0001, 'learning_rate': 4.854368932038835e-06, 'epoch': 148.54}
+{'loss': 0.0001, 'learning_rate': 1.6181229773462783e-06, 'epoch': 149.51}
+{'train_runtime': 513213.1638, 'train_samples_per_second': 0.602, 'train_steps_per_second': 0.151, 'train_loss': 0.003114662757969211, 'epoch': 150.0}

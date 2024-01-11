@@ -1,107 +1,108 @@
-id 1
-triggers [('trigger for person death event', 0, 1), ('trigger for person death event', 2, 3), ('trigger for attack event', 4, 5), ('trigger for attack event', 6, 7), ('trigger for attack event', 8, 9), ('trigger for person death event', 10, 11)]
-arguments [('killer for person death event', (203, 205), ('trigger for person death event', 0, 1)), ('victim for person death event', (208, 210), ('trigger for person death event', 0, 1))]
-arguments [('victim for person death event', (238, 240), ('trigger for person death event', 2, 3))]
-arguments [('place for attack event', (269, 271), ('trigger for attack event', 4, 5))]
-arguments [('attacker for attack event', (288, 290), ('trigger for attack event', 6, 7)), ('target for attack event', (297, 299), ('trigger for attack event', 6, 7))]
-arguments [('target for attack event', (329, 331), ('trigger for attack event', 8, 9)), ('target for attack event', (341, 344), ('trigger for attack event', 8, 9))]
-arguments [('victim for person death event', (396, 398), ('trigger for person death event', 10, 11)), ('victim for person death event', (432, 434), ('trigger for person death event', 10, 11))]
-id 10
-triggers [('trigger for person death event', 0, 1)]
-arguments [('killer for person death event', (374, 376), ('trigger for person death event', 0, 1))]
-id 11
-triggers [('trigger for communication event', 0, 1), ('trigger for criminal activity event', 2, 3), ('trigger for transaction event', 4, 5), ('trigger for transaction event', 6, 7), ('trigger for transaction event', 8, 9)]
-arguments [('participant for communication event', (224, 227), ('trigger for communication event', 0, 1))]
-arguments [('perpetrator for criminal activity event', (268, 270), ('trigger for criminal activity event', 2, 3))]
-arguments [('recipient for transaction event', (277, 279), ('trigger for transaction event', 4, 5)), ('acquired entity for transaction event', (280, 283), ('trigger for transaction event', 4, 5))]
-arguments [('recipient for transaction event', (310, 312), ('trigger for transaction event', 6, 7))]
-arguments [('recipient for transaction event', (346, 349), ('trigger for transaction event', 8, 9)), ('recipient for transaction event', (393, 396), ('trigger for transaction event', 8, 9)), ('killer for person death event', (421, 423), ('trigger for transaction event', 8, 9))]
-id 12
+id 20_VOA_EN_NW_2016.11.17.3601570
+triggers [('trigger for attack event', 2, 4), ('trigger for person injured event', 4, 6), ('trigger for attack event', 6, 8), ('trigger for person injured event', 8, 10), ('trigger for attack event', 10, 12), ('trigger for communication event', 12, 14), ('trigger for communication event', 14, 16), ('trigger for charged or indicted event', 16, 18), ('trigger for attack event', 18, 20), ('trigger for charged or indicted event', 20, 22)]
+arguments [('attacker for attack event', (227, 228), ('trigger for attack event', 2, 4))]
+arguments [('victim for person injured event', (243, 244), ('trigger for person injured event', 4, 6))]
+arguments [('attacker for attack event', (252, 253), ('trigger for attack event', 6, 8)), ('place for attack event', (260, 261), ('trigger for attack event', 6, 8)), ('place for attack event', (262, 263), ('trigger for attack event', 6, 8))]
+arguments [('victim for person injured event', (273, 274), ('trigger for person injured event', 8, 10))]
+arguments [('attacker for attack event', (281, 282), ('trigger for attack event', 10, 12))]
+arguments [('participant for communication event', (300, 302), ('trigger for communication event', 12, 14))]
+arguments [('participant for communication event', (307, 308), ('trigger for communication event', 14, 16))]
+arguments [('prosecutor for charged or indicted event', (332, 333), ('trigger for charged or indicted event', 16, 18)), ('defendant for charged or indicted event', (336, 337), ('trigger for charged or indicted event', 16, 18))]
+arguments [('place for attack event', (350, 351), ('trigger for attack event', 18, 20)), ('place for attack event', (353, 354), ('trigger for attack event', 18, 20))]
+arguments [('prosecutor for charged or indicted event', (406, 407), ('trigger for charged or indicted event', 20, 22))]
+id 23_VOA_EN_NW_2015.11.24.3071320
+triggers [('trigger for person death event', 2, 4), ('trigger for charged or indicted event', 4, 6), ('trigger for attack event', 6, 8), ('trigger for arrest or jail with detainment event', 8, 10)]
+arguments [('victim for person death event', (234, 235), ('trigger for person death event', 2, 4))]
+arguments [('prosecutor for charged or indicted event', (237, 238), ('trigger for charged or indicted event', 4, 6))]
+arguments [('explosive device for attack event', (258, 259), ('trigger for attack event', 6, 8))]
+arguments [('jailer for arrest or jail with detainment event', (290, 291), ('trigger for arrest or jail with detainment event', 8, 10))]
+id 38_VOA_EN_NW_2013.04.24.1647602
+triggers [('trigger for person death event', 4, 6)]
+arguments [('victim for person death event', (436, 438), ('trigger for person death event', 4, 6))]
+id 53_VOA_EN_NW_2015.06.24.2835606
+triggers [('trigger for sentencing event', 2, 4), ('trigger for attack event', 6, 8), ('trigger for person death event', 8, 10), ('trigger for person injured event', 10, 12), ('trigger for attack event', 12, 14)]
+arguments [('defendant for sentencing event', (224, 226), ('trigger for sentencing event', 2, 4))]
+arguments [('attacker for attack event', (389, 390), ('trigger for attack event', 6, 8))]
+arguments [('victim for person death event', (396, 397), ('trigger for person death event', 8, 10))]
+arguments [('victim for person injured event', (399, 400), ('trigger for person injured event', 10, 12))]
+arguments [('attacker for attack event', (421, 422), ('trigger for attack event', 12, 14)), ('explosive device for attack event', (431, 432), ('trigger for attack event', 12, 14))]
+id JC002YBW0
+triggers [('trigger for criminal activity event', 2, 4), ('trigger for transaction event', 4, 6), ('trigger for transaction event', 6, 8), ('trigger for transaction event', 8, 10), ('trigger for transaction event', 10, 12)]
+arguments [('perpetrator for criminal activity event', (269, 270), ('trigger for criminal activity event', 2, 4))]
+arguments [('recipient for transaction event', (278, 279), ('trigger for transaction event', 4, 6)), ('acquired entity for transaction event', (281, 283), ('trigger for transaction event', 4, 6))]
+arguments [('recipient for transaction event', (311, 312), ('trigger for transaction event', 6, 8))]
+arguments [('recipient for transaction event', (347, 349), ('trigger for transaction event', 8, 10))]
+arguments [('recipient for transaction event', (394, 396), ('trigger for transaction event', 10, 12)), ('recipient for transaction event', (397, 398), ('trigger for transaction event', 10, 12)), ('acquired entity for transaction event', (402, 403), ('trigger for transaction event', 10, 12))]
+id K0C041O37
 triggers []
 arguments []
-id 13
-triggers [('trigger for person death event', 0, 1), ('trigger for attack event', 2, 3), ('trigger for person death event', 4, 5), ('trigger for person injured event', 6, 7), ('trigger for attack event', 8, 9), ('trigger for person death event', 10, 11), ('trigger for person injured event', 12, 13), ('trigger for person death event', 14, 15), ('trigger for attack event', 16, 17), ('trigger for person death event', 18, 19), ('trigger for person injured event', 20, 21)]
-arguments [('victim for person death event', (213, 215), ('trigger for person death event', 0, 1))]
-arguments [('place for attack event', (217, 219), ('trigger for attack event', 2, 3))]
-arguments [('victim for person death event', (235, 237), ('trigger for person death event', 4, 5))]
-arguments [('victim for person injured event', (239, 241), ('trigger for person injured event', 6, 7))]
-arguments [('place for attack event', (253, 255), ('trigger for attack event', 8, 9))]
-arguments [('victim for person death event', (263, 264), ('trigger for person death event', 10, 11))]
-arguments [('victim for person injured event', (267, 269), ('trigger for person injured event', 12, 13))]
-arguments [('victim for person death event', (289, 291), ('trigger for person death event', 14, 15))]
-arguments [('place for attack event', (330, 332), ('trigger for attack event', 16, 17))]
-arguments [('victim for person death event', (381, 383), ('trigger for person death event', 18, 19)), ('victim for person death event', (384, 386), ('trigger for person death event', 18, 19))]
-arguments [('victim for person injured event', (390, 392), ('trigger for person injured event', 20, 21))]
-id 14
-triggers [('trigger for charged or indicted event', 0, 1), ('trigger for person death event', 2, 3), ('trigger for person death event', 4, 5), ('trigger for person injured event', 6, 7), ('trigger for person injured event', 8, 9)]
-arguments [('defendant for charged or indicted event', (217, 219), ('trigger for charged or indicted event', 0, 1))]
-arguments [('victim for person death event', (233, 235), ('trigger for person death event', 2, 3))]
-arguments [('victim for person death event', (398, 400), ('trigger for person death event', 4, 5))]
-arguments [('victim for person injured event', (403, 405), ('trigger for person injured event', 6, 7))]
-arguments [('victim for person injured event', (410, 412), ('trigger for person injured event', 8, 9))]
-id 15
-triggers [('trigger for attack event', 0, 1), ('trigger for attack event', 2, 3), ('trigger for attack event', 4, 5)]
-arguments [('instrument for attack event', (205, 207), ('trigger for attack event', 0, 1))]
-arguments [('target for attack event', (243, 245), ('trigger for attack event', 2, 3))]
-arguments [('target for attack event', (385, 387), ('trigger for attack event', 4, 5)), ('explosive device for attack event', (389, 391), ('trigger for attack event', 4, 5))]
-id 16
-triggers [('trigger for person death event', 0, 1), ('trigger for person injured event', 2, 3), ('trigger for attack event', 4, 5), ('trigger for person death event', 6, 7), ('trigger for person injured event', 8, 9), ('trigger for person death event', 10, 11), ('trigger for person injured event', 12, 13)]
-arguments [('victim for person death event', (212, 214), ('trigger for person death event', 0, 1))]
-arguments [('victim for person injured event', (246, 248), ('trigger for person injured event', 2, 3))]
-arguments [('place for attack event', (256, 258), ('trigger for attack event', 4, 5))]
-arguments [('victim for person death event', (317, 319), ('trigger for person death event', 6, 7))]
-arguments [('victim for person injured event', (321, 323), ('trigger for person injured event', 8, 9))]
-arguments [('victim for person death event', (486, 488), ('trigger for person death event', 10, 11))]
-arguments [('victim for person injured event', (490, 492), ('trigger for person injured event', 12, 13))]
-id 17
-triggers [('trigger for attack event', 0, 1), ('trigger for attack event', 2, 3), ('trigger for person death event', 4, 5)]
-arguments [('place for attack event', (256, 258), ('trigger for attack event', 0, 1)), ('place for attack event', (292, 294), ('trigger for attack event', 0, 1))]
-arguments [('target for attack event', (347, 349), ('trigger for attack event', 2, 3)), ('place for attack event', (349, 351), ('trigger for attack event', 2, 3))]
-arguments [('victim for person death event', (353, 355), ('trigger for person death event', 4, 5))]
-id 18
+id backpack_ied_13
+triggers [('trigger for attack event', 2, 4)]
+arguments [('explosive device for attack event', (265, 266), ('trigger for attack event', 2, 4)), ('place for attack event', (268, 270), ('trigger for attack event', 2, 4))]
+id backpack_ied_20
+triggers [('trigger for person death event', 2, 4), ('trigger for attack event', 4, 6), ('trigger for attack event', 6, 8)]
+arguments [('victim for person death event', (220, 221), ('trigger for person death event', 2, 4))]
+arguments [('place for attack event', (234, 235), ('trigger for attack event', 4, 6)), ('place for attack event', (236, 237), ('trigger for attack event', 4, 6)), ('place for attack event', (238, 239), ('trigger for attack event', 4, 6)), ('place for attack event', (240, 241), ('trigger for attack event', 4, 6))]
+arguments [('place for attack event', (247, 251), ('trigger for attack event', 6, 8)), ('place for attack event', (252, 254), ('trigger for attack event', 6, 8))]
+id scenario_en_kairos_16
+triggers [('trigger for attack event', 2, 4), ('trigger for communication event', 4, 6), ('trigger for communication event', 6, 8), ('trigger for communication event', 8, 10)]
+arguments [('target for attack event', (282, 285), ('trigger for attack event', 2, 4)), ('place for attack event', (290, 291), ('trigger for attack event', 2, 4))]
+arguments [('participant for communication event', (311, 313), ('trigger for communication event', 4, 6))]
+arguments [('participant for communication event', (334, 336), ('trigger for communication event', 6, 8)), ('participant for communication event', (337, 339), ('trigger for communication event', 6, 8))]
+arguments [('participant for communication event', (343, 345), ('trigger for communication event', 8, 10))]
+id scenario_en_kairos_2
 triggers []
 arguments []
-id 19
-triggers [('trigger for arrest or jail with detainment event', 0, 1), ('trigger for arrest or jail with detainment event', 2, 3), ('trigger for arrest or jail with detainment event', 4, 5)]
-arguments [('detainee for arrest or jail with detainment event', (218, 220), ('trigger for arrest or jail with detainment event', 0, 1))]
-arguments [('detainee for arrest or jail with detainment event', (259, 262), ('trigger for arrest or jail with detainment event', 2, 3))]
-arguments [('detainee for arrest or jail with detainment event', (343, 345), ('trigger for arrest or jail with detainment event', 4, 5)), ('detainee for arrest or jail with detainment event', (345, 347), ('trigger for arrest or jail with detainment event', 4, 5))]
-id 2
+id scenario_en_kairos_30
 triggers []
 arguments []
-id 20
-triggers [('trigger for person death event', 0, 1)]
-arguments [('victim for person death event', (102, 104), ('trigger for person death event', 0, 1))]
-id 3
-triggers [('trigger for attack event', 0, 1), ('trigger for sentencing event', 2, 3), ('trigger for convicted trial prosecution event', 4, 5), ('trigger for person death event', 6, 7), ('trigger for attack event', 8, 9)]
-arguments [('place for attack event', (203, 204), ('trigger for attack event', 0, 1))]
-arguments [('judge or court for sentencing event', (214, 216), ('trigger for sentencing event', 2, 3))]
-arguments [('defendant for convicted trial prosecution event', (388, 390), ('trigger for convicted trial prosecution event', 4, 5))]
-arguments [('victim for person death event', (395, 397), ('trigger for person death event', 6, 7))]
-arguments [('attacker for attack event', (420, 422), ('trigger for attack event', 8, 9)), ('target for attack event', (452, 454), ('trigger for attack event', 8, 9)), ('attacker for attack event', (457, 459), ('trigger for attack event', 8, 9))]
-id 4
+id scenario_en_kairos_68
 triggers []
 arguments []
-id 5
+id suicide_ied_100
+triggers [('trigger for person death event', 2, 4), ('trigger for person injured event', 4, 6), ('trigger for attack event', 6, 8), ('trigger for person death event', 8, 10), ('trigger for person injured event', 10, 12), ('trigger for person death event', 12, 14), ('trigger for attack event', 14, 16), ('trigger for attack event', 16, 18), ('trigger for person death event', 18, 20)]
+arguments [('killer for person death event', (231, 233), ('trigger for person death event', 2, 4)), ('victim for person death event', (236, 237), ('trigger for person death event', 2, 4))]
+arguments [('victim for person injured event', (240, 241), ('trigger for person injured event', 4, 6))]
+arguments [('place for attack event', (254, 255), ('trigger for attack event', 6, 8))]
+arguments [('victim for person death event', (263, 264), ('trigger for person death event', 8, 10))]
+arguments [('victim for person injured event', (268, 269), ('trigger for person injured event', 10, 12))]
+arguments [('victim for person death event', (290, 291), ('trigger for person death event', 12, 14))]
+arguments [('place for attack event', (331, 332), ('trigger for attack event', 14, 16))]
+arguments [('attacker for attack event', (364, 365), ('trigger for attack event', 16, 18)), ('target for attack event', (375, 376), ('trigger for attack event', 16, 18)), ('explosive device for attack event', (379, 380), ('trigger for attack event', 16, 18))]
+arguments [('victim for person death event', (382, 383), ('trigger for person death event', 18, 20)), ('killer for person death event', (385, 386), ('trigger for person death event', 18, 20))]
+id wiki_drone_strikes_0_news_1
 triggers []
 arguments []
-id 6
-triggers [('trigger for communication event', 0, 1), ('trigger for attack event', 2, 3)]
-arguments [('participant for communication event', (206, 209), ('trigger for communication event', 0, 1))]
-arguments [('place for attack event', (229, 231), ('trigger for attack event', 2, 3))]
-id 7
-triggers [('trigger for attack event', 0, 1), ('trigger for attack event', 2, 3)]
-arguments [('explosive device for attack event', (209, 211), ('trigger for attack event', 0, 1))]
-arguments [('place for attack event', (251, 254), ('trigger for attack event', 2, 3))]
-id 8
-triggers [('trigger for attack event', 0, 1), ('trigger for person injured event', 2, 3), ('trigger for attack event', 4, 5), ('trigger for attack event', 6, 7), ('trigger for tried for crime event', 8, 9), ('trigger for convicted trial prosecution event', 10, 11), ('trigger for attack event', 12, 13)]
-arguments [('attacker for attack event', (226, 228), ('trigger for attack event', 0, 1)), ('explosive device for attack event', (231, 233), ('trigger for attack event', 0, 1)), ('target for attack event', (238, 240), ('trigger for attack event', 0, 1))]
-arguments [('victim for person injured event', (242, 244), ('trigger for person injured event', 2, 3))]
-arguments [('attacker for attack event', (251, 253), ('trigger for attack event', 4, 5))]
-arguments [('victim for person injured event', (272, 274), ('trigger for attack event', 6, 7)), ('attacker for attack event', (280, 282), ('trigger for attack event', 6, 7))]
-arguments [('judge or court for tried for crime event', (299, 302), ('trigger for tried for crime event', 8, 9))]
-arguments [('defendant for convicted trial prosecution event', (306, 308), ('trigger for convicted trial prosecution event', 10, 11))]
-arguments [('place for attack event', (349, 351), ('trigger for attack event', 12, 13)), ('attacker for attack event', (381, 383), ('trigger for attack event', 12, 13)), ('place for attack event', (393, 396), ('trigger for attack event', 12, 13))]
-id 9
-triggers []
-arguments []
+id wiki_drone_strikes_1_news_1
+triggers [('trigger for arrest or jail with detainment event', 4, 6)]
+arguments [('detainee for arrest or jail with detainment event', (346, 347), ('trigger for arrest or jail with detainment event', 4, 6))]
+id wiki_ied_bombings_10
+triggers [('trigger for person injured event', 2, 4), ('trigger for person injured event', 4, 6)]
+arguments [('victim for person injured event', (233, 234), ('trigger for person injured event', 2, 4))]
+arguments [('victim for person injured event', (244, 245), ('trigger for person injured event', 4, 6))]
+id wiki_ied_bombings_5_news_3
+triggers [('trigger for communication event', 2, 4), ('trigger for attack event', 4, 6), ('trigger for person death event', 6, 8)]
+arguments [('communicator for communication event', (254, 256), ('trigger for communication event', 2, 4))]
+arguments [('target for attack event', (316, 318), ('trigger for attack event', 4, 6)), ('target for attack event', (320, 321), ('trigger for attack event', 4, 6))]
+arguments [('killer for person death event', (332, 334), ('trigger for person death event', 6, 8))]
+id wiki_mass_car_bombings_0_news_9
+triggers [('trigger for person death event', 2, 4), ('trigger for arrest or jail with detainment event', 4, 6)]
+arguments [('victim for person death event', (354, 355), ('trigger for person death event', 2, 4))]
+arguments [('detainee for arrest or jail with detainment event', (383, 384), ('trigger for arrest or jail with detainment event', 4, 6))]
+id wiki_mass_car_bombings_1_news_8
+triggers [('trigger for person death event', 2, 4), ('trigger for attack event', 4, 6), ('trigger for attack event', 6, 8), ('trigger for attack event', 8, 10), ('trigger for person death event', 10, 12), ('trigger for person death event', 12, 14), ('trigger for transportation event', 14, 16)]
+arguments [('victim for person death event', (239, 240), ('trigger for person death event', 2, 4))]
+arguments [('place for attack event', (249, 251), ('trigger for attack event', 4, 6))]
+arguments [('place for attack event', (298, 299), ('trigger for attack event', 6, 8)), ('place for attack event', (305, 306), ('trigger for attack event', 6, 8))]
+arguments [('target for attack event', (343, 344), ('trigger for attack event', 8, 10))]
+arguments [('victim for person death event', (397, 398), ('trigger for person death event', 10, 12))]
+arguments [('victim for person death event', (477, 478), ('trigger for person death event', 12, 14))]
+arguments [('destination for transportation event', (486, 488), ('trigger for transportation event', 14, 16))]
+id wiki_mass_car_bombings_7_news_2
+triggers [('trigger for person injured event', 2, 4), ('trigger for attack event', 4, 6), ('trigger for person death event', 6, 8), ('trigger for person injured event', 8, 10), ('trigger for person death event', 10, 12), ('trigger for person death event', 12, 14)]
+arguments [('victim for person injured event', (247, 248), ('trigger for person injured event', 2, 4))]
+arguments [('explosive device for attack event', (296, 297), ('trigger for attack event', 4, 6)), ('explosive device for attack event', (300, 301), ('trigger for attack event', 4, 6)), ('place for attack event', (313, 314), ('trigger for attack event', 4, 6))]
+arguments [('victim for person death event', (318, 319), ('trigger for person death event', 6, 8))]
+arguments [('victim for person injured event', (322, 323), ('trigger for person injured event', 8, 10))]
+arguments [('victim for person death event', (407, 408), ('trigger for person death event', 10, 12))]
+arguments [('victim for person death event', (411, 412), ('trigger for person death event', 12, 14))]

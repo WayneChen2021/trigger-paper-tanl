@@ -13,6 +13,11 @@ experiments/MUC/g2_environments/keyword/single_pass/*
 !experiments/MUC/g2_environments/keyword/single_pass/test_predictions
 !experiments/MUC/g2_environments/keyword/single_pass/dev_predictions
 
+experiments/MUC/g2_environments/keyword/args_only/*
+!experiments/MUC/g2_environments/keyword/args_only/logs.json
+!experiments/MUC/g2_environments/keyword/args_only/test_predictions
+!experiments/MUC/g2_environments/keyword/args_only/dev_predictions
+
 experiments/MUC/g2_environments/human/default/*
 !experiments/MUC/g2_environments/human/default/logs.json
 !experiments/MUC/g2_environments/human/default/test_predictions
@@ -23,6 +28,11 @@ experiments/MUC/g2_environments/human/single_pass/*
 !experiments/MUC/g2_environments/human/single_pass/test_predictions
 !experiments/MUC/g2_environments/human/single_pass/dev_predictions
 
+experiments/MUC/g2_environments/human/args_only/*
+!experiments/MUC/g2_environments/human/args_only/logs.json
+!experiments/MUC/g2_environments/human/args_only/test_predictions
+!experiments/MUC/g2_environments/human/args_only/dev_predictions
+
 experiments/MUC/g2_environments/llm/default/*
 !experiments/MUC/g2_environments/llm/default/logs.json
 !experiments/MUC/g2_environments/llm/default/test_predictions
@@ -32,6 +42,11 @@ experiments/MUC/g2_environments/llm/single_pass/*
 !experiments/MUC/g2_environments/llm/single_pass/logs.json
 !experiments/MUC/g2_environments/llm/single_pass/test_predictions
 !experiments/MUC/g2_environments/llm/single_pass/dev_predictions
+
+experiments/MUC/g2_environments/llm/args_only/*
+!experiments/MUC/g2_environments/llm/args_only/logs.json
+!experiments/MUC/g2_environments/llm/args_only/test_predictions
+!experiments/MUC/g2_environments/llm/args_only/dev_predictions
 
 experiments/MUC/g2_environments/no_trig/no_trig/*
 !experiments/MUC/g2_environments/no_trig/no_trig/logs.json
@@ -48,6 +63,11 @@ experiments/WikiEvents/g2_environments/human/single_pass/*
 !experiments/WikiEvents/g2_environments/human/single_pass/test_predictions
 !experiments/WikiEvents/g2_environments/human/single_pass/dev_predictions
 
+experiments/WikiEvents/g2_environments/human/args_only/*
+!experiments/WikiEvents/g2_environments/human/args_only/logs.json
+!experiments/WikiEvents/g2_environments/human/args_only/test_predictions
+!experiments/WikiEvents/g2_environments/human/args_only/dev_predictions
+
 experiments/WikiEvents/g2_environments/keyword/default/*
 !experiments/WikiEvents/g2_environments/keyword/default/logs.json
 !experiments/WikiEvents/g2_environments/keyword/default/test_predictions
@@ -58,7 +78,29 @@ experiments/WikiEvents/g2_environments/keyword/single_pass/*
 !experiments/WikiEvents/g2_environments/keyword/single_pass/test_predictions
 !experiments/WikiEvents/g2_environments/keyword/single_pass/dev_predictions
 
+experiments/WikiEvents/g2_environments/keyword/args_only/*
+!experiments/WikiEvents/g2_environments/keyword/args_only/logs.json
+!experiments/WikiEvents/g2_environments/keyword/args_only/test_predictions
+!experiments/WikiEvents/g2_environments/keyword/args_only/dev_predictions
+
+experiments/WikiEvents/g2_environments/llm/default/*
+!experiments/WikiEvents/g2_environments/llm/default/logs.json
+!experiments/WikiEvents/g2_environments/llm/default/test_predictions
+!experiments/WikiEvents/g2_environments/llm/default/dev_predictions
+
+experiments/WikiEvents/g2_environments/llm/single_pass/*
+!experiments/WikiEvents/g2_environments/llm/single_pass/logs.json
+!experiments/WikiEvents/g2_environments/llm/single_pass/test_predictions
+!experiments/WikiEvents/g2_environments/llm/single_pass/dev_predictions
+
+experiments/WikiEvents/g2_environments/llm/args_only/*
+!experiments/WikiEvents/g2_environments/llm/args_only/logs.json
+!experiments/WikiEvents/g2_environments/llm/args_only/test_predictions
+!experiments/WikiEvents/g2_environments/llm/args_only/dev_predictions
+
 experiments/WikiEvents/g2_environments/no_trig/no_trig/*
 !experiments/WikiEvents/g2_environments/no_trig/no_trig/logs.json
 !experiments/WikiEvents/g2_environments/no_trig/no_trig/test_predictions
 !experiments/WikiEvents/g2_environments/no_trig/no_trig/dev_predictions
+
+experiments/RAMS/*

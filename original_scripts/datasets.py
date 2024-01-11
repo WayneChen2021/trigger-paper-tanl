@@ -1941,6 +1941,11 @@ class WikiEventsTriggerDataset(MUCEventTriggerDataset):
     data_name = 'wikievents'
 
 @register_dataset
+class RamsTriggerDataset(MUCEventTriggerDataset):
+    name = 'rams_trigger'
+    data_name = 'rams'
+
+@register_dataset
 class MUCNERMultiPhaseTrigger(MUCEventTriggerDataset):
     name = 'muc_ner_multiphase_trigger'
     data_name = 'muc_ner_multiphase'
@@ -2272,6 +2277,14 @@ class WikiEventsArgumentDataset(MUCEventArgumentDataset):
     default_output_format = 'muc_event'
 
 @register_dataset
+class RamsArgumentDataset(MUCEventArgumentDataset):
+    name = 'rams_argument'
+    data_name = 'rams'
+
+    default_input_format = 'muc_event_with_trigger'
+    default_output_format = 'muc_event'
+
+@register_dataset
 class MUCEventNoTrig(MUCEventArgumentDataset):
     name = 'mucevent_no_trig'
     data_name = 'mucevent_no_trig'
@@ -2374,6 +2387,201 @@ class WikiEventsNoTrig(MUCEventNoTrig):
     ]
 
 @register_dataset
+class Rams2LvlNoTrig(MUCEventNoTrig):
+    name = 'rams_2_no_trig'
+    data_name = 'rams_2_no_trig'
+
+    default_input_format = 'plain'
+    event_types = [
+        'transport artifact event',
+        'death event',
+        'attack event',
+        'injury event',
+        'commitment, promise, or expression of intent event',
+        'arrest, jail, or detain event',
+        'discussion event',
+        'person ends position event',
+        'transfer of ownership event',
+        'investigation event',
+        'collaboration event',
+        'agreement event',
+        'transport person event',
+        'command or order event',
+        'transfer money event',
+        'inititate judicial process event',
+        'prevarication event',
+        'negotiation event',
+        'threaten or coerce event',
+        'election event',
+        'statement from the media event',
+        'request or advise event',
+        'legislation event',
+        'judicial consequence event',
+        'fire or explosion event',
+        'transaction event',
+        'government formation event',
+        'yielding in conflict event',
+        'manufacture artifact event',
+        'sense or observation in inspection event',
+        'spying event',
+        'damaged or destroyed artifact event',
+        'person starts position at organization event',
+        'in person public statement event',
+        'demonstration event',
+        'funeral or vigil event',
+        'voting event',
+        'accident or crash event'
+    ]
+
+@register_dataset
+class Rams3LvlNoTrig(MUCEventNoTrig):
+    name = 'rams_3_no_trig'
+    data_name = 'rams_3_no_trig'
+
+    default_input_format = 'plain'
+    event_types = [
+        'non-violent throw or launch artifact event',
+        'death caused by violence event',
+        'concealed transportation of artifact event',
+        'self directed battle event',
+        'illness or physical degradation event',
+        'commitment, promise, or expression of intent event',
+        'arrest, jail, or detain event',
+        'meeting discussion event',
+        'injury caused by violence event',
+        'person ends position event',
+        'transfer of ownership event',
+        'crime investigation event',
+        'collaboration event',
+        'agreement violation event',
+        'prevent entry of person event',
+        'broadcasted command or order event',
+        'transfer money event',
+        'initiate judicial process event',
+        'broadcasted prevarication event',
+        'steal, rob, or hijack event',
+        'illness, degradation, hunger, or thirst event',
+        'negotiation meeting event',
+        'threaten or coerce event',
+        'broadcasted commitment, promise, or expression of intent event',
+        'election event',
+        'purchase via money event',
+        'media broadcast event',
+        'correspondence to request or advise event',
+        'disperse or separate when transporting artifact event',
+        'legislation event',
+        'prevent exit of person event',
+        'negotiation event',
+        'agreement event',
+        'injury event',
+        'extradition event',
+        'firing or layoff event',
+        'investigation event',
+        'send, supply, or export artifact event',
+        'accept agreement, contract, or ceasefire event',
+        'fire or explosion event',
+        'correspondence to collaborate event',
+        'transfer control in transaction event',
+        'gift, grant, or provide aid money event',
+        'correspondence for commitment or expression of intent event',
+        'air or missle strike event',
+        'government formation event',
+        'concealed transportation of person event',
+        'execution event',
+        'embargo or sanction event',
+        'stabbing event',
+        'retreating event',
+        'embargo or sanction on money transfer event',
+        'build artifact event',
+        'sense or observation in inspection event',
+        'trial hearing event',
+        'smuggle or extract artifact event',
+        'request or advise via broadcast event',
+        'meeting for commitment, promise, of expression of intent event',
+        'spying event',
+        'discussion event',
+        'command or order through correspondence event',
+        'judicial consequence event',
+        'attack with firearm event',
+        'prevarication in correspondence event',
+        'bring, carry, or unload artifact event',
+        'strangle event',
+        'request or advise event',
+        'destroyed artifact event',
+        'death event',
+        'threat or coercion in meeting event',
+        'hiring event',
+        'attack event',
+        'person quits or retires event',
+        'charge or indictment event',
+        'request or advise in meeting event',
+        'start government GPE event',
+        'payment for service event',
+        'win election event',
+        'grant entry or asylum event',
+        'transport artifact event',
+        'in person broadcast of public statement event',
+        'discussion in correspondence event',
+        'disperse or seperate when transporting person event',
+        'transfer of ownership via purchase event',
+        'transport person event',
+        'demonstration event',
+        'march, protest, or political gathering event',
+        'smuggle or extract person event',
+        'physically investigate or inspect event',
+        'in person public statement event',
+        'conviction event',
+        'meeting for funeral or vigil event',
+        'create or manufacture artifact event',
+        'yielding in conflict event',
+        'merge government GPE event',
+        'borrow or lend money event',
+        'transaction event',
+        'transfer ownership from embargo or sanction event',
+        'gift, grant, or provide aid in transaction event',
+        'damage artifact event',
+        'prevarication event',
+        'voting event',
+        'invasion event',
+        'threat or coercion in correspondence event',
+        'person starts position at organization event',
+        'funeral or vigil event',
+        'threat or coercion in broadcast event',
+        'biolgical chemical or poison attack event',
+        'bombing event',
+        'non-violent death event',
+        'collaborate in meeting event',
+        'negotiation in correspondence event',
+        'reject or nullify agreement, contract, or ceasefire event',
+        'accident or crash event',
+        'borrow or lend event',
+        'prevent exit when transporting artifact event',
+        'evacuation or rescue of person event',
+        'receive or import event',
+        'artifact damaged or destroyed event',
+        'grant entry when transporting artifact event',
+        'cast vote in election event',
+        'give commands or orders in meeting event',
+        'surrender in conflict event',
+        'command or order event',
+        'prevarication in meeting event',
+        'transfer ownership via gift, grant, or providing aid event',
+        'manufacture artifact event',
+        'inspect people or organization event',
+        'bring, carry, or unload person event',
+        'artifact falls during transportation event',
+        'monitoring election event',
+        'person falls during tranportation event',
+        'create intellectual property event',
+        'media statement event',
+        'hanging event',
+        'prevent entry for artifact transportation event',
+        'set fire to something event',
+        'self motion event',
+        'violations prevent vote event'
+    ]
+
+@register_dataset
 class MUCEventSinglePass(MUCEventNoTrig):
     name = 'mucevent_single_pass'
     data_name = 'mucevent_single_pass'
@@ -2384,6 +2592,20 @@ class MUCEventSinglePass(MUCEventNoTrig):
 class WikiEventsSinglePass(WikiEventsNoTrig):
     name = 'wikievents_single_pass'
     data_name = 'wikievents_single_pass'
+
+    default_input_format = 'plain'
+
+@register_dataset
+class Rams2LvlSinglePass(Rams2LvlNoTrig):
+    name = 'rams_2_single_pass'
+    data_name = 'rams_2_single_pass'
+
+    default_input_format = 'plain'
+
+@register_dataset
+class Rams3LvlSinglePass(Rams3LvlNoTrig):
+    name = 'rams_3_single_pass'
+    data_name = 'rams_3_single_pass'
 
     default_input_format = 'plain'
 
@@ -2909,6 +3131,258 @@ class WikiEventsDataset(WikiEventsArgumentDataset):
 
         return full_results
 
+@register_dataset
+class RamsDataset(RamsArgumentDataset):
+    name = 'rams'
+    task_descriptor = 'rams_trigger'
+    default_input_format = 'plain'
+    default_output_format = 'joint_er'
+    argument_input_format = 'ace2005_event_with_trigger'
+    argument_output_format = 'ace2005_event'
+
+    def load_data_single_split(self, split: str, seed: int = None) -> List[InputExample]:
+        """
+        Load data for a single split (train, dev, or test).
+        """
+        examples = []
+        name = self.name if self.data_name is None else self.data_name
+        file_path = os.path.join(self.data_dir(), f'{name}_{split}.json')
+
+        with open(file_path, 'r') as f:
+            data = json.load(f)
+            logging.info(
+                f"Loaded {len(data)} sentences for split {split} of {self.name}")
+
+            for i, x in enumerate(data):
+                entities = [
+                    Entity(
+                        id=j, type=self.entity_types[y['type']], start=y['start'], end=y['end'])
+                    for j, y in enumerate(x['entities'] if 'entities' in x else x['first_phase']['entities'])
+                ]
+
+                triggers = [
+                    Entity(
+                        id=j, type=self.entity_types[y['type']], start=y['start'], end=y['end'])
+                    for j, y in enumerate(x['triggers'] if 'triggers' in x else x['first_phase']['triggers'])
+                ]
+
+                relations = [
+                    # the trigger is the tail, and the entity is the head
+                    Relation(
+                        type=self.relation_types[y['type']
+                                                 ], head=entities[y['head']], tail=triggers[y['tail']]
+                    )
+                    for y in (x['relations'] if 'relations' in x else (x['first_phase']['relations'] if 'relations' in x['first_phase'] else []))
+                ]
+
+                output_triggers = [
+                    Entity(
+                        id=j, type=self.entity_types[y['type']], start=y['start'], end=y['end'])
+                    for j, y in enumerate(x['second_phase']['triggers'])
+                ] if 'second_phase' in x else []
+
+                tokens = x['tokens']
+
+                example = InputExample(
+                    id=x['id'],
+                    tokens=tokens,
+                    entities=entities,
+                    triggers=triggers,
+                    relations=relations,
+                    output_triggers=output_triggers
+                )
+
+                examples.append(example)
+
+        return examples
+
+    def evaluate_argument(self, output_format, example_argument_single_trigger: InputExample, example: InputExample,
+                          argument_output_sentence: str, log_file: str = None) -> Tuple[Set[tuple], Set[tuple], Set[tuple]]:
+        """
+        Perform argument prediction.
+        """
+        predicted_entities, predicted_relations, wrong_reconstruction = \
+            output_format.run_inference(example_argument_single_trigger,
+                                        argument_output_sentence,
+                                        entity_types=self.entity_types,
+                                        relation_types=self.relation_types)
+
+        # filter relation tuples for argument classification
+        # since we don't need the entity type to be predicted correct
+
+        def filter_relation_tuple(relation_tuple):
+            return relation_tuple[0], relation_tuple[1][1:], relation_tuple[2]
+
+        gt_relations = set(filter_relation_tuple(relation.to_tuple())
+                           for relation in example.relations)
+
+        # load ground truth relations to only have relations that are valid (exist in relation_schema)
+        filtered_predicted_relations = set()
+        for relation in predicted_relations:
+            if relation[2][0] in self.relation_schemas and relation[0] in self.relation_schemas[relation[2][0]]:
+                filtered_predicted_relations.add(
+                    filter_relation_tuple(relation))
+
+        predicted_relations = filtered_predicted_relations
+
+        if log_file:
+            with open(log_file, "a") as f:
+                f.write("arguments {}\n".format(
+                    list(predicted_relations)))
+
+        # compute correct relations
+        correct_relations = predicted_relations & gt_relations
+
+        return predicted_relations, gt_relations, correct_relations
+
+    def evaluate_dataset(self, data_args: DataTrainingArguments, model, device, batch_size: int, macro: bool = False, log_file: str = None, is_multiphase = False) \
+            -> Dict[str, float]:
+        """
+        Evaluate model on this dataset.
+        """
+        results = Counter()
+        idx = 0
+        for example, trigger_output_sentence in self.generate_output_sentences(data_args, model, device, batch_size):
+            # phase 1: trigger prediction
+            trigger_output_format = self.output_format
+            predicted_triggers = \
+                trigger_output_format.run_inference(
+                    example,
+                    trigger_output_sentence,
+                    entity_types=self.entity_types,
+                    relation_types=self.relation_types,
+                )[0]
+            gt_triggers = set(trigger.to_tuple()
+                              for trigger in example.triggers)
+            correct_triggers = predicted_triggers & gt_triggers
+            predicted_triggers_notype = set()
+            gt_triggers_notype = set()
+            # trigger tuple format: (type, start, end) -- resetting all types to the same as 'TYPE'
+            predicted_triggers = [trig for trig in predicted_triggers if any(trig[0] == trigger_obj.natural for trigger_obj in self.entity_types.values())]
+            if log_file:
+                with open(log_file, "a") as f:
+                    f.write("id {}\ntriggers {}\n".format(example.id, list(predicted_triggers)))
+            for trig in predicted_triggers:
+                trig_list = list(trig)
+                trig_list[0] = 'TYPE'
+                predicted_triggers_notype.add(tuple(trig_list))
+            for trig in gt_triggers:
+                trig_list = list(trig)
+                trig_list[0] = 'TYPE'
+                gt_triggers_notype.add(tuple(trig_list))
+            correct_triggers_notype = predicted_triggers_notype & gt_triggers_notype
+
+            # phase 2: argument classification
+            all_gt_relations, all_predicted_relations, all_correct_relations = set(), set(), set()
+            for trigger in predicted_triggers:
+                example_argument_single_trigger = copy.deepcopy(example)
+                trigger_type = None
+                for trigger_type in self.entity_types:
+                    if self.entity_types[trigger_type].natural == trigger[0]:
+                        break
+                
+                if not is_multiphase:
+                    example_argument_single_trigger.triggers = [
+                        Entity(type=self.entity_types[trigger_type], start=trigger[1], end=trigger[2])]
+                else:
+                    example_argument_single_trigger.output_triggers = [
+                            Entity(type=self.entity_types[trigger_type], start=trigger[1], end=trigger[2])]
+                    
+                argument_input_format = INPUT_FORMATS[self.argument_input_format](
+                )
+                argument_output_format = OUTPUT_FORMATS[self.argument_output_format](
+                )
+                example_input = argument_input_format.format_input(example_argument_single_trigger, multitask=True,
+                                                                task_descriptor=self.argument_input_format)
+                example_input_ids = self.tokenizer.batch_encode_plus(
+                    [example_input],
+                    max_length=data_args.max_seq_length,
+                    return_tensors='pt',
+                    padding='max_length',
+                    truncation=True
+                )
+                argument_outputs = model.generate(
+                    example_input_ids['input_ids'].to(device),
+                    max_length=data_args.max_output_seq_length_eval,
+                    num_beams=data_args.num_beams if data_args.num_beams else 1,
+                )
+                idx += 1
+                argument_output = argument_outputs[0]
+                argument_output_sentence = self.tokenizer.decode(argument_output, skip_special_tokens=True,
+                                                                clean_up_tokenization_spaces=False)
+
+                gt_relations, predicted_relations, correct_relations = \
+                    self.evaluate_argument(argument_output_format, example_argument_single_trigger, example,
+                                        argument_output_sentence, log_file)
+                all_gt_relations = all_gt_relations.union(gt_relations)
+                all_predicted_relations = all_predicted_relations.union(
+                    predicted_relations)
+                all_correct_relations = all_correct_relations.union(
+                    correct_relations)
+
+            all_predicted_relations_notype = set()
+            all_gt_relations_notype = set()
+            for rel in all_predicted_relations:
+                rel_list = list(rel)
+                rel_list[0] = 'TYPE'
+                all_predicted_relations_notype.add(tuple(rel_list))
+            for rel in all_gt_relations:
+                rel_list = list(rel)
+                rel_list[0] = 'TYPE'
+                all_gt_relations_notype.add(tuple(rel_list))
+
+            all_correct_relations_notype = all_predicted_relations_notype & all_gt_relations_notype
+            res = Counter({
+                'num_sentences': 1,
+                'gt_triggers': len(gt_triggers),
+                'predicted_triggers': len(predicted_triggers),
+                'correct_triggers': len(correct_triggers),
+                'correct_triggers_notype': len(correct_triggers_notype),
+                'predicted_relations': len(all_predicted_relations),
+                'gt_relations': len(all_gt_relations),
+                'correct_relations': len(all_correct_relations),
+                'correct_relations_notype': len(all_correct_relations_notype)
+            })
+
+            results += res
+
+        trigger_precision, trigger_recall, trigger_f1 = get_precision_recall_f1(
+            num_correct=results['correct_triggers'],
+            num_predicted=results['predicted_triggers'],
+            num_gt=results['gt_triggers'],
+        )
+        trigger_precision_notype, trigger_recall_notype, trigger_f1_notype = get_precision_recall_f1(
+            num_correct=results['correct_triggers_notype'],
+            num_predicted=results['predicted_triggers'],
+            num_gt=results['gt_triggers'],
+        )
+        relation_precision, relation_recall, relation_f1 = get_precision_recall_f1(
+            num_correct=results['correct_relations'],
+            num_predicted=results['predicted_relations'],
+            num_gt=results['gt_relations'],
+        )
+        relation_precision_notype, relation_recall_notype, relation_f1_notype = get_precision_recall_f1(
+            num_correct=results['correct_relations_notype'],
+            num_predicted=results['predicted_relations'],
+            num_gt=results['gt_relations'],
+        )
+
+        full_results = {
+            'relation_precision': relation_precision,
+            'relation_recall': relation_recall,
+            'relation_f1': relation_f1,
+            'relation_precision_notype': relation_precision_notype,
+            'relation_recall_notype': relation_recall_notype,
+            'relation_f1_notype': relation_f1_notype,
+            'trigger_precision': trigger_precision,
+            'trigger_recall': trigger_recall,
+            'trigger_f1': trigger_f1,
+            'trigger_precision_notype': trigger_precision_notype,
+            'trigger_recall_notype': trigger_recall_notype,
+            'trigger_f1_notype': trigger_f1_notype,
+        }
+
+        return full_results
 
 @register_dataset
 class MUCNERMultiPhaseDataset(MUCEventDataset):

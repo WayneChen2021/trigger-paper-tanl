@@ -1,0 +1,1038 @@
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id scenario_en_62
+triggers []
+arguments []
+id 64_VOA_EN_NW_2017.06.05.3887168
+triggers [('trigger for attack event', 40, 41)]
+arguments [('place for attack event', (45, 46), ('trigger for attack event', 40, 41))]
+id 64_VOA_EN_NW_2017.06.05.3887168
+triggers []
+arguments []
+id 64_VOA_EN_NW_2017.06.05.3887168
+triggers []
+arguments []
+id 64_VOA_EN_NW_2017.06.05.3887168
+triggers []
+arguments []
+id 64_VOA_EN_NW_2017.06.05.3887168
+triggers []
+arguments []
+id 64_VOA_EN_NW_2017.06.05.3887168
+triggers []
+arguments []
+id 64_VOA_EN_NW_2017.06.05.3887168
+triggers []
+arguments []
+id 64_VOA_EN_NW_2017.06.05.3887168
+triggers []
+arguments []
+id 64_VOA_EN_NW_2017.06.05.3887168
+triggers []
+arguments []
+id 64_VOA_EN_NW_2017.06.05.3887168
+triggers []
+arguments []
+id 64_VOA_EN_NW_2017.06.05.3887168
+triggers []
+arguments []
+id 64_VOA_EN_NW_2017.06.05.3887168
+triggers []
+arguments []
+id suicide_ied_114
+triggers []
+arguments []
+id suicide_ied_114
+triggers []
+arguments []
+id suicide_ied_114
+triggers []
+arguments []
+id suicide_ied_114
+triggers []
+arguments []
+id scenario_en_8
+triggers []
+arguments []
+id scenario_en_8
+triggers []
+arguments []
+id scenario_en_8
+triggers []
+arguments []
+id scenario_en_8
+triggers []
+arguments []
+id scenario_en_85
+triggers []
+arguments []
+id scenario_en_85
+triggers []
+arguments []
+id 32_VOA_EN_NW_2014.06.04.1929720
+triggers []
+arguments []
+id 32_VOA_EN_NW_2014.06.04.1929720
+triggers []
+arguments []
+id 32_VOA_EN_NW_2014.06.04.1929720
+triggers [('trigger for artifact destroyed event', 56, 57)]
+arguments [('artifact for artifact destroyed event', (46, 48), ('trigger for artifact destroyed event', 56, 57))]
+id 32_VOA_EN_NW_2014.06.04.1929720
+triggers []
+arguments []
+id 32_VOA_EN_NW_2014.06.04.1929720
+triggers [('trigger for person death event', 87, 88)]
+arguments [('victim for person death event', (89, 90), ('trigger for person death event', 87, 88))]
+id 32_VOA_EN_NW_2014.06.04.1929720
+triggers [('trigger for person injured event', 91, 92)]
+arguments [('victim for person injured event', (89, 90), ('trigger for person injured event', 91, 92))]
+id 32_VOA_EN_NW_2014.06.04.1929720
+triggers []
+arguments []
+id 32_VOA_EN_NW_2014.06.04.1929720
+triggers []
+arguments []
+id 32_VOA_EN_NW_2014.06.04.1929720
+triggers []
+arguments []
+id 32_VOA_EN_NW_2014.06.04.1929720
+triggers []
+arguments []
+id 32_VOA_EN_NW_2014.06.04.1929720
+triggers [('trigger for arrest or jail with detainment event', 192, 193)]
+arguments [('detainee for arrest or jail with detainment event', (46, 48), ('trigger for arrest or jail with detainment event', 192, 193))]
+id 32_VOA_EN_NW_2014.06.04.1929720
+triggers []
+arguments []
+id 32_VOA_EN_NW_2014.06.04.1929720
+triggers []
+arguments []
+id wiki_drone_strikes_2_news_8
+triggers []
+arguments []
+id wiki_drone_strikes_2_news_8
+triggers []
+arguments []
+id wiki_drone_strikes_2_news_8
+triggers []
+arguments []
+id wiki_drone_strikes_2_news_8
+triggers []
+arguments []
+id wiki_drone_strikes_2_news_8
+triggers []
+arguments []
+id wiki_drone_strikes_2_news_8
+triggers []
+arguments []
+id wiki_drone_strikes_2_news_8
+triggers []
+arguments []
+id scenario_en_7
+triggers []
+arguments []
+id scenario_en_7
+triggers []
+arguments []
+id scenario_en_7
+triggers []
+arguments []
+id scenario_en_7
+triggers []
+arguments []
+id scenario_en_7
+triggers []
+arguments []
+id road_ied_8
+triggers []
+arguments []
+id road_ied_8
+triggers []
+arguments []
+id road_ied_8
+triggers []
+arguments []
+id road_ied_8
+triggers []
+arguments []
+id road_ied_8
+triggers []
+arguments []
+id road_ied_8
+triggers []
+arguments []
+id road_ied_8
+triggers []
+arguments []
+id road_ied_8
+triggers []
+arguments []
+id road_ied_8
+triggers []
+arguments []
+id road_ied_8
+triggers []
+arguments []
+id road_ied_8
+triggers []
+arguments []
+id road_ied_8
+triggers []
+arguments []
+id road_ied_8
+triggers []
+arguments []
+id road_ied_8
+triggers []
+arguments []
+id road_ied_8
+triggers []
+arguments []
+id road_ied_8
+triggers []
+arguments []
+id wiki_ied_bombings_9
+triggers [('trigger for attack event', 6, 7)]
+arguments [('place for attack event', (2, 3), ('trigger for attack event', 6, 7))]
+id wiki_ied_bombings_9
+triggers [('trigger for person death event', 24, 25)]
+arguments [('victim for person death event', (26, 27), ('trigger for person death event', 24, 25))]
+id wiki_ied_bombings_9
+triggers [('trigger for person injured event', 206, 207)]
+arguments [('victim for person injured event', (199, 200), ('trigger for person injured event', 206, 207))]
+id wiki_ied_bombings_9
+triggers []
+arguments []
+id wiki_ied_bombings_9
+triggers [('trigger for attack event', 104, 105)]
+arguments [('place for attack event', (138, 141), ('trigger for attack event', 104, 105))]
+id wiki_ied_bombings_9
+triggers [('trigger for person death event', 232, 233)]
+arguments [('victim for person death event', (230, 231), ('trigger for person death event', 232, 233))]
+id wiki_ied_bombings_9
+triggers [('trigger for artifact destroyed event', 183, 184)]
+arguments [('artifact for artifact destroyed event', (178, 179), ('trigger for artifact destroyed event', 183, 184))]
+id wiki_ied_bombings_9
+triggers [('trigger for artifact destroyed event', 160, 161)]
+arguments [('artifact for artifact destroyed event', (163, 164), ('trigger for artifact destroyed event', 160, 161))]
+id wiki_ied_bombings_9
+triggers [('trigger for artifact destroyed event', 165, 166)]
+arguments [('artifact for artifact destroyed event', (163, 164), ('trigger for artifact destroyed event', 165, 166)), ('artifact for artifact destroyed event', (167, 168), ('trigger for artifact destroyed event', 165, 166))]
+id wiki_ied_bombings_9
+triggers [('trigger for artifact destroyed event', 117, 118)]
+arguments [('artifact for artifact destroyed event', (138, 141), ('trigger for artifact destroyed event', 117, 118))]
+id wiki_ied_bombings_9
+triggers [('trigger for person injured event', 206, 207)]
+arguments [('victim for person injured event', (26, 27), ('trigger for person injured event', 206, 207))]
+id wiki_ied_bombings_9
+triggers [('trigger for person death event', 40, 41)]
+arguments [('victim for person death event', (26, 27), ('trigger for person death event', 40, 41))]
+id wiki_ied_bombings_9
+triggers [('trigger for person injured event', 3, 4)]
+arguments [('victim for person injured event', (26, 27), ('trigger for person injured event', 3, 4))]
+id wiki_ied_bombings_9
+triggers [('trigger for person injured event', 107, 108)]
+arguments [('victim for person injured event', (138, 141), ('trigger for person injured event', 107, 108))]
+id wiki_ied_bombings_9
+triggers [('trigger for person death event', 40, 41)]
+arguments [('victim for person death event', (26, 27), ('trigger for person death event', 40, 41))]
+id wiki_ied_bombings_9
+triggers []
+arguments []
+id wiki_ied_bombings_9
+triggers []
+arguments []
+id wiki_ied_bombings_9
+triggers []
+arguments []
+id wiki_ied_bombings_9
+triggers [('trigger for person injured event', 107, 108)]
+arguments [('victim for person injured event', (138, 141), ('trigger for person injured event', 107, 108))]
+id wiki_ied_bombings_9
+triggers []
+arguments []
+id wiki_ied_bombings_9
+triggers [('trigger for attack event', 346, 347)]
+arguments [('place for attack event', (138, 141), ('trigger for attack event', 346, 347))]
+id wiki_ied_bombings_9
+triggers []
+arguments []
+id wiki_ied_bombings_9
+triggers []
+arguments []
+id wiki_ied_bombings_9
+triggers []
+arguments []
+id wiki_ied_bombings_9
+triggers []
+arguments []
+id wiki_ied_bombings_9
+triggers [('trigger for communication event', 16, 17)]
+arguments [('place for communication event', (13, 15), ('trigger for communication event', 16, 17))]
+id 65_VOA_EN_NW_2014.07.21.1962165
+triggers [('trigger for attack event', 150, 151)]
+arguments [('target for attack event', (152, 153), ('trigger for attack event', 150, 151))]
+id 65_VOA_EN_NW_2014.07.21.1962165
+triggers []
+arguments []
+id 65_VOA_EN_NW_2014.07.21.1962165
+triggers [('trigger for convicted trial prosecution event', 10, 11)]
+arguments [('defendant for convicted trial prosecution event', (18, 20), ('trigger for convicted trial prosecution event', 10, 11))]
+id 65_VOA_EN_NW_2014.07.21.1962165
+triggers [('trigger for attack event', 205, 206)]
+arguments [('attacker for attack event', (18, 20), ('trigger for attack event', 205, 206))]
+id 65_VOA_EN_NW_2014.07.21.1962165
+triggers []
+arguments []
+id 65_VOA_EN_NW_2014.07.21.1962165
+triggers []
+arguments []
+id 65_VOA_EN_NW_2014.07.21.1962165
+triggers [('trigger for person death event', 150, 151)]
+arguments [('victim for person death event', (152, 153), ('trigger for person death event', 150, 151))]
+id 65_VOA_EN_NW_2014.07.21.1962165
+triggers []
+arguments []
+id 65_VOA_EN_NW_2014.07.21.1962165
+triggers []
+arguments []
+id 65_VOA_EN_NW_2014.07.21.1962165
+triggers [('trigger for person death event', 205, 206)]
+arguments [('victim for person death event', (18, 20), ('trigger for person death event', 205, 206))]
+id 65_VOA_EN_NW_2014.07.21.1962165
+triggers []
+arguments []
+id scenario_en_kairos_60
+triggers [('trigger for person injured event', 20, 21), ('trigger for person injured event', 86, 87)]
+arguments [('victim for person injured event', (22, 23), ('trigger for person injured event', 20, 21))]
+arguments [('victim for person injured event', (102, 103), ('trigger for person injured event', 86, 87))]
+id scenario_en_kairos_60
+triggers [('trigger for attack event', 46, 47)]
+arguments [('attacker for attack event', (41, 43), ('trigger for attack event', 46, 47))]
+id scenario_en_kairos_60
+triggers [('trigger for attack event', 216, 217)]
+arguments [('attacker for attack event', (213, 216), ('trigger for attack event', 216, 217))]
+id scenario_en_kairos_60
+triggers [('trigger for medical intervention event', 20, 21)]
+arguments [('patient for medical intervention event', (22, 23), ('trigger for medical intervention event', 20, 21))]
+id scenario_en_kairos_60
+triggers [('trigger for person injured event', 86, 87), ('trigger for person injured event', 123, 124)]
+arguments [('victim for person injured event', (102, 103), ('trigger for person injured event', 86, 87))]
+arguments [('place for person injured event', (106, 107), ('trigger for person injured event', 123, 124))]
+id scenario_en_kairos_60
+triggers [('trigger for person injured event', 86, 87), ('trigger for person injured event', 123, 124)]
+arguments [('victim for person injured event', (102, 103), ('trigger for person injured event', 86, 87))]
+arguments [('victim for person injured event', (122, 123), ('trigger for person injured event', 123, 124))]
+id scenario_en_kairos_60
+triggers []
+arguments []
+id scenario_en_kairos_60
+triggers [('trigger for person injured event', 46, 47)]
+arguments [('victim for person injured event', (102, 103), ('trigger for person injured event', 46, 47)), ('place for person injured event', (106, 107), ('trigger for person injured event', 46, 47))]
+id scenario_en_kairos_60
+triggers []
+arguments []
+id scenario_en_kairos_60
+triggers [('trigger for attack event', 20, 21)]
+arguments [('target for attack event', (22, 23), ('trigger for attack event', 20, 21))]
+id scenario_en_kairos_60
+triggers []
+arguments []
+id scenario_en_kairos_60
+triggers []
+arguments []
+id scenario_en_kairos_60
+triggers [('trigger for attack event', 20, 21)]
+arguments [('target for attack event', (22, 23), ('trigger for attack event', 20, 21))]
+id scenario_en_kairos_60
+triggers [('trigger for person death event', 46, 47)]
+arguments [('victim for person death event', (102, 103), ('trigger for person death event', 46, 47)), ('place for person death event', (106, 107), ('trigger for person death event', 46, 47))]
+id scenario_en_kairos_60
+triggers []
+arguments []
+id scenario_en_kairos_60
+triggers [('trigger for contact to discuss topic event', 342, 343)]
+arguments [('communicator for contact to discuss topic event', (341, 342), ('trigger for contact to discuss topic event', 342, 343))]
+id scenario_en_kairos_60
+triggers []
+arguments []
+id scenario_en_kairos_60
+triggers []
+arguments []
+id suicide_ied_11
+triggers []
+arguments []
+id suicide_ied_11
+triggers []
+arguments []
+id suicide_ied_11
+triggers []
+arguments []
+id suicide_ied_11
+triggers []
+arguments []
+id suicide_ied_11
+triggers []
+arguments []
+id suicide_ied_11
+triggers []
+arguments []
+id suicide_ied_11
+triggers []
+arguments []
+id suicide_ied_11
+triggers []
+arguments []
+id suicide_ied_11
+triggers []
+arguments []
+id suicide_ied_11
+triggers []
+arguments []
+id suicide_ied_11
+triggers []
+arguments []
+id scenario_en_113
+triggers []
+arguments []
+id scenario_en_113
+triggers [('trigger for arrest or jail with detainment event', 86, 87)]
+arguments [('detainee for arrest or jail with detainment event', (21, 23), ('trigger for arrest or jail with detainment event', 86, 87))]
+id scenario_en_113
+triggers [('trigger for charged or indicted event', 173, 174)]
+arguments [('defendant for charged or indicted event', (170, 172), ('trigger for charged or indicted event', 173, 174))]
+id scenario_en_113
+triggers []
+arguments []
+id scenario_en_113
+triggers []
+arguments []
+id scenario_en_113
+triggers []
+arguments []
+id scenario_en_113
+triggers [('trigger for criminal activity event', 54, 55)]
+arguments [('perpetrator for criminal activity event', (21, 23), ('trigger for criminal activity event', 54, 55))]
+id scenario_en_113
+triggers [('trigger for criminal activity event', 163, 164)]
+arguments [('perpetrator for criminal activity event', (170, 172), ('trigger for criminal activity event', 163, 164))]
+id scenario_en_113
+triggers [('trigger for criminal activity event', 163, 164)]
+arguments [('perpetrator for criminal activity event', (170, 172), ('trigger for criminal activity event', 163, 164))]
+id scenario_en_113
+triggers []
+arguments []
+id road_ied_12
+triggers []
+arguments []
+id road_ied_12
+triggers []
+arguments []
+id road_ied_12
+triggers []
+arguments []
+id road_ied_12
+triggers []
+arguments []
+id scenario_en_kairos_61
+triggers []
+arguments []
+id scenario_en_kairos_61
+triggers []
+arguments []
+id scenario_en_kairos_61
+triggers []
+arguments []
+id scenario_en_kairos_61
+triggers []
+arguments []
+id scenario_en_kairos_61
+triggers []
+arguments []
+id scenario_en_kairos_61
+triggers []
+arguments []
+id scenario_en_kairos_61
+triggers []
+arguments []
+id scenario_en_kairos_61
+triggers []
+arguments []
+id scenario_en_kairos_61
+triggers []
+arguments []
+id scenario_en_kairos_61
+triggers []
+arguments []
+id scenario_en_kairos_61
+triggers []
+arguments []
+id scenario_en_kairos_61
+triggers []
+arguments []
+id scenario_en_kairos_61
+triggers []
+arguments []
+id scenario_en_kairos_61
+triggers []
+arguments []
+id scenario_en_kairos_61
+triggers []
+arguments []
+id scenario_en_kairos_61
+triggers []
+arguments []
+id scenario_en_kairos_61
+triggers []
+arguments []
+id scenario_en_kairos_61
+triggers []
+arguments []
+id scenario_en_kairos_61
+triggers [('trigger for communication event', 113, 114)]
+arguments [('communicator for communication event', (110, 112), ('trigger for communication event', 113, 114))]
+id scenario_en_kairos_61
+triggers []
+arguments []
+id scenario_en_kairos_61
+triggers []
+arguments []
+id scenario_en_kairos_61
+triggers []
+arguments []
+id scenario_en_kairos_61
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_3
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_3
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_3
+triggers [('trigger for person death event', 271, 272)]
+arguments [('victim for person death event', (265, 266), ('trigger for person death event', 271, 272)), ('victim for person death event', (269, 270), ('trigger for person death event', 271, 272))]
+id wiki_ied_bombings_1_news_3
+triggers [('trigger for person injured event', 85, 86)]
+arguments [('victim for person injured event', (75, 76), ('trigger for person injured event', 85, 86)), ('victim for person injured event', (81, 82), ('trigger for person injured event', 85, 86))]
+id wiki_ied_bombings_1_news_3
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_3
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_3
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_3
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_3
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_3
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_3
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_3
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_3
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_3
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_3
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_3
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_3
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_3
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_3
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_3
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_3
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_3
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_3
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_3
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_3
+triggers [('trigger for person death event', 85, 86)]
+arguments [('victim for person death event', (75, 76), ('trigger for person death event', 85, 86)), ('victim for person death event', (81, 82), ('trigger for person death event', 85, 86))]
+id wiki_ied_bombings_1_news_3
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_3
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_3
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_3
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_3
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_3
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_3
+triggers []
+arguments []
+id scenario_en_kairos_75
+triggers []
+arguments []
+id scenario_en_kairos_75
+triggers []
+arguments []
+id scenario_en_kairos_75
+triggers []
+arguments []
+id scenario_en_kairos_75
+triggers []
+arguments []
+id scenario_en_kairos_75
+triggers []
+arguments []
+id scenario_en_kairos_75
+triggers []
+arguments []
+id scenario_en_kairos_75
+triggers []
+arguments []
+id scenario_en_kairos_75
+triggers []
+arguments []
+id scenario_en_kairos_75
+triggers []
+arguments []
+id scenario_en_kairos_75
+triggers []
+arguments []
+id scenario_en_kairos_75
+triggers []
+arguments []
+id scenario_en_kairos_75
+triggers []
+arguments []
+id scenario_en_kairos_75
+triggers []
+arguments []
+id scenario_en_kairos_75
+triggers []
+arguments []
+id scenario_en_kairos_75
+triggers []
+arguments []
+id scenario_en_kairos_75
+triggers []
+arguments []
+id scenario_en_kairos_75
+triggers []
+arguments []
+id scenario_en_kairos_75
+triggers []
+arguments []
+id scenario_en_kairos_75
+triggers []
+arguments []
+id scenario_en_kairos_75
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers [('trigger for transportation event', 73, 74)]
+arguments [('passenger or artifact for transportation event', (68, 69), ('trigger for transportation event', 73, 74)), ('destination for transportation event', (75, 76), ('trigger for transportation event', 73, 74))]
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers [('trigger for communication event', 114, 115)]
+arguments [('communicator for communication event', (113, 114), ('trigger for communication event', 114, 115)), ('participant for communication event', (115, 116), ('trigger for communication event', 114, 115))]
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers [('trigger for person death event', 228, 229)]
+arguments [('victim for person death event', (226, 227), ('trigger for person death event', 228, 229)), ('victim for person death event', (231, 232), ('trigger for person death event', 228, 229))]
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers [('trigger for person injured event', 349, 350)]
+arguments [('victim for person injured event', (353, 354), ('trigger for person injured event', 349, 350))]
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers [('trigger for person death event', 127, 128)]
+arguments [('victim for person death event', (130, 131), ('trigger for person death event', 127, 128))]
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers [('trigger for attack event', 233, 234)]
+arguments [('target for attack event', (231, 232), ('trigger for attack event', 233, 234))]
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers [('trigger for contact to discuss topic event', 101, 102)]
+arguments [('communicator for contact to discuss topic event', (22, 24), ('trigger for contact to discuss topic event', 101, 102))]
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers [('trigger for artifact assembled event', 118, 119)]
+arguments [('manufacturer or assembler for artifact assembled event', (22, 24), ('trigger for artifact assembled event', 118, 119))]
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers [('trigger for artifact destroyed event', 293, 294)]
+arguments [('artifact for artifact destroyed event', (231, 232), ('trigger for artifact destroyed event', 293, 294))]

@@ -9,6 +9,7 @@ from abc import ABC, abstractmethod
 from collections import defaultdict
 from typing import Tuple, List, Dict
 import numpy as np
+import ast
 
 from input_example import InputFeatures, EntityType, RelationType, Entity, Relation, Intent, InputExample, CorefDocument
 from utils import augment_sentence, get_span
@@ -544,6 +545,33 @@ class EventOutputFormat(JointEROutputFormat):
             numerical_substrings = [int(count) for count in re.findall(r'\b\d+\b', input_string)]
             return numerical_substrings + [0] * (min_len - len(numerical_substrings))
 
+        def find_sublist_indices(larger_list, sublist):
+            sublist_length = len(sublist)
+            indices = []
+
+            for i in range(len(larger_list)):
+                if larger_list[i:i+sublist_length] == sublist:
+                    indices.append(i)
+
+            return indices
+
+        def find_trig(trig_span, toks, target_start, target_end):
+            sep_span = trig_span.split(' ')
+            location_heads = find_sublist_indices(toks, sep_span)
+            location_tails = [i + len(sep_span) - 1 for i in location_heads]
+            best_dist = len(toks)
+            candidate = None
+            for head, tail in zip(location_heads, location_tails):
+                dist = min([abs(head - target_start), abs(head - target_end), abs(tail - target_start), abs(tail - target_end)])
+                if dist < best_dist:
+                    best_dist = dist
+                    candidate = (head, tail)
+            
+            if candidate:
+                return (candidate[0], candidate[1] + 1)
+
+            return None, None
+
         if log_file:
             trigs_to_args = {}
             event_types = {}
@@ -572,16 +600,20 @@ class EventOutputFormat(JointEROutputFormat):
                         event_type = "attack"
                     
                     if event_type in event_type_names:
-                        if not event_name in trigs_to_args:
-                            trigs_to_args[event_name] = []
-                            event_types[event_name] = []
-                        trigs_to_args[event_name].append(
-                            [role_type, annotation[-2], annotation[-1]]
-                        )
-                        
-                        event_type = f"trigger for {event_type} event"
-                        event_types[event_name].append(event_type)
-                        nonempty_event_type_nums[event_type] += 1
+                        trig_head, trig_tail = find_trig(event_name, example.tokens, annotation[-2], annotation[-1])
+                        if trig_head:
+                            trig_tup_str = str((event_name, event_type, trig_head, trig_tail))
+
+                            if not trig_tup_str in trigs_to_args:
+                                trigs_to_args[trig_tup_str] = []
+                                event_types[trig_tup_str] = []
+                            trigs_to_args[trig_tup_str].append(
+                                [role_type, annotation[-2], annotation[-1]]
+                            )
+                            
+                            event_type = f"trigger for {event_type} event"
+                            event_types[trig_tup_str].append(event_type)
+                            nonempty_event_type_nums[event_type] += 1
 
             empty_event_types = {
                 template_type: stated_event_type_nums[template_type] - nonempty_event_type_nums[template_type]
@@ -590,16 +622,16 @@ class EventOutputFormat(JointEROutputFormat):
             counter = 0
             for event_type, count in empty_event_types.items():
                 for _ in range(0, count):
-                    trigger_name = f"event -{counter}"
-                    trigs_to_args[trigger_name] = []
-                    event_types[trigger_name] = [f"trigger for {event_type} event"]
+                    trig_tup_str = str((f"event -{counter}", event_type, -1 * counter, -1 * (counter + 1)))
+                    trigs_to_args[trig_tup_str] = []
+                    event_types[trig_tup_str] = [f"trigger for {event_type} event"]
                     counter += 1
 
             triggers, arguments = [], []
             for i, (trigger_name, args) in enumerate(trigs_to_args.items()):
                 possible_event_types = event_types[trigger_name]
-                trigger_type = max(set(possible_event_types), key=possible_event_types.count)
-                trigger_tup = (trigger_type, i * 2, i * 2 + 1)
+                trigger_tup = list(ast.literal_eval(trigger_name)[1:])
+                trigger_tup = (max(set(possible_event_types), key=possible_event_types.count), trigger_tup[-2], trigger_tup[-1])
                 triggers.append(trigger_tup)
                 arguments.append(
                     [(arg[0], (arg[-2], arg[-1]), trigger_tup) for arg in args]

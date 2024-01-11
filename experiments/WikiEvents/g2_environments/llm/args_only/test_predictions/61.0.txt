@@ -1,0 +1,60 @@
+id 20_VOA_EN_NW_2016.11.17.3601570
+triggers []
+arguments []
+id 20_VOA_EN_NW_2016.11.17.3601570
+triggers []
+arguments []
+id 20_VOA_EN_NW_2016.11.17.3601570
+triggers []
+arguments []
+id 20_VOA_EN_NW_2016.11.17.3601570
+triggers []
+arguments []
+id 20_VOA_EN_NW_2016.11.17.3601570
+triggers []
+arguments []
+id 20_VOA_EN_NW_2016.11.17.3601570
+triggers []
+arguments []
+id 20_VOA_EN_NW_2016.11.17.3601570
+triggers [('trigger for arrest or jail with detainment event', 256, 257)]
+arguments [('detainee for arrest or jail with detainment event', (254, 255), ('trigger for arrest or jail with detainment event', 256, 257))]
+id 20_VOA_EN_NW_2016.11.17.3601570
+triggers []
+arguments []
+id 20_VOA_EN_NW_2016.11.17.3601570
+triggers []
+arguments []
+id 20_VOA_EN_NW_2016.11.17.3601570
+triggers [('trigger for tried for crime event', 68, 69)]
+arguments [('defendant for tried for crime event', (70, 71), ('trigger for tried for crime event', 68, 69)), ('judge or court for tried for crime event', (78, 79), ('trigger for tried for crime event', 68, 69))]
+id 23_VOA_EN_NW_2015.11.24.3071320
+triggers []
+arguments []
+id 23_VOA_EN_NW_2015.11.24.3071320
+triggers []
+arguments []
+id 23_VOA_EN_NW_2015.11.24.3071320
+triggers []
+arguments []
+id 23_VOA_EN_NW_2015.11.24.3071320
+triggers [('trigger for person death event', 29, 30)]
+arguments [('victim for person death event', (196, 197), ('trigger for person death event', 29, 30))]
+id 23_VOA_EN_NW_2015.11.24.3071320
+triggers []
+arguments []
+id 23_VOA_EN_NW_2015.11.24.3071320
+triggers [('trigger for arrest or jail with detainment event', 102, 103)]
+arguments [('detainee for arrest or jail with detainment event', (122, 123), ('trigger for arrest or jail with detainment event', 102, 103))]
+id 23_VOA_EN_NW_2015.11.24.3071320
+triggers []
+arguments []
+id 23_VOA_EN_NW_2015.11.24.3071320
+triggers [('trigger for person injured event', 202, 203)]
+arguments [('victim for person injured event', (201, 202), ('trigger for person injured event', 202, 203))]
+id 23_VOA_EN_NW_2015.11.24.3071320
+triggers []
+arguments []
+id 23_VOA_EN_NW_2015.11.24.3071320
+triggers []
+arguments []

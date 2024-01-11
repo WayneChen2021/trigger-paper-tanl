@@ -1,0 +1,50 @@
+id 20_VOA_EN_NW_2016.11.17.3601570
+triggers []
+id 23_VOA_EN_NW_2015.11.24.3071320
+triggers [('trigger for person injured event', 202, 203)]
+arguments []
+id 38_VOA_EN_NW_2013.04.24.1647602
+triggers []
+id 53_VOA_EN_NW_2015.06.24.2835606
+triggers []
+id JC002YBW0
+triggers []
+id K0C041O37
+triggers [('trigger for attack event', 282, 283)]
+arguments []
+id backpack_ied_13
+triggers [('trigger for attack event', 170, 171)]
+arguments []
+id backpack_ied_20
+triggers [('trigger for attack event', 8, 9)]
+arguments []
+id scenario_en_kairos_16
+triggers []
+id scenario_en_kairos_2
+triggers []
+id scenario_en_kairos_30
+triggers []
+id scenario_en_kairos_68
+triggers []
+id suicide_ied_100
+triggers [('trigger for transportation event', 165, 166), ('trigger for person death event', 31, 32), ('trigger for attack event', 174, 175)]
+arguments []
+arguments []
+arguments []
+id wiki_drone_strikes_0_news_1
+triggers []
+id wiki_drone_strikes_1_news_1
+triggers []
+id wiki_ied_bombings_10
+triggers [('trigger for person injured event', 32, 33)]
+arguments [('victim for person injured event', (30, 31), ('trigger for person injured event', 32, 33))]
+id wiki_ied_bombings_5_news_3
+triggers [('trigger for arrest or jail with detainment event', 361, 362)]
+arguments []
+id wiki_mass_car_bombings_0_news_9
+triggers []
+id wiki_mass_car_bombings_1_news_8
+triggers []
+id wiki_mass_car_bombings_7_news_2
+triggers [('trigger for person injured event', 46, 47)]
+arguments []
