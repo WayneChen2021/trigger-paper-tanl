@@ -215,8 +215,8 @@ id 65_VOA_EN_NW_2014.07.21.1962165
 triggers []
 arguments []
 id 65_VOA_EN_NW_2014.07.21.1962165
-triggers [('trigger for person injured event', 154, 155)]
-arguments [('victim for person injured event', (158, 159), ('trigger for person injured event', 154, 155))]
+triggers []
+arguments []
 id 65_VOA_EN_NW_2014.07.21.1962165
 triggers []
 arguments []

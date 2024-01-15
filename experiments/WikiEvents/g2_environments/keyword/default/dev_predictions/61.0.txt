@@ -120,3 +120,26 @@ id scenario_en_kairos_61
 triggers []
 id wiki_ied_bombings_1_news_3
 triggers [('trigger for attack event', 138, 139), ('trigger for attack event', 220, 221), ('trigger for attack event', 178, 179), ('trigger for attack event', 62, 63), ('trigger for attack event', 212, 213), ('trigger for person death event', 160, 161), ('trigger for person death event', 85, 86), ('trigger for person injured event', 85, 86), ('trigger for attack event', 206, 207), ('trigger for attack event', 271, 272), ('trigger for person death event', 271, 272), ('trigger for attack event', 160, 161)]
+arguments []
+arguments []
+arguments []
+arguments []
+arguments []
+arguments []
+arguments []
+arguments []
+arguments []
+arguments []
+arguments []
+arguments []
+id scenario_en_kairos_75
+triggers []
+id scenario_en_kairos_73
+triggers [('trigger for attack event', 34, 35)]
+arguments []
+id wiki_ied_bombings_1_news_4
+triggers [('trigger for attack event', 79, 80), ('trigger for person death event', 228, 229), ('trigger for attack event', 127, 128), ('trigger for criminal activity event', 79, 80)]
+arguments []
+arguments []
+arguments []
+arguments []

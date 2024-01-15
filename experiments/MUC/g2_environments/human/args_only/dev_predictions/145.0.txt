@@ -1,0 +1,39 @@
+id TST1-MUC3-0001
+triggers [('trigger for attack event', 20, 21)]
+arguments [('perpetrating individual for attack event', (19, 20), ('trigger for attack event', 20, 21)), ('target for attack event', (22, 28), ('trigger for attack event', 20, 21))]
+id TST1-MUC3-0001
+triggers [('trigger for arson event', 197, 198)]
+arguments [('perpetrating individual for arson event', (19, 20), ('trigger for arson event', 197, 198))]
+id TST1-MUC3-0001
+triggers [('trigger for robbery event', 20, 21)]
+arguments [('perpetrating individual for robbery event', (19, 20), ('trigger for robbery event', 20, 21)), ('target for robbery event', (22, 28), ('trigger for robbery event', 20, 21))]
+id TST1-MUC3-0001
+triggers []
+arguments []
+id TST1-MUC3-0001
+triggers [('trigger for arson event', 253, 254)]
+arguments [('target for arson event', (255, 257), ('trigger for arson event', 253, 254))]
+id TST1-MUC3-0002
+triggers []
+arguments []
+id TST1-MUC3-0004
+triggers [('trigger for bombing event', 31, 32)]
+arguments [('target for bombing event', (22, 25), ('trigger for bombing event', 31, 32)), ('weapon for bombing event', (27, 28), ('trigger for bombing event', 31, 32)), ('weapon for bombing event', (97, 98), ('trigger for bombing event', 31, 32)), ('weapon for bombing event', (99, 101), ('trigger for bombing event', 31, 32))]
+id TST1-MUC3-0006
+triggers [('trigger for attack event', 51, 52)]
+arguments [('victim for attack event', (56, 59), ('trigger for attack event', 51, 52))]
+id TST1-MUC3-0011
+triggers [('trigger for attack event', 59, 60)]
+arguments [('victim for attack event', (70, 72), ('trigger for attack event', 59, 60))]
+id TST1-MUC3-0016
+triggers [('trigger for bombing event', 105, 106)]
+arguments [('target for bombing event', (116, 117), ('trigger for bombing event', 105, 106))]
+id TST1-MUC3-0018
+triggers [('trigger for kidnapping event', 49, 50)]
+arguments [('victim for kidnapping event', (54, 57), ('trigger for kidnapping event', 49, 50)), ('perpetrating individual for kidnapping event', (84, 86), ('trigger for kidnapping event', 49, 50))]
+id TST1-MUC3-0019
+triggers []
+arguments []
+id TST1-MUC3-0022
+triggers []
+arguments []
