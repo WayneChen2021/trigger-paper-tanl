@@ -31,6 +31,7 @@ def to_error_analysis_format_event(triplets, types_mapping, roles):
                 }
                 for role in roles:
                     trig_to_template[new_trig_tup][role] = []
+                trig_to_template[new_trig_tup]['Triggers'] = [[" ".join(triplet["tanl"]["tokens"][trig_tup[-2] : trig_tup[-1]])]]
             except KeyError:
                 print("type '{}' not identified".format(trig_tup[0]))
         
@@ -129,17 +130,17 @@ def handle_buffer_event(buffers):
         splits = []
         for line in buffer:
             if line.startswith("id"):
-                id = line[3:17].strip()  # maybe have to check indexing
+                docid = line[3:17].strip()  # maybe have to check indexing
 
-                if document["id"] != None and document["id"] != id:
+                if document["id"] != None and document["id"] != docid:
                     splits.append(deepcopy(document))
                     document = {
-                        "id": id,
+                        "id": docid,
                         "triggers": set(),
                         "args": set()
                     }
                 else:
-                    document["id"] = id
+                    document["id"] = docid
             elif line.startswith("triggers"):
                 # maybe have to check indexing
                 document["triggers"] = document["triggers"].union(
@@ -181,17 +182,23 @@ def handle_buffer_event(buffers):
 #     if os.path.exists("_.out"):
 #         os.remove("_.out")
 
-def error_analysis_event(model_out, tanl_ref, gtt_ref, error_analysis, types_mapping, out_file, roles, config_path, relax_match):
+def error_analysis_event(model_out, tanl_ref, gtt_ref, error_analysis, types_mapping, out_file, roles, config_path, relax_match, filter_lst=None):
     error_analysis_inputs = BaseProcessing.get_error_analysis_input(model_out, tanl_ref, gtt_ref, handle_buffer_event, to_error_analysis_format_event, types_mapping, roles)
     with open("temp.json", "w") as f:
         f.write(json.dumps(error_analysis_inputs[0]))
     
-    if relax_match:
-        os.system(f'python3 {error_analysis} --config {config_path} --in_file "temp.json" --out_file {out_file} --relax_match')
+    if filter_lst:
+        if relax_match:
+            os.system(f'python3 {error_analysis} --config {config_path} --in_file "temp.json" --out_file {out_file} --filter_lst {filter_lst} --relax_match')
+        else:
+            os.system(f'python3 {error_analysis} --config {config_path} --in_file "temp.json" --out_file {out_file} --filter_lst {filter_lst}')
     else:
-        os.system(f'python3 {error_analysis} --config {config_path} --in_file "temp.json" --out_file {out_file}')
+        if relax_match:
+            os.system(f'python3 {error_analysis} --config {config_path} --in_file "temp.json" --out_file {out_file} --relax_match')
+        else:
+            os.system(f'python3 {error_analysis} --config {config_path} --in_file "temp.json" --out_file {out_file}')
     
-    os.remove("temp.json")
+    # os.remove("temp.json")
 
 
 # def error_analysis_ner(model_out, tanl_ref, gtt_ref, error_analysis, out_file):

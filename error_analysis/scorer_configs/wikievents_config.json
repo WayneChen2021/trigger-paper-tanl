@@ -93,6 +93,7 @@
         "Prosecutor",
         "Dismantler",
         "DamagerDestroyer",
-        "Origin"
+        "Origin",
+        "Triggers"
     ]
 }

@@ -12,6 +12,7 @@
         "PerpOrg",
         "Target",
         "Victim",
-        "Weapon"
+        "Weapon",
+        "Triggers"
     ]
 }

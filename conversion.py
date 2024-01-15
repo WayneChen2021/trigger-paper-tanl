@@ -213,7 +213,12 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
         gtt['doctext'] = gtt['doctext'].lower().replace("[", "(").replace("]", ")")
         del gtt['source']
         for template in gtt['templates']:
-            del template['Triggers']
+            formatted_trigs = []
+            for trig in template['Triggers']:
+                if trig[0][0] != 'DUMMY TRIGGER':
+                    formatted_trigs.append([trig[0][0]])
+            template['Triggers'] = formatted_trigs
+
             for role, entities in template.items():
                 if role in relation_map:
                     template[role] = [[[tup[0].lower().replace("[", "(").replace("]", ")")] for tup in coref_span_lst] for coref_span_lst in entities]

@@ -6,18 +6,18 @@ def add_annotations(examples, tanl_info, gtt_info):
         return [
             {
                 "model_out": example,
-                "tanl": tanl_info[i],
-                "gtt": gtt_info[i]
+                "tanl": list(filter(lambda info : example['id'] in info['id'], tanl_info))[0],
+                "gtt": list(filter(lambda info : example['id'] in info['docid'], gtt_info))[0]
             }
-            for i, example in enumerate(examples)
+            for example in examples
         ]
 
     return [
         {
             "model_out": example,
-            "tanl": tanl_info[i]
+            "tanl": list(filter(lambda info : example['id'] in info['id'], tanl_info))[0]
         }
-        for i, example in enumerate(examples)
+        for example in examples
     ]
 
 def split_to_multi_section(file):

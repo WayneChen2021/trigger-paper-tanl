@@ -1,1 +1,75 @@
-{"overall_f1": 0.23309053069719043, "overall_precision": 0.2955145118733509, "overall_recall": 0.19243986254295534, "event_type_f1": 0.5083612040133779, "event_type_precision": 0.8, "event_type_recall": 0.37254901960784315, "argument_f1": 0.10876132930513595, "argument_precision": 0.8181818181818182, "argument_recall": 0.05825242718446602, "event_type_metrics_per_class": {"attack": {"f1": 0.42045454545454547, "precision": 0.7551020408163265, "recall": 0.29133858267716534}, "bombing": {"f1": 0.7173913043478262, "precision": 0.8918918918918919, "recall": 0.6}, "kidnapping": {"f1": 0.5217391304347826, "precision": 0.6666666666666666, "recall": 0.42857142857142855}, "arson": {"f1": 0.0, "precision": 0.0, "recall": 0.0}, "forced work stoppage": {"f1": 0.0, "precision": 0.0, "recall": 0.0}, "robbery": {"f1": 0.0, "precision": 0.0, "recall": 0.0}}, "argument_type_metrics_per_class": {"PerpInd": {"f1": 0.07608695652173914, "precision": 0.5, "recall": 0.041176470588235294}, "PerpOrg": {"f1": 0.07633587786259541, "precision": 1.0, "recall": 0.03968253968253968}, "Target": {"f1": 0.19428571428571428, "precision": 0.8095238095238095, "recall": 0.11038961038961038}, "Victim": {"f1": 0.05607476635514018, "precision": 0.5, "recall": 0.0297029702970297}, "Weapon": {"f1": 0.11111111111111112, "precision": 0.8, "recall": 0.05970149253731343}}}
+{
+    "overall_f1": 0.23309053069719043,
+    "overall_precision": 0.2955145118733509,
+    "overall_recall": 0.19243986254295534,
+    "event_type_f1": 0.5083612040133779,
+    "event_type_precision": 0.8,
+    "event_type_recall": 0.37254901960784315,
+    "argument_f1": 0.10876132930513595,
+    "argument_precision": 0.8181818181818182,
+    "argument_recall": 0.05825242718446602,
+    "event_type_metrics_per_class": {
+        "attack": {
+            "f1": 0.42045454545454547,
+            "precision": 0.7551020408163265,
+            "recall": 0.29133858267716534
+        },
+        "bombing": {
+            "f1": 0.7173913043478262,
+            "precision": 0.8918918918918919,
+            "recall": 0.6
+        },
+        "kidnapping": {
+            "f1": 0.5217391304347826,
+            "precision": 0.6666666666666666,
+            "recall": 0.42857142857142855
+        },
+        "arson": {
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+        },
+        "forced work stoppage": {
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+        },
+        "robbery": {
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+        }
+    },
+    "argument_type_metrics_per_class": {
+        "PerpInd": {
+            "f1": 0.07608695652173914,
+            "precision": 0.5,
+            "recall": 0.041176470588235294
+        },
+        "PerpOrg": {
+            "f1": 0.07633587786259541,
+            "precision": 1.0,
+            "recall": 0.03968253968253968
+        },
+        "Target": {
+            "f1": 0.19428571428571428,
+            "precision": 0.8095238095238095,
+            "recall": 0.11038961038961038
+        },
+        "Victim": {
+            "f1": 0.05607476635514018,
+            "precision": 0.5,
+            "recall": 0.0297029702970297
+        },
+        "Weapon": {
+            "f1": 0.11111111111111112,
+            "precision": 0.8,
+            "recall": 0.05970149253731343
+        },
+        "Triggers": {
+            "f1": 0.31746031746031744,
+            "precision": 0.3333333333333333,
+            "recall": 0.30303030303030304
+        }
+    }
+}
