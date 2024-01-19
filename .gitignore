@@ -2,6 +2,7 @@ venv
 ipynb.ipynb
 json.json
 math/*
+WikiEvent
 
 experiments/MUC/g2_environments/keyword/default/*
 !experiments/MUC/g2_environments/keyword/default/logs.json

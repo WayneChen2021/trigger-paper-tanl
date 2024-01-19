@@ -131,7 +131,7 @@ def main(config, in_file, relax_match, out_file, filter_lst):
                 if isinstance(filter_lst[0], str):
                     to_process = example['docid'] in filter_lst
                 else:
-                    to_process = (example['docid'], i) in filter_lst
+                    to_process = [example['docid'], i] in filter_lst
             else:
                 to_process = True
 

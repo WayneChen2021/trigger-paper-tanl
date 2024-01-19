@@ -2,8 +2,22 @@ import argparse
 import json
 import os
 import matplotlib.pyplot as plt
+import re
 
 from utils import error_analysis_event
+
+
+def sort_nicely(l):
+    def tryint(s):
+        try:
+            return int(s)
+        except:
+            return s
+
+    def alphanum_key(s):
+        return [tryint(c) for c in re.split("([0-9]+)", s)]
+
+    l.sort(key=alphanum_key)
 
 
 def main(config_file):
@@ -86,7 +100,9 @@ def main(config_file):
         dev_f1s, dev_recalls, dev_precisions = [], [], []
         test_f1s, test_recalls, test_precisions = [], [], []
 
-        for file_name in os.listdir(pred_dev_dir):
+        file_names = os.listdir(pred_dev_dir)
+        sort_nicely(file_names)
+        for file_name in file_names:
             epoch_name = file_name[:-6]
             iteration_dir = os.path.join(config["output_dir"], f"outputs_{epoch_name}")
             if not os.path.exists(iteration_dir):
