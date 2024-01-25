@@ -2,8 +2,8 @@ id scenario_en_62
 triggers []
 arguments []
 id scenario_en_62
-triggers []
-arguments []
+triggers [('trigger for contact to threaten or coerce event', 87, 88)]
+arguments [('communicator for contact to threaten or coerce event', (77, 79), ('trigger for contact to threaten or coerce event', 87, 88))]
 id scenario_en_62
 triggers []
 arguments []
@@ -446,8 +446,8 @@ id wiki_ied_bombings_1_news_4
 triggers []
 arguments []
 id wiki_ied_bombings_1_news_4
-triggers []
-arguments []
+triggers [('trigger for person injured event', 233, 234)]
+arguments [('victim for person injured event', (356, 357), ('trigger for person injured event', 233, 234))]
 id wiki_ied_bombings_1_news_4
 triggers []
 arguments []
@@ -482,8 +482,8 @@ id wiki_ied_bombings_1_news_4
 triggers []
 arguments []
 id wiki_ied_bombings_1_news_4
-triggers []
-arguments []
+triggers [('trigger for contact to discuss topic event', 99, 102)]
+arguments [('communicator for contact to discuss topic event', (356, 357), ('trigger for contact to discuss topic event', 99, 102))]
 id wiki_ied_bombings_1_news_4
 triggers []
 arguments []

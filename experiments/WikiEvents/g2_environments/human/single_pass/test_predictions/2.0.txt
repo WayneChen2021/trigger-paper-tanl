@@ -44,8 +44,10 @@ id wiki_drone_strikes_1_news_1
 triggers []
 arguments []
 id wiki_ied_bombings_10
-triggers []
-arguments []
+triggers [('trigger for attack event', 8, 9), ('trigger for person injured event', 32, 33), ('trigger for person injured event', 42, 43)]
+arguments [('explosive device for attack event', (7, 8), ('trigger for attack event', 8, 9))]
+arguments [('victim for person injured event', (30, 31), ('trigger for person injured event', 32, 33))]
+arguments [('victim for person injured event', (41, 42), ('trigger for person injured event', 42, 43))]
 id wiki_ied_bombings_5_news_3
 triggers []
 arguments []

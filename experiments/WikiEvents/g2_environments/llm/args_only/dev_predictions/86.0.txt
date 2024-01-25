@@ -89,8 +89,8 @@ id suicide_ied_114
 triggers []
 arguments []
 id suicide_ied_114
-triggers []
-arguments []
+triggers [('trigger for person injured event', 28, 29)]
+arguments [('victim for person injured event', (30, 31), ('trigger for person injured event', 28, 29))]
 id scenario_en_8
 triggers []
 arguments []
@@ -122,8 +122,8 @@ id 32_VOA_EN_NW_2014.06.04.1929720
 triggers []
 arguments []
 id 32_VOA_EN_NW_2014.06.04.1929720
-triggers []
-arguments []
+triggers [('trigger for communication event', 262, 263)]
+arguments [('participant for communication event', (240, 241), ('trigger for communication event', 262, 263)), ('participant for communication event', (246, 247), ('trigger for communication event', 262, 263))]
 id 32_VOA_EN_NW_2014.06.04.1929720
 triggers []
 arguments []
@@ -158,8 +158,8 @@ id road_ied_8
 triggers []
 arguments []
 id road_ied_8
-triggers [('trigger for attack event', 81, 83)]
-arguments [('explosive device for attack event', (81, 82), ('trigger for attack event', 81, 83))]
+triggers []
+arguments []
 id road_ied_8
 triggers []
 arguments []
@@ -167,8 +167,8 @@ id wiki_ied_bombings_9
 triggers []
 arguments []
 id wiki_ied_bombings_9
-triggers []
-arguments []
+triggers [('trigger for person death event', 271, 272)]
+arguments [('victim for person death event', (270, 271), ('trigger for person death event', 271, 272))]
 id wiki_ied_bombings_9
 triggers []
 arguments []
@@ -180,7 +180,7 @@ triggers []
 arguments []
 id wiki_ied_bombings_9
 triggers [('trigger for person death event', 232, 233)]
-arguments [('victim for person death event', (132, 133), ('trigger for person death event', 232, 233)), ('place for person death event', (138, 141), ('trigger for person death event', 232, 233))]
+arguments [('victim for person death event', (132, 133), ('trigger for person death event', 232, 233))]
 id wiki_ied_bombings_9
 triggers []
 arguments []
@@ -188,9 +188,8 @@ id wiki_ied_bombings_9
 triggers []
 arguments []
 id wiki_ied_bombings_9
-triggers [('trigger for person injured event', 28, 29), ('trigger for person injured event', 247, 248)]
-arguments [('victim for person injured event', (132, 133), ('trigger for person injured event', 28, 29))]
-arguments [('victim for person injured event', (138, 141), ('trigger for person injured event', 247, 248))]
+triggers [('trigger for person injured event', 28, 29)]
+arguments [('victim for person injured event', (29, 30), ('trigger for person injured event', 28, 29))]
 id wiki_ied_bombings_9
 triggers []
 arguments []
@@ -237,8 +236,8 @@ id scenario_en_kairos_60
 triggers []
 arguments []
 id scenario_en_kairos_60
-triggers []
-arguments []
+triggers [('trigger for person death event', 20, 21)]
+arguments [('victim for person death event', (22, 23), ('trigger for person death event', 20, 21))]
 id scenario_en_kairos_60
 triggers []
 arguments []
@@ -300,8 +299,8 @@ id scenario_en_kairos_61
 triggers []
 arguments []
 id scenario_en_kairos_61
-triggers []
-arguments []
+triggers [('trigger for contact to discuss topic event', 271, 276)]
+arguments [('communicator for contact to discuss topic event', (270, 271), ('trigger for contact to discuss topic event', 271, 276))]
 id scenario_en_kairos_61
 triggers []
 arguments []
@@ -321,14 +320,14 @@ id wiki_ied_bombings_1_news_3
 triggers []
 arguments []
 id wiki_ied_bombings_1_news_3
-triggers [('trigger for person injured event', 329, 330)]
-arguments [('victim for person injured event', (328, 329), ('trigger for person injured event', 329, 330))]
+triggers []
+arguments []
 id wiki_ied_bombings_1_news_3
 triggers [('trigger for person injured event', 83, 84)]
-arguments [('victim for person injured event', (328, 329), ('trigger for person injured event', 83, 84))]
+arguments [('victim for person injured event', (80, 82), ('trigger for person injured event', 83, 84))]
 id wiki_ied_bombings_1_news_3
-triggers []
-arguments []
+triggers [('trigger for person injured event', 82, 84)]
+arguments [('victim for person injured event', (80, 82), ('trigger for person injured event', 82, 84))]
 id wiki_ied_bombings_1_news_3
 triggers []
 arguments []

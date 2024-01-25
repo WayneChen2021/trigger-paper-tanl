@@ -23,8 +23,7 @@ triggers []
 id scenario_en_kairos_60
 triggers []
 id suicide_ied_11
-triggers [('trigger for person death event', 11, 12)]
-arguments []
+triggers []
 id scenario_en_113
 triggers []
 id road_ied_12
@@ -32,8 +31,7 @@ triggers []
 id scenario_en_kairos_61
 triggers []
 id wiki_ied_bombings_1_news_3
-triggers [('trigger for attack event', 58, 59)]
-arguments []
+triggers []
 id scenario_en_kairos_75
 triggers []
 id scenario_en_kairos_73

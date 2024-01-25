@@ -9,8 +9,7 @@ triggers []
 id scenario_en_85
 triggers []
 id 32_VOA_EN_NW_2014.06.04.1929720
-triggers [('trigger for charged or indicted event', 73, 74)]
-arguments [('defendant for charged or indicted event', (70, 71), ('trigger for charged or indicted event', 73, 74))]
+triggers []
 id wiki_drone_strikes_2_news_8
 triggers []
 id scenario_en_7
@@ -22,13 +21,11 @@ triggers []
 id 65_VOA_EN_NW_2014.07.21.1962165
 triggers []
 id scenario_en_kairos_60
-triggers [('trigger for person injured event', 123, 124)]
-arguments [('victim for person injured event', (122, 123), ('trigger for person injured event', 123, 124))]
+triggers []
 id suicide_ied_11
-triggers [('trigger for person death event', 29, 30)]
-arguments []
+triggers []
 id scenario_en_113
-triggers [('trigger for charged or indicted event', 173, 174)]
+triggers [('trigger for attack event', 21, 23)]
 arguments []
 id road_ied_12
 triggers []
@@ -41,5 +38,4 @@ triggers []
 id scenario_en_kairos_73
 triggers []
 id wiki_ied_bombings_1_news_4
-triggers [('trigger for crime investigation event', 1162, 1163)]
-arguments []
+triggers []

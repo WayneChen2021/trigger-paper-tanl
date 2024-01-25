@@ -44,9 +44,9 @@ id wiki_drone_strikes_1_news_1
 triggers []
 arguments []
 id wiki_ied_bombings_10
-triggers [('trigger for person injured event', 2, 4), ('trigger for person injured event', 4, 6)]
+triggers [('trigger for person injured event', 2, 4), ('trigger for attack event', 4, 6)]
 arguments [('victim for person injured event', (233, 234), ('trigger for person injured event', 2, 4))]
-arguments [('victim for person injured event', (244, 245), ('trigger for person injured event', 4, 6))]
+arguments [('attacker for attack event', (244, 245), ('trigger for attack event', 4, 6))]
 id wiki_ied_bombings_5_news_3
 triggers []
 arguments []
@@ -54,11 +54,8 @@ id wiki_mass_car_bombings_0_news_9
 triggers []
 arguments []
 id wiki_mass_car_bombings_1_news_8
-triggers [('trigger for person death event', 2, 4)]
-arguments [('place for person death event', (249, 251), ('trigger for person death event', 2, 4))]
+triggers []
+arguments []
 id wiki_mass_car_bombings_7_news_2
-triggers [('trigger for person death event', 2, 4), ('trigger for person injured event', 2, 4), ('trigger for person death event', 4, 6), ('trigger for person death event', 6, 8)]
-arguments [('victim for person death event', (318, 319), ('trigger for person death event', 2, 4))]
-arguments [('victim for person injured event', (322, 323), ('trigger for person injured event', 2, 4))]
-arguments [('victim for person death event', (359, 361), ('trigger for person death event', 4, 6))]
-arguments [('victim for person death event', (407, 408), ('trigger for person death event', 6, 8))]
+triggers []
+arguments []

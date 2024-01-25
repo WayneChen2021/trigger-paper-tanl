@@ -8,8 +8,8 @@ id 38_VOA_EN_NW_2013.04.24.1647602
 triggers []
 arguments []
 id 53_VOA_EN_NW_2015.06.24.2835606
-triggers [('trigger for sentencing event', 13, 14)]
-arguments [('defendant for sentencing event', (14, 15), ('trigger for sentencing event', 13, 14)), ('defendant for sentencing event', (21, 23), ('trigger for sentencing event', 13, 14))]
+triggers []
+arguments []
 id JC002YBW0
 triggers []
 arguments []
@@ -45,7 +45,7 @@ triggers []
 arguments []
 id wiki_ied_bombings_10
 triggers [('trigger for attack event', 140, 141), ('trigger for person injured event', 32, 33)]
-arguments [('explosive device for attack event', (7, 8), ('trigger for attack event', 140, 141)), ('place for attack event', (18, 19), ('trigger for attack event', 140, 141))]
+arguments [('explosive device for attack event', (7, 8), ('trigger for attack event', 140, 141))]
 arguments [('victim for person injured event', (30, 31), ('trigger for person injured event', 32, 33)), ('victim for person injured event', (41, 42), ('trigger for person injured event', 32, 33))]
 id wiki_ied_bombings_5_news_3
 triggers []
@@ -54,8 +54,8 @@ id wiki_mass_car_bombings_0_news_9
 triggers []
 arguments []
 id wiki_mass_car_bombings_1_news_8
-triggers [('trigger for person death event', 39, 40)]
-arguments [('victim for person death event', (36, 37), ('trigger for person death event', 39, 40))]
-id wiki_mass_car_bombings_7_news_2
 triggers []
 arguments []
+id wiki_mass_car_bombings_7_news_2
+triggers [('trigger for person death event', 117, 118)]
+arguments [('victim for person death event', (115, 116), ('trigger for person death event', 117, 118))]

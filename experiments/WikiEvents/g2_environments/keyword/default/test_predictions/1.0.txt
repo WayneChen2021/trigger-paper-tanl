@@ -1,42 +1,86 @@
 id 20_VOA_EN_NW_2016.11.17.3601570
-triggers []
-id 23_VOA_EN_NW_2015.11.24.3071320
-triggers [('trigger for arrest or jail with detainment event', 87, 88)]
+triggers [('trigger for attack event', 168, 169), ('trigger for attack event', 160, 161)]
 arguments []
+arguments []
+id 23_VOA_EN_NW_2015.11.24.3071320
+triggers []
 id 38_VOA_EN_NW_2013.04.24.1647602
-triggers []
+triggers [('trigger for attack event', 48, 49), ('trigger for communication event', 66, 67)]
+arguments []
+arguments []
 id 53_VOA_EN_NW_2015.06.24.2835606
-triggers []
+triggers [('trigger for sentencing event', 13, 14)]
+arguments []
 id JC002YBW0
 triggers []
 id K0C041O37
-triggers []
-id backpack_ied_13
-triggers []
-id backpack_ied_20
-triggers []
-id scenario_en_kairos_16
-triggers []
-id scenario_en_kairos_2
-triggers []
-id scenario_en_kairos_30
-triggers []
-id scenario_en_kairos_68
-triggers []
-id suicide_ied_100
-triggers []
-id wiki_drone_strikes_0_news_1
-triggers []
-id wiki_drone_strikes_1_news_1
-triggers [('trigger for arrest or jail with detainment event', 177, 178)]
+triggers [('trigger for attack event', 253, 254)]
 arguments []
+id backpack_ied_13
+triggers [('trigger for arrest or jail with detainment event', 194, 195)]
+arguments []
+id backpack_ied_20
+triggers [('trigger for attack event', 248, 249), ('trigger for attack event', 303, 304), ('trigger for attack event', 12, 13), ('trigger for attack event', 272, 273), ('trigger for attack event', 206, 207), ('trigger for attack event', 7, 8), ('trigger for attack event', 187, 188), ('trigger for attack event', 56, 57)]
+arguments []
+arguments []
+arguments []
+arguments []
+arguments []
+arguments []
+arguments []
+arguments []
+id scenario_en_kairos_16
+triggers [('trigger for attack event', 147, 148)]
+arguments []
+id scenario_en_kairos_2
+triggers [('trigger for attack event', 50, 51), ('trigger for attack event', 28, 29), ('trigger for attack event', 39, 40), ('trigger for attack event', 61, 62)]
+arguments []
+arguments []
+arguments []
+arguments []
+id scenario_en_kairos_30
+triggers [('trigger for attack event', 124, 125)]
+arguments []
+id scenario_en_kairos_68
+triggers [('trigger for attack event', 328, 329)]
+arguments []
+id suicide_ied_100
+triggers [('trigger for attack event', 83, 84), ('trigger for attack event', 89, 90), ('trigger for attack event', 189, 190), ('trigger for attack event', 105, 106), ('trigger for attack event', 124, 125), ('trigger for attack event', 31, 32), ('trigger for attack event', 97, 98), ('trigger for attack event', 8, 9), ('trigger for attack event', 21, 22), ('trigger for attack event', 208, 209), ('trigger for attack event', 7, 8), ('trigger for attack event', 200, 201), ('trigger for attack event', 62, 63), ('trigger for attack event', 184, 185), ('trigger for attack event', 236, 237)]
+arguments []
+arguments []
+arguments []
+arguments []
+arguments []
+arguments []
+arguments []
+arguments []
+arguments []
+arguments []
+arguments []
+arguments []
+arguments []
+arguments []
+arguments []
+id wiki_drone_strikes_0_news_1
+triggers [('trigger for attack event', 318, 319)]
+arguments []
+id wiki_drone_strikes_1_news_1
+triggers []
 id wiki_ied_bombings_10
-triggers []
+triggers [('trigger for attack event', 303, 304), ('trigger for attack event', 296, 297)]
+arguments []
+arguments []
 id wiki_ied_bombings_5_news_3
-triggers []
+triggers [('trigger for attack event', 110, 111), ('trigger for attack event', 143, 144)]
+arguments []
+arguments []
 id wiki_mass_car_bombings_0_news_9
-triggers []
+triggers [('trigger for attack event', 286, 287)]
+arguments []
 id wiki_mass_car_bombings_1_news_8
-triggers []
+triggers [('trigger for person death event', 276, 277)]
+arguments []
 id wiki_mass_car_bombings_7_news_2
-triggers []
+triggers [('trigger for attack event', 354, 355), ('trigger for attack event', 298, 299)]
+arguments []
+arguments []

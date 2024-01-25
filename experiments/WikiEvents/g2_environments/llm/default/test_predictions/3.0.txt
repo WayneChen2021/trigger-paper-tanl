@@ -1,8 +1,7 @@
 id 20_VOA_EN_NW_2016.11.17.3601570
 triggers []
 id 23_VOA_EN_NW_2015.11.24.3071320
-triggers [('trigger for arrest or jail with detainment event', 130, 131)]
-arguments []
+triggers []
 id 38_VOA_EN_NW_2013.04.24.1647602
 triggers []
 id 53_VOA_EN_NW_2015.06.24.2835606
@@ -10,11 +9,9 @@ triggers []
 id JC002YBW0
 triggers []
 id K0C041O37
-triggers [('trigger for attack event', 282, 283)]
-arguments []
+triggers []
 id backpack_ied_13
-triggers [('trigger for crime investigation event', 252, 253)]
-arguments [('investigator for crime investigation event', (160, 161), ('trigger for crime investigation event', 252, 253))]
+triggers []
 id backpack_ied_20
 triggers []
 id scenario_en_kairos_16
@@ -30,16 +27,13 @@ triggers []
 id wiki_drone_strikes_0_news_1
 triggers []
 id wiki_drone_strikes_1_news_1
-triggers [('trigger for arrest or jail with detainment event', 14, 15)]
-arguments [('detainee for arrest or jail with detainment event', (523, 528), ('trigger for arrest or jail with detainment event', 14, 15))]
+triggers []
 id wiki_ied_bombings_10
 triggers []
 id wiki_ied_bombings_5_news_3
-triggers [('trigger for arrest or jail with detainment event', 361, 362)]
-arguments []
+triggers []
 id wiki_mass_car_bombings_0_news_9
-triggers [('trigger for arrest or jail with detainment event', 175, 177)]
-arguments []
+triggers []
 id wiki_mass_car_bombings_1_news_8
 triggers []
 id wiki_mass_car_bombings_7_news_2

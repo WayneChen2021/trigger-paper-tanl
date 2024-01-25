@@ -1,13 +1,11 @@
 id scenario_en_62
-triggers [('trigger for arrest or jail with detainment event', 257, 258)]
-arguments [('detainee for arrest or jail with detainment event', (218, 220), ('trigger for arrest or jail with detainment event', 257, 258))]
+triggers []
 id 64_VOA_EN_NW_2017.06.05.3887168
 triggers []
 id suicide_ied_114
 triggers []
 id scenario_en_8
-triggers [('trigger for person injured event', 325, 326)]
-arguments []
+triggers []
 id scenario_en_85
 triggers []
 id 32_VOA_EN_NW_2014.06.04.1929720
@@ -23,8 +21,7 @@ triggers []
 id 65_VOA_EN_NW_2014.07.21.1962165
 triggers []
 id scenario_en_kairos_60
-triggers [('trigger for person injured event', 20, 21)]
-arguments [('victim for person injured event', (630, 631), ('trigger for person injured event', 20, 21))]
+triggers []
 id suicide_ied_11
 triggers []
 id scenario_en_113
@@ -40,5 +37,4 @@ triggers []
 id scenario_en_kairos_73
 triggers []
 id wiki_ied_bombings_1_news_4
-triggers [('trigger for person death event', 354, 355)]
-arguments [('victim for person death event', (353, 354), ('trigger for person death event', 354, 355))]
+triggers []

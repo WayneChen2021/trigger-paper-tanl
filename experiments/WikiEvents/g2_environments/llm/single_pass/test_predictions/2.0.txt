@@ -38,15 +38,16 @@ id suicide_ied_100
 triggers []
 arguments []
 id wiki_drone_strikes_0_news_1
-triggers [('trigger for person death event', 231, 232)]
+triggers [('trigger for person death event', 89, 90), ('trigger for person death event', 231, 232), ('trigger for person death event', 276, 277)]
+arguments [('victim for person death event', (87, 88), ('trigger for person death event', 89, 90))]
 arguments [('victim for person death event', (230, 231), ('trigger for person death event', 231, 232))]
+arguments [('victim for person death event', (275, 276), ('trigger for person death event', 276, 277))]
 id wiki_drone_strikes_1_news_1
 triggers []
 arguments []
 id wiki_ied_bombings_10
-triggers [('trigger for attack event', 8, 9), ('trigger for person injured event', 32, 33)]
-arguments [('explosive device for attack event', (7, 8), ('trigger for attack event', 8, 9))]
-arguments [('victim for person injured event', (30, 31), ('trigger for person injured event', 32, 33)), ('victim for person injured event', (41, 42), ('trigger for person injured event', 32, 33))]
+triggers []
+arguments []
 id wiki_ied_bombings_5_news_3
 triggers []
 arguments []

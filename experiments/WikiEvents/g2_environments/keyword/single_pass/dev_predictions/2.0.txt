@@ -1,28 +1,55 @@
+id road_ied_8
+triggers []
+arguments []
 id scenario_en_62
+triggers []
+arguments []
+id scenario_en_kairos_60
+triggers []
+arguments []
+id scenario_en_kairos_75
 triggers []
 arguments []
 id 64_VOA_EN_NW_2017.06.05.3887168
 triggers []
 arguments []
 id suicide_ied_114
-triggers []
-arguments []
+triggers [('trigger for attack event', 23, 24), ('trigger for person death event', 23, 24)]
+arguments [('attacker for attack event', (8, 10), ('trigger for attack event', 23, 24)), ('attacker for attack event', (12, 13), ('trigger for attack event', 23, 24)), ('target for attack event', (15, 16), ('trigger for attack event', 23, 24)), ('place for attack event', (17, 19), ('trigger for attack event', 23, 24))]
+arguments [('victim for person death event', (26, 27), ('trigger for person death event', 23, 24))]
 id scenario_en_8
 triggers []
 arguments []
 id scenario_en_85
 triggers []
 arguments []
+id scenario_en_113
+triggers []
+arguments []
 id 32_VOA_EN_NW_2014.06.04.1929720
+triggers []
+arguments []
+id road_ied_12
+triggers [('trigger for person death event', 2, 3), ('trigger for person death event', 22, 23), ('trigger for person death event', 97, 98)]
+arguments [('victim for person death event', (1, 2), ('trigger for person death event', 2, 3))]
+arguments [('victim for person death event', (20, 21), ('trigger for person death event', 22, 23))]
+arguments [('victim for person death event', (95, 96), ('trigger for person death event', 97, 98)), ('victim for person death event', (125, 126), ('trigger for person death event', 97, 98))]
+id wiki_ied_bombings_1_news_4
+triggers []
+arguments []
+id scenario_en_kairos_61
 triggers []
 arguments []
 id wiki_drone_strikes_2_news_8
 triggers []
 arguments []
-id scenario_en_7
+id suicide_ied_11
 triggers []
 arguments []
-id road_ied_8
+id wiki_ied_bombings_1_news_3
+triggers []
+arguments []
+id scenario_en_7
 triggers []
 arguments []
 id wiki_ied_bombings_9
@@ -31,30 +58,6 @@ arguments []
 id 65_VOA_EN_NW_2014.07.21.1962165
 triggers []
 arguments []
-id scenario_en_kairos_60
-triggers []
-arguments []
-id suicide_ied_11
-triggers []
-arguments []
-id scenario_en_113
-triggers []
-arguments []
-id road_ied_12
-triggers []
-arguments []
-id scenario_en_kairos_61
-triggers []
-arguments []
-id wiki_ied_bombings_1_news_3
-triggers []
-arguments []
-id scenario_en_kairos_75
-triggers []
-arguments []
 id scenario_en_kairos_73
-triggers []
-arguments []
-id wiki_ied_bombings_1_news_4
 triggers []
 arguments []

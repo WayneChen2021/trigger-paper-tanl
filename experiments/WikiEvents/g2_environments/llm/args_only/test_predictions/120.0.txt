@@ -11,8 +11,8 @@ id 20_VOA_EN_NW_2016.11.17.3601570
 triggers [('trigger for tried for crime event', 15, 16)]
 arguments [('defendant for tried for crime event', (12, 15), ('trigger for tried for crime event', 15, 16))]
 id 20_VOA_EN_NW_2016.11.17.3601570
-triggers [('trigger for person death event', 38, 39)]
-arguments [('victim for person death event', (70, 71), ('trigger for person death event', 38, 39)), ('killer for person death event', (78, 79), ('trigger for person death event', 38, 39))]
+triggers []
+arguments []
 id 20_VOA_EN_NW_2016.11.17.3601570
 triggers []
 arguments []
@@ -26,8 +26,8 @@ id 20_VOA_EN_NW_2016.11.17.3601570
 triggers []
 arguments []
 id 20_VOA_EN_NW_2016.11.17.3601570
-triggers []
-arguments []
+triggers [('trigger for tried for crime event', 68, 69)]
+arguments [('defendant for tried for crime event', (12, 15), ('trigger for tried for crime event', 68, 69))]
 id 23_VOA_EN_NW_2015.11.24.3071320
 triggers []
 arguments []
@@ -39,13 +39,13 @@ triggers []
 arguments []
 id 23_VOA_EN_NW_2015.11.24.3071320
 triggers [('trigger for person death event', 29, 30)]
-arguments [('victim for person death event', (196, 197), ('trigger for person death event', 29, 30))]
+arguments [('victim for person death event', (31, 32), ('trigger for person death event', 29, 30)), ('victim for person death event', (196, 197), ('trigger for person death event', 29, 30))]
 id 23_VOA_EN_NW_2015.11.24.3071320
 triggers []
 arguments []
 id 23_VOA_EN_NW_2015.11.24.3071320
 triggers [('trigger for arrest or jail with detainment event', 102, 103)]
-arguments [('detainee for arrest or jail with detainment event', (122, 123), ('trigger for arrest or jail with detainment event', 102, 103))]
+arguments [('jailer for arrest or jail with detainment event', (122, 123), ('trigger for arrest or jail with detainment event', 102, 103))]
 id 23_VOA_EN_NW_2015.11.24.3071320
 triggers []
 arguments []
@@ -65,8 +65,8 @@ id 23_VOA_EN_NW_2015.11.24.3071320
 triggers []
 arguments []
 id 23_VOA_EN_NW_2015.11.24.3071320
-triggers [('trigger for tried for crime event', 37, 38)]
-arguments [('judge or court for tried for crime event', (270, 271), ('trigger for tried for crime event', 37, 38))]
+triggers []
+arguments []
 id 38_VOA_EN_NW_2013.04.24.1647602
 triggers []
 arguments []
@@ -95,8 +95,8 @@ id 53_VOA_EN_NW_2015.06.24.2835606
 triggers []
 arguments []
 id 53_VOA_EN_NW_2015.06.24.2835606
-triggers [('trigger for person death event', 263, 264)]
-arguments [('victim for person death event', (261, 262), ('trigger for person death event', 263, 264))]
+triggers []
+arguments []
 id 53_VOA_EN_NW_2015.06.24.2835606
 triggers []
 arguments []
@@ -149,9 +149,6 @@ id JC002YBW0
 triggers []
 arguments []
 id JC002YBW0
-triggers [('trigger for person joins organization event', 42, 43)]
-arguments [('defendant for person joins organization event', (38, 39), ('trigger for person joins organization event', 42, 43)), ('communicator for person joins organization event', (40, 41), ('trigger for person joins organization event', 42, 43)), ('place for person joins organization event', (44, 46), ('trigger for person joins organization event', 42, 43)), ('place for person joins organization event', (47, 49), ('trigger for person joins organization event', 42, 43))]
-id JC002YBW0
 triggers []
 arguments []
 id JC002YBW0
@@ -160,16 +157,7 @@ arguments []
 id JC002YBW0
 triggers []
 arguments []
-id K0C041O37
-triggers []
-arguments []
-id K0C041O37
-triggers []
-arguments []
-id K0C041O37
-triggers [('trigger for attack event', 154, 155)]
-arguments [('instrument for attack event', (153, 154), ('trigger for attack event', 154, 155))]
-id K0C041O37
+id JC002YBW0
 triggers []
 arguments []
 id K0C041O37
@@ -193,7 +181,16 @@ arguments []
 id K0C041O37
 triggers []
 arguments []
-id backpack_ied_13
+id K0C041O37
+triggers []
+arguments []
+id K0C041O37
+triggers []
+arguments []
+id K0C041O37
+triggers []
+arguments []
+id K0C041O37
 triggers []
 arguments []
 id backpack_ied_13
@@ -232,6 +229,9 @@ arguments []
 id backpack_ied_13
 triggers []
 arguments []
+id backpack_ied_13
+triggers [('trigger for artifact destroyed event', 181, 183)]
+arguments [('destroyer for artifact destroyed event', (180, 181), ('trigger for artifact destroyed event', 181, 183)), ('artifact for artifact destroyed event', (184, 186), ('trigger for artifact destroyed event', 181, 183))]
 id backpack_ied_13
 triggers []
 arguments []
@@ -269,8 +269,8 @@ id scenario_en_kairos_2
 triggers []
 arguments []
 id scenario_en_kairos_2
-triggers [('trigger for attack event', 28, 29)]
-arguments [('attacker for attack event', (22, 23), ('trigger for attack event', 28, 29)), ('target for attack event', (32, 33), ('trigger for attack event', 28, 29))]
+triggers []
+arguments []
 id scenario_en_kairos_2
 triggers []
 arguments []
@@ -284,17 +284,14 @@ id suicide_ied_100
 triggers []
 arguments []
 id suicide_ied_100
-triggers [('trigger for person death event', 184, 185)]
-arguments [('victim for person death event', (179, 180), ('trigger for person death event', 184, 185)), ('victim for person death event', (182, 183), ('trigger for person death event', 184, 185))]
+triggers []
+arguments []
 id suicide_ied_100
 triggers [('trigger for person injured event', 67, 68)]
 arguments [('victim for person injured event', (65, 66), ('trigger for person injured event', 67, 68))]
 id suicide_ied_100
-triggers [('trigger for person death event', 184, 185)]
-arguments [('victim for person death event', (179, 180), ('trigger for person death event', 184, 185)), ('victim for person death event', (182, 183), ('trigger for person death event', 184, 185))]
-id suicide_ied_100
-triggers [('trigger for communication event', 93, 95)]
-arguments [('communicator for communication event', (142, 144), ('trigger for communication event', 93, 95))]
+triggers []
+arguments []
 id suicide_ied_100
 triggers []
 arguments []
@@ -313,6 +310,21 @@ arguments []
 id suicide_ied_100
 triggers []
 arguments []
+id suicide_ied_100
+triggers []
+arguments []
+id wiki_drone_strikes_0_news_1
+triggers []
+arguments []
+id wiki_drone_strikes_0_news_1
+triggers []
+arguments []
+id wiki_drone_strikes_0_news_1
+triggers []
+arguments []
+id wiki_drone_strikes_0_news_1
+triggers []
+arguments []
 id wiki_drone_strikes_0_news_1
 triggers []
 arguments []
@@ -329,20 +341,11 @@ id wiki_drone_strikes_0_news_1
 triggers []
 arguments []
 id wiki_drone_strikes_0_news_1
-triggers [('trigger for person death event', 231, 232)]
-arguments [('victim for person death event', (175, 176), ('trigger for person death event', 231, 232))]
-id wiki_drone_strikes_0_news_1
 triggers []
 arguments []
-id wiki_drone_strikes_0_news_1
-triggers []
-arguments []
-id wiki_drone_strikes_0_news_1
-triggers []
-arguments []
-id wiki_drone_strikes_0_news_1
-triggers []
-arguments []
+id wiki_drone_strikes_1_news_1
+triggers [('trigger for arrest or jail with detainment event', 145, 146)]
+arguments [('detainee for arrest or jail with detainment event', (143, 144), ('trigger for arrest or jail with detainment event', 145, 146)), ('detainee for arrest or jail with detainment event', (151, 152), ('trigger for arrest or jail with detainment event', 145, 146))]
 id wiki_drone_strikes_1_news_1
 triggers []
 arguments []
@@ -358,9 +361,6 @@ arguments []
 id wiki_drone_strikes_1_news_1
 triggers []
 arguments []
-id wiki_drone_strikes_1_news_1
-triggers []
-arguments []
 id wiki_ied_bombings_10
 triggers []
 arguments []
@@ -380,8 +380,8 @@ id wiki_ied_bombings_10
 triggers []
 arguments []
 id wiki_ied_bombings_10
-triggers []
-arguments []
+triggers [('trigger for artifact assembled event', 196, 197)]
+arguments [('manufacturer or assembler for artifact assembled event', (195, 196), ('trigger for artifact assembled event', 196, 197))]
 id wiki_ied_bombings_10
 triggers []
 arguments []
@@ -443,15 +443,12 @@ id wiki_mass_car_bombings_0_news_9
 triggers []
 arguments []
 id wiki_mass_car_bombings_0_news_9
-triggers [('trigger for person death event', 149, 150)]
-arguments [('victim for person death event', (151, 152), ('trigger for person death event', 149, 150))]
-id wiki_mass_car_bombings_0_news_9
 triggers []
 arguments []
 id wiki_mass_car_bombings_0_news_9
 triggers []
 arguments []
-id wiki_mass_car_bombings_1_news_8
+id wiki_mass_car_bombings_0_news_9
 triggers []
 arguments []
 id wiki_mass_car_bombings_1_news_8
@@ -479,8 +476,11 @@ id wiki_mass_car_bombings_1_news_8
 triggers []
 arguments []
 id wiki_mass_car_bombings_1_news_8
-triggers []
-arguments []
+triggers [('trigger for transportation event', 289, 290)]
+arguments [('passenger or artifact for transportation event', (279, 280), ('trigger for transportation event', 289, 290)), ('destination for transportation event', (283, 285), ('trigger for transportation event', 289, 290)), ('destination for transportation event', (291, 292), ('trigger for transportation event', 289, 290)), ('destination for transportation event', (293, 294), ('trigger for transportation event', 289, 290))]
+id wiki_mass_car_bombings_1_news_8
+triggers [('trigger for transportation event', 281, 282)]
+arguments [('passenger or artifact for transportation event', (279, 280), ('trigger for transportation event', 281, 282)), ('destination for transportation event', (283, 285), ('trigger for transportation event', 281, 282))]
 id wiki_mass_car_bombings_1_news_8
 triggers []
 arguments []
@@ -506,5 +506,5 @@ id wiki_mass_car_bombings_7_news_2
 triggers []
 arguments []
 id wiki_mass_car_bombings_7_news_2
-triggers [('trigger for person injured event', 280, 281)]
-arguments [('victim for person injured event', (288, 289), ('trigger for person injured event', 280, 281))]
+triggers []
+arguments []

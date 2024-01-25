@@ -17,7 +17,7 @@ Requirement already satisfied: urllib3<3,>=1.21.1 in /home/zc272/.conda/envs/TAN
 Requirement already satisfied: certifi>=2017.4.17 in /home/zc272/.conda/envs/TANL2/lib/python3.11/site-packages (from requests->transformers) (2023.7.22)
 Requirement already satisfied: scipy in /home/zc272/.conda/envs/TANL2/lib/python3.11/site-packages (1.11.1)
 Requirement already satisfied: numpy<1.28.0,>=1.21.6 in /home/zc272/.conda/envs/TANL2/lib/python3.11/site-packages (from scipy) (1.25.2)
-Requirement already satisfied: accelerate in /home/zc272/.conda/envs/TANL2/lib/python3.11/site-packages (0.25.0)
+Requirement already satisfied: accelerate in /home/zc272/.conda/envs/TANL2/lib/python3.11/site-packages (0.26.1)
 Requirement already satisfied: numpy>=1.17 in /home/zc272/.conda/envs/TANL2/lib/python3.11/site-packages (from accelerate) (1.25.2)
 Requirement already satisfied: packaging>=20.0 in /home/zc272/.conda/envs/TANL2/lib/python3.11/site-packages (from accelerate) (23.1)
 Requirement already satisfied: psutil in /home/zc272/.conda/envs/TANL2/lib/python3.11/site-packages (from accelerate) (5.9.5)
@@ -136,19 +136,19 @@ photo © 2001 corbis images all rights reserved web site copyright 1995 - 2014 w
 abdullah ahmed abdullah murder of u . s . nationals outside the united states ; conspiracy to murder u . s . nationals outside the united states ; attack on a federal facility resulting in death ; conspiracy to kill u . s . nationals , to murder , to destroy buildings and property of the united states , and to destroy the national defense utilities of the united states images aliases : abu mohamed al - masri , abu muhammad al masri , saleh , abu mariam , abdullah ahmed abdullah ali , abu mohammed
 [ abdullah ahmed abdullah | template entity | perpetrator for criminal activity event = murder ] murder of [ u . s . | template entity | place for criminal activity event = murder ] [ nationals | template entity | victim for criminal activity event = murder ] outside the united states ; conspiracy to murder u . s . [ nationals | template entity | victim for criminal activity event = murder ] outside the united states ; attack on a federal [ facility | template entity | target for attack event = attack ] resulting in death ; conspiracy to kill u . s . [ nationals | template entity | victim for person death event = murder ] , to murder , to destroy [ buildings | template entity | artifact for artifact destroyed event = destroy ] and [ property | template entity | artifact for artifact destroyed event = destroy ] of the [ united states | template entity | place for artifact destroyed event = destroy ] , and to destroy the [ national defense utilities | template entity | artifact for artifact destroyed event = destroy ] of the [ united states | template entity | place for artifact destroyed event = destroy ] images aliases : abu mohamed al - masri , abu muhammad al masri , saleh , abu mariam , abdullah ahmed abdullah ali , abu mohammed
 
-{'loss': 0.238, 'learning_rate': 0.000467948717948718, 'epoch': 9.62}
-{'loss': 0.0295, 'learning_rate': 0.0004358974358974359, 'epoch': 19.23}
-{'loss': 0.0162, 'learning_rate': 0.0004038461538461539, 'epoch': 28.85}
-{'loss': 0.0116, 'learning_rate': 0.0003717948717948718, 'epoch': 38.46}
-{'loss': 0.0083, 'learning_rate': 0.0003397435897435898, 'epoch': 48.08}
-{'loss': 0.0055, 'learning_rate': 0.0003076923076923077, 'epoch': 57.69}
-{'loss': 0.0035, 'learning_rate': 0.0002756410256410257, 'epoch': 67.31}
-{'loss': 0.0029, 'learning_rate': 0.0002435897435897436, 'epoch': 76.92}
-{'loss': 0.0034, 'learning_rate': 0.00021153846153846155, 'epoch': 86.54}
-{'loss': 0.0026, 'learning_rate': 0.0001794871794871795, 'epoch': 96.15}
-{'loss': 0.0013, 'learning_rate': 0.00014743589743589745, 'epoch': 105.77}
+{'loss': 0.2686, 'learning_rate': 0.000467948717948718, 'epoch': 9.62}
+{'loss': 0.032, 'learning_rate': 0.0004358974358974359, 'epoch': 19.23}
+{'loss': 0.0154, 'learning_rate': 0.0004038461538461539, 'epoch': 28.85}
+{'loss': 0.0097, 'learning_rate': 0.0003717948717948718, 'epoch': 38.46}
+{'loss': 0.0082, 'learning_rate': 0.0003397435897435898, 'epoch': 48.08}
+{'loss': 0.0051, 'learning_rate': 0.0003076923076923077, 'epoch': 57.69}
+{'loss': 0.0047, 'learning_rate': 0.0002756410256410257, 'epoch': 67.31}
+{'loss': 0.0033, 'learning_rate': 0.0002435897435897436, 'epoch': 76.92}
+{'loss': 0.0025, 'learning_rate': 0.00021153846153846155, 'epoch': 86.54}
+{'loss': 0.0025, 'learning_rate': 0.0001794871794871795, 'epoch': 96.15}
+{'loss': 0.0021, 'learning_rate': 0.00014743589743589745, 'epoch': 105.77}
 {'loss': 0.0012, 'learning_rate': 0.0001153846153846154, 'epoch': 115.38}
-{'loss': 0.0007, 'learning_rate': 8.333333333333333e-05, 'epoch': 125.0}
+{'loss': 0.0008, 'learning_rate': 8.333333333333333e-05, 'epoch': 125.0}
 {'loss': 0.0006, 'learning_rate': 5.128205128205128e-05, 'epoch': 134.62}
-{'loss': 0.0005, 'learning_rate': 1.923076923076923e-05, 'epoch': 144.23}
-{'train_runtime': 27908.8719, 'train_samples_per_second': 1.107, 'train_steps_per_second': 0.279, 'train_loss': 0.020903747213574558, 'epoch': 150.0}
+{'loss': 0.0004, 'learning_rate': 1.923076923076923e-05, 'epoch': 144.23}
+{'train_runtime': 22677.5103, 'train_samples_per_second': 1.363, 'train_steps_per_second': 0.344, 'train_loss': 0.02290855226608423, 'epoch': 150.0}
