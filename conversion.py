@@ -63,7 +63,7 @@ def enumerate_examples(message_id, container, triggers_per_temp, relation_map, t
                     trigger_tup[0][1] + len(trigger_tup[0][0])
                 ))
             
-            if add_trig_example and len(new_example['triggers']) == len(set([str(e) for e in new_example['triggers']])):
+            if add_trig_example:
                 trig_examples.append(deepcopy(new_example))
             if add_arg_example:
                 for ref_trig_index, trig in enumerate(new_example['triggers']):
