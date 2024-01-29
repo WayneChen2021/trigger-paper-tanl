@@ -994,3 +994,42 @@ arguments []
 id scenario_en_kairos_73
 triggers []
 arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers [('trigger for communication event', 114, 115)]
+arguments [('participant for communication event', (113, 114), ('trigger for communication event', 114, 115)), ('topic for communication event', (115, 116), ('trigger for communication event', 114, 115))]
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers []
+arguments []
+id scenario_en_kairos_73
+triggers [('trigger for transportation event', 308, 309)]
+arguments [('passenger or artifact for transportation event', (307, 308), ('trigger for transportation event', 308, 309))]
+id scenario_en_kairos_73
+triggers []
+arguments []
