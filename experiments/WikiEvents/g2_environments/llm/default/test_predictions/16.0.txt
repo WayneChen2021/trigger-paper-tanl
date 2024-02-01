@@ -1,21 +1,43 @@
 id 20_VOA_EN_NW_2016.11.17.3601570
-triggers []
+triggers [('trigger for charged or indicted event', 15, 18)]
+arguments []
 id 23_VOA_EN_NW_2015.11.24.3071320
-triggers []
+triggers [('trigger for attack event', 168, 169), ('trigger for criminal activity event', 37, 38), ('trigger for person injured event', 202, 203), ('trigger for arrest or jail with detainment event', 102, 103), ('trigger for criminal activity event', 13, 14), ('trigger for person death event', 29, 30), ('trigger for charged or indicted event', 13, 14)]
+arguments []
+arguments []
+arguments []
+arguments []
+arguments []
+arguments []
+arguments []
 id 38_VOA_EN_NW_2013.04.24.1647602
-triggers []
+triggers [('trigger for person death event', 167, 168), ('trigger for communication event', 121, 122)]
+arguments [('killer for person death event', (172, 173), ('trigger for person death event', 167, 168)), ('victim for person death event', (165, 167), ('trigger for person death event', 167, 168))]
+arguments []
 id 53_VOA_EN_NW_2015.06.24.2835606
-triggers []
+triggers [('trigger for attack event', 228, 229), ('trigger for person injured event', 195, 196), ('trigger for sentencing event', 13, 14)]
+arguments []
+arguments [('instrument for person injured event', (228, 229), ('trigger for person injured event', 195, 196)), ('victim for person injured event', (196, 197), ('trigger for person injured event', 195, 196))]
+arguments []
 id JC002YBW0
-triggers []
+triggers [('trigger for transaction event', 113, 114)]
+arguments [('recipient for transaction event', (113, 114), ('trigger for transaction event', 113, 114)), ('recipient for transaction event', (108, 109), ('trigger for transaction event', 113, 114)), ('recipient for transaction event', (115, 117), ('trigger for transaction event', 113, 114))]
 id K0C041O37
-triggers []
+triggers [('trigger for attack event', 282, 283), ('trigger for criminal activity event', 61, 62), ('trigger for communication event', 61, 86), ('trigger for communication event', 82, 83)]
+arguments []
+arguments []
+arguments []
+arguments []
 id backpack_ied_13
-triggers []
+triggers [('trigger for attack event', 170, 171), ('trigger for attack event', 63, 64)]
+arguments [('explosive device for attack event', (62, 63), ('trigger for attack event', 170, 171))]
+arguments [('explosive device for attack event', (62, 63), ('trigger for attack event', 63, 64))]
 id backpack_ied_20
-triggers []
+triggers [('trigger for attack event', 8, 9)]
+arguments []
 id scenario_en_kairos_16
-triggers []
+triggers [('trigger for charged or indicted event', 24, 25)]
+arguments []
 id scenario_en_kairos_2
 triggers []
 id scenario_en_kairos_30
@@ -23,18 +45,33 @@ triggers []
 id scenario_en_kairos_68
 triggers []
 id suicide_ied_100
-triggers []
+triggers [('trigger for attack event', 174, 175), ('trigger for person death event', 31, 32)]
+arguments []
+arguments [('killer for person death event', (28, 30), ('trigger for person death event', 31, 32))]
 id wiki_drone_strikes_0_news_1
 triggers []
 id wiki_drone_strikes_1_news_1
-triggers []
+triggers [('trigger for charged or indicted event', 167, 168)]
+arguments [('defendant for charged or indicted event', (163, 164), ('trigger for charged or indicted event', 167, 168))]
 id wiki_ied_bombings_10
-triggers []
+triggers [('trigger for attack event', 8, 9), ('trigger for person injured event', 32, 33)]
+arguments []
+arguments []
 id wiki_ied_bombings_5_news_3
-triggers []
+triggers [('trigger for person injured event', 326, 327), ('trigger for attack event', 188, 189)]
+arguments []
+arguments [('explosive device for attack event', (190, 191), ('trigger for attack event', 188, 189))]
 id wiki_mass_car_bombings_0_news_9
-triggers []
+triggers [('trigger for attack event', 52, 53)]
+arguments []
 id wiki_mass_car_bombings_1_news_8
-triggers []
+triggers [('trigger for person death event', 2, 3), ('trigger for attack event', 97, 98)]
+arguments []
+arguments []
 id wiki_mass_car_bombings_7_news_2
-triggers []
+triggers [('trigger for person injured event', 286, 287), ('trigger for contact to threaten or coerce event', 27, 28), ('trigger for person injured event', 46, 47), ('trigger for person death event', 8, 9), ('trigger for person death event', 280, 281)]
+arguments []
+arguments []
+arguments []
+arguments []
+arguments []

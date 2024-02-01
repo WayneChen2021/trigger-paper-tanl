@@ -5,11 +5,14 @@ triggers []
 id suicide_ied_114
 triggers []
 id scenario_en_8
-triggers []
+triggers [('trigger for person injured event', 325, 326)]
+arguments [('victim for person injured event', (324, 325), ('trigger for person injured event', 325, 326))]
 id scenario_en_85
-triggers []
+triggers [('trigger for communication event', 23, 25)]
+arguments []
 id 32_VOA_EN_NW_2014.06.04.1929720
-triggers []
+triggers [('trigger for charged or indicted event', 18, 21)]
+arguments []
 id wiki_drone_strikes_2_news_8
 triggers []
 id scenario_en_7
@@ -17,24 +20,39 @@ triggers []
 id road_ied_8
 triggers []
 id wiki_ied_bombings_9
-triggers []
+triggers [('trigger for person injured event', 206, 207)]
+arguments []
 id 65_VOA_EN_NW_2014.07.21.1962165
-triggers []
+triggers [('trigger for person injured event', 154, 155)]
+arguments [('victim for person injured event', (158, 159), ('trigger for person injured event', 154, 155))]
 id scenario_en_kairos_60
-triggers []
+triggers [('trigger for attack event', 25, 26), ('trigger for person injured event', 20, 21)]
+arguments []
+arguments [('victim for person injured event', (22, 23), ('trigger for person injured event', 20, 21))]
 id suicide_ied_11
-triggers []
+triggers [('trigger for attack event', 11, 14), ('trigger for person death event', 15, 16), ('trigger for attack event', 11, 12)]
+arguments []
+arguments []
+arguments []
 id scenario_en_113
-triggers []
+triggers [('trigger for charged or indicted event', 173, 174)]
+arguments [('defendant for charged or indicted event', (170, 172), ('trigger for charged or indicted event', 173, 174))]
 id road_ied_12
-triggers []
+triggers [('trigger for person death event', 22, 23), ('trigger for attack event', 76, 77)]
+arguments []
+arguments [('explosive device for attack event', (75, 76), ('trigger for attack event', 76, 77))]
 id scenario_en_kairos_61
 triggers []
 id wiki_ied_bombings_1_news_3
-triggers []
+triggers [('trigger for person injured event', 85, 86), ('trigger for attack event', 181, 182), ('trigger for attack event', 58, 59), ('trigger for person death event', 271, 272)]
+arguments []
+arguments []
+arguments []
+arguments []
 id scenario_en_kairos_75
 triggers []
 id scenario_en_kairos_73
 triggers []
 id wiki_ied_bombings_1_news_4
-triggers []
+triggers [('trigger for person death event', 354, 355)]
+arguments []

@@ -3,7 +3,8 @@ triggers []
 id 64_VOA_EN_NW_2017.06.05.3887168
 triggers []
 id suicide_ied_114
-triggers []
+triggers [('trigger for person death event', 23, 24)]
+arguments []
 id scenario_en_8
 triggers []
 id scenario_en_85
@@ -15,11 +16,14 @@ triggers []
 id scenario_en_7
 triggers []
 id road_ied_8
-triggers []
+triggers [('trigger for person death event', 143, 144)]
+arguments []
 id wiki_ied_bombings_9
-triggers []
+triggers [('trigger for person death event', 232, 233)]
+arguments []
 id 65_VOA_EN_NW_2014.07.21.1962165
-triggers []
+triggers [('trigger for attack event', 63, 64)]
+arguments []
 id scenario_en_kairos_60
 triggers []
 id suicide_ied_11
@@ -27,14 +31,17 @@ triggers []
 id scenario_en_113
 triggers []
 id road_ied_12
-triggers []
+triggers [('trigger for person death event', 22, 23)]
+arguments []
 id scenario_en_kairos_61
 triggers []
 id wiki_ied_bombings_1_news_3
-triggers []
+triggers [('trigger for attack event', 58, 59)]
+arguments []
 id scenario_en_kairos_75
 triggers []
 id scenario_en_kairos_73
 triggers []
 id wiki_ied_bombings_1_news_4
-triggers []
+triggers [('trigger for person death event', 228, 229)]
+arguments []

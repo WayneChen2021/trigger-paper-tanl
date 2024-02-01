@@ -3,15 +3,18 @@ triggers []
 id 23_VOA_EN_NW_2015.11.24.3071320
 triggers []
 id 38_VOA_EN_NW_2013.04.24.1647602
-triggers []
+triggers [('trigger for person death event', 227, 228)]
+arguments [('victim for person death event', (167, 168), ('trigger for person death event', 227, 228))]
 id 53_VOA_EN_NW_2015.06.24.2835606
 triggers []
 id JC002YBW0
-triggers []
+triggers [('trigger for transaction event', 113, 114)]
+arguments []
 id K0C041O37
 triggers []
 id backpack_ied_13
-triggers []
+triggers [('trigger for attack event', 170, 171)]
+arguments []
 id backpack_ied_20
 triggers []
 id scenario_en_kairos_16
@@ -33,8 +36,10 @@ triggers []
 id wiki_ied_bombings_5_news_3
 triggers []
 id wiki_mass_car_bombings_0_news_9
-triggers []
+triggers [('trigger for person death event', 149, 150)]
+arguments []
 id wiki_mass_car_bombings_1_news_8
 triggers []
 id wiki_mass_car_bombings_7_news_2
-triggers []
+triggers [('trigger for attack event', 992, 993)]
+arguments []
