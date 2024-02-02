@@ -3,14 +3,18 @@ from matplotlib import pyplot as plt
 
 def add_annotations(examples, tanl_info, gtt_info):
     if gtt_info:
-        return [
-            {
-                "model_out": example,
-                "tanl": list(filter(lambda info : example['id'] in info['id'], tanl_info))[0],
-                "gtt": list(filter(lambda info : example['id'] in info['docid'], gtt_info))[0]
-            }
-            for example in examples
-        ]
+        try:
+            return [
+                {
+                    "model_out": example,
+                    "tanl": list(filter(lambda info : example['id'] in info['id'], tanl_info))[0],
+                    "gtt": list(filter(lambda info : example['id'] in info['docid'], gtt_info))[0]
+                }
+                for example in examples
+            ]
+        except Exception as e:
+            print(examples[0])
+            raise e
 
     return [
         {

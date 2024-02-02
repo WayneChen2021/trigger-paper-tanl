@@ -1,122 +1,14 @@
-[
+[    
     {
-        "experiment_dir": "../experiments/MUC/g2_environments/keyword/default",
-        "output_dir": "../experiments/MUC/error_analysis/keyword/default",
-        "hungarian_config": "scorer_configs/muc_config.json",
-        "types_mapping": "types_mapping/types_mapping_muc.json",
-        "gtt_ref_dev": "../data/MUC/gtt/keyword/dev.json",
-        "tanl_ref_dev": "../data/MUC/keyword/dev_event.json",
-        "gtt_ref_test": "../data/MUC/gtt/keyword/test.json",
-        "tanl_ref_test": "../data/MUC/keyword/test_event.json",
+        "experiment_dir": "../experiments/WikiEvents/g2_environments/llm/default",
+        "output_dir": "../experiments/WikiEvents/error_analysis/llm/default",
+        "hungarian_config": "scorer_configs/wikievents_config.json",
+        "types_mapping": "types_mapping/types_mapping_wikievents.json",
+        "gtt_ref_dev": "../data/WikiEvents/gtt/llm/dev.json",
+        "tanl_ref_dev": "../data/WikiEvents/llm/dev_event.json",
+        "gtt_ref_test": "../data/WikiEvents/gtt/llm/test.json",
+        "tanl_ref_test": "../data/WikiEvents/llm/test_event.json",
         "relax_match": true,
-        "dataset_name": "muc"
-    },
-    {
-        "experiment_dir": "../experiments/MUC/g2_environments/keyword/single_pass",
-        "output_dir": "../experiments/MUC/error_analysis/keyword/single_pass",
-        "hungarian_config": "scorer_configs/muc_config.json",
-        "types_mapping": "types_mapping/types_mapping_muc.json",
-        "gtt_ref_dev": "../data/MUC/gtt/keyword/dev.json",
-        "tanl_ref_dev": "../data/MUC/keyword/dev_event.json",
-        "gtt_ref_test": "../data/MUC/gtt/keyword/test.json",
-        "tanl_ref_test": "../data/MUC/keyword/test_event.json",
-        "relax_match": true,
-        "dataset_name": "muc"
-    },
-    {
-        "experiment_dir": "../experiments/MUC/g2_environments/keyword/args_only",
-        "output_dir": "../experiments/MUC/error_analysis/keyword/args_only",
-        "hungarian_config": "scorer_configs/muc_config.json",
-        "types_mapping": "types_mapping/types_mapping_muc.json",
-        "gtt_ref_dev": "../data/MUC/gtt/keyword/dev.json",
-        "tanl_ref_dev": "../data/MUC/keyword/dev_event.json",
-        "gtt_ref_test": "../data/MUC/gtt/keyword/test.json",
-        "tanl_ref_test": "../data/MUC/keyword/test_event.json",
-        "relax_match": true,
-        "dataset_name": "muc"
-    },
-    {
-        "experiment_dir": "../experiments/MUC/g2_environments/human/default",
-        "output_dir": "../experiments/MUC/error_analysis/human/default",
-        "hungarian_config": "scorer_configs/muc_config.json",
-        "types_mapping": "types_mapping/types_mapping_muc.json",
-        "gtt_ref_dev": "../data/MUC/gtt/human/dev.json",
-        "tanl_ref_dev": "../data/MUC/human/dev_event.json",
-        "gtt_ref_test": "../data/MUC/gtt/human/test.json",
-        "tanl_ref_test": "../data/MUC/human/test_event.json",
-        "relax_match": true,
-        "dataset_name": "muc"
-    },
-    {
-        "experiment_dir": "../experiments/MUC/g2_environments/human/single_pass",
-        "output_dir": "../experiments/MUC/error_analysis/human/single_pass",
-        "hungarian_config": "scorer_configs/muc_config.json",
-        "types_mapping": "types_mapping/types_mapping_muc.json",
-        "gtt_ref_dev": "../data/MUC/gtt/human/dev.json",
-        "tanl_ref_dev": "../data/MUC/human/dev_event.json",
-        "gtt_ref_test": "../data/MUC/gtt/human/test.json",
-        "tanl_ref_test": "../data/MUC/human/test_event.json",
-        "relax_match": true,
-        "dataset_name": "muc"
-    },
-    {
-        "experiment_dir": "../experiments/MUC/g2_environments/human/args_only",
-        "output_dir": "../experiments/MUC/error_analysis/human/args_only",
-        "hungarian_config": "scorer_configs/muc_config.json",
-        "types_mapping": "types_mapping/types_mapping_muc.json",
-        "gtt_ref_dev": "../data/MUC/gtt/human/dev.json",
-        "tanl_ref_dev": "../data/MUC/human/dev_event.json",
-        "gtt_ref_test": "../data/MUC/gtt/human/test.json",
-        "tanl_ref_test": "../data/MUC/human/test_event.json",
-        "relax_match": true,
-        "dataset_name": "muc"
-    },
-    {
-        "experiment_dir": "../experiments/MUC/g2_environments/llm/default",
-        "output_dir": "../experiments/MUC/error_analysis/llm/default",
-        "hungarian_config": "scorer_configs/muc_config.json",
-        "types_mapping": "types_mapping/types_mapping_muc.json",
-        "gtt_ref_dev": "../data/MUC/gtt/llm/dev.json",
-        "tanl_ref_dev": "../data/MUC/llm/dev_event.json",
-        "gtt_ref_test": "../data/MUC/gtt/llm/test.json",
-        "tanl_ref_test": "../data/MUC/llm/test_event.json",
-        "relax_match": true,
-        "dataset_name": "muc"
-    },
-    {
-        "experiment_dir": "../experiments/MUC/g2_environments/llm/single_pass",
-        "output_dir": "../experiments/MUC/error_analysis/llm/single_pass",
-        "hungarian_config": "scorer_configs/muc_config.json",
-        "types_mapping": "types_mapping/types_mapping_muc.json",
-        "gtt_ref_dev": "../data/MUC/gtt/llm/dev.json",
-        "tanl_ref_dev": "../data/MUC/llm/dev_event.json",
-        "gtt_ref_test": "../data/MUC/gtt/llm/test.json",
-        "tanl_ref_test": "../data/MUC/llm/test_event.json",
-        "relax_match": true,
-        "dataset_name": "muc"
-    },
-    {
-        "experiment_dir": "../experiments/MUC/g2_environments/llm/args_only",
-        "output_dir": "../experiments/MUC/error_analysis/llm/args_only",
-        "hungarian_config": "scorer_configs/muc_config.json",
-        "types_mapping": "types_mapping/types_mapping_muc.json",
-        "gtt_ref_dev": "../data/MUC/gtt/llm/dev.json",
-        "tanl_ref_dev": "../data/MUC/llm/dev_event.json",
-        "gtt_ref_test": "../data/MUC/gtt/llm/test.json",
-        "tanl_ref_test": "../data/MUC/llm/test_event.json",
-        "relax_match": true,
-        "dataset_name": "muc"
-    },
-    {
-        "experiment_dir": "../experiments/MUC/g2_environments/no_trig/no_trig",
-        "output_dir": "../experiments/MUC/error_analysis/no_trig/no_trig",
-        "hungarian_config": "scorer_configs/muc_config.json",
-        "types_mapping": "types_mapping/types_mapping_muc.json",
-        "gtt_ref_dev": "../data/MUC/gtt/keyword/dev.json",
-        "tanl_ref_dev": "../data/MUC/no_trig/dev_event.json",
-        "gtt_ref_test": "../data/MUC/gtt/keyword/test.json",
-        "tanl_ref_test": "../data/MUC/no_trig/test_event.json",
-        "relax_match": true,
-        "dataset_name": "muc"
+        "dataset_name": "wikievents"
     }
 ]

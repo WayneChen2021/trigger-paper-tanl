@@ -110,6 +110,18 @@ def main(config_file):
 
             dev_output_path = os.path.join(iteration_dir, "dev.json")
             test_output_path = os.path.join(iteration_dir, "test.json")
+            
+            error_analysis_event(
+                os.path.join(pred_test_dir, file_name),
+                config["tanl_ref_test"],
+                config["gtt_ref_test"],
+                "hungarian_scorer.py",
+                config["types_mapping"],
+                test_output_path,
+                roles,
+                config["hungarian_config"],
+                config["relax_match"],
+            )
 
             error_analysis_event(
                 os.path.join(pred_dev_dir, file_name),
@@ -118,18 +130,6 @@ def main(config_file):
                 "hungarian_scorer.py",
                 config["types_mapping"],
                 dev_output_path,
-                roles,
-                config["hungarian_config"],
-                config["relax_match"],
-            )
-
-            error_analysis_event(
-                os.path.join(pred_test_dir, file_name),
-                config["tanl_ref_test"],
-                config["gtt_ref_test"],
-                "hungarian_scorer.py",
-                config["types_mapping"],
-                test_output_path,
                 roles,
                 config["hungarian_config"],
                 config["relax_match"],
@@ -159,19 +159,19 @@ def main(config_file):
             f'{config["experiment_dir"]}:\nepoch {best_iter_f1}\ntest f1: {test_f1s[best_iter_f1]}\ntest recall: {test_recalls[best_iter_f1]}\ntest precision: {test_precisions[best_iter_f1]}\n\n'
         )
 
-        iterations = [i for i in range(1, len(list(os.listdir(pred_dev_dir))) + 1)]
-        plt.plot(iterations, dev_f1s, label="dev F1")
-        plt.plot(iterations, dev_recalls, label="dev recall")
-        plt.plot(iterations, dev_precisions, label="dev precision")
-        plt.plot(iterations, test_f1s, label="test F1")
-        plt.plot(iterations, test_recalls, label="test recall")
-        plt.plot(iterations, test_precisions, label="test precision")
-        plt.xlabel("epoch number")
-        plt.ylabel("statistic")
-        plt.title("Performance vs Epoch Number")
-        plt.legend()
-        plt.savefig(os.path.join(config["output_dir"], "plot.png"))
-        plt.clf()
+        # iterations = [i for i in range(1, len(list(os.listdir(pred_dev_dir))) + 1)]
+        # plt.plot(iterations, dev_f1s, label="dev F1")
+        # plt.plot(iterations, dev_recalls, label="dev recall")
+        # plt.plot(iterations, dev_precisions, label="dev precision")
+        # plt.plot(iterations, test_f1s, label="test F1")
+        # plt.plot(iterations, test_recalls, label="test recall")
+        # plt.plot(iterations, test_precisions, label="test precision")
+        # plt.xlabel("epoch number")
+        # plt.ylabel("statistic")
+        # plt.title("Performance vs Epoch Number")
+        # plt.legend()
+        # plt.savefig(os.path.join(config["output_dir"], "plot.png"))
+        # plt.clf()
 
 
 if __name__ == "__main__":

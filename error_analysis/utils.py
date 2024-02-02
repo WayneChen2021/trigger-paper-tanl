@@ -8,7 +8,7 @@ from copy import deepcopy
 
 def to_error_analysis_format_event(triplets, types_mapping, roles):
     outputs = {}
-    for triplet in triplets:
+    for i, triplet in enumerate(triplets):
         error_analysis = {
             "docid": triplet["gtt"]["docid"],
             "doctext": triplet["gtt"]["doctext"],
@@ -55,7 +55,7 @@ def to_error_analysis_format_event(triplets, types_mapping, roles):
         for template in trig_to_template.values():
             error_analysis["pred_templates"].append(template)
         
-        outputs[error_analysis["docid"]] = error_analysis
+        outputs[f'{error_analysis["docid"]}_{i}'] = error_analysis
     
     return outputs
 
@@ -130,7 +130,7 @@ def handle_buffer_event(buffers):
         splits = []
         for line in buffer:
             if line.startswith("id"):
-                docid = line[3:17].strip()  # maybe have to check indexing
+                docid = line[3:].strip()  # maybe have to check indexing
 
                 if document["id"] != None and document["id"] != docid:
                     splits.append(deepcopy(document))

@@ -292,25 +292,25 @@ class BaseDataset(Dataset, ABC):
                 f = gzip.GzipFile(f"{file_name}.npy.gz", "w")
                 np.save(file=f, arr=data)
                 f.close()
-            if os.getenv("SaveHiddenState"):
-                tmp_i = i
+            # if os.getenv("SaveHiddenState"):
+                # tmp_i = i
 
-                folder_name = os.getenv("HIDDENSTATE_FOLDERNAME") if os.getenv(
-                    "HIDDENSTATE_FOLDERNAME") else "hidden_state"
-                os.makedirs(folder_name, exist_ok=True)
+                # folder_name = os.getenv("HIDDENSTATE_FOLDERNAME") if os.getenv(
+                #     "HIDDENSTATE_FOLDERNAME") else "hidden_state"
+                # os.makedirs(folder_name, exist_ok=True)
 
-                prepad = os.getenv("PrePad") if os.getenv("PrePad") else ""
-                prefix = os.path.join(
-                    ".", folder_name, f"{prepad}output_sentence"+str(tmp_i))
-                if not os.getenv("LAST_LAYER_ONLY"):
-                    np_compress_save(prefix+"_encoder_hidden_states",
-                                     tuple_to_numpy(predictions.encoder_hidden_states))
-                else:
-                    np_compress_save(
-                        prefix+"_encoder_embedding", tuple_to_numpy(predictions.encoder_hidden_states)[-1])
-                if not os.getenv("NO_DECODER_HIDDEN_STATE"):
-                    np_compress_save(prefix+"_decoder_hidden_states",
-                                     tuple_to_numpy(predictions.decoder_hidden_states))
+                # prepad = os.getenv("PrePad") if os.getenv("PrePad") else ""
+                # prefix = os.path.join(
+                #     ".", folder_name, f"{prepad}output_sentence"+str(tmp_i))
+                # if not os.getenv("LAST_LAYER_ONLY"):
+                #     np_compress_save(prefix+"_encoder_hidden_states",
+                #                      tuple_to_numpy(predictions.encoder_hidden_states))
+                # else:
+                #     np_compress_save(
+                #         prefix+"_encoder_embedding", tuple_to_numpy(predictions.encoder_hidden_states)[-1])
+                # if not os.getenv("NO_DECODER_HIDDEN_STATE"):
+                #     np_compress_save(prefix+"_decoder_hidden_states",
+                #                      tuple_to_numpy(predictions.decoder_hidden_states))
                 # if predictions.encoder_attentions:
                 #    np.save(prefix+"_encoder_attentions.npy",tuple_to_numpy(predictions.encoder_attentions))
                 # if predictions.cross_attentions:

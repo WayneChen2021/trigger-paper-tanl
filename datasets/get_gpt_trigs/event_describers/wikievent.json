@@ -1,0 +1,237 @@
+{
+    "template_structures": {
+        "Cognitive.IdentifyCategorize": [
+            "IdentifiedObject",
+            "Identifier",
+            "Place",
+            "IdentifiedRole"
+        ],
+        "Cognitive.Inspection": [
+            "Observer",
+            "ObservedEntity",
+            "Instrument",
+            "Place"
+        ],
+        "Conflict.Attack": [
+            "Place",
+            "ExplosiveDevice",
+            "Target",
+            "Attacker",
+            "Instrument"
+        ],
+        "Life.Injure": [
+            "Victim",
+            "Injurer",
+            "Instrument",
+            "BodyPart"
+        ],
+        "Justice.ChargeIndict": [
+            "Defendant",
+            "Prosecutor",
+            "JudgeCourt",
+            "Place"
+        ],
+        "Justice.ArrestJailDetain": [
+            "Detainee",
+            "Place",
+            "Jailer"
+        ],
+        "Justice.Convict": [
+            "JudgeCourt",
+            "Defendant"
+        ],
+        "Justice.InvestigateCrime": [
+            "Investigator",
+            "Defendant",
+            "Place",
+            "Observer",
+            "ObservedEntity"
+        ],
+        "Contact.Contact": [
+            "Participant",
+            "Place",
+            "Topic",
+            "Communicator",
+            "Recipient",
+            "Instrument"
+        ],
+        "Life.Die": [
+            "Killer",
+            "Victim",
+            "Place"
+        ],
+        "ArtifactExistence.DamageDestroyDisableDismantle": [
+            "Damager",
+            "Destroyer",
+            "Artifact",
+            "Place",
+            "Dismantler",
+            "Instrument",
+            "Disabler",
+            "Components",
+            "DamagerDestroyer"
+        ],
+        "Control.ImpedeInterfereWith": [
+            "Impeder",
+            "Place"
+        ],
+        "GenericCrime.GenericCrime": [
+            "Perpetrator",
+            "Victim",
+            "Place"
+        ],
+        "Movement.Transportation": [
+            "PassengerArtifact",
+            "Destination",
+            "Vehicle",
+            "Transporter",
+            "Origin",
+            "Preventer"
+        ],
+        "Medical.Intervention": [
+            "Patient",
+            "Treater",
+            "Place"
+        ],
+        "Conflict.Demonstrate": [
+            "Demonstrator",
+            "Regulator",
+            "Target",
+            "Topic"
+        ],
+        "Contact.ThreatenCoerce": [
+            "Recipient",
+            "Communicator"
+        ],
+        "Contact.RequestCommand": [
+            "Recipient",
+            "Communicator",
+            "Topic",
+            "Place"
+        ],
+        "Justice.Acquit": [
+            "Defendant"
+        ],
+        "ArtifactExistence.ManufactureAssemble": [
+            "ManufacturerAssembler",
+            "Artifact",
+            "Place",
+            "Components"
+        ],
+        "Justice.Sentence": [
+            "JudgeCourt",
+            "Defendant",
+            "Place"
+        ],
+        "Justice.TrialHearing": [
+            "Place",
+            "JudgeCourt",
+            "Defendant",
+            "Prosecutor"
+        ],
+        "Transaction.ExchangeBuySell": [
+            "AcquiredEntity",
+            "Giver",
+            "Recipient",
+            "PaymentBarter"
+        ],
+        "Conflict.Defeat": [
+            "Victor",
+            "Defeated",
+            "Place"
+        ],
+        "Life.Infect": [
+            "Victim"
+        ],
+        "Cognitive.Research": [
+            "Researcher",
+            "Subject",
+            "Place"
+        ],
+        "Disaster.Crash": [
+            "Place",
+            "Vehicle",
+            "CrashObject"
+        ],
+        "Personnel.EndPosition": [
+            "Employee",
+            "PlaceOfEmployment"
+        ],
+        "Personnel.StartPosition": [
+            "Employee",
+            "Place",
+            "Position",
+            "PlaceOfEmployment"
+        ],
+        "Cognitive.TeachingTrainingLearning": [
+            "Learner",
+            "TeacherTrainer"
+        ],
+        "Justice.ReleaseParole": [
+            "Defendant",
+            "JudgeCourt"
+        ],
+        "Transaction.Donation": [
+            "Recipient",
+            "Giver",
+            "ArtifactMoney"
+        ],
+        "Disaster.DiseaseOutbreak": [
+            "Place",
+            "Victim",
+            "Disease"
+        ]
+    },
+    "event_describers": {
+        "Cognitive.IdentifyCategorize": "identification",
+        "Cognitive.Inspection": "inspection",
+        "Conflict.Attack": "attack",
+        "Life.Injure": "injury",
+        "Justice.ChargeIndict": "charge or indictment",
+        "Justice.ArrestJailDetain": "arrest, jail, or detain",
+        "Justice.Convict": "conviction",
+        "Justice.InvestigateCrime": "crime investigation",
+        "Contact.Contact": "communication",
+        "Life.Die": "person killed",
+        "ArtifactExistence.DamageDestroyDisableDismantle": "artifact damaged, destroyed, disabled, or dismantled",
+        "Control.ImpedeInterfereWith": "impediment",
+        "GenericCrime.GenericCrime": "generic crime",
+        "Movement.Transportation": "transportation",
+        "Medical.Intervention": "medical intervention",
+        "Conflict.Demonstrate": "demonstration",
+        "Contact.ThreatenCoerce": "threats or coercion",
+        "Contact.RequestCommand": "communicated request or command",
+        "Justice.Acquit": "acquital",
+        "ArtifactExistence.ManufactureAssemble": "manufacturing or assembly",
+        "Justice.Sentence": "sentencing",
+        "Justice.TrialHearing": "trial or hearing",
+        "Transaction.ExchangeBuySell": "exchange",
+        "Conflict.Defeat": "defeated in conflict",
+        "Life.Infect": "infection",
+        "Cognitive.Research": "research",
+        "Disaster.Crash": "crash",
+        "Personnel.EndPosition": "person departs from position",
+        "Personnel.StartPosition": "person starts position",
+        "Cognitive.TeachingTrainingLearning": "teaching or training",
+        "Justice.ReleaseParole": "release or paroled",
+        "Transaction.Donation": "doncation",
+        "Disaster.DiseaseOutbreak": "disease outbreak"
+    },
+    "entity_describers": {
+        "AcquiredEntity": "acquired object",
+        "ArtifactMoney": "money artifact",
+        "BodyPart": "body part",
+        "CrashObject": "crash object",
+        "DamagerDestroyer": "damager or destroyer",
+        "ExplosiveDevice": "explosive device",
+        "IdentifiedObject": "identified object",
+        "IdentifiedRole": "identified object's role",
+        "JudgeCourt": "judge or court",
+        "ManufacturerAssembler": "manufacturer or assembler",
+        "ObservedEntity": "observed entity",
+        "PassengerArtifact": "passenger or artifact",
+        "PaymentBarter": "payment or barter object",
+        "PlaceOfEmployment": "place of employment",
+        "TeacherTrainer": "teacher or trainer"
+    }
+}

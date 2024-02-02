@@ -1,0 +1,50 @@
+{
+    "template_structures": {
+        "attack": [
+            "PerpInd",
+            "PerpOrg",
+            "Target",
+            "Victim",
+            "Weapon"
+        ],
+        "kidnapping": [
+            "PerpInd",
+            "PerpOrg",
+            "Target",
+            "Victim",
+            "Weapon"
+        ],
+        "robbery": [
+            "PerpInd",
+            "PerpOrg",
+            "Target",
+            "Victim",
+            "Weapon"
+        ],
+        "arson": [
+            "PerpInd",
+            "PerpOrg",
+            "Target",
+            "Victim",
+            "Weapon"
+        ],
+        "bombing": [
+            "PerpInd",
+            "PerpOrg",
+            "Target",
+            "Victim",
+            "Weapon"
+        ],
+        "forced_work_stoppage": [
+            "PerpInd",
+            "PerpOrg",
+            "Target",
+            "Victim",
+            "Weapon"
+        ]
+    },
+    "entity_describers": {
+        "PerpInd": "perpetrating individual",
+        "PerpOrg": "perpetrating organization"
+    }
+}

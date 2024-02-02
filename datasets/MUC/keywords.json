@@ -1,0 +1,78 @@
+{
+    "attack": [
+        "kill",
+        "attack",
+        "murder",
+        "wound",
+        "assassination",
+        "violence",
+        "shot",
+        "shoot",
+        "fire",
+        "bomb",
+        "destroy",
+        "die",
+        "murder",
+        "threat",
+        "crime",
+        "death",
+        "assassinate",
+        "destruction",
+        "sabotage",
+        "raid",
+        "terrorist act",
+        "pillage",
+        "takeover",
+        "body"
+    ],
+    "kidnapping": [
+        "kidnap",
+        "release",
+        "hostage",
+        "abduct",
+        "missing",
+        "capture",
+        "intercept",
+        "seizure",
+        "took over",
+        "bodies"
+    ],
+    "bombing": [
+        "bomb",
+        "explode",
+        "explosion",
+        "destroy",
+        "dynamite",
+        "damage",
+        "blew up",
+        "blown up",
+        "detonate",
+        "detonation",
+        "attack",
+        "die",
+        "wound",
+        "sabotage"
+    ],
+    "robbery": [
+        "pillage",
+        "loot",
+        "stole",
+        "steal",
+        "sack",
+        "rob",
+        "intercept",
+        "surrender",
+        "took"
+    ],
+    "arson": [
+        "fire",
+        "burn",
+        "damage",
+        "destroy"
+    ],
+    "forced work stoppage": [
+        "strike",
+        "stoppage",
+        "attack"
+    ]
+}
