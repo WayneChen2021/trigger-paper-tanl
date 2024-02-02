@@ -14,6 +14,7 @@ import random
 import networkx as nx
 from typing import Dict, List, Tuple, Set
 import torch
+import math
 from datetime import datetime
 from transformers import PreTrainedTokenizer
 from nltk.tokenize import TreebankWordTokenizer as tbwt
@@ -2735,7 +2736,6 @@ class MUCEventDataset(MUCEventArgumentDataset):
         Evaluate model on this dataset.
         """
         results = Counter()
-        idx = 0
         for example, trigger_output_sentence in self.generate_output_sentences(data_args, model, device, batch_size):
             # phase 1: trigger prediction
             trigger_output_format = self.output_format
@@ -2768,6 +2768,12 @@ class MUCEventDataset(MUCEventArgumentDataset):
 
             # phase 2: argument classification
             all_gt_relations, all_predicted_relations, all_correct_relations = set(), set(), set()
+            all_ex_ids = []
+            arg_exs = []
+            argument_input_format = INPUT_FORMATS[self.argument_input_format](
+            )
+            argument_output_format = OUTPUT_FORMATS[self.argument_output_format](
+            )
             for trigger in predicted_triggers:
                 example_argument_single_trigger = copy.deepcopy(example)
                 trigger_type = None
@@ -2781,38 +2787,39 @@ class MUCEventDataset(MUCEventArgumentDataset):
                 else:
                     example_argument_single_trigger.output_triggers = [
                             Entity(type=self.entity_types[trigger_type], start=trigger[1], end=trigger[2])]
-                    
-                argument_input_format = INPUT_FORMATS[self.argument_input_format](
-                )
-                argument_output_format = OUTPUT_FORMATS[self.argument_output_format](
-                )
                 example_input = argument_input_format.format_input(example_argument_single_trigger, multitask=True,
                                                                 task_descriptor=self.argument_input_format)
-                example_input_ids = self.tokenizer.batch_encode_plus(
-                    [example_input],
-                    max_length=data_args.max_seq_length,
-                    return_tensors='pt',
-                    padding='max_length',
-                    truncation=True
-                )
+                
+                all_ex_ids.append(example_input)
+                arg_exs.append(example_argument_single_trigger)
+
+            example_input_ids = self.tokenizer.batch_encode_plus(
+                all_ex_ids,
+                max_length=data_args.max_seq_length,
+                return_tensors='pt',
+                padding='max_length',
+                truncation=True
+            )
+            for i in range(math.ceil(example_input_ids / batch_size) + 1):
+                start_ind, end_ind = batch_size * i, min(batch_size * (i + 1), len(example_input_ids))
                 argument_outputs = model.generate(
-                    example_input_ids['input_ids'].to(device),
+                    example_input_ids['input_ids'][start_ind : end_ind, :].to(device),
                     max_length=data_args.max_output_seq_length_eval,
                     num_beams=data_args.num_beams if data_args.num_beams else 1,
                 )
-                idx += 1
                 argument_output = argument_outputs[0]
-                argument_output_sentence = self.tokenizer.decode(argument_output, skip_special_tokens=True,
-                                                                clean_up_tokenization_spaces=False)
+                argument_output_sentences = self.tokenizer.batch_decode(argument_output, skip_special_tokens=True,
+                                                                       clean_up_tokenization_spaces=False)
 
-                gt_relations, predicted_relations, correct_relations = \
-                    self.evaluate_argument(argument_output_format, example_argument_single_trigger, example,
-                                        argument_output_sentence, log_file)
-                all_gt_relations = all_gt_relations.union(gt_relations)
-                all_predicted_relations = all_predicted_relations.union(
-                    predicted_relations)
-                all_correct_relations = all_correct_relations.union(
-                    correct_relations)
+                for j in range(start_ind, end_ind):
+                    gt_relations, predicted_relations, correct_relations = \
+                        self.evaluate_argument(argument_output_format, arg_exs[j], example,
+                                            argument_output_sentences[j - start_ind], log_file)
+                    all_gt_relations = all_gt_relations.union(gt_relations)
+                    all_predicted_relations = all_predicted_relations.union(
+                        predicted_relations)
+                    all_correct_relations = all_correct_relations.union(
+                        correct_relations)
 
             all_predicted_relations_notype = set()
             all_gt_relations_notype = set()
