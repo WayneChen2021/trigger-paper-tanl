@@ -119,6 +119,13 @@ def has_no_dummy_trig(example):
     
     return True
 
+def replace_dummy(example):
+    for trigger in example['triggers']:
+        if trigger['type'] == 'DUMMY TRIGGER':
+            trigger['type'] = 'trigger for attack event'
+    
+    return example
+
 def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_event, dev_trig, dev_arg, dev_event, gtt_train, gtt_test, gtt_dev, num_trigs, span_selection, trigger_selection, event_header, relation_map, trigger_map, splitter_func):
     with open(in_file, "r") as f:
         info = json.loads(f.read())
@@ -234,14 +241,14 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
 
         split = splitter_func(message_id, in_file)
         if split == 'test':
-            out_test_trigs += trig_examples
-            out_test_args += arg_examples
-            out_test_event.append(event_example)
+            out_test_trigs += [replace_dummy(ex) for ex in trig_examples]
+            out_test_args += [replace_dummy(ex) for ex in arg_examples]
+            out_test_event.append(replace_dummy(event_example))
             gtt_test_events.append(gtt)
         elif split == 'dev':
-            out_dev_trigs += trig_examples
-            out_dev_args += arg_examples
-            out_dev_event.append(event_example)
+            out_dev_trigs += [replace_dummy(ex) for ex in trig_examples]
+            out_dev_args += [replace_dummy(ex) for ex in arg_examples]
+            out_dev_event.append(replace_dummy(event_example))
             gtt_dev_events.append(gtt)
         else:
             out_train_trigs += list(filter(has_no_dummy_trig, trig_examples))
