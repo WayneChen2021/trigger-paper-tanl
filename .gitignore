@@ -1,5 +1,5 @@
 venv
-ipynb.ipynb
+*.ipynb
 json.json
 math/*
 

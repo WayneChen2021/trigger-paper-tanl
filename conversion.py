@@ -127,6 +127,11 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
     if event_header_len:
         num_trigs = 1
     containers = {}
+
+    pronoun_set = set()
+    with open('pronouns.txt', 'r') as f:
+        for line in f:
+            pronoun_set.add(line.strip())
     
     for example in info.values():  
         if all('Triggers' in template for template in example['templates']):
@@ -183,7 +188,11 @@ def main(in_file, train_trig, train_arg, train_event, test_trig, test_arg, test_
                     for role, entity_lst in template.items():
                         if role not in ['Triggers', 'incident_type']:
                             for coref_list in entity_lst:
-                                span_tup = coref_list[0]
+                                filter_out_pronouns = [span_tup for span_tup in coref_list if not span_tup[0].lower().strip() in pronoun_set]
+                                if len(filter_out_pronouns):
+                                    span_tup = min(filter_out_pronouns, key=lambda tup : tup[1])
+                                else:
+                                    span_tup = min(coref_list, key=lambda tup : tup[1])
                                 span_tup = (span_tup[1] + event_header_len, span_tup[1] + len(span_tup[0]) + event_header_len)
                                 try:
                                     entity_index = container['entities'].index(span_tup)
